@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="18px" viewBox="0 0 15 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>compare</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02---02---Карточка_desktop" transform="translate(-1204.000000, -246.000000)">
+            <g id="карточка" transform="translate(132.000000, 190.000000)">
+                <g id="цена-и-информация" transform="translate(600.000000, 53.000000)">
+                    <g id="compare" transform="translate(467.000000, 0.000000)">
+                        <g>
+                            <rect id="Rectangle-5" x="0" y="0" width="24" height="24"></rect>
+                            <rect id="Rectangle-21" fill="#666666" x="17" y="3" width="2.5" height="18"></rect>
+                            <rect id="Rectangle-21" fill="#666666" x="11" y="10" width="2.5" height="11"></rect>
+                            <rect id="Rectangle-21" fill="#666666" x="5" y="6" width="2.5" height="15"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

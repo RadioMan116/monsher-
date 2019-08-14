@@ -1,0 +1,29 @@
+<div class="popup_container callback_popup">
+	<span class="title-strike abuse__title">Заказать звонок</span>
+	<div id="callback-response"></div>
+	<div class="call-popup-phone-inner relative" id="callback-form-wrap">
+		<p>Наши менеджеры ответят вам в течение 30 мин</p>
+		<form class="callback__form" action="" method="post" id="callback-form">
+			<strong class="abuse-popup__name callback__name">Ваше имя:
+				<span class="abuse-popup__req callback__req">*</span>
+			</strong>
+			<input type="text" name="phone" value="" id="input-phone" placeholder="Ваше имя">
+			<strong class="abuse-popup__name callback__name">Ваше имя:
+				<span class="abuse-popup__req callback__req">*</span>
+			</strong>
+			<input type="tel" name="" value="" id="input-name" placeholder="Номер телефона">
+			<div class="abuse-popup__item">
+				<label class="checkbox checkbox_oferta ">
+					<input type="checkbox" name="" class="checkbox__input" checked="">
+					<span class="checkbox__icon"></span>
+					<span class="checkbox__text">Согласен с
+						<a href="#">использованием персональных данных</a>для обработки обращения</span>
+				</label>
+				<input type="submit" value="Отправить" class="btn-sub3 abuse-popup__submit" name="">
+			</div>
+		</form>
+	</div>
+	<script>
+		$("[type=tel]").inputmask("+7 (999) 999-99-99");
+	</script>
+</div>

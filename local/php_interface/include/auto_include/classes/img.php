@@ -1,0 +1,6 @@
+<?
+class CMNTImg extends CMNTImgCommon
+{
+
+}
+?>

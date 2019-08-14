@@ -1,0 +1,6 @@
+<?
+class CMNTPropertiesGroups extends CMNTPropertiesGroupsCommon
+{
+
+}
+?>

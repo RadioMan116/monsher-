@@ -1,0 +1,17 @@
+<nav class="menu-footer">
+	{% for item in data.menu.bottom %} 
+	<ul class="menu-footer__list">
+		<li class="menu-footer__titlelist">
+			<div class="footer__title">{{ item.title }}</div>
+		</li>
+		{% for i in item.items %}
+		<li class="menu-footer__item">
+			<a href="#" class="menu-footer__link">{{ i }}</a>
+		</li>
+		<!-- /.menu-footer__item -->
+		{% endfor %}
+	</ul>
+	<!-- /.menu-footer__list -->
+	{% endfor %}
+</nav>
+<!-- /.menu-footer --> 

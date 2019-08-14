@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>BLU Performance</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="06---12---sorting-description" transform="translate(-602.000000, -414.000000)">
+            <g id="BLU-Performance" transform="translate(602.000000, 414.000000)">
+                <rect id="Rectangle" fill="#426F9D" x="0" y="0" width="48" height="48" rx="3"></rect>
+                <text font-family="Roboto Condensed,sans-serif" font-size="20" font-style="condensed" font-weight="300" line-spacing="9" letter-spacing="0.06000001" fill="#FFFFFF">
+                    <tspan x="4" y="30">BLU </tspan>
+                    <tspan x="4" y="37" font-family="Roboto Condensed,sans-serif" font-size="7" font-weight="normal">Performance</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

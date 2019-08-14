@@ -1,0 +1,6 @@
+<?
+class CMNTString extends CMNTStringCommon
+{
+
+}
+?>

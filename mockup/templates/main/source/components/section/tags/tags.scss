@@ -1,0 +1,138 @@
+.tags {
+	display: flex;
+	// margin-top: auto;
+	margin-bottom: 21px;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1176px;
+	flex-direction: column;
+
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		width: 100%;
+	}
+
+	&__item {
+		border: 1px solid #f1f1f1;
+		margin-right: 4px;
+		margin-bottom: 3px;
+		padding: 5px 11px;
+
+		a {
+			color: #394791;
+			font-family: Arial;
+			font-size: 14px;
+			line-height: 28px;
+			padding-bottom: 3px;
+			text-decoration: none !important;
+
+			&:hover {
+				// border-bottom: 1px dashed transparent;
+			}
+		}
+
+		&:last-child {
+			margin-right: 0;
+			border: 1px solid #394791;
+		}
+
+		&.active {
+			border: 1px solid #394791;
+
+			a {
+				color: #394791;
+				font-family: Arial;
+				font-size: 14px;
+				font-weight: 700;
+				letter-spacing: 0.6px;
+			}
+		}
+
+		&:hover {
+			background-color: rgba(238, 238, 238, 0.29);
+		}
+	}
+
+	&__title {
+		color: #212121;
+		font-family: "Roboto Condensed";
+		font-size: 30px;
+		font-weight: 400;
+		margin-bottom: 48px;
+	}
+
+
+	&__all {
+		border-radius: 3px;
+		border: 1px solid #394791;
+		color: #394791;
+		font-family: "Roboto Condensed";
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 24px;
+		text-transform: uppercase;
+		position: absolute;
+		right: 3px;
+		top: 4px;
+		padding: 6px 12px;
+		text-decoration: none !important;
+	}
+
+	.container {
+		position: relative;
+	}
+
+	&.main-tags {
+		margin-bottom: 48px;
+		position: relative;
+	}
+
+	.text-default & {
+		margin: 0 auto 0 0;
+	}
+
+
+	@media screen and (max-width: 767px) {
+		display: block;
+		overflow-x: auto;
+		margin-bottom: 40px;
+		margin-right: unset;
+		margin-left: unset;
+
+		position: relative;
+
+		&.main-tags {
+			display: block;
+			overflow-x: unset;
+			margin-bottom: 30px;
+			padding-left: 16px;
+		}
+
+		&__container {
+			display: block;
+			overflow-x: auto;
+		}
+
+		&__list {
+			max-width: 1176px;
+			overflow-x: scroll;
+			width: 1176px;
+		}
+
+		&__title {
+			color: #212121;
+			font-family: "Roboto Condensed";
+			font-size: 24px;
+			font-weight: 400;
+			margin-bottom: 30px;
+		}
+
+		&__all {
+			display: none;
+		}
+	}
+}

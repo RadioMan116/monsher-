@@ -1,0 +1,2283 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Example</title>
+	<script src="js/mobile.js"></script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta name="HandheldFriendly" content="True">
+	<meta name="format-detection" content="telephone=yes">
+	<meta name="MobileOptimized" content="320">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> -->
+
+	<link rel="icon" type="image/png" href="images/Icon-16.png">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+	<div class="wrapper" id="js-wrapper">
+
+		<header class="header">
+			<div class="header__blocks">
+				<div class="header__block header__block_top">
+					<div class="container">
+						<button class="hamburger" id="js-hamburger" aria-expanded="false">
+							<div class="hamburger__img"></div>
+						</button>
+						<div class="menu" aria-expanded="false">
+							<!-- <div class="city-change js-city-change ">
+		<div class="city-change__title">Санкт-Петербург</div>
+		<div class="city-change__bullet"></div>
+		<div class="city-change__popup">
+			<a class="city-change__link" href="https://spb.l-rus.ru/">Москва</a>
+			<a class="city-change__link" href="#">Регионы</a>
+		</div>
+	</div> -->
+							<ul class="menu__list">
+
+								<li class="menu__item">
+									<a href="/delivery-and-payment/" title="Доставка и оплата" class="menu__link">Доставка и оплата</a>
+								</li>
+
+								<li class="menu__item">
+									<a href="/services/" title="Подключение" class="menu__link">Подключение</a>
+								</li>
+
+								<li class="menu__item">
+									<a href="/guarantee/" title="Сервисные центры Monsher" class="menu__link">Сервисные центры Monsher</a>
+								</li>
+
+								<li class="menu__item">
+									<a href="/news/" title="Статьи" class="menu__link">Статьи</a>
+								</li>
+
+								<li class="menu__item">
+									<a href="/glossary/" title="Глоссарий " class="menu__link">Глоссарий</a>
+								</li>
+
+								<li class="menu__item">
+									<a href="/contacts/" title="Контакты" class="menu__link">Контакты</a>
+								</li>
+
+							</ul>
+
+							<a href="" class="abuse__button js-abuse__button js-viewForm" data-action="guideback" id="js-abuse-opener">Обратиться к руководству
+							</a>
+						</div>
+						<!--end menu-->
+
+						<div class="header__icons">
+							<div class="header__search js-header__search"></div>
+							<a class="header__mobile-tel" href="tel:+74959297078"></a>
+							<a title="Перейти в отложенные" href="#" class="header__favorite  active">
+								<span class="header__number">3</span>
+							</a>
+							<a title="Перейти в сравнение" href="04 - Comparison_desktop.html" class="header__compare  active">
+								<span class="header__number">2</span>
+							</a>
+							<a href="03 - Order Form.html" class="header__basket  active">
+								<span class="header__number">1</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="header__block header__block_bottom" id='js-header__block_bottom'>
+					<div class="container">
+						<div class="logo">
+							<a href="#" class="logo__link">
+								<img src="images/logo-new.svg" alt="" class="logo__pic">
+							</a>
+						</div>
+						<!-- /.logo -->
+						<div class="header__dropdown-menu" id="js-menu">
+							<nav class="dropdown-menu">
+								<span class="dropdown-menu__title js-dropdown-menu__title">Техника</span>
+								<div class="dropdown-menu__parent">
+									<ul class="dropdown-menu__list">
+
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="/catalog/varochnye-paneli-monsher/" title="Варочные панели">Варочные панели</a>
+
+										</li>
+
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="/catalog/dukhovye-shkafy-monsher/" title="Духовые шкафы">Духовые шкафы
+											</a>
+
+										</li>
+
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="/catalog/mikrovolnovye-pechi-monsher/" title="Микроволновые печи">Микроволновые печи</a>
+
+										</li>
+
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="/catalog/posudomoechnye-mashiny-monsher/" title="Посудомоечные машины">Посудомоечные машины</a>
+
+										</li>
+
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="/catalog/vytyazhki-monsher/" title="Вытяжки">Вытяжки</a>
+
+										</li>
+
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="/catalog/aksessuary-monsher/" title="Аксессуары">Аксессуары</a>
+
+										</li>
+									</ul>
+								</div>
+							</nav>
+							<nav class="dropdown-menu">
+								<span class="dropdown-menu__title last">
+									<a href="/catalog/type-nov/" title="Новинки">Новинки</a>
+								</span>
+							</nav>
+							<nav class="dropdown-menu">
+								<span class="dropdown-menu__title last">
+									<a href="/guarantee/#services-list" title="Сервис">Сервис</a>
+								</span>
+							</nav>
+							<div class="header__telephones">
+								<a href="#" data-url="ajax/callback.html" data-ajax class="header__call-phone-button js-callback">Заказать звонок
+								</a>
+								<div class="telephones">
+									<a href="tel:+74959297078" class="header__phone">+7 495 929-70-78</a>
+									<a href="tel:+78003331936" class="header__phone">+7 800 333-19-36</a>
+								</div>
+								<div class="time-work">
+									<div class="time-work__text">Режим работы</div>
+									<div class="time-work__text">
+										Пн-Пт: 08:00—22:00
+										<br>Сб-Вс: 09:00—22:00
+									</div>
+									<a href="mailto:shop@l-rus.ru" class="time-work__email">
+										<i>Email:</i>shop@l-rus.ru</a>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="search__popup">
+				<form action="/search/" class="header__form">
+					<input type="text" name="q" maxlength="50" class="header__input js-search-header__input">
+					<div class="header__button js-header__button"></div>
+				</form>
+			</div>
+			<div class="header__overlay"></div>
+		</header>
+
+
+
+		<div class="section">
+			<div class="content">
+				<div class="container">
+					<div class="breadcrumbs">
+						<a href="#" class="breadcrumbs__link">Liebherr</a>
+						<span class="breadcrumbs__sep">/</span>
+						<a href="#" class="breadcrumbs__link">Каталог</a>
+						<span class="breadcrumbs__sep">/</span>
+						<a href="#" class="breadcrumbs__link">Бытовые холодильники</a>
+						<span class="breadcrumbs__sep">/</span>
+						<span class="breadcrumbs__text">Двухкамерный холодильник Liebherr СКЕР 34562 COMFORT BIOFRESH NOFROST NEW</span>
+					</div>
+					<div class="product-card">
+						<span class="product-card__title">Двухкамерный холодильник Liebherr СКЕР 34562 COMFORT BIOFRESH NOFROST NEW</span>
+						<div class="product-card__slider">
+							<div class="swiper-pagination gallery-top__pagination"></div>
+							<div class="swiper-container gallery-top js-gallery-top">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<a data-fancybox="gallery" href="https://l-rus.ru/upload/resize_cache/iblock/b9e/395_395_1/b9ef4175983e6089ce7104cf90cdfb3a.jpg" data-srcset="https://l-rus.ru/upload/iblock/b9e/b9ef4175983e6089ce7104cf90cdfb3a.jpg 2x,https://l-rus.ru/upload/iblock/b9e/b9ef4175983e6089ce7104cf90cdfb3a.jpg 3x">
+											<img src="https://l-rus.ru/upload/resize_cache/iblock/b9e/395_395_1/b9ef4175983e6089ce7104cf90cdfb3a.jpg" srcset="https://l-rus.ru/upload/iblock/b9e/b9ef4175983e6089ce7104cf90cdfb3a.jpg 2x,https://l-rus.ru/upload/iblock/b9e/b9ef4175983e6089ce7104cf90cdfb3a.jpg 3x"
+											alt="Холодильник Liebherr CTPsl 2921 Comfort preview 1" title="Холодильник Liebherr CTPsl 2921 Comfort фото 1" class="special-offers__img catalog__img">
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a data-fancybox="gallery" href="https://l-rus.ru/upload/resize_cache/iblock/81c/395_395_1/81ceee5c19c72127ce88c3953de5636f.jpg" data-srcset="https://l-rus.ru/upload/resize_cache/iblock/81c/790_790_1/81ceee5c19c72127ce88c3953de5636f.jpg 2x,/upload/iblock/81c/81ceee5c19c72127ce88c3953de5636f.jpg 3x">
+											<img src="https://l-rus.ru/upload/resize_cache/iblock/81c/395_395_1/81ceee5c19c72127ce88c3953de5636f.jpg" srcset="https://l-rus.ru/upload/resize_cache/iblock/81c/790_790_1/81ceee5c19c72127ce88c3953de5636f.jpg 2x,/upload/iblock/81c/81ceee5c19c72127ce88c3953de5636f.jpg 3x"
+											alt="Холодильник Liebherr KBbs 4350 Premium BioFresh preview 1" title="Холодильник Liebherr KBbs 4350 Premium BioFresh фото 1" class="special-offers__img catalog__img">
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a data-fancybox="gallery" href="images/pb_3x1.jpg" data-srcset='images/pb_3x2.jpg 2x,images/pb_3x3.jpg 3x'>
+											<img src="images/pb_3x1.jpg" srcset="images/pb_3x2.jpg 2x,images/pb_3x3.jpg 3x" class="special-offers__img catalog__img">
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a data-fancybox="gallery" href="images/pb_1x1.jpg" data-srcset='images/pb_1x2.jpg 2x,images/pb_1x3.jpg 3x'>
+											<img src="images/pb_1x1.jpg" srcset="images/pb_1x2.jpg 2x,images/pb_1x3.jpg 3x" class="special-offers__img catalog__img">
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a data-fancybox="gallery" href="images/pb_2x1.jpg" data-srcset='images/pb_2x2.jpg 2x,images/pb_2x3.jpg 3x'>
+											<img src="images/pb_2x1.jpg" srcset="images/pb_2x2.jpg 2x,images/pb_2x3.jpg 3x" class="special-offers__img catalog__img">
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a data-fancybox="gallery" href="images/pb_3x1.jpg" data-srcset='images/pb_3x2.jpg 2x,images/pb_3x3.jpg 3x'>
+											<img src="images/pb_3x1.jpg" srcset="images/pb_3x2.jpg 2x,images/pb_3x3.jpg 3x" class="special-offers__img catalog__img">
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a data-fancybox="gallery" data-type="iframe" href="https://www.youtube.com/embed/n7xbo0FVEaY">
+											<!-- <img src="images/product-card_2.jpg" srcset="images/product-card_2@2x.jpg 2x,images/product-card_2@3x.jpg 3x"
+							class="special-offers__img catalog__img"> -->
+											<iframe width="100%" height="100%" src="https://www.youtube.com/embed/n7xbo0FVEaY" frameborder="0" allowfullscreen=""></iframe>
+										</a>
+									</div>
+								</div>
+								<!-- Add Arrows -->
+								<!-- <div class="swiper-button-next swiper-button-white"></div>
+				<div class="swiper-button-prev swiper-button-white"></div> -->
+							</div>
+							<div class="swiper-container gallery-thumbs js-gallery-thumbs">
+								<div class="thumbs-next"></div>
+								<div class="thumbs-prev"></div>
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<img src="images/pc_1x1.jpg" srcset="images/pc_1x2.jpg 2x,images/pc_1x3.jpg 3x" class="special-offers__img catalog__img">
+									</div>
+									<div class="swiper-slide">
+										<img src="images/pc_2x1.jpg" srcset="images/pc_2x2.jpg 2x,images/pc_2x3.jpg 3x" class="special-offers__img catalog__img">
+									</div>
+									<div class="swiper-slide">
+										<img src="images/pc_3x1.jpg" srcset="images/pc_3x2.jpg 2x,images/pc_3x3.jpg 3x" class="special-offers__img catalog__img">
+									</div>
+									<div class="swiper-slide">
+										<img src="images/pc_1x1.jpg" srcset="images/pc_1x2.jpg 2x,images/pc_1x3.jpg 3x" class="special-offers__img catalog__img">
+									</div>
+									<div class="swiper-slide">
+										<img src="images/pc_2x1.jpg" srcset="images/pc_2x2.jpg 2x,images/pc_2x3.jpg 3x" class="special-offers__img catalog__img">
+									</div>
+									<div class="swiper-slide">
+										<img src="images/pc_3x1.jpg" srcset="images/pc_3x2.jpg 2x,images/pc_3x3.jpg 3x" class="special-offers__img catalog__img">
+									</div>
+									<div class="swiper-slide">
+										<iframe width="100%" height="100%" src="https://www.youtube.com/embed/n7xbo0FVEaY" frameborder="0" allowfullscreen=""></iframe>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="product-card__info">
+							<div class="product__header product__header_top">
+								<div class="ratings ratings_small" itemprop="reviewRating" itemscope="" itemtype="">
+									<div class="ratings__star"></div>
+									<div class="ratings__star"></div>
+									<div class="ratings__star"></div>
+									<div class="ratings__star"></div>
+									<div class="ratings__star ratings__none"></div>
+									<b class="ratings__number">4,5</b>
+								</div>
+								<a href="#reviews" data-scroll class="reviews__all">5 отзывов</a>
+								<span class="product-card__key">Код товара: 327944</span>
+								<div class="product-card__social">
+									<a href="#" class="item js-share">
+										<script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+										<script src="//yastatic.net/share2/share.js"></script>
+										<img src="images/share.svg" alt="">Поделиться
+									</a>
+									<div class="share__items">
+										<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,twitter"></div>
+									</div>
+									<a href="" title="" class="item favorite js-add2favorite" data-id="1234">
+										<p>Отложить</p>
+									</a>
+
+
+
+									<a href="" class="item compare js-compare" data-id="1234">
+										<p>Сравнить</p>
+									</a>
+
+								</div>
+							</div>
+							<div class="product__header product__header_middle">
+								<span class="catalog__presence product-card__presence">в наличии</span>
+								<span class="product-card__date">Обновление цен от 14 июля 2018</span>
+							</div>
+							<div class="product__header product__header_bottom">
+								<span class="product-card__price">54 800<b>руб.</b>
+								</span>
+								<div class="product-card__button">
+									<a href="#" class="product-card__icons">
+										Купить в 1 клик
+									</a>
+									<a href="#" data-url="ajax/add-cart.html" data-ajax class="product-card__buy js-product-card__buy">
+
+									</a>
+								</div>
+							</div>
+							<div class="product-card__announcing">
+
+								<div class="announcing__item">
+									<img src="images/big/truck.svg" alt="Бесплатная доставка" title="Бесплатная доставка">
+								</div>
+								<div class="announcing__item">
+									<img src="images/big/tools.svg" alt="Бесплатное подключение" title="Бесплатное подключение">
+								</div>
+								<div class="announcing__item">
+									<img src="images/big/best.svg" alt="Лучшее предложение" title="Лучшее предложение">
+								</div>
+								<div class="announcing__item">
+									<img class="lazyload" data-src="images/big/flag%20austria.svg" alt="Производство Австрия" title="Производство Австрия" />
+								</div>
+								<div class="announcing__item">
+									<img src="images/big/flag.svg" alt="Производство Болгария" title="Производство Болгария">
+								</div>
+								<div class="announcing__item">
+									<img class="lazyload" data-src="images/big/flag%20ger.svg" alt="Производство Германия" title="Производство Германия" />
+								</div>
+							</div>
+							<div class="product-card__rel">
+								<h4>Модели этой серии</h4>
+								<div class="swiper-pagination rel__pagination"></div>
+								<div class="swiper-button-prev rel__prev"></div>
+								<div class="swiper-button-next rel__next"></div>
+								<table class="swiper-container js-product-card__rel">
+									<tbody class="swiper-wrapper">
+										<tr class="swiper-slide">
+											<th>
+												<img src="images/rel_img.png" alt="">
+											</th>
+											<td>
+												<a href="">
+													CTPsl 2921
+												</a>
+
+												21 570 руб.
+											</td>
+										</tr>
+										<tr class="swiper-slide">
+											<th>
+												<img src="images/rel_img.png" alt="">
+											</th>
+											<td>
+												<a href="">
+													CTPsl 2922
+												</a>
+
+												21 570 руб.
+											</td>
+										</tr>
+										<tr class="swiper-slide">
+											<th>
+												<img src="images/rel_img.png" alt="">
+											</th>
+											<td>
+												<a href="">
+													CTPsl 2923
+												</a>
+
+												21 570 руб.
+											</td>
+										</tr>
+										<tr class="swiper-slide">
+											<th>
+												<img src="images/rel_img.png" alt="">
+											</th>
+											<td>
+												<a href="">
+													CTPsl 2924
+												</a>
+
+												21 570 руб.
+											</td>
+										</tr>
+										<tr class="swiper-slide">
+											<th>
+												<img src="images/rel_img.png" alt="">
+											</th>
+											<td>
+												<a href="">
+													CTPsl 2925
+												</a>
+
+												21 570 руб.
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="product-card__promo">
+								<div class="item">
+									<img src="images/promo.png" alt="">
+								</div>
+								<a href="#diagram" data-scroll class="item">
+									Cравни похожие товары!
+								</a>
+							</div>
+							<div class="product-card__description text-default">
+								<h2>Описание</h2>
+								<p>
+									Liebherr CTP 2921 Comfort — практичная модель в элегантном дизайне SwingLine. Прибор характеризуется отдельностоящим типом размещения, но при этом поддерживает возможность установки вплотную к стене или в готовую нишу. Технология SmartFrost позволяет
+									значительно реже размораживать холодильник вручную.
+								</p>
+								<a href="#new-description" data-scroll class="description__link">Читать полностью</a>
+							</div>
+						</div>
+						<div class="product-card__middle">
+							<div class="middle__header">
+								<div class="product-card__back">
+									<div class="catalog__link">
+										<a href="#" data-url="ajax/ask-question.html" data-ajax="" class="catalog-question">
+											Задать вопрос об этом товаре
+										</a>
+										<a href="#" class="catalog-back">Вернуться в каталог</a>
+									</div>
+									<div class="labels">
+										<img src="images/new.svg" alt="Новинка">
+										<img src="images/sale.svg" alt="Акция">
+										<img src="images/hit.svg" alt="Хит продаж">
+									</div>
+								</div>
+								<div class="catalog__prop">
+									<h6>
+										Ключевые особенности
+									</h6>
+									<div class="link-pop-glossary js-link-pop-glossary">
+										<img src="images/icons-properties.png" class="icons-prop-item" title="NoFrost – благодаря этой современной системе продукты замораживаются с помощью циркулирующего охлажденного воздуха, подающегося специальным вентилятором. Влажный воздух выводится наружу, что позволяет предотвратить образование инея&nbsp;&nbsp;на стенках морозильного отделения, и тем самым забыть о процедуре размораживания.">
+										<div class="popup-prop">
+											<img src="images/characteristic-glossary__img.png" alt="" class="popup-prop__img">
+											<div class="popup-prop__title">Заголовок</div>
+											<div class="popup-prop__text"></div>
+											<a href="https://lbhr.ret-team.ru/mockup/templates/main/build/06%20-%2005%20-%20Glossary.html" class="popup-prop__link">Перейти в глоссарий</a>
+										</div>
+									</div>
+									<div class="link-pop-glossary js-link-pop-glossary">
+										<img src="images/icons-properties2.png" class="icons-prop-item" title="HolidayMode – выбор данного режима обеспечивает поддержание постоянной температуры на уровне +15 °С. В случае длительного отсутствия владельцев установка режима HolidayMode гарантирует экономию электроэнергии и защиту от образования посторонних запахов в пустой камере.">
+										<div class="popup-prop">
+											<img src="images/characteristic-glossary__img.png" alt="" class="popup-prop__img">
+											<div class="popup-prop__title">Заголовок</div>
+											<div class="popup-prop__text"></div>
+											<a href="https://lbhr.ret-team.ru/mockup/templates/main/build/06%20-%2005%20-%20Glossary.html" class="popup-prop__link">Перейти в глоссарий</a>
+										</div>
+									</div>
+									<div class="link-pop-glossary js-link-pop-glossary">
+										<img src="images/icons-properties-appp.png" class="icons-prop-item" title="Классы энергопотребления div+ и div++ – экономия энергии. Потребление энергии в холодильном и морозильном оборудовании этих классов заметно снижено. Экономичность моделей данной серии убеждает даже самых бережливых хозяев и вносит активный вклад в охрану окружающей среды.">
+										<div class="popup-prop">
+											<img src="images/characteristic-glossary__img.png" alt="" class="popup-prop__img">
+											<div class="popup-prop__title">Заголовок</div>
+											<div class="popup-prop__text"></div>
+											<a href="https://lbhr.ret-team.ru/mockup/templates/main/build/06%20-%2005%20-%20Glossary.html" class="popup-prop__link">Перейти в глоссарий</a>
+										</div>
+									</div>
+									<div class="link-pop-glossary js-link-pop-glossary">
+										<img src="images/icons-properties.png" class="icons-prop-item" title="NoFrost – благодаря этой современной системе продукты замораживаются с помощью циркулирующего охлажденного воздуха, подающегося специальным вентилятором. Влажный воздух выводится наружу, что позволяет предотвратить образование инея&nbsp;&nbsp;на стенках морозильного отделения, и тем самым забыть о процедуре размораживания.">
+										<div class="popup-prop">
+											<img src="images/characteristic-glossary__img.png" alt="" class="popup-prop__img">
+											<div class="popup-prop__title">Заголовок</div>
+											<div class="popup-prop__text"></div>
+											<a href="https://lbhr.ret-team.ru/mockup/templates/main/build/06%20-%2005%20-%20Glossary.html" class="popup-prop__link">Перейти в глоссарий</a>
+										</div>
+									</div>
+									<div class="link-pop-glossary js-link-pop-glossary">
+										<img src="images/icons-properties2.png" class="icons-prop-item" title="HolidayMode – выбор данного режима обеспечивает поддержание постоянной температуры на уровне +15 °С. В случае длительного отсутствия владельцев установка режима HolidayMode гарантирует экономию электроэнергии и защиту от образования посторонних запахов в пустой камере.">
+										<div class="popup-prop">
+											<img src="images/characteristic-glossary__img.png" alt="" class="popup-prop__img">
+											<div class="popup-prop__title">Заголовок</div>
+											<div class="popup-prop__text"></div>
+											<a href="https://lbhr.ret-team.ru/mockup/templates/main/build/06%20-%2005%20-%20Glossary.html" class="popup-prop__link">Перейти в глоссарий</a>
+										</div>
+									</div>
+									<div class="link-pop-glossary js-link-pop-glossary">
+										<img src="images/icons-properties.png" class="icons-prop-item" title="NoFrost – благодаря этой современной системе продукты замораживаются с помощью циркулирующего охлажденного воздуха, подающегося специальным вентилятором. Влажный воздух выводится наружу, что позволяет предотвратить образование инея&nbsp;&nbsp;на стенках морозильного отделения, и тем самым забыть о процедуре размораживания.">
+										<div class="popup-prop">
+											<img src="images/characteristic-glossary__img.png" alt="" class="popup-prop__img">
+											<div class="popup-prop__title">Заголовок</div>
+											<div class="popup-prop__text"></div>
+											<a href="https://lbhr.ret-team.ru/mockup/templates/main/build/06%20-%2005%20-%20Glossary.html" class="popup-prop__link">Перейти в глоссарий</a>
+										</div>
+									</div>
+									<div class="link-pop-glossary js-link-pop-glossary">
+										<img src="images/icons-properties2.png" class="icons-prop-item" title="HolidayMode – выбор данного режима обеспечивает поддержание постоянной температуры на уровне +15 °С. В случае длительного отсутствия владельцев установка режима HolidayMode гарантирует экономию электроэнергии и защиту от образования посторонних запахов в пустой камере.">
+										<div class="popup-prop">
+											<img src="images/characteristic-glossary__img.png" alt="" class="popup-prop__img">
+											<div class="popup-prop__title">Заголовок</div>
+											<div class="popup-prop__text"></div>
+											<a href="https://lbhr.ret-team.ru/mockup/templates/main/build/06%20-%2005%20-%20Glossary.html" class="popup-prop__link">Перейти в глоссарий</a>
+										</div>
+									</div>
+									<div class="link-pop-glossary js-link-pop-glossary">
+										<img src="images/icons-properties-appp.png" class="icons-prop-item" title="Классы энергопотребления div+ и div++ – экономия энергии. Потребление энергии в холодильном и морозильном оборудовании этих классов заметно снижено. Экономичность моделей данной серии убеждает даже самых бережливых хозяев и вносит активный вклад в охрану окружающей среды.">
+										<div class="popup-prop">
+											<img src="images/characteristic-glossary__img.png" alt="" class="popup-prop__img">
+											<div class="popup-prop__title">Заголовок</div>
+											<div class="popup-prop__text"></div>
+											<a href="https://lbhr.ret-team.ru/mockup/templates/main/build/06%20-%2005%20-%20Glossary.html" class="popup-prop__link">Перейти в глоссарий</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tabs">
+								<a href="#" class="tabs__link">Характеристики</a>
+								<div class="hide-tabs">
+									<div class="tabs__title">
+										<div class="characteristic__row">
+											<span class="characteristic__name series">Гарантия</span>
+											<span class="characteristic__dashed"></span>
+											<span class="characteristic__property">2 года</span>
+										</div>
+										<div class="characteristic__row">
+											<span class="characteristic__name series">Страна производства</span>
+											<span class="characteristic__dashed"></span>
+											<span class="characteristic__property">Германия</span>
+										</div>
+										<div class="characteristic__row">
+											<span class="characteristic__name series">Серия</span>
+											<span class="characteristic__dashed"></span>
+											<span class="characteristic__property">SwingLine</span>
+										</div>
+									</div>
+									<span class="characteristic__title js-characteristic__title">Основные характеристики</span>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Тип</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											холодильник с морозильником</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Cтрана производитель</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											Германия
+										</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Серия</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											BluPerformance</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Высота [см]</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											185.2</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Ширина [см]</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											121</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Глубина [см]</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											66.5</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Габариты, ВxШxГ [см]</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											185.2x121x66.5</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Класс энергопотребления</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											A++
+											<div class="characteristic-glossary js-characteristic-glossary">
+												<div class="icon-gloss"></div>
+												<div class="popup-gloss">
+													<img src="images/characteristic-glossary__img.png" alt="" class="characteristic-glossary__img">
+													<div class="characteristic-glossary__title">Климатический класс SN-T</div>
+													<div class="characteristic-glossary__text">Благодаря использованию технологии SmartFrost внутренняя поверхность стенок морозильной камеры очень гладкая, поэтому ее легко мыть.</div>
+													<a href="#" class="characteristic-glossary__link">Перейти в глоссарий</a>
+												</div>
+											</div>
+										</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Годовой расход электроэнергии [кВт.ч]</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											300</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Общий объем, из него [л]:</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											740|645</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Объем холодильной камеры [л]</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											586|519</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Объем камеры BioFresh [л]</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											163|132</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Объем морозильной камеры [л]</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											154|126</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Объем винной камеры [л]</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											173|153</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Количество полок и ящиков, из них:</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											9|8</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">в холодильной камере</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											4|-
+											<div class="characteristic-glossary js-characteristic-glossary">
+												<div class="icon-gloss"></div>
+												<div class="popup-gloss">
+													<img src="images/characteristic-glossary__img.png" alt="" class="characteristic-glossary__img">
+													<div class="characteristic-glossary__title">Климатический класс SN-T</div>
+													<div class="characteristic-glossary__text">Благодаря использованию технологии SmartFrost внутренняя поверхность стенок морозильной камеры очень гладкая, поэтому ее легко мыть.</div>
+													<a href="#" class="characteristic-glossary__link">Перейти в глоссарий</a>
+												</div>
+											</div>
+										</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">в камере biofresh</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											-|3</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">в морозильной камере</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											-|5</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">в винной камере</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											5|-</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Мощность морозильной камеры</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											****</span>
+									</div>
+									<span class="characteristic__title js-characteristic__title">Управление</span>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Тип управления</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">Электронное</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Дисплей</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">Есть</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Клавиши</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">Сенсорные</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Переключатели</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											Поворотные
+											<div class="characteristic-glossary js-characteristic-glossary">
+												<div class="icon-gloss"></div>
+												<div class="popup-gloss">
+													<img src="images/characteristic-glossary__img.png" alt="" class="characteristic-glossary__img">
+													<div class="characteristic-glossary__title">Климатический класс SN-T</div>
+													<div class="characteristic-glossary__text">Благодаря использованию технологии SmartFrost внутренняя поверхность стенок морозильной камеры очень гладкая, поэтому ее легко мыть.</div>
+													<a href="#" class="characteristic-glossary__link">Перейти в глоссарий</a>
+												</div>
+											</div>
+										</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Тип управления</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											электронное</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Электронная система управления</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											2.4-дюймовый сенсорный цветной TFT-дисплей</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Элементы управления</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											сенсорные</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Индикация температуры</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											холодильной камеры, морозильной камеры, винного отделения и отделения BioFresh</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Расположение панели управления</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											за дверью</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">SmartDevice</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											дополнительная опция</span>
+									</div>
+									<span class="characteristic__title js-characteristic__title">Холодильники</span>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Объем холодильной камеры [л]</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											586</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Полезный объем холодильной камеры [л]</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											519</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Способ размораживания</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											автоматическая разморозка</span>
+									</div>
+
+									<div class="characteristic__row">
+										<span class="characteristic__name">Фильтр с активированным углем</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											Есть</span>
+									</div>
+
+									<div class="characteristic__row">
+										<span class="characteristic__name">Автоматический режим SuperCool</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											есть
+											<div class="characteristic-glossary js-characteristic-glossary">
+												<div class="icon-gloss"></div>
+												<div class="popup-gloss">
+													<img src="images/characteristic-glossary__img.png" alt="" class="characteristic-glossary__img">
+													<div class="characteristic-glossary__title">Климатический класс SN-T</div>
+													<div class="characteristic-glossary__text">Благодаря использованию технологии SmartFrost внутренняя поверхность стенок морозильной камеры очень гладкая, поэтому ее легко мыть.</div>
+													<a href="#" class="characteristic-glossary__link">Перейти в глоссарий</a>
+												</div>
+											</div>
+										</span>
+									</div>
+
+									<div class="characteristic__row">
+										<span class="characteristic__name">Количество полок в холодильной камере</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											4</span>
+									</div>
+
+									<div class="characteristic__row">
+										<span class="characteristic__name">Количество складных полок в холодильной камере:</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											1</span>
+									</div>
+
+									<div class="characteristic__row">
+										<span class="characteristic__name">Контейнер VarioSafe</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											есть</span>
+									</div>
+
+									<div class="characteristic__row">
+										<span class="characteristic__name">Универсальная полка для бутылок</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											1</span>
+									</div>
+
+									<div class="characteristic__row">
+										<span class="characteristic__name">Материал полок</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											закаленное стекло</span>
+									</div>
+
+									<div class="characteristic__row">
+										<span class="characteristic__name">Дизайн полок</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											Premium GlassLine</span>
+									</div>
+
+									<div class="characteristic__row">
+										<span class="characteristic__name">Количество полок на дверце</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											4</span>
+									</div>
+
+									<div class="characteristic__row">
+										<span class="characteristic__name">Контейнер VarioBox</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											есть</span>
+									</div>
+
+									<div class="characteristic__row">
+										<span class="characteristic__name">Система BioFreshPlus</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											Есть</span>
+									</div>
+
+									<div class="characteristic__row">
+										<span class="characteristic__name">Объем камеры BioFresh [л]</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											163</span>
+									</div>
+
+									<div class="characteristic__row">
+										<span class="characteristic__name">Полезный объём [л]</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											132</span>
+									</div>
+
+									<div class="characteristic__row">
+										<span class="characteristic__name">Отделение DrySafe</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											Есть</span>
+									</div>
+
+									<div class="characteristic__row">
+										<span class="characteristic__name">Отделение HydroSafe</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											Есть</span>
+									</div>
+
+									<div class="characteristic__row">
+										<span class="characteristic__name">Количество контейнеров BioFresh</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											3</span>
+									</div>
+
+									<div class="characteristic__row">
+										<span class="characteristic__name">Выдвижные ящики BioFresh на телескоп. направляющих</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											Есть</span>
+									</div>
+
+									<div class="characteristic__row">
+										<span class="characteristic__name">Система SoftTelescopic</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											есть
+											<div class="characteristic-glossary js-characteristic-glossary">
+												<div class="icon-gloss"></div>
+												<div class="popup-gloss">
+													<img src="images/characteristic-glossary__img.png" alt="" class="characteristic-glossary__img">
+													<div class="characteristic-glossary__title">Климатический класс SN-T</div>
+													<div class="characteristic-glossary__text">Благодаря использованию технологии SmartFrost внутренняя поверхность стенок морозильной камеры очень гладкая, поэтому ее легко мыть.</div>
+													<a href="#" class="characteristic-glossary__link">Перейти в глоссарий</a>
+												</div>
+											</div>
+										</span>
+									</div>
+
+									<div class="characteristic__row">
+										<span class="characteristic__name">Количество ящиков DrySafe</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											2</span>
+									</div>
+
+									<div class="characteristic__row">
+										<span class="characteristic__name">Максимальное количество бутылок Бордо 0.75 л</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											48</span>
+									</div>
+
+									<div class="characteristic__row">
+										<span class="characteristic__name">Количество полок</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											5</span>
+									</div>
+
+									<div class="characteristic__row">
+										<span class="characteristic__name">Материал полок для хранения вина</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											натуральное дерево</span>
+									</div>
+									<span class="characteristic__title js-characteristic__title">Морозильная камера</span>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Расположение морозильной камеры</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											снизу</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Объем морозильной камеры [л]</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											90</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Полезный объем морозильной камеры [л]</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											88</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Способ размораживания</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											ручная разморозка</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Мощность замораживания (макс.) [кг/сутки]</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											12</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Режим SuperFrost с автоматическим отключением через 65 часов (макс.)
+										</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											есть</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Система FrostControl</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											Есть</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Материал полок</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											закаленное стекло</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Количество ящиков в морозильной камере</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											3</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Лоток для приготовления кубиков льда</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											Есть</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Система FrostSafe</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											Есть</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Система VarioSpace</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											Есть</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Система SmartFrost</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											есть</span>
+									</div>
+									<span class="characteristic__title js-characteristic__title">Безопасность</span>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Автономное сохранение холода [ч]</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											24
+										</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Индикация открытой двери</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											<ul>
+												<li>световая</li>
+												<li>звуковая</li>
+											</ul>
+										</span>
+									</div>
+									<div class="characteristic__row">
+										<span class="characteristic__name">Сигнализация о неисправности</span>
+										<span class="characteristic__dashed"></span>
+										<span class="characteristic__property">
+											<ul>
+												<li>световая</li>
+												<li>звуковая</li>
+											</ul>
+										</span>
+									</div>
+								</div>
+								<span class="characteristic__copyright">
+									*Все сведения, указанные на сайте, носят информационный характер и не являются публичной офертой. Производитель на свое усмотрение и без дополнительных уведомлений может менять комплектацию, внешний вид, страну производства и технические характеристики
+									модели. Уточняйте подробную информацию о товаре в инструкции.
+								</span>
+							</div>
+							<div class="sidebar-right">
+								<div class="documentation">
+									<span class="documentation__title">Скачать инструкцию</span>
+
+									<a href="/upload/" class="doc_loading doc_loading_first" title="Схема встраивания">
+										<i class="icon_doc"></i>
+										<span>Инструкция на русском языке</span>
+										PDF, 1.24 Мб
+									</a>
+									<a href="/upload/" class="doc_loading" title="Инструкция на русском языке">
+
+										<i class="icon_doc"></i>
+										<span>Схема встраивания</span>
+										JPG, 272.73 Кб
+									</a>
+								</div>
+								<ul class="work-link">
+									<li class="work-link__item">
+										<a class="work-link__a" href="/service/">Сервисные центры</a>
+									</li>
+									<li class="work-link__item">
+										<a class="work-link__a" href="/documentation/">Техническая документация</a>
+									</li>
+									<li class="work-link__item">
+										<a class="work-link__a" href="/warranty/">Официальная гарантия</a>
+									</li>
+								</ul>
+								<div class="upsale swiper-container-upsale js-container-upsale">
+									<span class="upsale__title">Аксессуары для</span>
+									<span class="upsale__subtitle">Liebherr СКЕР 34562 COMFORT BIOFRESH NOFROST NEW</span>
+									<div class="upsale__items swiper-wrapper">
+										<div class="upsale__item swiper-slide">
+											<div class="upsale__pic">
+												<a class=upsale__parent href="#">
+													<img src="images/upsale.jpg" srcset="images/upsale@2x.jpg 2x,images/upsale@3x.jpg 3x" class="upsale__img">
+												</a>
+											</div>
+											<div class="upsale__aside">
+												<div class="upsale__text">
+													<a href="#" class="upsale__description">Влажные салфетки Topperr для изделий из нержавеющей стали 3622
+													</a>
+
+												</div>
+												<div class="upsale__info">
+													<span class="upsale__sale">1 100
+														<i>руб.</i>
+													</span>
+													<a href="#" data-url="ajax/add-cart.html" data-ajax class="upsale__link upsale__link_two"><b>купить</b>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="upsale__item swiper-slide">
+											<div class="upsale__pic">
+												<a class=upsale__parent href="#">
+													<img src="images/upsale.jpg" srcset="images/upsale@2x.jpg 2x,images/upsale@3x.jpg 3x" class="upsale__img">
+												</a>
+											</div>
+											<div class="upsale__aside">
+												<div class="upsale__text">
+													<a href="#" class="upsale__description">
+														Скребок для чистки стеклокерамических поверхностей Topperr SC1
+													</a>
+												</div>
+												<div class="upsale__info">
+													<span class="upsale__sale">1 100
+														<i>руб.</i>
+													</span>
+													<a href="#" data-url="ajax/add-cart.html" data-ajax class="upsale__link upsale__link_two"><b>купить</b>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="upsale__item swiper-slide">
+											<div class="upsale__pic">
+												<a class=upsale__parent href="#">
+													<img src="images/upsale.jpg" srcset="images/upsale@2x.jpg 2x,images/upsale@3x.jpg 3x" class="upsale__img">
+												</a>
+											</div>
+											<div class="upsale__aside">
+												<div class="upsale__text">
+													<a href="#" class="upsale__description">Набор для ухода за кухонными плитами Topperr 3415
+													</a>
+												</div>
+												<div class="upsale__info">
+													<span class="upsale__sale">1 100
+														<i>руб.</i>
+													</span>
+													<a href="#" data-url="ajax/add-cart.html" data-ajax class="upsale__link upsale__link_two"><b>купить</b>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="upsale__item swiper-slide">
+											<div class="upsale__pic">
+												<a class=upsale__parent href="#">
+													<img src="images/upsale.jpg" srcset="images/upsale@2x.jpg 2x,images/upsale@3x.jpg 3x" class="upsale__img">
+												</a>
+											</div>
+											<div class="upsale__aside">
+												<div class="upsale__text">
+													<a href="#" class="upsale__description">Влажные салфетки Topperr для изделий из нержавеющей стали 3622
+													</a>
+
+												</div>
+												<div class="upsale__info">
+													<span class="upsale__sale">1 100
+														<i>руб.</i>
+													</span>
+													<a href="#" data-url="ajax/add-cart.html" data-ajax class="upsale__link upsale__link_two"><b>купить</b>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="upsale__item swiper-slide">
+											<div class="upsale__pic">
+												<a class=upsale__parent href="#">
+													<img src="images/upsale.jpg" srcset="images/upsale@2x.jpg 2x,images/upsale@3x.jpg 3x" class="upsale__img">
+												</a>
+											</div>
+											<div class="upsale__aside">
+												<div class="upsale__text">
+													<a href="#" class="upsale__description">
+														Скребок для чистки стеклокерамических поверхностей Topperr SC1
+													</a>
+												</div>
+												<div class="upsale__info">
+													<span class="upsale__sale">1 100
+														<i>руб.</i>
+													</span>
+													<a href="#" data-url="ajax/add-cart.html" data-ajax class="upsale__link upsale__link_two"><b>купить</b>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="upsale__item swiper-slide">
+											<div class="upsale__pic">
+												<a class=upsale__parent href="#">
+													<img src="images/upsale.jpg" srcset="images/upsale@2x.jpg 2x,images/upsale@3x.jpg 3x" class="upsale__img">
+												</a>
+											</div>
+											<div class="upsale__aside">
+												<div class="upsale__text">
+													<a href="#" class="upsale__description">Набор для ухода за кухонными плитами Topperr 3415
+													</a>
+												</div>
+												<div class="upsale__info">
+													<span class="upsale__sale">1 100
+														<i>руб.</i>
+													</span>
+													<a href="#" data-url="ajax/add-cart.html" data-ajax class="upsale__link upsale__link_two"><b>купить</b>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-pagination-upsale"></div>
+									<div class="swiper-button-prev upsale__prev"></div>
+									<div class="swiper-button-next upsale__next"></div>
+								</div>
+								<div class="download-catalogs">
+									<div class="download-catalogs__title">Скачать каталоги</div>
+									<div class="download-catalogs__items js-download-catalogs swiper-container">
+										<div class="swiper-wrapper">
+											<div class="download-catalogs__item swiper-slide">
+												<a href="#" class='download-catalogs__link'>
+													<div class="download-catalogs__pic">
+														<img src="images/download-catalogs-1.png" alt="">
+													</div>
+													<div class="download-catalogs__text">Новая линейка комбинированных холодильников-морозильников
+														<i>PDF 2.47 MB</i>
+													</div>
+												</a>
+
+											</div>
+											<div class="download-catalogs__item swiper-slide">
+												<a href="#" class='download-catalogs__link'>
+													<div class="download-catalogs__pic">
+														<img src="images/download-catalogs-2.png" alt="">
+													</div>
+													<div class="download-catalogs__text">BioFresh 2018/2019
+														<i>PDF 2.47 MB</i>
+													</div>
+												</a>
+
+											</div>
+											<div class="download-catalogs__item swiper-slide">
+												<a href="#" class='download-catalogs__link'>
+													<div class="download-catalogs__pic">
+														<img src="images/download-catalogs-3.png" alt="">
+													</div>
+													<div class="download-catalogs__text">Дизайнерская серия ColourLine
+														<i>PDF 2.47 MB</i>
+													</div>
+												</a>
+
+											</div>
+											<div class="download-catalogs__item swiper-slide">
+												<a href="#" class='download-catalogs__link'>
+													<div class="download-catalogs__pic">
+														<img src="images/download-catalogs-1.png" alt="">
+													</div>
+													<div class="download-catalogs__text">Новая линейка комбинированных холодильников-морозильников
+														<i>PDF 2.47 MB</i>
+													</div>
+												</a>
+
+											</div>
+											<div class="download-catalogs__item swiper-slide">
+												<a href="#" class='download-catalogs__link'>
+													<div class="download-catalogs__pic">
+														<img src="images/download-catalogs-2.png" alt="">
+													</div>
+													<div class="download-catalogs__text">BioFresh 2018/2019
+														<i>PDF 2.47 MB</i>
+													</div>
+												</a>
+
+											</div>
+											<div class="download-catalogs__item swiper-slide">
+												<a href="#" class='download-catalogs__link'>
+													<div class="download-catalogs__pic">
+														<img src="images/download-catalogs-3.png" alt="">
+													</div>
+													<div class="download-catalogs__text">Дизайнерская серия ColourLine
+														<i>PDF 2.47 MB</i>
+													</div>
+												</a>
+
+											</div>
+											<div class="download-catalogs__item swiper-slide">
+												<a href="#" class='download-catalogs__link'>
+													<div class="download-catalogs__pic">
+														<img src="images/download-catalogs-1.png" alt="">
+													</div>
+													<div class="download-catalogs__text">Новая линейка комбинированных холодильников-морозильников
+														<i>PDF 2.47 MB</i>
+													</div>
+												</a>
+
+											</div>
+											<div class="download-catalogs__item swiper-slide">
+												<a href="#" class='download-catalogs__link'>
+													<div class="download-catalogs__pic">
+														<img src="images/download-catalogs-2.png" alt="">
+													</div>
+													<div class="download-catalogs__text">BioFresh 2018/2019
+														<i>PDF 2.47 MB</i>
+													</div>
+												</a>
+
+											</div>
+											<div class="download-catalogs__item swiper-slide">
+												<a href="#" class='download-catalogs__link'>
+													<div class="download-catalogs__pic">
+														<img src="images/download-catalogs-3.png" alt="">
+													</div>
+													<div class="download-catalogs__text">Дизайнерская серия ColourLine
+														<i>PDF 2.47 MB</i>
+													</div>
+												</a>
+
+											</div>
+										</div>
+										<div class="swiper-pagination-download-catalogs"></div>
+										<div class="swiper-button-prev download-catalogs__prev"></div>
+										<div class="swiper-button-next download-catalogs__next"></div>
+									</div>
+								</div>
+								<div class="articles swiper-container js-sidebar-articles">
+									<span class="articles__title">Может быть полезно</span>
+									<a href="#" class="articles__link">Посмотреть все статьи</a>
+									<div class="articles__items swiper-wrapper">
+										<div class="articles__item swiper-slide">
+											<a class="articles__pic" href="#">
+												<img src="images/articles_1.jpg" srcset="images/articles_1@2x.jpg 2x,images/articles_1@3x.jpg 3x" class="articles__img">
+											</a>
+											<a href="#" class="articles__text">Как правильно разморозить холодильник Либхер</a>
+											<span class="articles__date">25 марта 2018</span>
+										</div>
+										<div class="articles__item swiper-slide">
+											<a class="articles__pic" href="#">
+												<img src="images/articles_2.jpg" srcset="images/articles_2@2x.jpg 2x,images/articles_2@3x.jpg 3x" class="articles__img">
+											</a>
+											<a href="#" class="articles__text">Преимущества встраиваемых микроволновых печей Liebherr</a>
+											<span class="articles__date">25 марта 2018</span>
+										</div>
+										<div class="articles__item swiper-slide">
+											<a class="articles__pic" href="#">
+												<img src="images/articles_3.jpg" srcset="images/articles_3@2x.jpg 2x,images/articles_3@3x.jpg 3x" class="articles__img">
+											</a>
+											<a href="#" class="articles__text">Сравнение холодильника Liebherr CNbs 4015 Comfort NoFrost и Liebherr CN 4813
+											</a>
+											<span class="articles__date">25 марта 2018</span>
+										</div>
+									</div>
+									<div class="swiper-pagination-articles articles__pagination"></div>
+								</div>
+
+								<div class="yandex">
+									<div class="yandex__inner">
+										<div class="yandex__logo">
+											<img src="images/ylogo.png" alt="" srcset="" class="yandex__img">
+										</div>
+										<div class="yandex__ratings">
+											<img src="images/5-stars.png" alt="" srcset="">
+										</div>
+										<a href="#" target="_blank" class="yandex__button">Оставить отзыв</a>
+										<a href="#" target="_blank" class="yandex__button">Читать все отзывы</a>
+									</div>
+								</div>
+								<div class="quality">
+									<span class="quality__title">Контроль качества</span>
+									<span class="quality__text">Номер для претензий и предложений:</span>
+									<a href="tel:+74951201196" class="quality__number">+7 (495) 120-11-96</a>
+									<span class="quality__worktime">с 9.00 до 18.00 по будням</span>
+									<a href="#" class="quality__button" id="js-quality-opener">Написать</a>
+								</div>
+							</div>
+						</div>
+						<div class="description text-default" id="new-description">
+							<h2 class="description__title">
+								Описание модели Liebherr СКЕР 34562 COMFORT BIOFRESH NOFROST NEW
+							</h2>
+							<p>
+								Холодильник Liebherr SBNes 3210 — отдельностоящий, с двумя независимыми отделениями: морозильным и холодильным. Модель входит в премиальную линейку.
+							</p>
+							<p>
+								Функция BioFresh — это особая технология, которая помогает сохранять свежесть продуктов. Она постоянно держит температуру в определенной зоне около 0 градусов, благодаря чему рыба, мясо и овощи не только остаются в привлекательном состоянии, но и сохраняют
+								витамины и питательные вещества. В холодильной камере располагаются две полки из закаленного стекла, из которых одну можно регулировать по высоте, металлическая гирлянда для бутылок и два контейнера на телескопических направляющих, на которых
+								даже полностью загруженный ящик легко выдвигается. Светодиодное освещение экономит электроэнергию.
+
+							</p>
+							<p>
+								Система охлаждения NoFrost работает за счет компрессора и испарителя, расположенных в заднем отсеке. Излишняя влага отводится за пределы морозилки, лед и наледь не образуются, а замораживание продуктов происходит быстрее. В случае отключения электричества
+								пониженная температура сохраняется в течение 31 часа. Ледогенератор IceMaker может производить до 0,8 кг льда в сутки и сохранять до 1,5 кг кубиков льда.
+
+							</p>
+							<p>
+								Кроме того, холодильник Либхерр SBNes 3210 оснащен инновационным дисплеем MagicEye с цифровой индикацией температуры. Раздельная регулировка в рабочих камерах позволяет настраивать оптимальный температурный режим.
+
+							</p>
+							<p>
+								А если вы забыли закрыть дверцу, то система оповестит вас об этом акустическим сигналом. В зависимости от необходимости можно настроить открывание на правую или левую сторону.
+
+							</p>
+							<p>
+								Функция BioFresh — это особая технология, которая помогает сохранять свежесть продуктов. Она постоянно держит температуру в определенной зоне около 0 градусов, благодаря чему рыба, мясо и овощи не только остаются в привлекательном состоянии, но и сохраняют
+								витамины и питательные вещества. В холодильной камере располагаются две полки из закаленного стекла, из которых одну можно регулировать по высоте, металлическая гирлянда для бутылок и два контейнера на телескопических направляющих, на которых
+								даже полностью загруженный ящик легко выдвигается. Светодиодное освещение экономит электроэнергию.
+
+							</p>
+						</div>
+						<div class="practical-features js-practical-features">
+							<div class="practical-features__title">
+								Практичные функции холодильников LIEBHERR
+							</div>
+							<div class="swiper-pagination-practical-features"></div>
+							<div class="swiper-button-prev practical-features__prev"></div>
+							<div class="swiper-button-next practical-features__next"></div>
+							<div class="swiper-container">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="practical-features__pic">
+											<img src="images/practical-features.png" alt="">
+										</div>
+										<div class="practical-features__info">
+											<div class="practical-features__subtitle">
+												Гибкая система внутренних полок
+											</div>
+											<div class="practical-features__text">
+												Внутреннее пространство двери холодильной камеры в моделях класса Premium оснащается регулируемыми по высоте полками GlassLine. Они выполнены из матового закаленного стекла с обрамлением из высококачественной нержавеющей стали. Их дополняют прозрачные
+												контейнеры VarioBox, предназначенные для хранения небольших продуктов, а также регулируемый держатель для фиксации бутылок.
+											</div>
+											<a href='#' class="practical-features__link">
+												Перейти в глоссарий
+											</a>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="practical-features__pic">
+											<img src="images/practical-features.png" alt="">
+										</div>
+										<div class="practical-features__info">
+											<div class="practical-features__subtitle">
+												Гибкая система внутренних полок
+											</div>
+											<div class="practical-features__text">
+												Внутреннее пространство двери холодильной камеры в моделях класса Premium оснащается регулируемыми по высоте полками GlassLine. Они выполнены из матового закаленного стекла с обрамлением из высококачественной нержавеющей стали. Их дополняют прозрачные
+												контейнеры VarioBox, предназначенные для хранения небольших продуктов, а также регулируемый держатель для фиксации бутылок.
+											</div>
+											<a href='#' class="practical-features__link">
+												Перейти в глоссарий
+											</a>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="practical-features__pic">
+											<img src="images/practical-features.png" alt="">
+										</div>
+										<div class="practical-features__info">
+											<div class="practical-features__subtitle">
+												Гибкая система внутренних полок
+											</div>
+											<div class="practical-features__text">
+												Внутреннее пространство двери холодильной камеры в моделях класса Premium оснащается регулируемыми по высоте полками GlassLine. Они выполнены из матового закаленного стекла с обрамлением из высококачественной нержавеющей стали. Их дополняют прозрачные
+												контейнеры VarioBox, предназначенные для хранения небольших продуктов, а также регулируемый держатель для фиксации бутылок.
+											</div>
+											<a href='#' class="practical-features__link">
+												Перейти в глоссарий
+											</a>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="practical-features__pic">
+											<img src="images/practical-features.png" alt="">
+										</div>
+										<div class="practical-features__info">
+											<div class="practical-features__subtitle">
+												Гибкая система внутренних полок
+											</div>
+											<div class="practical-features__text">
+												Внутреннее пространство двери холодильной камеры в моделях класса Premium оснащается регулируемыми по высоте полками GlassLine. Они выполнены из матового закаленного стекла с обрамлением из высококачественной нержавеющей стали. Их дополняют прозрачные
+												контейнеры VarioBox, предназначенные для хранения небольших продуктов, а также регулируемый держатель для фиксации бутылок.
+											</div>
+											<a href='#' class="practical-features__link">
+												Перейти в глоссарий
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="reviews" id="reviews">
+							<h2 class="reviews__title">Отзывы о Либхер СКЕР 34562 COMFORT BIOFRESH NOFROST NEW</h2>
+							<div class="reviews__top">
+								<a href="#" data-url="ajax/reviews.html" data-ajax="" class="reviews__link">оставить отзыв</a>
+								<div class="reviews__section">
+									<div class="ratings">
+										<div class="ratings__star"></div>
+										<div class="ratings__star"></div>
+										<div class="ratings__star"></div>
+										<div class="ratings__star"></div>
+										<div class="ratings__star ratings__none"></div>
+										<b class="ratings__number">4,5</b>
+									</div>
+									<a href="#" class="reviews__all">5 отзывов</a>
+								</div>
+
+								<a href="#" class="reviews__main-link">Посмотреть все отзывы</a>
+							</div>
+							<div class="reviews-list">
+								<div class="reviews-list__item" itemscope="" itemtype="">
+									<div class="reviews-list__field reviews-list__field_header">
+										<div itemprop="author" itemscope="" itemtype="" class="reviews-list__col">
+											<strong itemprop="name">Ирина</strong>
+										</div>
+										<div class="reviews-list__col reviews-list__col_desc">
+											<div class="ratings ratings_small" itemprop="reviewRating" itemscope="" itemtype="">
+												<div class="ratings__star"></div>
+												<div class="ratings__star"></div>
+												<div class="ratings__star"></div>
+												<div class="ratings__star"></div>
+												<div class="ratings__star ratings__none"></div>
+											</div>
+										</div>
+										<div class="reviews-list__col reviews-list__col_date">
+											<meta itemprop="datePublished" content="2018-08-30">28 января 2018</div>
+									</div>
+									<!-- /.reviews-list__field -->
+									<div class="reviews-list__field">
+										<div class="reviews-list__col">
+											Достоинства:
+										</div>
+										<div class="reviews-list__col reviews-list__col_desc">
+											Компактный, можно поставить/встроить под столешницу, приятная цена. Морозит хорошо, нешумный.
+										</div>
+									</div>
+									<!-- /.reviews-list__field -->
+									<div class="reviews-list__field">
+										<div class="reviews-list__col">
+											Недостатки:
+										</div>
+										<div class="reviews-list__col reviews-list__col_desc">
+											Пока довольны всем. Не рада за лампочку освещения, она вроде обычная, наверное перегорит быстро, хотя с нашим непостоянным использованием.</div>
+									</div>
+									<!-- /.reviews-list__field -->
+									<div class="reviews-list__field">
+										<div class="reviews-list__col">
+											Комментарий:
+										</div>
+										<div class="reviews-list__col reviews-list__col_desc" itemprop="reviewBody">
+											Покупали специально на дачу - маленький, но все необходимые продукты и небольшие кастрюли вмещаются. Морозит хорошо, достаточно тихий. Да, небольшая морозилка, но такой холодильничек и не для заморозки контейнеров ягод на зиму.</div>
+									</div>
+									<!-- /.reviews-list__field -->
+									<meta itemprop="itemReviewed" content="Siemens WD15H541OE">
+								</div>
+								<div class="reviews-list__item" itemscope="" itemtype="">
+									<div class="reviews-list__field reviews-list__field_header">
+										<div itemprop="author" itemscope="" itemtype="" class="reviews-list__col">
+											<strong itemprop="name">Ирина</strong>
+										</div>
+										<div class="reviews-list__col reviews-list__col_desc">
+											<div class="ratings ratings_small" itemprop="reviewRating" itemscope="" itemtype="">
+												<div class="ratings__star"></div>
+												<div class="ratings__star"></div>
+												<div class="ratings__star"></div>
+												<div class="ratings__star"></div>
+												<div class="ratings__star ratings__none"></div>
+											</div>
+										</div>
+										<div class="reviews-list__col reviews-list__col_date">
+											<meta itemprop="datePublished" content="2018-08-30">28 января 2018</div>
+									</div>
+									<!-- /.reviews-list__field -->
+									<div class="reviews-list__field">
+										<div class="reviews-list__col">
+											Достоинства:
+										</div>
+										<div class="reviews-list__col reviews-list__col_desc">
+											Компактный, можно поставить/встроить под столешницу, приятная цена. Морозит хорошо, нешумный.
+										</div>
+									</div>
+									<!-- /.reviews-list__field -->
+									<div class="reviews-list__field">
+										<div class="reviews-list__col">
+											Недостатки:
+										</div>
+										<div class="reviews-list__col reviews-list__col_desc">
+											Пока довольны всем. Не рада за лампочку освещения, она вроде обычная, наверное перегорит быстро, хотя с нашим непостоянным использованием.</div>
+									</div>
+									<!-- /.reviews-list__field -->
+									<div class="reviews-list__field">
+										<div class="reviews-list__col">
+											Комментарий:
+										</div>
+										<div class="reviews-list__col reviews-list__col_desc" itemprop="reviewBody">
+											Покупали специально на дачу - маленький, но все необходимые продукты и небольшие кастрюли вмещаются. Морозит хорошо, достаточно тихий. Да, небольшая морозилка, но такой холодильничек и не для заморозки контейнеров ягод на зиму.</div>
+									</div>
+									<!-- /.reviews-list__field -->
+									<meta itemprop="itemReviewed" content="Siemens WD15H541OE">
+								</div>
+								<div class="reviews-list__item" itemscope="" itemtype="">
+									<div class="reviews-list__field reviews-list__field_header">
+										<div itemprop="author" itemscope="" itemtype="" class="reviews-list__col">
+											<strong itemprop="name">Ирина</strong>
+										</div>
+										<div class="reviews-list__col reviews-list__col_desc">
+											<div class="ratings ratings_small" itemprop="reviewRating" itemscope="" itemtype="">
+												<div class="ratings__star"></div>
+												<div class="ratings__star"></div>
+												<div class="ratings__star"></div>
+												<div class="ratings__star"></div>
+												<div class="ratings__star ratings__none"></div>
+											</div>
+										</div>
+										<div class="reviews-list__col reviews-list__col_date">
+											<meta itemprop="datePublished" content="2018-08-30">28 января 2018</div>
+									</div>
+									<!-- /.reviews-list__field -->
+									<div class="reviews-list__field">
+										<div class="reviews-list__col">
+											Достоинства:
+										</div>
+										<div class="reviews-list__col reviews-list__col_desc">
+											Компактный, можно поставить/встроить под столешницу, приятная цена. Морозит хорошо, нешумный.
+										</div>
+									</div>
+									<!-- /.reviews-list__field -->
+									<div class="reviews-list__field">
+										<div class="reviews-list__col">
+											Недостатки:
+										</div>
+										<div class="reviews-list__col reviews-list__col_desc">
+											Пока довольны всем. Не рада за лампочку освещения, она вроде обычная, наверное перегорит быстро, хотя с нашим непостоянным использованием.</div>
+									</div>
+									<!-- /.reviews-list__field -->
+									<div class="reviews-list__field">
+										<div class="reviews-list__col">
+											Комментарий:
+										</div>
+										<div class="reviews-list__col reviews-list__col_desc" itemprop="reviewBody">
+											Покупали специально на дачу - маленький, но все необходимые продукты и небольшие кастрюли вмещаются. Морозит хорошо, достаточно тихий. Да, небольшая морозилка, но такой холодильничек и не для заморозки контейнеров ягод на зиму.</div>
+									</div>
+									<!-- /.reviews-list__field -->
+									<meta itemprop="itemReviewed" content="Siemens WD15H541OE">
+								</div>
+							</div>
+						</div>
+						<div class=diagram id='diagram'>
+							<div class="diagram__title">Похожие на Liebherr СКЕР 34562 COMFORT BIOFRESH NOFROST NEW</div>
+							<div class="diagram__subtitle">
+								Данные товары можно сравнить более детально, нажав на кнопку «Сравнить эти модели». Вы будете перенаправлены на страницу сравнения.
+								<a href="#" class="diagram__comparison">Сравнить эти модели</a>
+							</div>
+							<div class="diagram__items">
+								<div class="diagram__sidebar">
+									<div class="diagram__tabs js-diagram__param1 active">Стоимость товара</div>
+									<div class="diagram__tabs js-diagram__param2">Полезный объем холодильной камеры</div>
+									<div class="diagram__tabs js-diagram__param3">Полезный объем морозильной камеры</div>
+									<div class="diagram__tabs js-diagram__param4">Годовой расход электроэнергии</div>
+									<div class="diagram__tabs js-diagram__param5">Годовой расход электроэнергии</div>
+									<div class="diagram__tabs js-diagram__param6">Годовой расход электроэнергии</div>
+								</div>
+								<div class="diagram__slider js-diagram__slider">
+									<div class="swiper-container">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<div class="schedule">
+													<div class="diagram__text"></div>
+												</div>
+												<div class="diagram__item">
+													<a href="#" data-param1=82000 data-param2=519 data-param3=153 data-param4=157 data-param5=157 data-param6=200 class="diagram__pic">
+														<img src="images/new-items_3.jpg" alt="">
+													</a>
+													<a href="#" class="diagram__name">Текущая модель холодильника</a>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="schedule">
+													<div class="diagram__text"></div>
+												</div>
+												<div class="diagram__item">
+													<a href="#" data-param1=27000 data-param2=289 data-param3=114 data-param4=202 data-param5=15 data-param6=2 class="diagram__pic">
+														<img src="images/new-items_2.jpg" alt="">
+													</a>
+													<a href="#" class="diagram__name">Liebherr EWTgw 3583 Vinidor</a>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="schedule">
+													<div class="diagram__text"></div>
+												</div>
+												<div class="diagram__item">
+													<a href="#" data-param1=240000 data-param2=262 data-param3=262 data-param4=122 data-param5=151 data-param6=300 class="diagram__pic">
+														<img src="images/new-items_1.jpg" alt="">
+													</a>
+													<a href="#" class="diagram__name">Liebherr SBS 66I2 Premium NoFrost (SICN 3386 + ICN 3386)
+													</a>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="schedule">
+													<div class="diagram__text"></div>
+												</div>
+												<div class="diagram__item">
+													<a href="#" data-param1=342000 data-param2=384 data-param3=115 data-param4=298 data-param5=19 data-param6=400 class="diagram__pic">
+														<img src="images/new-items_4.jpg" alt="">
+													</a>
+													<a href="#" class="diagram__name">Liebherr IKF 3510 Comfort</a>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="schedule">
+													<div class="diagram__text"></div>
+												</div>
+												<div class="diagram__item">
+													<a href="#" data-param1=37500 data-param2=367 data-param3=268 data-param4=255 data-param5=300 data-param6=133 class="diagram__pic">
+														<img src="images/new-items_1.jpg" alt="">
+													</a>
+													<a href="#" class="diagram__name">Liebherr IKF 3510 Comfort</a>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="schedule">
+													<div class="diagram__text"></div>
+												</div>
+												<div class="diagram__item">
+													<a href="#" data-param1=200000 data-param2=289 data-param3=114 data-param4=202 data-param5=15 data-param6=2 class="diagram__pic">
+														<img src="images/new-items_2.jpg" alt="">
+													</a>
+													<a href="#" class="diagram__name">Liebherr EWTgw 3583 Vinidor</a>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="schedule">
+													<div class="diagram__text"></div>
+												</div>
+												<div class="diagram__item">
+													<a href="#" data-param1=240000 data-param2=262 data-param3=262 data-param4=122 data-param5=151 data-param6=300 class="diagram__pic">
+														<img src="images/new-items_1.jpg" alt="">
+													</a>
+													<a href="#" class="diagram__name">Liebherr SBS 66I2 Premium NoFrost (SICN 3386 + ICN 3386)
+													</a>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="schedule">
+													<div class="diagram__text"></div>
+												</div>
+												<div class="diagram__item">
+													<a href="#" data-param1=28000 data-param2=384 data-param3=115 data-param4=298 data-param5=19 data-param6=400 class="diagram__pic">
+														<img src="images/new-items_4.jpg" alt="">
+													</a>
+													<a href="#" class="diagram__name">Liebherr IKF 3510 Comfort</a>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="schedule">
+													<div class="diagram__text"></div>
+												</div>
+												<div class="diagram__item">
+													<a href="#" data-param1=150000 data-param2=367 data-param3=268 data-param4=0 data-param5=300 data-param6=133 class="diagram__pic">
+														<img src="images/new-items_1.jpg" alt="">
+													</a>
+													<a href="#" class="diagram__name">Liebherr IKF 3510 Comfort</a>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div class="diagram__maxvalue"></div>
+
+							</div>
+							<div class="swiper-pagination diagram__pagination"></div>
+							<div class="diagram__next swiper-button-next"></div>
+							<div class="diagram__prev swiper-button-prev"></div>
+						</div>
+						<div class="special-offers similar-models">
+							<div class="container">
+								<span class="special-offers__title">Популярные товары</span>
+								<!-- Slider main container -->
+								<div class="catalog swiper-container swiper-container-four  js-swiper-four">
+									<!-- Additional required wrapper -->
+									<div class="swiper-wrapper special-offers__wrapper">
+										<div class="catalog__item swiper-slide special-offers__slide">
+											<a class="catalog__pic" href="#">
+												<img src="images/new-items_3.jpg" srcset="images/new-items_3@2x.jpg 2x,images/new-items_3@3x.jpg 3x" class="special-offers__img catalog__img">
+											</a>
+											<a href="product-card.html" class="special-offers__text  catalog__text">Винный шкаф Liebherr EWTgw 3583 Vinidor
+											</a>
+											<div class="special-offers__sale catalog__sale">
+												<span class="special-offers__price catalog__price">134 200
+													<i class="special-offers__rub catalog__rub">руб.</i>
+												</span>
+												<a href="#" data-url="ajax/add-cart.html" data-ajax class="special-offers__buy">купить</a>
+											</div>
+											<div class="announcing announcing__germany"></div>
+											<div class="announcing announcing_2 announcing__new"></div>
+											<div class="announcing announcing_3 announcing__delivery"></div>
+											<div class="announcing announcing_4 announcing__service"></div>
+										</div>
+										<div class="catalog__item swiper-slide special-offers__slide">
+											<a class="catalog__pic" href="#">
+												<img src="images/new-items_1.jpg" srcset="images/new-items_1@2x.jpg 2x,images/new-items_1@3x.jpg 3x" class="special-offers__img catalog__img">
+											</a>
+											<a href="product-card.html" class="special-offers__text catalog__text">Холодильник Liebherr SBS 66I2 Premium NoFrost (SICN 3386 + ICN 3386)</a>
+
+
+
+											<div class="special-offers__sale catalog__sale">
+												<span class="special-offers__price catalog__price">98 400
+													<i class="special-offers__rub catalog__rub">руб.</i>
+												</span>
+												<a href="#" data-url="ajax/add-cart.html" data-ajax class="special-offers__buy">купить</a>
+											</div>
+
+											<div class="announcing announcing__bulgaria"></div>
+											<div class="announcing announcing_2 announcing__service"></div>
+											<div class="announcing announcing_3 announcing__delivery"></div>
+											<div class="announcing announcing_4 announcing__new"></div>
+										</div>
+										<div class="catalog__item swiper-slide special-offers__slide">
+											<a class="catalog__pic" href="#">
+												<img src="images/new-items_2.jpg" srcset="images/new-items_2@2x.jpg 2x,images/new-items_2@3x.jpg 3x" class="special-offers__img catalog__img">
+											</a>
+
+											<a href="#" class="special-offers__text catalog__text">Морозильник Liebherr GN 2723 Comfort NoFrost
+											</a>
+
+
+
+											<div class="special-offers__sale catalog__sale price__dashed">
+												<span class="special-offers__price catalog__price">115 000
+													<i class="special-offers__rub catalog__rub">руб.</i>
+													<span class="price__absolute">122 750 руб.</span>
+												</span>
+												<a href="#" data-url="ajax/add-cart.html" data-ajax class="special-offers__buy">купить</a>
+											</div>
+
+											<div class="announcing announcing__austria"></div>
+											<div class="announcing announcing_2 announcing__service"></div>
+											<div class="announcing announcing_3 announcing__delivery"></div>
+											<div class="announcing announcing_4 announcing__new"></div>
+											<div class="announcing announcing_5 announcing__sale"></div>
+										</div>
+										<div class="catalog__item swiper-slide special-offers__slide">
+											<a class="catalog__pic" href="#">
+												<img src="images/new-items_4.jpg" srcset="images/new-items_4@2x.jpg 2x,images/new-items_4@3x.jpg 3x" class="special-offers__img catalog__img">
+											</a>
+
+											<a href="#" class="special-offers__text catalog__text">Холодильник Liebherr SBS 66I2 Premium NoFrost (SICN 3386 + ICN 3386)</a>
+
+
+
+											<div class="special-offers__sale catalog__sale">
+												<span class="special-offers__price catalog__price">134 200
+													<i class="special-offers__rub catalog__rub">руб.</i>
+												</span>
+												<a href="#" data-url="ajax/add-cart.html" data-ajax class="special-offers__buy">купить</a>
+											</div>
+
+											<div class="announcing announcing__germany"></div>
+											<div class="announcing announcing_2 announcing__service"></div>
+											<div class="announcing announcing_3 announcing__delivery"></div>
+											<div class="announcing announcing_4 announcing__new"></div>
+											<div class="announcing announcing_5 announcing__sale"></div>
+										</div>
+										<div class="catalog__item swiper-slide special-offers__slide">
+											<a class="catalog__pic" href="#">
+												<img src="images/new-items_3.jpg" srcset="images/new-items_3@2x.jpg 2x,images/new-items_3@3x.jpg 3x" class="special-offers__img catalog__img">
+											</a>
+											<a href="#" class="special-offers__text  catalog__text">Винный шкаф Liebherr EWTgw 3583 Vinidor
+											</a>
+
+
+
+											<div class="special-offers__sale catalog__sale">
+												<span class="special-offers__price catalog__price">134 200
+													<i class="special-offers__rub catalog__rub">руб.</i>
+												</span>
+												<a href="#" data-url="ajax/add-cart.html" data-ajax class="special-offers__buy">купить</a>
+											</div>
+
+											<div class="announcing announcing__bulgaria"></div>
+											<div class="announcing announcing_2 announcing__service"></div>
+											<div class="announcing announcing_3 announcing__delivery"></div>
+											<div class="announcing announcing_4 announcing__new"></div>
+											<div class="announcing announcing_5 announcing__sale"></div>
+										</div>
+										<div class="catalog__item swiper-slide special-offers__slide">
+											<a class="catalog__pic" href="#">
+												<img src="images/new-items_3.jpg" srcset="images/new-items_3@2x.jpg 2x,images/new-items_3@3x.jpg 3x" class="special-offers__img catalog__img">
+											</a>
+											<a href="product-card.html" class="special-offers__text  catalog__text">Винный шкаф Liebherr EWTgw 3583 Vinidor
+											</a>
+											<div class="special-offers__sale catalog__sale">
+												<span class="special-offers__price catalog__price">134 200
+													<i class="special-offers__rub catalog__rub">руб.</i>
+												</span>
+												<a href="#" data-url="ajax/add-cart.html" data-ajax class="special-offers__buy">купить</a>
+											</div>
+											<div class="announcing announcing__germany"></div>
+											<div class="announcing announcing_2 announcing__new"></div>
+											<div class="announcing announcing_3 announcing__delivery"></div>
+											<div class="announcing announcing_4 announcing__service"></div>
+										</div>
+										<div class="catalog__item swiper-slide special-offers__slide">
+											<a class="catalog__pic" href="#">
+												<img src="images/new-items_1.jpg" srcset="images/new-items_1@2x.jpg 2x,images/new-items_1@3x.jpg 3x" class="special-offers__img catalog__img">
+											</a>
+											<a href="product-card.html" class="special-offers__text catalog__text">Холодильник Liebherr SBS 66I2 Premium NoFrost (SICN 3386 + ICN 3386)</a>
+
+
+
+											<div class="special-offers__sale catalog__sale">
+												<span class="special-offers__price catalog__price">98 400
+													<i class="special-offers__rub catalog__rub">руб.</i>
+												</span>
+												<a href="#" data-url="ajax/add-cart.html" data-ajax class="special-offers__buy">купить</a>
+											</div>
+
+											<div class="announcing announcing__bulgaria"></div>
+											<div class="announcing announcing_2 announcing__service"></div>
+											<div class="announcing announcing_3 announcing__delivery"></div>
+											<div class="announcing announcing_4 announcing__new"></div>
+										</div>
+										<div class="catalog__item swiper-slide special-offers__slide">
+											<a class="catalog__pic" href="#">
+												<img src="images/new-items_2.jpg" srcset="images/new-items_2@2x.jpg 2x,images/new-items_2@3x.jpg 3x" class="special-offers__img catalog__img">
+											</a>
+
+											<a href="#" class="special-offers__text catalog__text">Морозильник Liebherr GN 2723 Comfort NoFrost
+											</a>
+
+
+
+											<div class="special-offers__sale catalog__sale price__dashed">
+												<span class="special-offers__price catalog__price">115 000
+													<i class="special-offers__rub catalog__rub">руб.</i>
+													<span class="price__absolute">122 750 руб.</span>
+												</span>
+												<a href="#" data-url="ajax/add-cart.html" data-ajax class="special-offers__buy">купить</a>
+											</div>
+
+											<div class="announcing announcing__austria"></div>
+											<div class="announcing announcing_2 announcing__service"></div>
+											<div class="announcing announcing_3 announcing__delivery"></div>
+											<div class="announcing announcing_4 announcing__new"></div>
+											<div class="announcing announcing_5 announcing__sale"></div>
+										</div>
+										<div class="catalog__item swiper-slide special-offers__slide">
+											<a class="catalog__pic" href="#">
+												<img src="images/new-items_4.jpg" srcset="images/new-items_4@2x.jpg 2x,images/new-items_4@3x.jpg 3x" class="special-offers__img catalog__img">
+											</a>
+
+											<a href="#" class="special-offers__text catalog__text">Холодильник Liebherr SBS 66I2 Premium NoFrost (SICN 3386 + ICN 3386)</a>
+
+
+
+											<div class="special-offers__sale catalog__sale">
+												<span class="special-offers__price catalog__price">134 200
+													<i class="special-offers__rub catalog__rub">руб.</i>
+												</span>
+												<a href="#" data-url="ajax/add-cart.html" data-ajax class="special-offers__buy">купить</a>
+											</div>
+
+											<div class="announcing announcing__germany"></div>
+											<div class="announcing announcing_2 announcing__service"></div>
+											<div class="announcing announcing_3 announcing__delivery"></div>
+											<div class="announcing announcing_4 announcing__new"></div>
+											<div class="announcing announcing_5 announcing__sale"></div>
+										</div>
+										<div class="catalog__item swiper-slide special-offers__slide">
+											<a class="catalog__pic" href="#">
+												<img src="images/new-items_3.jpg" srcset="images/new-items_3@2x.jpg 2x,images/new-items_3@3x.jpg 3x" class="special-offers__img catalog__img">
+											</a>
+											<a href="#" class="special-offers__text  catalog__text">Винный шкаф Liebherr EWTgw 3583 Vinidor
+											</a>
+
+
+
+											<div class="special-offers__sale catalog__sale">
+												<span class="special-offers__price catalog__price">134 200
+													<i class="special-offers__rub catalog__rub">руб.</i>
+												</span>
+												<a href="#" data-url="ajax/add-cart.html" data-ajax class="special-offers__buy">купить</a>
+											</div>
+
+											<div class="announcing announcing__bulgaria"></div>
+											<div class="announcing announcing_2 announcing__service"></div>
+											<div class="announcing announcing_3 announcing__delivery"></div>
+											<div class="announcing announcing_4 announcing__new"></div>
+											<div class="announcing announcing_5 announcing__sale"></div>
+										</div>
+									</div>
+									<!-- If we need pagination -->
+
+									<!-- If we need navigation buttons -->
+									<!-- If we need scrollbar -->
+									<div class="swiper-scrollbar"></div>
+								</div>
+								<div class="swiper-pagination_2"></div>
+								<div class="swiper-button-prev special-offers_prev"></div>
+								<div class="swiper-button-next special-offers_next"></div>
+							</div>
+						</div>
+						<div class="recently-watched js-recently-watched">
+							<div class="recently-watched__title">
+								Вы недавно смотрели
+							</div>
+							<div class="swiper-pagination-recently-watched swiper-pagination"></div>
+							<div class="swiper-button-prev recently-watched__prev"></div>
+							<div class="swiper-button-next recently-watched__next"></div>
+							<a href="#" class="recently-watched__reset">Сбросить просмотренное</a>
+							<div class="swiper-container">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<a href="#" class="recently-watched__pic">
+											<img src="images/new-items_3.jpg" alt="">
+										</a>
+										<a href='#' class="recently-watched__text">
+											Винный шкаф Liebherr EWTgw 3583 Vinidor
+											<span class="recently-watched__price">134 200
+												<i class="recently-watched__rub">руб.</i>
+											</span>
+										</a>
+
+										<div class="recently-watched__close"></div>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="recently-watched__pic">
+											<img src="images/new-items_1.jpg" alt="">
+										</a>
+										<a href="#" class="recently-watched__text">
+											Холодильник Liebherr CBNPbs 4858 Premium BioFresh NoFrost
+											<span class="recently-watched__price">
+												34 200
+												<i class="recently-watched__rub">руб.</i>
+											</span>
+										</a>
+										<div class="recently-watched__close"></div>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="recently-watched__pic">
+											<img src="images/new-items_2.jpg" alt="">
+										</a>
+										<a href="#" class="recently-watched__text">
+											Морозильник Liebherr GN 2723 Comfort NoFrost
+											<span class="recently-watched__price">
+												14 200
+												<i class="recently-watched__rub">руб.</i>
+											</span>
+										</a>
+										<div class="recently-watched__close"></div>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="recently-watched__pic">
+											<img src="images/new-items_1.jpg" alt="">
+										</a>
+										<a href="#" class="recently-watched__text">
+											Холодильник Liebherr CBNPbs 4858 Premium BioFresh NoFrost
+											<span class="recently-watched__price">
+												13 200
+												<i class="recently-watched__rub">руб.</i>
+											</span>
+										</a>
+										<div class="recently-watched__close"></div>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="recently-watched__pic">
+											<img src="images/new-items_3.jpg" alt="">
+										</a>
+										<a href="#" class="recently-watched__text">
+											Винный шкаф Liebherr EWTgw 3583 Vinidor
+											<span class="recently-watched__price">
+												1 200
+												<i class="recently-watched__rub">руб.</i>
+											</span>
+										</a>
+										<div class="recently-watched__close"></div>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="recently-watched__pic">
+											<img src="images/new-items_1.jpg" alt="">
+										</a>
+										<a href="#" class="recently-watched__text">
+											Холодильник Liebherr CBNPbs 4858 Premium BioFresh NoFrost
+										</a>
+										<div class="recently-watched__close"></div>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="recently-watched__pic">
+											<img src="images/new-items_2.jpg" alt="">
+										</a>
+										<a href="#" class="recently-watched__text">
+											Морозильник Liebherr GN 2723 Comfort NoFrost
+										</a>
+										<div class="recently-watched__close"></div>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="recently-watched__pic">
+											<img src="images/new-items_1.jpg" alt="">
+										</a>
+										<a href="#" class="recently-watched__text">
+											Холодильник Liebherr CBNPbs 4858 Premium BioFresh NoFrost
+										</a>
+										<div class="recently-watched__close"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END WORKAREA -->
+			</div>
+			<!-- /.content -->
+		</div>
+		<!-- /.middle -->
+
+	</div>
+	<!-- /.wrapper -->
+
+	<div class="footer" id="js-footer">
+		<div class="container">
+			<div class="footer__inner">
+				<div class="footer__col">
+					<nav class="menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__title js-menu-footer__title">Бытовые холодильники</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Холодильники</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Отдельностоящие морозильные камеры
+								</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Встраиваемые холодильники
+								</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Встраиваемые морозильные камеры
+								</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Винные шкафы</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Хьюмидоры</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- /.footer__col -->
+				<!-- <div class="footer__col">
+				<nav class="menu-footer">
+					<ul class="menu-footer__list">
+						<li class="menu-footer__title js-menu-footer__title">Профессиональная техника</li>
+						<li class="menu-footer__item"><a class="menu-footer__link" href="#">Медицинское и лабораторное
+								оборудование</a></li>
+						<li class="menu-footer__item"><a class="menu-footer__link" href="#">Для гостиниц и
+								ресторанов</a></li>
+						<li class="menu-footer__item"><a class="menu-footer__link" href="#">Для охлаждения напитков</a>
+						</li>
+						<li class="menu-footer__item"><a class="menu-footer__link" href="#">Для пекарен</a></li>
+						<li class="menu-footer__item"><a class="menu-footer__link" href="#">Для хранения замороженных
+								продуктов и
+								мороженого</a></li>
+					</ul>
+				</nav>
+			</div> -->
+				<!-- /.footer__col -->
+				<div class="footer__col">
+					<nav class="menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__title js-menu-footer__title">Информация</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">О Liebherr</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Акции и статьи</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Глоссарий</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Оплата и доставка</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Контакты</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Подключение</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Гарантия</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Возврат и обмен</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Сервис и обслуживание</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- /.footer__col -->
+				<div class="footer__col">
+					<div class="footer__text footer__text_first">Интернет-магазин Liebherr</div>
+					<a href="tel:+74951912633" class="footer__tel">+7 495 191-26-33</a>
+					<a href="tel:+78003331936" class="footer__tel">+7 800 333-19-36</a>
+					<a href="#" data-url="ajax/callback.html" data-ajax="" class="footer__call-phone-button js-callback">
+						<span>
+							Заказать звонок
+						</span>
+
+					</a>
+					<a href="mailto:shop@l-rus.ru" class="footer__email">
+						<i></i>shop@l-rus.ru</a>
+					<div class="footer__text footer__text_two">Режим работы</div>
+					<div class="footer__text footer__text_three">Пн-Пт: 08:00—22:00
+						<br>Сб-Вс: 09:00—22:00</div>
+				</div>
+				<!-- /.footer__col -->
+			</div>
+			<div class="footer__row">
+				<div class="footer__copyright">
+					© 2004 – 2019 Магазин LIEBHERR.
+					<br>«NTK LTD TM all rights reserved»
+				</div>
+				<div class="social-items">
+					<a href="#" class="social-link vk"></a>
+					<a href="#" class="social-link fb"></a>
+					<a href="#" class="social-link tw"></a>
+					<a href="#" class="social-link ok"></a>
+				</div>
+				<a class="privacy-policy" href="https://lbhr.ret-team.ru/personal-data/">Политика конфиденциальности</a>
+				<div class="footer__telephones">
+					<div class="l-abuse">
+						<a href="#" data-url="ajax/abuse.html" data-ajax class="footer__button abuse__button js-abuse__button" id="js-abuse-opener">Пожаловаться руководству
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- /.footer__row -->
+		</div>
+
+		<!-- /.footer__inner -->
+
+	</div>
+	<!-- /.footer -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+	<script src="js/frontend-works.js"></script>
+	<script src="js/jquery.ui.touch-punch.min.js"></script>
+	<script src="js/script.min.js"></script>
+
+
+	<script src="https://yastatic.net/browser-updater/v1/script.js" charset="utf-8"></script>
+	<script>
+		var yaBrowserUpdater = new ya.browserUpdater.init({
+			"lang": "ru",
+			"browsers": {
+				"yabrowser": "15.12",
+				"chrome": "54",
+				"ie": "11",
+				"opera": "41",
+				"safari": "8",
+				"fx": "49",
+				"iron": "35",
+				"flock": "Infinity",
+				"palemoon": "25",
+				"camino": "Infinity",
+				"maxthon": "4.5",
+				"seamonkey": "2.3"
+			},
+			"theme": "yellow"
+		});
+	</script>
+
+
+</body>
+
+</html>

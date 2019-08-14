@@ -1,0 +1,99 @@
+.help {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -3rem;
+  padding-bottom: 3rem;
+
+
+  &__row {
+    width: 100%;
+    font-family: 'Gotham Pro Medium';
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2e2e2e;
+    padding: 16px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    border: solid 1px #eeeeee;
+    margin: 9px 0;
+    background: url("https://icongr.am/fontawesome/caret-down.svg?color=666666") 99% 20px/20px no-repeat;
+    cursor: pointer;
+
+    &-open {
+      background: url("https://icongr.am/fontawesome/caret-up.svg?color=666666") 99% 20px/20px no-repeat;
+      color:  #394791;
+    }
+
+    &:hover {
+      box-shadow: 0 2px 25px 0 rgba(0, 0, 0, 0.14);
+    }
+
+    &:first-child {
+      margin-top: 35px;
+    }
+  }
+
+  &__info {
+    font-family: 'Gotham Pro';
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2e2e2e;
+    width: 100%;
+    margin-top: 15px;
+    display: none;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    &__row {
+      color: #2e2e2e;
+      font-family: "Gotham Pro Medium";
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+
+      &-open {
+        color:  #394791;
+      }
+    }
+
+    .help__info {
+      color: #2e2e2e;
+      font-family: "Gotham Pro";
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+
+
+  }
+
+  @media screen and (max-width: 480px) {
+    &__row {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 24px;
+
+      &-open {
+        color: #394791;
+      }
+    }
+
+    &__info {
+      font-family: "Gotham Pro";
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+}

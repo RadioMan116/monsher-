@@ -1,0 +1,221 @@
+.glossary {
+	width: 100%;
+	margin-bottom: 2rem;
+
+	* {
+		// transition: .5s;
+	}
+
+	&.closed {
+
+		.glossary__list {
+			display: none;
+		}
+
+		.glossary__title {
+			background: url("https://icongr.am/entypo/chevron-down.svg?color=#808080") #f8f8f8 22px 24px/18px no-repeat;
+			color: #2e2e2e;
+			font-family: "Roboto Condensed";
+			font-size: 24px;
+			font-weight: 400;
+			line-height: 24px;
+		}
+
+		.glossary__items {
+			background: #f8f8f8;
+		}
+
+		.glossary__item {
+			color: #394791;
+		}
+	}
+
+	&.only-link {
+		.glossary__li {
+			display: none;
+
+			&.active {
+				display: flex;
+			}
+		}
+	}
+
+	&__title {
+		color: #ffffff;
+		font-family: "Roboto Condensed";
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 24px;
+		background: url("https://icongr.am/entypo/chevron-up.svg?color=ffffff") #394791 22px 24px/18px no-repeat;
+		padding: 22px 56px;
+	}
+
+	&__items {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0 56px 22px;
+		background: #394791;
+		margin-top: -1px;
+
+	}
+
+	&__item {
+		display: flex;
+		align-items: flex-start;
+		color: #ffffff;
+		font-family: "Roboto Condensed";
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 30px;
+
+		&:after {
+			content: '| ';
+			margin: 0 5px;
+			width: 5px;
+		}
+	}
+
+	&__img {
+		width: 150px;
+		height: 150px;
+		margin-right: 2rem;
+	}
+
+	&__li {
+		display: flex;
+		margin-top: 2rem;
+		height: 30px;
+		overflow: hidden;
+		transition: 0.4s;
+
+
+		.glossary__b {
+			display: block;
+			width: 100%;
+			margin-bottom: 18px;
+			color: #333333;
+			font-family: "Roboto Condensed";
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 24px;
+			text-align: left;
+			color: #333333;
+			cursor: pointer;
+		}
+
+		.glossary__desc {
+			width: 100%;
+			color: #333333;
+			font-family: Arial;
+			font-size: 14px;
+			line-height: 22px;
+			text-align: left;
+			z-index: 99;
+			margin-top: 1rem;
+			margin: 0 !important;
+		}
+
+		.glossary__img {
+			// max-height: 0;
+			max-width: 0;
+			transform: scale(0);
+		}
+
+		&.active {
+			height: unset;
+			overflow: visible;
+			transition: all 0.4s;
+
+			.glossary__img {
+				max-width: 100%;
+				transform: scale(1);
+				// max-height: 100%;
+			}
+		}
+	}
+
+
+	&:first-child {
+		padding-top: 2rem;
+		border-top: 1px solid #e2e2e2;
+	}
+
+
+	@media screen and (max-width: 768px) {
+		&__img {
+			width: 120px;
+			height: 120px;
+		}
+
+		&__item {
+			&:after {
+				content: '| ';
+				margin: 0 4px;
+				width: 3px;
+			}
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+		&__img {
+			width: 75px;
+			height: 75px;
+			margin-bottom: 1rem;
+		}
+
+		&__li {
+			flex-direction: column;
+			margin-top: 16px;
+			height: 35px;
+
+			.glossary__desc {
+				font-size: 14px;
+				line-height: 22px;
+			}
+
+			b {
+				display: block;
+				width: 100%;
+				margin-bottom: 18px;
+				font-size: 16px;
+				font-weight: 400;
+				line-height: 24px;
+			}
+		}
+
+		&__title {
+			padding: 12px 46px;
+			font-size: 18px !important;
+			background: url("https://icongr.am/entypo/chevron-up.svg?color=ffffff") #394791 18px 15px/18px no-repeat;
+		}
+
+		&.closed {
+
+
+
+			.glossary__title {
+				background: url("https://icongr.am/entypo/chevron-down.svg?color=#808080") #f8f8f8 18px 15px/18px no-repeat;
+			}
+
+		}
+
+
+		&__items {
+			display: block;
+			padding: 0 16px 14px;
+		}
+
+		&__item {
+			font-size: 14px;
+			line-height: 24px;
+			display: inline;
+
+			&:after {
+				content: '| ';
+				margin: 0 4px;
+				width: 3px;
+			}
+		}
+	}
+
+}

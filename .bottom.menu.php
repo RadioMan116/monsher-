@@ -1,0 +1,75 @@
+<?
+$aMenuLinks = Array(	
+	/*
+	Array(
+		"О Monsher", 
+		"/about/", 
+		Array(), 
+		Array(), 
+		"" 
+	),	*/
+	Array(
+		"Доставка и оплата", 
+		"/delivery-and-payment/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Глоссарий", 
+		"/glossary/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Сервис", 
+		"/services/", 
+		Array(), 
+		Array(), 
+		"" 
+	),	
+	Array(
+		"Сервисные центры Monsher", 
+		"/guarantee/", 
+		Array(), 
+		Array(), 
+		"" 
+	),	
+	Array(
+		"Статьи", 
+		"/news/", 
+		Array(), 
+		Array(), 
+		"" 
+	),		
+	Array(
+		"Видео", 
+		"/video/", 
+		Array(), 
+		Array(), 
+		"" 
+	),		
+	Array(
+		"Возврат и обмен", 
+		"/kachestvo/", 
+		Array(), 
+		Array(), 
+		"" 
+	),		
+	Array(
+		"Помощь", 
+		"/help/", 
+		Array(), 
+		Array(), 
+		"" 
+	),		
+	Array(
+		"Контакты", 
+		"/contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

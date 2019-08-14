@@ -1,0 +1,413 @@
+.d-flex {
+
+	.articles {
+
+
+		&__list {
+			width: 100%;
+			margin-left: auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			.sidebar {
+				display: none;
+			}
+
+			.load-more {
+				height: 26px;
+				color: #394791;
+				font-family: "Roboto Condensed";
+				font-size: 16px;
+				font-weight: 400;
+				line-height: 24px;
+				border-bottom: 1px dashed #394791;
+				margin: 0 auto;
+				white-space: nowrap;
+				min-width: 100px;
+				text-align: center;
+				margin-bottom: 50px;
+				text-decoration: none !important;
+			}
+
+			.pagination {
+				margin: 0 auto 21px;
+			}
+		}
+
+
+
+		&__items {
+			display: flex;
+			flex-wrap: wrap;
+
+		}
+
+		&__item {
+			width: calc(((100%/12) * 4) - 15px);
+			margin: 0;
+			padding: 10px 0px 0px 7px;
+			margin-right: 15px;
+			margin-bottom: 29px;
+		}
+
+
+	}
+
+	.filter__tags {
+		border-radius: 2px;
+		background-color: #e7e7e7;
+		margin: 0 5px 5px 0;
+		height: 26px;
+		position: relative;
+		display: flex;
+		align-items: center;
+		text-decoration: unset;
+
+		.checkbox-custom,
+		.checkbox-number {
+			top: 1px;
+			font-family: Arial;
+			font-size: 13px;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.54;
+			letter-spacing: normal;
+			color: #333333;
+			position: relative;
+			background: unset;
+			text-decoration: unset;
+		}
+
+		.checkbox-custom {
+			padding: 3px 1rem 3px 5px;
+		}
+
+
+
+		/* Если реальный чекбокс у нас отмечен, то тогда добавляем данный признак и к нашему кастомному чекбоксу  */
+		&:hover {
+			background: #394791 !important;
+
+			.checkbox-custom,
+			.checkbox-number {
+				color: #ffffff;
+				text-decoration: unset;
+			}
+
+			/* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
+		}
+
+		&.active {
+			background: #d82300;
+
+			.checkbox-custom,
+			.checkbox-number {
+				color: #ffffff;
+			}
+
+			/* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
+		}
+
+		&.active .checkbox-custom+.checkbox-number {
+			color: #ffffff;
+		}
+
+		&:hover .checkbox-custom {
+
+
+
+			&+.checkbox-number {
+				// color: transparent;
+				// height: 100%;
+			}
+		}
+	}
+
+
+	// .pagination {
+	//   margin-top: 63px;
+	// }
+
+	@media screen and (max-width: 768px) {
+		.filter {
+			&__form {
+
+
+				.tags__item {}
+
+				.filter__checkbox {
+					width: 100%;
+
+					label {
+						align-items: center;
+					}
+
+					.filter__tags {
+						margin-right: 10px;
+
+						.checkbox-custom {
+							padding: 3px 16px 3px 10px;
+						}
+					}
+
+					.checkbox-number {
+						padding: 0 5px;
+					}
+				}
+			}
+
+			&__item {
+				overflow: hidden;
+			}
+
+			&__close {}
+
+			&__article {
+				position: relative;
+				margin-top: -13px;
+				margin-bottom: 11px;
+
+				.filter__title {
+					background: unset;
+				}
+
+				.filter__item {
+					position: unset;
+					padding: 10px 0 7px;
+				}
+
+				.close__filter:last-child {
+					top: 12px;
+					bottom: unset;
+				}
+			}
+		}
+
+		.articles__items {
+			width: 100%;
+
+			// .articles__item {
+			// 	width: calc(33.33333% - 15px);
+			// 	// margin: 0;
+			// 	padding: 10px 0 0 1px;
+			// 	margin-bottom: 29px;
+			// }
+		}
+
+		.articles__list {
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+
+			.load-more {
+				margin-bottom: 34px;
+			}
+
+			.sidebar {
+				display: flex;
+				align-content: baseline;
+				align-items: stretch;
+				flex-wrap: nowrap;
+				margin-bottom: 35px;
+
+				.work-link,
+				.yandex,
+				.quality {
+					width: calc(((100% / 12) * 4)-16px);
+					margin-bottom: 0;
+					height: auto;
+				}
+
+				.work-link,
+				.yandex {
+					margin-right: 24px;
+				}
+
+
+				.work-link {
+					padding: 5px;
+					padding-left: 0;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+
+					.work-link__item {
+						height: 33%;
+						padding: 6% 3px 6% 0;
+					}
+
+				}
+
+				.yandex {
+					padding: 4%;
+					margin-left: 0;
+
+					&__link_form {
+						margin-top: auto;
+					}
+				}
+
+				.quality {
+					padding: 3%;
+				}
+			}
+
+		}
+
+		.articles__title {
+			color: #262626;
+
+			font-size: 30px;
+			font-weight: 500;
+			line-height: 36px;
+		}
+
+	}
+
+	@media screen and (max-width: 600px) {
+		.articles__item {
+			width: 50%;
+		}
+	}
+
+	@media screen and (max-width: 550px) {
+		.articles__list {
+			.sidebar {
+				flex-wrap: wrap;
+				justify-content: center;
+				flex-direction: column;
+				margin: 0 auto;
+
+				.work-link,
+				.yandex,
+				.quality {
+					width: unset;
+					height: unset;
+					margin-bottom: 16px;
+					margin-right: 0;
+				}
+
+				.work-link {
+					padding: 0;
+					flex-wrap: nowrap;
+
+					.work-link__item {
+						padding: 5% 3px 4% 0;
+					}
+				}
+
+				.yandex {
+					padding: 10% 5% 9%;
+					margin-top: 0;
+
+					.yandex__pic {
+						margin-bottom: 22px;
+					}
+				}
+
+				.quality {
+					padding: 8%;
+					margin-bottom: 0;
+				}
+			}
+		}
+
+		.pagination {
+			margin: 8px auto 15px !important;
+		}
+	}
+
+
+	@media screen and (max-width: 767px) {
+
+		.filter {
+			.tags__item {
+				width: 100%;
+			}
+
+			&__article {
+				margin-top: -4px;
+				margin-bottom: 34px;
+
+				.close__filter:last-child {
+					top: 12px;
+					bottom: unset;
+					left: unset;
+					transform: unset;
+					width: 20px;
+					overflow: hidden;
+					padding-right: 7px;
+					font-family: 'Helvetica', 'Arial', sans-serif;
+					font-size: 1em;
+					font-weight: bold;
+					margin-left: auto;
+
+					&:before {
+						content: 'x'; // here is your X(cross) sign.
+						color: black;
+						font-weight: 300;
+						font-family: Arial, sans-serif;
+						padding: 0 5px;
+					}
+				}
+
+				.filter__item.item__close {
+					padding: 0;
+					height: 0;
+				}
+
+				.filter__item {
+					position: unset;
+					padding: 8px 0 15px;
+
+					.catalog__simile {
+						display: flex;
+						margin-top: 7px;
+					}
+				}
+
+				.filter__checkbox label {
+					width: 100%;
+				}
+
+				.filter__tags {
+					margin-right: 12px;
+					margin-bottom: 10px;
+				}
+			}
+
+
+		}
+
+		.articles__list {
+			margin-bottom: 50px;
+		}
+
+		.articles__title {
+			color: #262626;
+
+			font-size: 24px;
+			font-weight: 500;
+			line-height: 32px;
+		}
+
+		.articles__items {
+			margin: 0;
+			align-items: baseline;
+			align-content: baseline;
+
+			.articles__item {
+				width: 288px;
+				padding: 0;
+				flex-direction: column;
+
+				// flex-grow: 1;
+			}
+		}
+
+
+
+	}
+}

@@ -1,0 +1,6 @@
+<?
+class CMNTUrl extends CMNTUrlCommon
+{
+
+}
+?>

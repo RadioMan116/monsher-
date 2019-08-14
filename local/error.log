@@ -1,0 +1,340 @@
+2019-07-16 10:30:27 - Host: monsher-store.ru - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+count(): Parameter must be an array or an object that implements Countable (0)
+/var/www/clients/client1/web1/web/bitrix/modules/primelab.urltosef/include.php:911
+#0: CPrimelabUrlToSEF::OnPageStart()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/module.php:490
+#1: ExecuteModuleEventEx(array)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include.php:284
+#2: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/prolog_before.php:14
+#3: require_once(string)
+	/var/www/clients/client1/web6/web/_ecommerce/ecommerce.php:2
+----------
+2019-07-16 10:30:27 - Host: monsher-store.ru - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant BITRIX_PERSONAL_PHP_INTERFACE - assumed 'BITRIX_PERSONAL_PHP_INTERFACE' (this will throw an Error in a future version of PHP) (0)
+/var/www/clients/client1/web6/web/local/php_interface/include/auto_include/events/main_site_config.php:10
+#0: SetSiteConfig()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/module.php:475
+#1: ExecuteModuleEventEx(array)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/main.php:3481
+#2: CAllMain::PrologActions()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/prolog_before.php:16
+#3: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/prolog.php:10
+#4: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/header.php:1
+#5: require(string)
+	/var/www/clients/client1/web6/web/404.php:7
+#6: include_once(string)
+	/var/www/clients/client1/web1/web/bitrix/urlrewrite.php:4
+----------
+2019-07-16 10:30:27 - Host: monsher-store.ru - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+include_once(/var/www/clients/client1/web6/webBITRIX_PERSONAL_PHP_INTERFACE/include/site_config.php): failed to open stream: No such file or directory (0)
+/var/www/clients/client1/web6/web/local/php_interface/include/auto_include/events/main_site_config.php:10
+#0: include_once
+	/var/www/clients/client1/web6/web/local/php_interface/include/auto_include/events/main_site_config.php:10
+#1: SetSiteConfig()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/main.php:3481
+#3: CAllMain::PrologActions()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/prolog_before.php:16
+#4: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/prolog.php:10
+#5: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/header.php:1
+#6: require(string)
+	/var/www/clients/client1/web6/web/404.php:7
+#7: include_once(string)
+	/var/www/clients/client1/web1/web/bitrix/urlrewrite.php:4
+----------
+2019-07-16 10:30:27 - Host: monsher-store.ru - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+include_once(): Failed opening '/var/www/clients/client1/web6/webBITRIX_PERSONAL_PHP_INTERFACE/include/site_config.php' for inclusion (include_path='.:/opt/remi/php72/root/usr/share/pear:/opt/remi/php72/root/usr/share/php:/usr/share/pear:/usr/share/php') (0)
+/var/www/clients/client1/web6/web/local/php_interface/include/auto_include/events/main_site_config.php:10
+#0: include_once
+	/var/www/clients/client1/web6/web/local/php_interface/include/auto_include/events/main_site_config.php:10
+#1: SetSiteConfig()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/main.php:3481
+#3: CAllMain::PrologActions()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/prolog_before.php:16
+#4: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/prolog.php:10
+#5: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/header.php:1
+#6: require(string)
+	/var/www/clients/client1/web6/web/404.php:7
+#7: include_once(string)
+	/var/www/clients/client1/web1/web/bitrix/urlrewrite.php:4
+----------
+2019-07-16 10:30:27 - Host: monsher-store.ru - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+count(): Parameter must be an array or an object that implements Countable (0)
+/var/www/clients/client1/web6/web/local/components/inter.olsc/order.count/class.php:31
+#0: OrderCount->executeComponent()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/component.php:638
+#1: CBitrixComponent->includeComponent(string, array, boolean)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/main.php:1038
+#2: CAllMain->IncludeComponent(string, string, array, boolean)
+	/var/www/clients/client1/web6/web/local/templates/mn_main/header.php:188
+#3: include_once(string)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/prolog_after.php:106
+#4: require(string)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/prolog.php:11
+#5: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/header.php:1
+#6: require(string)
+	/var/www/clients/client1/web6/web/404.php:7
+#7: include_once(string)
+	/var/www/clients/client1/web1/web/bitrix/urlrewrite.php:4
+----------
+2019-07-16 10:30:27 - Host: monsher-store.ru - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant BITRIX_PERSONAL_PHP_INTERFACE - assumed 'BITRIX_PERSONAL_PHP_INTERFACE' (this will throw an Error in a future version of PHP) (0)
+/var/www/clients/client1/web6/web/local/php_interface/include/auto_include/events/main_site_config.php:10
+#0: SetSiteConfig()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/module.php:475
+#1: ExecuteModuleEventEx(array)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/main.php:3481
+#2: CAllMain::PrologActions()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/prolog_before.php:16
+#3: require_once(string)
+	/var/www/clients/client1/web6/web/_ecommerce/ecommerce.php:2
+----------
+2019-07-16 10:30:27 - Host: monsher-store.ru - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+include_once(/var/www/clients/client1/web6/webBITRIX_PERSONAL_PHP_INTERFACE/include/site_config.php): failed to open stream: No such file or directory (0)
+/var/www/clients/client1/web6/web/local/php_interface/include/auto_include/events/main_site_config.php:10
+#0: include_once
+	/var/www/clients/client1/web6/web/local/php_interface/include/auto_include/events/main_site_config.php:10
+#1: SetSiteConfig()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/main.php:3481
+#3: CAllMain::PrologActions()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/prolog_before.php:16
+#4: require_once(string)
+	/var/www/clients/client1/web6/web/_ecommerce/ecommerce.php:2
+----------
+2019-07-16 10:30:27 - Host: monsher-store.ru - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+include_once(): Failed opening '/var/www/clients/client1/web6/webBITRIX_PERSONAL_PHP_INTERFACE/include/site_config.php' for inclusion (include_path='.:/opt/remi/php72/root/usr/share/pear:/opt/remi/php72/root/usr/share/php:/usr/share/pear:/usr/share/php') (0)
+/var/www/clients/client1/web6/web/local/php_interface/include/auto_include/events/main_site_config.php:10
+#0: include_once
+	/var/www/clients/client1/web6/web/local/php_interface/include/auto_include/events/main_site_config.php:10
+#1: SetSiteConfig()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/main.php:3481
+#3: CAllMain::PrologActions()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/prolog_before.php:16
+#4: require_once(string)
+	/var/www/clients/client1/web6/web/_ecommerce/ecommerce.php:2
+----------
+2019-07-16 10:30:27 - Host: monsher-store.ru - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+count(): Parameter must be an array or an object that implements Countable (0)
+/var/www/clients/client1/web6/web/local/components/inter.olsc/order.count/class.php:31
+#0: OrderCount->executeComponent()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/component.php:638
+#1: CBitrixComponent->includeComponent(string, array, boolean)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/main.php:1038
+#2: CAllMain->IncludeComponent(string, string, array, boolean)
+	/var/www/clients/client1/web6/web/local/templates/mn_main/header.php:188
+#3: include(string)
+	/var/www/clients/client1/web6/web/local/php_interface/include/auto_include/events/main_404.php:28
+#4: Redirect404()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/module.php:475
+#5: ExecuteModuleEventEx(array)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/epilog_after.php:10
+#6: require(string)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/epilog.php:3
+#7: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/footer.php:4
+#8: require(string)
+	/var/www/clients/client1/web6/web/404.php:22
+#9: include_once(string)
+	/var/www/clients/client1/web1/web/bitrix/urlrewrite.php:4
+----------
+2019-07-16 10:30:27 - Host: monsher-store.ru - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+count(): Parameter must be an array or an object that implements Countable (0)
+/var/www/clients/client1/web6/web/local/components/inter.olsc/order.count/class.php:31
+#0: OrderCount->executeComponent()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/component.php:638
+#1: CBitrixComponent->includeComponent(string, array, boolean)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/main.php:1038
+#2: CAllMain->IncludeComponent(string, string, array, boolean)
+	/var/www/clients/client1/web6/web/local/templates/mn_main/header.php:188
+#3: include(string)
+	/var/www/clients/client1/web6/web/local/php_interface/include/auto_include/events/main_404.php:28
+#4: Redirect404()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/module.php:475
+#5: ExecuteModuleEventEx(array)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/epilog_after.php:10
+#6: require(string)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/epilog.php:3
+#7: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/footer.php:4
+#8: require(string)
+	/var/www/clients/client1/web6/web/404.php:22
+#9: include_once(string)
+	/var/www/clients/client1/web1/web/bitrix/urlrewrite.php:4
+----------
+2019-07-16 10:30:28 - Host: monsher-store.ru - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+count(): Parameter must be an array or an object that implements Countable (0)
+/var/www/clients/client1/web1/web/bitrix/modules/primelab.urltosef/include.php:865
+#0: CPrimelabUrlToSEF::OnPageStart()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/module.php:490
+#1: ExecuteModuleEventEx(array)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include.php:284
+#2: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/prolog_before.php:14
+#3: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/prolog.php:10
+#4: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/header.php:1
+#5: require(string)
+	/var/www/clients/client1/web6/web/404.php:7
+#6: include_once(string)
+	/var/www/clients/client1/web1/web/bitrix/urlrewrite.php:4
+----------
+2019-07-16 10:30:28 - Host: monsher-store.ru - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+count(): Parameter must be an array or an object that implements Countable (0)
+/var/www/clients/client1/web1/web/bitrix/modules/primelab.urltosef/include.php:911
+#0: CPrimelabUrlToSEF::OnPageStart()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/module.php:490
+#1: ExecuteModuleEventEx(array)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include.php:284
+#2: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/prolog_before.php:14
+#3: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/prolog.php:10
+#4: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/header.php:1
+#5: require(string)
+	/var/www/clients/client1/web6/web/404.php:7
+#6: include_once(string)
+	/var/www/clients/client1/web1/web/bitrix/urlrewrite.php:4
+----------
+2019-07-16 10:30:28 - Host: monsher-store.ru - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Use of undefined constant BITRIX_PERSONAL_PHP_INTERFACE - assumed 'BITRIX_PERSONAL_PHP_INTERFACE' (this will throw an Error in a future version of PHP) (0)
+/var/www/clients/client1/web6/web/local/php_interface/include/auto_include/events/main_site_config.php:10
+#0: SetSiteConfig()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/module.php:475
+#1: ExecuteModuleEventEx(array)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/main.php:3481
+#2: CAllMain::PrologActions()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/prolog_before.php:16
+#3: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/prolog.php:10
+#4: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/header.php:1
+#5: require(string)
+	/var/www/clients/client1/web6/web/404.php:7
+#6: include_once(string)
+	/var/www/clients/client1/web1/web/bitrix/urlrewrite.php:4
+----------
+2019-07-16 10:30:28 - Host: monsher-store.ru - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+include_once(/var/www/clients/client1/web6/webBITRIX_PERSONAL_PHP_INTERFACE/include/site_config.php): failed to open stream: No such file or directory (0)
+/var/www/clients/client1/web6/web/local/php_interface/include/auto_include/events/main_site_config.php:10
+#0: include_once
+	/var/www/clients/client1/web6/web/local/php_interface/include/auto_include/events/main_site_config.php:10
+#1: SetSiteConfig()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/main.php:3481
+#3: CAllMain::PrologActions()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/prolog_before.php:16
+#4: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/prolog.php:10
+#5: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/header.php:1
+#6: require(string)
+	/var/www/clients/client1/web6/web/404.php:7
+#7: include_once(string)
+	/var/www/clients/client1/web1/web/bitrix/urlrewrite.php:4
+----------
+2019-07-16 10:30:28 - Host: monsher-store.ru - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+include_once(): Failed opening '/var/www/clients/client1/web6/webBITRIX_PERSONAL_PHP_INTERFACE/include/site_config.php' for inclusion (include_path='.:/opt/remi/php72/root/usr/share/pear:/opt/remi/php72/root/usr/share/php:/usr/share/pear:/usr/share/php') (0)
+/var/www/clients/client1/web6/web/local/php_interface/include/auto_include/events/main_site_config.php:10
+#0: include_once
+	/var/www/clients/client1/web6/web/local/php_interface/include/auto_include/events/main_site_config.php:10
+#1: SetSiteConfig()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/main.php:3481
+#3: CAllMain::PrologActions()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/prolog_before.php:16
+#4: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/prolog.php:10
+#5: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/header.php:1
+#6: require(string)
+	/var/www/clients/client1/web6/web/404.php:7
+#7: include_once(string)
+	/var/www/clients/client1/web1/web/bitrix/urlrewrite.php:4
+----------
+2019-07-16 10:30:28 - Host: monsher-store.ru - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+count(): Parameter must be an array or an object that implements Countable (0)
+/var/www/clients/client1/web6/web/local/components/inter.olsc/order.count/class.php:31
+#0: OrderCount->executeComponent()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/component.php:638
+#1: CBitrixComponent->includeComponent(string, array, boolean)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/main.php:1038
+#2: CAllMain->IncludeComponent(string, string, array, boolean)
+	/var/www/clients/client1/web6/web/local/templates/mn_main/header.php:188
+#3: include_once(string)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/prolog_after.php:106
+#4: require(string)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/prolog.php:11
+#5: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/header.php:1
+#6: require(string)
+	/var/www/clients/client1/web6/web/404.php:7
+#7: include_once(string)
+	/var/www/clients/client1/web1/web/bitrix/urlrewrite.php:4
+----------
+2019-07-16 10:30:28 - Host: monsher-store.ru - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+count(): Parameter must be an array or an object that implements Countable (0)
+/var/www/clients/client1/web6/web/local/components/inter.olsc/order.count/class.php:31
+#0: OrderCount->executeComponent()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/component.php:638
+#1: CBitrixComponent->includeComponent(string, array, boolean)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/main.php:1038
+#2: CAllMain->IncludeComponent(string, string, array, boolean)
+	/var/www/clients/client1/web6/web/local/templates/mn_main/header.php:188
+#3: include(string)
+	/var/www/clients/client1/web6/web/local/php_interface/include/auto_include/events/main_404.php:28
+#4: Redirect404()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/module.php:475
+#5: ExecuteModuleEventEx(array)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/epilog_after.php:10
+#6: require(string)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/epilog.php:3
+#7: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/footer.php:4
+#8: require(string)
+	/var/www/clients/client1/web6/web/404.php:22
+#9: include_once(string)
+	/var/www/clients/client1/web1/web/bitrix/urlrewrite.php:4
+----------
+2019-07-16 10:30:28 - Host: monsher-store.ru - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+count(): Parameter must be an array or an object that implements Countable (0)
+/var/www/clients/client1/web6/web/local/components/inter.olsc/order.count/class.php:31
+#0: OrderCount->executeComponent()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/component.php:638
+#1: CBitrixComponent->includeComponent(string, array, boolean)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/main.php:1038
+#2: CAllMain->IncludeComponent(string, string, array, boolean)
+	/var/www/clients/client1/web6/web/local/templates/mn_main/header.php:188
+#3: include(string)
+	/var/www/clients/client1/web6/web/local/php_interface/include/auto_include/events/main_404.php:28
+#4: Redirect404()
+	/var/www/clients/client1/web1/web/bitrix/modules/main/classes/general/module.php:475
+#5: ExecuteModuleEventEx(array)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/epilog_after.php:10
+#6: require(string)
+	/var/www/clients/client1/web1/web/bitrix/modules/main/include/epilog.php:3
+#7: require_once(string)
+	/var/www/clients/client1/web1/web/bitrix/footer.php:4
+#8: require(string)
+	/var/www/clients/client1/web6/web/404.php:22
+#9: include_once(string)
+	/var/www/clients/client1/web1/web/bitrix/urlrewrite.php:4
+----------

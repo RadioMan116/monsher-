@@ -1,0 +1,33 @@
+.b-icons_list {
+	border: 2px solid #f0f2f3;
+	letter-spacing: -5px;
+	padding: 28px 0 4px;
+	width: 841px;
+	
+	
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.b-icons_item {
+	display: inline-block;
+	letter-spacing: 0px;
+	margin: 0 0 19px 19px;	
+	
+	cursor: pointer;
+}
+.b-icons_desc {
+	display: none;
+}
+
+.b-icons_desc-title {
+	font-weight: 700;
+	font-size: 11px;
+}
+.b-icons_desc-text {
+	margin-top: 10px;
+	font-size: 11px;
+    line-height: 13px;	
+    color: #929297;	
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="24" viewBox="0 0 16 24">
+  <defs>
+    <path id="двухкамерный-b" d="M12,12 L12,3 L11,3 L11,2 L12,2 L13,2 L13,13 L12,13 L11,13 L11,12 L12,12 Z"/>
+    <filter id="двухкамерный-a" width="600%" height="190.9%" x="-250%" y="-36.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.223529412   0 0 0 0 0.278431373   0 0 0 0 0.568627451  0 0 0 0.401360358 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="15" height="23" x=".5" y=".5" stroke="#394791"/>
+    <rect width="1" height="16" x="7.5" y="7.5" fill="#394791" transform="rotate(90 8 15.5)"/>
+    <rect width="12" height="1" x="2" y="17" fill="#000" opacity=".152"/>
+    <use fill="#000" filter="url(#двухкамерный-a)" xlink:href="#двухкамерный-b"/>
+    <use fill="#394791" xlink:href="#двухкамерный-b"/>
+  </g>
+</svg>

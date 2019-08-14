@@ -1,0 +1,82 @@
+.warranty_popup {
+    max-width: 999px;
+    width: 100% !important;
+    padding: 24px !important;
+
+    b {
+        display: block;
+        width: 100%;
+        color: #2e2e2e;
+        font-size: 14px;
+        line-height: 22px;
+        font-family: Arial;
+        font-weight: 700;
+    }
+
+    p {
+        width: 33%;
+        color: #2e2e2e;
+        font-family: Arial;
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 1rem;
+        padding-right: 2rem;
+    }
+
+    .warranty__title {
+        color: #2e2e2e;
+        font-family: "Roboto Condensed";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 2rem;
+        width: unset !important;
+    }
+
+    .warranty__items {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    @media screen and (max-width: 1000px) {
+        overflow-y: scroll;
+        max-height: 700px;
+
+        p {
+            width: 50%;
+            color: #2e2e2e;
+            font-family: Arial;
+            font-size: 14px;
+            line-height: 22px;
+            margin-bottom: 1rem;
+            padding-right: 2rem;
+        }
+    }
+
+    @media screen and (max-width: 550px) {
+        overflow-y: scroll;
+        max-height: unset;
+
+        .warranty__title {
+            color: #2e2e2e;
+            font-family: "Roboto Condensed";
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: left;
+            width: unset !important;
+            height: unset !important;
+        }
+
+
+    }
+
+    @media screen and (max-width: 480px) {
+        overflow-y: scroll;
+        max-height: unset;
+
+        p {
+            width: 100%;
+        }
+    }
+}

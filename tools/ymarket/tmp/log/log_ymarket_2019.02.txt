@@ -1,0 +1,482 @@
+22.02.2019 19:14:56 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: YML_GENERATOR
+Статус обновления: требуется обновление по таймауту (1200 сек)
+
+MODE: manual
+Processing iblock 'varochnye-paneli' (usual: 22, base: 0 )
+Processing iblock 'kholodilniki' (usual: 6, base: 0 )
+Processing iblock 'vinnye-shkafy' (usual: 0, base: 0 )
+Processing iblock 'stiralnye-mashiny' (usual: 0, base: 0 )
+Processing iblock 'modulnye-sistemy' (usual: 4, base: 0 )
+Processing iblock 'dukhovye-shkafy' (usual: 13, base: 0 )
+Processing iblock 'mikrovolnovye-pechi' (usual: 9, base: 0 )
+Processing iblock 'parovarki' (usual: 2, base: 0 )
+Processing iblock 'posudomoechnye-mashiny' (usual: 1, base: 0 )
+Processing iblock 'vytyazhki' (usual: 17, base: 0 )
+Processing iblock 'podogrevateli' (usual: 2, base: 0 )
+Processing iblock 'aksessuary' (usual: 6, base: 0 )
+Processing iblock 'kofemashiny' (usual: 1, base: 0 )
+Processing complete
+File size: 345.92 Kb
+Processing time: 1.015 sec.
+
+Errors:
+Processing complete / Error saving xml
+----------
+22.02.2019 19:15:54 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: YML_GENERATOR
+Статус обновления: требуется обновление по таймауту (1200 сек)
+
+MODE: manual
+Processing iblock 'varochnye-paneli' (usual: 22, base: 0 )
+Processing iblock 'kholodilniki' (usual: 6, base: 0 )
+Processing iblock 'vinnye-shkafy' (usual: 0, base: 0 )
+Processing iblock 'stiralnye-mashiny' (usual: 0, base: 0 )
+Processing iblock 'modulnye-sistemy' (usual: 4, base: 0 )
+Processing iblock 'dukhovye-shkafy' (usual: 13, base: 0 )
+Processing iblock 'mikrovolnovye-pechi' (usual: 9, base: 0 )
+Processing iblock 'parovarki' (usual: 2, base: 0 )
+Processing iblock 'posudomoechnye-mashiny' (usual: 1, base: 0 )
+Processing iblock 'vytyazhki' (usual: 17, base: 0 )
+Processing iblock 'podogrevateli' (usual: 2, base: 0 )
+Processing iblock 'aksessuary' (usual: 6, base: 0 )
+Processing iblock 'kofemashiny' (usual: 1, base: 0 )
+Processing complete
+File size: 345.92 Kb
+File size: 345.92 Kb
+Processing time: 0.811 sec.
+----------
+22.02.2019 19:21:43 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: YML_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing iblock 'varochnye-paneli' (usual: 22, base: 0 )
+Processing iblock 'kholodilniki' (usual: 6, base: 0 )
+Processing iblock 'vinnye-shkafy' (usual: 0, base: 0 )
+Processing iblock 'stiralnye-mashiny' (usual: 0, base: 0 )
+Processing iblock 'modulnye-sistemy' (usual: 4, base: 0 )
+Processing iblock 'dukhovye-shkafy' (usual: 13, base: 0 )
+Processing iblock 'mikrovolnovye-pechi' (usual: 9, base: 0 )
+Processing iblock 'parovarki' (usual: 2, base: 0 )
+Processing iblock 'posudomoechnye-mashiny' (usual: 1, base: 0 )
+Processing iblock 'vytyazhki' (usual: 17, base: 0 )
+Processing iblock 'podogrevateli' (usual: 2, base: 0 )
+Processing iblock 'aksessuary' (usual: 6, base: 0 )
+Processing iblock 'kofemashiny' (usual: 1, base: 0 )
+Processing complete
+File size: 272.17 Kb
+File size: 272.17 Kb
+Processing time: 0.99 sec.
+----------
+22.02.2019 19:23:49 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: YML_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing iblock 'varochnye-paneli' (usual: 22, base: 0 )
+Processing iblock 'kholodilniki' (usual: 6, base: 0 )
+Processing iblock 'vinnye-shkafy' (usual: 0, base: 0 )
+Processing iblock 'stiralnye-mashiny' (usual: 0, base: 0 )
+Processing iblock 'modulnye-sistemy' (usual: 4, base: 0 )
+Processing iblock 'dukhovye-shkafy' (usual: 13, base: 0 )
+Processing iblock 'mikrovolnovye-pechi' (usual: 9, base: 0 )
+Processing iblock 'parovarki' (usual: 2, base: 0 )
+Processing iblock 'posudomoechnye-mashiny' (usual: 1, base: 0 )
+Processing iblock 'vytyazhki' (usual: 17, base: 0 )
+Processing iblock 'podogrevateli' (usual: 2, base: 0 )
+Processing iblock 'aksessuary' (usual: 6, base: 0 )
+Processing iblock 'kofemashiny' (usual: 1, base: 0 )
+Processing complete
+File size: 272.17 Kb
+File size: 272.17 Kb
+Processing time: 0.943 sec.
+----------
+22.02.2019 19:24:33 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: YML_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing iblock 'varochnye-paneli' (usual: 22, base: 0 )
+Processing iblock 'kholodilniki' (usual: 6, base: 0 )
+Processing iblock 'vinnye-shkafy' (usual: 0, base: 0 )
+Processing iblock 'stiralnye-mashiny' (usual: 0, base: 0 )
+Processing iblock 'modulnye-sistemy' (usual: 4, base: 0 )
+Processing iblock 'dukhovye-shkafy' (usual: 13, base: 0 )
+Processing iblock 'mikrovolnovye-pechi' (usual: 9, base: 0 )
+Processing iblock 'parovarki' (usual: 2, base: 0 )
+Processing iblock 'posudomoechnye-mashiny' (usual: 1, base: 0 )
+Processing iblock 'vytyazhki' (usual: 17, base: 0 )
+Processing iblock 'podogrevateli' (usual: 2, base: 0 )
+Processing iblock 'aksessuary' (usual: 6, base: 0 )
+Processing iblock 'kofemashiny' (usual: 1, base: 0 )
+Processing complete
+File size: 272.17 Kb
+File size: 272.17 Kb
+Processing time: 1.058 sec.
+----------
+22.02.2019 19:26:37 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: YML_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing iblock 'varochnye-paneli' (usual: 22, base: 0 )
+Processing iblock 'kholodilniki' (usual: 6, base: 0 )
+Processing iblock 'vinnye-shkafy' (usual: 0, base: 0 )
+Processing iblock 'stiralnye-mashiny' (usual: 0, base: 0 )
+Processing iblock 'modulnye-sistemy' (usual: 4, base: 0 )
+Processing iblock 'dukhovye-shkafy' (usual: 13, base: 0 )
+Processing iblock 'mikrovolnovye-pechi' (usual: 9, base: 0 )
+Processing iblock 'parovarki' (usual: 2, base: 0 )
+Processing iblock 'posudomoechnye-mashiny' (usual: 1, base: 0 )
+Processing iblock 'vytyazhki' (usual: 17, base: 0 )
+Processing iblock 'podogrevateli' (usual: 2, base: 0 )
+Processing iblock 'aksessuary' (usual: 6, base: 0 )
+Processing iblock 'kofemashiny' (usual: 1, base: 0 )
+Processing complete
+File size: 269.37 Kb
+File size: 269.37 Kb
+Processing time: 0.852 sec.
+----------
+22.02.2019 19:26:41 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: YML_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing iblock 'varochnye-paneli' (usual: 22, base: 0 )
+Processing iblock 'kholodilniki' (usual: 6, base: 0 )
+Processing iblock 'vinnye-shkafy' (usual: 0, base: 0 )
+Processing iblock 'stiralnye-mashiny' (usual: 0, base: 0 )
+Processing iblock 'modulnye-sistemy' (usual: 4, base: 0 )
+Processing iblock 'dukhovye-shkafy' (usual: 13, base: 0 )
+Processing iblock 'mikrovolnovye-pechi' (usual: 9, base: 0 )
+Processing iblock 'parovarki' (usual: 2, base: 0 )
+Processing iblock 'posudomoechnye-mashiny' (usual: 1, base: 0 )
+Processing iblock 'vytyazhki' (usual: 17, base: 0 )
+Processing iblock 'podogrevateli' (usual: 2, base: 0 )
+Processing iblock 'aksessuary' (usual: 6, base: 0 )
+Processing iblock 'kofemashiny' (usual: 1, base: 0 )
+Processing complete
+File size: 269.37 Kb
+File size: 269.37 Kb
+Processing time: 0.964 sec.
+----------
+22.02.2019 19:27:07 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: YML_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing iblock 'varochnye-paneli' (usual: 22, base: 0 )
+Processing iblock 'kholodilniki' (usual: 6, base: 0 )
+Processing iblock 'vinnye-shkafy' (usual: 0, base: 0 )
+Processing iblock 'stiralnye-mashiny' (usual: 0, base: 0 )
+Processing iblock 'modulnye-sistemy' (usual: 4, base: 0 )
+Processing iblock 'dukhovye-shkafy' (usual: 13, base: 0 )
+Processing iblock 'mikrovolnovye-pechi' (usual: 9, base: 0 )
+Processing iblock 'parovarki' (usual: 2, base: 0 )
+Processing iblock 'posudomoechnye-mashiny' (usual: 1, base: 0 )
+Processing iblock 'vytyazhki' (usual: 17, base: 0 )
+Processing iblock 'podogrevateli' (usual: 2, base: 0 )
+Processing iblock 'aksessuary' (usual: 6, base: 0 )
+Processing iblock 'kofemashiny' (usual: 1, base: 0 )
+Processing complete
+File size: 269.37 Kb
+File size: 269.37 Kb
+Processing time: 0.915 sec.
+----------
+22.02.2019 19:27:20 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: YML_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing iblock 'varochnye-paneli' (usual: 22, base: 0 )
+Processing iblock 'kholodilniki' (usual: 6, base: 0 )
+Processing iblock 'vinnye-shkafy' (usual: 0, base: 0 )
+Processing iblock 'stiralnye-mashiny' (usual: 0, base: 0 )
+Processing iblock 'modulnye-sistemy' (usual: 4, base: 0 )
+Processing iblock 'dukhovye-shkafy' (usual: 13, base: 0 )
+Processing iblock 'mikrovolnovye-pechi' (usual: 9, base: 0 )
+Processing iblock 'parovarki' (usual: 2, base: 0 )
+Processing iblock 'posudomoechnye-mashiny' (usual: 1, base: 0 )
+Processing iblock 'vytyazhki' (usual: 17, base: 0 )
+Processing iblock 'podogrevateli' (usual: 2, base: 0 )
+Processing iblock 'aksessuary' (usual: 6, base: 0 )
+Processing iblock 'kofemashiny' (usual: 1, base: 0 )
+Processing complete
+File size: 269.37 Kb
+File size: 269.37 Kb
+Processing time: 0.868 sec.
+----------
+22.02.2019 19:27:52 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: YML_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing iblock 'varochnye-paneli' (usual: 22, base: 0 )
+Processing iblock 'kholodilniki' (usual: 6, base: 0 )
+Processing iblock 'vinnye-shkafy' (usual: 0, base: 0 )
+Processing iblock 'stiralnye-mashiny' (usual: 0, base: 0 )
+Processing iblock 'modulnye-sistemy' (usual: 4, base: 0 )
+Processing iblock 'dukhovye-shkafy' (usual: 13, base: 0 )
+Processing iblock 'mikrovolnovye-pechi' (usual: 9, base: 0 )
+Processing iblock 'parovarki' (usual: 2, base: 0 )
+Processing iblock 'posudomoechnye-mashiny' (usual: 1, base: 0 )
+Processing iblock 'vytyazhki' (usual: 17, base: 0 )
+Processing iblock 'podogrevateli' (usual: 2, base: 0 )
+Processing iblock 'aksessuary' (usual: 6, base: 0 )
+Processing iblock 'kofemashiny' (usual: 1, base: 0 )
+Processing complete
+File size: 331.12 Kb
+File size: 331.12 Kb
+Processing time: 0.861 sec.
+----------
+22.02.2019 19:28:02 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: YML_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing iblock 'varochnye-paneli' (usual: 22, base: 0 )
+Processing iblock 'kholodilniki' (usual: 6, base: 0 )
+Processing iblock 'vinnye-shkafy' (usual: 0, base: 0 )
+Processing iblock 'stiralnye-mashiny' (usual: 0, base: 0 )
+Processing iblock 'modulnye-sistemy' (usual: 4, base: 0 )
+Processing iblock 'dukhovye-shkafy' (usual: 13, base: 0 )
+Processing iblock 'mikrovolnovye-pechi' (usual: 9, base: 0 )
+Processing iblock 'parovarki' (usual: 2, base: 0 )
+Processing iblock 'posudomoechnye-mashiny' (usual: 1, base: 0 )
+Processing iblock 'vytyazhki' (usual: 17, base: 0 )
+Processing iblock 'podogrevateli' (usual: 2, base: 0 )
+Processing iblock 'aksessuary' (usual: 6, base: 0 )
+Processing iblock 'kofemashiny' (usual: 1, base: 0 )
+Processing complete
+File size: 331.12 Kb
+File size: 331.12 Kb
+Processing time: 1.286 sec.
+----------
+22.02.2019 19:32:16 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: YML_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing iblock 'varochnye-paneli' (usual: 22, base: 0 )
+Processing iblock 'kholodilniki' (usual: 6, base: 0 )
+Processing iblock 'vinnye-shkafy' (usual: 0, base: 0 )
+Processing iblock 'stiralnye-mashiny' (usual: 0, base: 0 )
+Processing iblock 'modulnye-sistemy' (usual: 4, base: 0 )
+Processing iblock 'dukhovye-shkafy' (usual: 13, base: 0 )
+Processing iblock 'mikrovolnovye-pechi' (usual: 9, base: 0 )
+Processing iblock 'parovarki' (usual: 2, base: 0 )
+Processing iblock 'posudomoechnye-mashiny' (usual: 1, base: 0 )
+Processing iblock 'vytyazhki' (usual: 17, base: 0 )
+Processing iblock 'podogrevateli' (usual: 2, base: 0 )
+Processing iblock 'aksessuary' (usual: 6, base: 0 )
+Processing iblock 'kofemashiny' (usual: 1, base: 0 )
+Processing complete
+File size: 331.12 Kb
+File size: 331.12 Kb
+Processing time: 1.051 sec.
+----------
+22.02.2019 19:32:19 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: YML_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing iblock 'varochnye-paneli' (usual: 22, base: 0 )
+Processing iblock 'kholodilniki' (usual: 6, base: 0 )
+Processing iblock 'vinnye-shkafy' (usual: 0, base: 0 )
+Processing iblock 'stiralnye-mashiny' (usual: 0, base: 0 )
+Processing iblock 'modulnye-sistemy' (usual: 4, base: 0 )
+Processing iblock 'dukhovye-shkafy' (usual: 13, base: 0 )
+Processing iblock 'mikrovolnovye-pechi' (usual: 9, base: 0 )
+Processing iblock 'parovarki' (usual: 2, base: 0 )
+Processing iblock 'posudomoechnye-mashiny' (usual: 1, base: 0 )
+Processing iblock 'vytyazhki' (usual: 17, base: 0 )
+Processing iblock 'podogrevateli' (usual: 2, base: 0 )
+Processing iblock 'aksessuary' (usual: 6, base: 0 )
+Processing iblock 'kofemashiny' (usual: 1, base: 0 )
+Processing complete
+File size: 331.12 Kb
+File size: 331.12 Kb
+Processing time: 0.889 sec.
+----------
+22.02.2019 19:32:25 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: YML_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing iblock 'varochnye-paneli' (usual: 22, base: 0 )
+Processing iblock 'kholodilniki' (usual: 6, base: 0 )
+Processing iblock 'vinnye-shkafy' (usual: 0, base: 0 )
+Processing iblock 'stiralnye-mashiny' (usual: 0, base: 0 )
+Processing iblock 'modulnye-sistemy' (usual: 4, base: 0 )
+Processing iblock 'dukhovye-shkafy' (usual: 13, base: 0 )
+Processing iblock 'mikrovolnovye-pechi' (usual: 9, base: 0 )
+Processing iblock 'parovarki' (usual: 2, base: 0 )
+Processing iblock 'posudomoechnye-mashiny' (usual: 1, base: 0 )
+Processing iblock 'vytyazhki' (usual: 17, base: 0 )
+Processing iblock 'podogrevateli' (usual: 2, base: 0 )
+Processing iblock 'aksessuary' (usual: 6, base: 0 )
+Processing iblock 'kofemashiny' (usual: 1, base: 0 )
+Processing complete
+File size: 331.12 Kb
+File size: 331.12 Kb
+Processing time: 0.903 sec.
+----------
+22.02.2019 19:32:50 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: YML_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing iblock 'varochnye-paneli' (usual: 22, base: 0 )
+Processing iblock 'kholodilniki' (usual: 6, base: 0 )
+Processing iblock 'vinnye-shkafy' (usual: 0, base: 0 )
+Processing iblock 'stiralnye-mashiny' (usual: 0, base: 0 )
+Processing iblock 'modulnye-sistemy' (usual: 4, base: 0 )
+Processing iblock 'dukhovye-shkafy' (usual: 13, base: 0 )
+Processing iblock 'mikrovolnovye-pechi' (usual: 9, base: 0 )
+Processing iblock 'parovarki' (usual: 2, base: 0 )
+Processing iblock 'posudomoechnye-mashiny' (usual: 1, base: 0 )
+Processing iblock 'vytyazhki' (usual: 17, base: 0 )
+Processing iblock 'podogrevateli' (usual: 2, base: 0 )
+Processing iblock 'aksessuary' (usual: 6, base: 0 )
+Processing iblock 'kofemashiny' (usual: 1, base: 0 )
+Processing complete
+File size: 331.12 Kb
+File size: 331.12 Kb
+Processing time: 1.297 sec.
+----------
+25.02.2019 17:53:53 - 
+NEED_UPDATE: 1
+UPDATE_EVENT: OnAfterIBlockElementUpdate
+Статус обновления: требуется обновление по событию 'OnAfterIBlockElementUpdate'
+
+MODE: manual
+Processing iblock 'varochnye-paneli' (usual: 22, base: 0 )
+Processing iblock 'kholodilniki' (usual: 6, base: 0 )
+Processing iblock 'vinnye-shkafy' (usual: 0, base: 0 )
+Processing iblock 'stiralnye-mashiny' (usual: 0, base: 0 )
+Processing iblock 'modulnye-sistemy' (usual: 4, base: 0 )
+Processing iblock 'dukhovye-shkafy' (usual: 13, base: 0 )
+Processing iblock 'mikrovolnovye-pechi' (usual: 9, base: 0 )
+Processing iblock 'parovarki' (usual: 2, base: 0 )
+Processing iblock 'posudomoechnye-mashiny' (usual: 1, base: 0 )
+Processing iblock 'vytyazhki' (usual: 17, base: 0 )
+Processing iblock 'podogrevateli' (usual: 2, base: 0 )
+Processing iblock 'aksessuary' (usual: 6, base: 0 )
+Processing iblock 'kofemashiny' (usual: 1, base: 0 )
+Processing complete
+File size: 331.11 Kb
+File size: 331.11 Kb
+Processing time: 0.918 sec.
+----------
+25.02.2019 17:55:25 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: YML_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing iblock 'varochnye-paneli' (usual: 22, base: 0 )
+Processing iblock 'kholodilniki' (usual: 6, base: 0 )
+Processing iblock 'vinnye-shkafy' (usual: 0, base: 0 )
+Processing iblock 'stiralnye-mashiny' (usual: 0, base: 0 )
+Processing iblock 'modulnye-sistemy' (usual: 4, base: 0 )
+Processing iblock 'dukhovye-shkafy' (usual: 13, base: 0 )
+Processing iblock 'mikrovolnovye-pechi' (usual: 9, base: 0 )
+Processing iblock 'parovarki' (usual: 2, base: 0 )
+Processing iblock 'posudomoechnye-mashiny' (usual: 1, base: 0 )
+Processing iblock 'vytyazhki' (usual: 17, base: 0 )
+Processing iblock 'podogrevateli' (usual: 2, base: 0 )
+Processing iblock 'aksessuary' (usual: 6, base: 0 )
+Processing iblock 'kofemashiny' (usual: 1, base: 0 )
+Processing complete
+File size: 331.98 Kb
+File size: 331.98 Kb
+Processing time: 1.039 sec.
+----------
+25.02.2019 17:55:56 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: YML_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing iblock 'varochnye-paneli' (usual: 22, base: 0 )
+Processing iblock 'kholodilniki' (usual: 6, base: 0 )
+Processing iblock 'vinnye-shkafy' (usual: 0, base: 0 )
+Processing iblock 'stiralnye-mashiny' (usual: 0, base: 0 )
+Processing iblock 'modulnye-sistemy' (usual: 4, base: 0 )
+Processing iblock 'dukhovye-shkafy' (usual: 13, base: 0 )
+Processing iblock 'mikrovolnovye-pechi' (usual: 9, base: 0 )
+Processing iblock 'parovarki' (usual: 2, base: 0 )
+Processing iblock 'posudomoechnye-mashiny' (usual: 1, base: 0 )
+Processing iblock 'vytyazhki' (usual: 17, base: 0 )
+Processing iblock 'podogrevateli' (usual: 2, base: 0 )
+Processing iblock 'aksessuary' (usual: 6, base: 0 )
+Processing iblock 'kofemashiny' (usual: 1, base: 0 )
+Processing complete
+File size: 330.87 Kb
+File size: 330.87 Kb
+Processing time: 0.991 sec.
+----------
+26.02.2019 17:43:42 - 
+NEED_UPDATE: 1
+UPDATE_EVENT: OnAfterIBlockElementAdd
+Статус обновления: требуется обновление по событию 'OnAfterIBlockElementAdd'
+
+MODE: manual
+Processing iblock 'varochnye-paneli' (usual: 22, base: 0 )
+Processing iblock 'kholodilniki' (usual: 6, base: 0 )
+Processing iblock 'vinnye-shkafy' (usual: 0, base: 0 )
+Processing iblock 'stiralnye-mashiny' (usual: 0, base: 0 )
+Processing iblock 'modulnye-sistemy' (usual: 4, base: 0 )
+Processing iblock 'dukhovye-shkafy' (usual: 13, base: 0 )
+Processing iblock 'mikrovolnovye-pechi' (usual: 9, base: 0 )
+Processing iblock 'parovarki' (usual: 2, base: 0 )
+Processing iblock 'posudomoechnye-mashiny' (usual: 1, base: 0 )
+Processing iblock 'vytyazhki' (usual: 17, base: 0 )
+Processing iblock 'podogrevateli' (usual: 2, base: 0 )
+Processing iblock 'aksessuary' (usual: 6, base: 0 )
+Processing iblock 'kofemashiny' (usual: 1, base: 0 )
+Processing complete
+File size: 330.87 Kb
+File size: 330.87 Kb
+Processing time: 0.821 sec.
+----------
+28.02.2019 15:41:07 - 
+NEED_UPDATE: 1
+UPDATE_EVENT: OnAfterIBlockElementAdd
+Статус обновления: требуется обновление по событию 'OnAfterIBlockElementAdd'
+
+MODE: manual
+Processing iblock 'varochnye-paneli' (usual: 22, base: 0 )
+Processing iblock 'kholodilniki' (usual: 6, base: 0 )
+Processing iblock 'vinnye-shkafy' (usual: 0, base: 0 )
+Processing iblock 'stiralnye-mashiny' (usual: 0, base: 0 )
+Processing iblock 'modulnye-sistemy' (usual: 4, base: 0 )
+Processing iblock 'dukhovye-shkafy' (usual: 13, base: 0 )
+Processing iblock 'mikrovolnovye-pechi' (usual: 9, base: 0 )
+Processing iblock 'parovarki' (usual: 2, base: 0 )
+Processing iblock 'posudomoechnye-mashiny' (usual: 1, base: 0 )
+Processing iblock 'vytyazhki' (usual: 17, base: 0 )
+Processing iblock 'podogrevateli' (usual: 2, base: 0 )
+Processing iblock 'aksessuary' (usual: 6, base: 0 )
+Processing iblock 'kofemashiny' (usual: 1, base: 0 )
+Processing complete
+File size: 330.87 Kb
+File size: 330.87 Kb
+Processing time: 0.866 sec.
+----------

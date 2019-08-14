@@ -1,0 +1,39 @@
+.breadcrumbs {
+	color: #999999;
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 24px;
+	text-align: left;
+	margin-top: 24px;
+	width: 100%;
+
+	div {
+		display: flex;
+		flex-wrap: wrap;
+		
+	}
+	&__link {
+		color: #999999;
+	}
+	
+	&__link>a {
+		color: #394791;
+		text-decoration: none;
+	}
+	
+	&__sep {
+		margin: 0 5px;
+	}
+
+	@media screen and (max-width: 767px) {
+		line-height: 17px;
+		margin-top: 18px;
+
+		&__sep {
+			margin: 0 3px;
+		}
+	}
+
+
+}
+

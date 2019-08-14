@@ -1,0 +1,39 @@
+.logo {
+	margin: auto 0;
+	display: flex;
+	height: 51px;
+
+	&__link {
+		text-decoration: none;
+		display: block;
+		width: 168px;
+	}
+
+	&__pic {
+		display: block;
+		max-width: 100%;
+		width: auto;
+		height: 100%;
+	}
+
+	@media screen and (max-width: 767px) {
+		position: unset;
+		order: -1;
+		width: 117px;
+		height: 27px;
+		display: flex;
+
+		.logo__link {
+			min-width: unset;
+		}
+
+		&__pic {
+			display: flex;
+			height: auto;
+		}
+	}
+
+	// @media screen and (max-width: 480px) {
+	// 	width: 118px;
+	// }
+}

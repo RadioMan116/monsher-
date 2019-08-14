@@ -1,0 +1,6 @@
+<?
+class CMNTLog extends CMNTLogCommon
+{
+
+}
+?>

@@ -1,0 +1,32 @@
+.warranty {
+
+
+  &__button {
+    @include button($padding: 12px 18px);
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 22px !important;
+    width: 260px;
+
+  }
+
+  @media screen and (max-width: 768px) {
+    &__button {
+      @include button($padding: 12px 18px);
+
+      margin-bottom: 0 !important;
+
+
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    iframe {
+      height: 270px;
+    }
+  }
+}

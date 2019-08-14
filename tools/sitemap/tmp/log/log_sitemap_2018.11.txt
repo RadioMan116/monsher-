@@ -1,0 +1,390 @@
+14.11.2018 18:32:13 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 82.56 Kb
+Processing time: 0.556 sec.
+----------
+14.11.2018 18:40:56 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 82.61 Kb
+Processing time: 0.53 sec.
+----------
+14.11.2018 18:42:03 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 82.61 Kb
+Processing time: 0.599 sec.
+----------
+14.11.2018 18:43:26 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 82.61 Kb
+Processing time: 0.499 sec.
+----------
+14.11.2018 18:44:07 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 82.61 Kb
+Processing time: 0.489 sec.
+----------
+14.11.2018 18:44:10 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 82.61 Kb
+Processing time: 0.204 sec.
+----------
+14.11.2018 18:44:22 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 82.61 Kb
+Processing time: 0.263 sec.
+----------
+14.11.2018 18:46:06 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 82.61 Kb
+Processing time: 0.58 sec.
+----------
+14.11.2018 18:47:22 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 82.36 Kb
+Processing time: 0.555 sec.
+----------
+14.11.2018 19:00:49 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 93.49 Kb
+Processing time: 0.416 sec.
+----------
+14.11.2018 19:02:10 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 93.76 Kb
+Processing time: 0.556 sec.
+----------
+14.11.2018 19:04:02 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 93.76 Kb
+Processing time: 0.719 sec.
+----------
+14.11.2018 19:05:05 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 93.76 Kb
+Processing time: 0.644 sec.
+----------
+14.11.2018 19:06:07 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 93.24 Kb
+Processing time: 0.48 sec.
+----------
+14.11.2018 19:10:03 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 81.47 Kb
+Processing time: 0.686 sec.
+----------
+14.11.2018 19:13:36 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 81.3 Kb
+Processing time: 0.711 sec.
+----------
+14.11.2018 19:15:20 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 81.3 Kb
+Processing time: 0.457 sec.
+----------
+14.11.2018 19:49:09 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 81.3 Kb
+Processing time: 0.385 sec.
+----------
+14.11.2018 19:50:57 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 81.28 Kb
+Processing time: 0.47 sec.
+----------
+14.11.2018 19:51:41 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 81.28 Kb
+Processing time: 0.397 sec.
+----------
+14.11.2018 19:53:19 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 81.28 Kb
+Processing time: 0.361 sec.
+----------
+14.11.2018 19:53:51 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 81.28 Kb
+Processing time: 0.513 sec.
+----------
+14.11.2018 19:54:27 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 81.28 Kb
+Processing time: 0.479 sec.
+----------
+14.11.2018 19:54:28 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 81.28 Kb
+Processing time: 0.328 sec.
+----------
+14.11.2018 19:54:45 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 81.28 Kb
+Processing time: 0.152 sec.
+----------
+15.11.2018 16:05:55 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: требуется обновление по таймауту (43200 сек)
+
+MODE: manual
+Processing complete
+File size: 115 Kb
+Processing time: 1.285 sec.
+----------
+15.11.2018 16:07:06 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 115 Kb
+Processing time: 0.727 sec.
+----------
+15.11.2018 16:08:47 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 115 Kb
+Processing time: 1.042 sec.
+----------
+15.11.2018 16:10:21 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 115 Kb
+Processing time: 1.106 sec.
+----------
+15.11.2018 19:01:45 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 136.45 Kb
+Processing time: 1.664 sec.
+----------
+15.11.2018 19:01:46 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 136.45 Kb
+Processing time: 1.105 sec.
+----------
+15.11.2018 19:01:50 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 136.45 Kb
+Processing time: 0.964 sec.
+----------
+15.11.2018 19:06:19 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 138.96 Kb
+Processing time: 0.366 sec.
+----------
+15.11.2018 19:07:53 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 138.96 Kb
+Processing time: 0.747 sec.
+----------
+15.11.2018 19:16:00 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 33.49 Kb
+Processing time: 0.342 sec.
+----------
+15.11.2018 19:16:58 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 33.35 Kb
+Processing time: 0.258 sec.
+----------
+15.11.2018 19:17:38 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 33.35 Kb
+Processing time: 0.25 sec.
+----------
+15.11.2018 19:18:44 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: обновление не требуется
+
+MODE: manual
+Processing complete
+File size: 33.35 Kb
+Processing time: 0.224 sec.
+----------
+16.11.2018 17:55:20 - 
+NEED_UPDATE: 0
+UPDATE_EVENT: SITEMAP_GENERATOR
+Статус обновления: требуется обновление по таймауту (43200 сек)
+
+MODE: manual
+Processing complete
+File size: 33.35 Kb
+Processing time: 0.242 sec.
+----------

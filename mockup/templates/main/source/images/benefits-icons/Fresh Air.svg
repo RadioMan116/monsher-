@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Fresh Air</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="06---12---sorting-description" transform="translate(-753.000000, -614.000000)">
+            <g id="Fresh-Air" transform="translate(753.000000, 614.000000)">
+                <rect id="Rectangle" fill="#E7EFCC" x="0" y="0" width="48" height="48" rx="3"></rect>
+                <text font-family="Roboto Condensed,sans-serif" font-size="10" font-style="condensed" font-weight="bold" letter-spacing="0.06000001" fill="#316D1E">
+                    <tspan x="12.8001953" y="22">Fresh</tspan>
+                    <tspan x="18.0066797" y="33">Air</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+30.04.2019 16:23:16 - 
+NEED_UPDATE: 1
+UPDATE_EVENT: OnAfterIBlockElementAdd
+Статус обновления: требуется обновление по событию 'OnAfterIBlockElementAdd'
+
+MODE: manual
+Processing iblock 'varochnye-paneli' (usual: 29, base: 0 )
+Processing iblock 'kholodilniki' (usual: 6, base: 0 )
+Processing iblock 'vinnye-shkafy' (usual: 0, base: 0 )
+Processing iblock 'stiralnye-mashiny' (usual: 0, base: 0 )
+Processing iblock 'modulnye-sistemy' (usual: 4, base: 0 )
+Processing iblock 'dukhovye-shkafy' (usual: 23, base: 0 )
+Processing iblock 'mikrovolnovye-pechi' (usual: 12, base: 0 )
+Processing iblock 'parovarki' (usual: 2, base: 0 )
+Processing iblock 'posudomoechnye-mashiny' (usual: 1, base: 0 )
+Processing iblock 'vytyazhki' (usual: 19, base: 0 )
+Processing iblock 'podogrevateli' (usual: 3, base: 0 )
+Processing iblock 'kofemashiny' (usual: 1, base: 0 )
+Processing complete
+File size: 422.37 Kb
+File size: 422.37 Kb
+Processing time: 2.203 sec.
+----------

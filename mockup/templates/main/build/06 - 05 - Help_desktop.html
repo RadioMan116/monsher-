@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Example</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta name="HandheldFriendly" content="True">
+	<meta name="format-detection" content="telephone=yes">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="icon" type="image/png" href="images/Icon-16.png">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&amp;subset=cyrillic" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+
+<body>
+
+	<div class="wrapper" id="js-wrapper">
+
+		<header class="header">
+
+			<div class="header__blocks">
+				<div class="header__block header__block_top">
+					<div class="container">
+						<button class="hamburger" id="js-hamburger" aria-expanded="false">
+							<div class="hamburger__img"></div>
+						</button>
+						<div class="menu" aria-expanded="false">
+							<nav>
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="06 - 01 - About us_desktop.html" class="menu__link">О Liebherr</a>
+									</li>
+									<li class="menu__item">
+										<a href="06 - 02 - Shipping and payment_desktop.html" class="menu__link">Доставка и оплата</a>
+									</li>
+									<li class="menu__item">
+										<a href="06 - 03 - Service_desktop.html" class="menu__link">Подключение</a>
+									</li>
+									<li class="menu__item">
+										<a href="06 - 04 - Warranty_desktop.html" class="menu__link">Гарантия</a>
+									</li>
+									<li class="menu__item">
+										<a href="05 - 01 - Promotions and articles_desktop.html" class="menu__link">Статьи</a>
+									</li>
+									<li class="menu__item">
+										<a href="06 - 05 - Help_desktop" class="menu__link">Новинки</a>
+									</li>
+									<li class="menu__item">
+										<a href="06 - 08 - Contacts_desktop.html" class="menu__link">Контакты</a>
+									</li>
+								</ul>
+								<div class="header__telephones">
+									<a href="#" data-url="ajax/callback.html" data-ajax class="header__call-phone-button js-callback">Заказать звонок</a>
+									<div class="telephones">
+										<a href="tel:+749519126330" class="header__phone">+7 495 191-26-33</a>
+										<a href="tel:+78003331936" class="header__phone">+7 800 333-19-36</a>
+									</div>
+								</div>
+							</nav>
+						</div>
+						<!--end menu-->
+						<div class="header__icons">
+							<div class="header__search js-header__search"></div>
+							<div class="header__compare">
+								<span class="header__number">0</span>
+							</div>
+							<div class="header__basket">
+								<span class="header__number">0</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header__block header__block_bottom" id='js-header__block_bottom'>
+					<div class="container">
+						<div class="logo">
+							<a href="#" class="logo__link">
+								<img src="images/liebherr.png" alt="" class="logo__pic">
+							</a>
+						</div>
+						<!-- /.logo -->
+						<div class="header__dropdown-menu" id="js-menu">
+							<nav class="dropdown-menu dropdown-menu">
+								<span class="dropdown-menu__title js-dropdown-menu__title">Бытовые холодильники</span>
+								<ul class="dropdown-menu__list">
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__link" target="_blank" href="catalog.html">Холодильники</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__link" href="#">Отдельностоящие морозильные камеры</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__link" href="#">Встраиваемые холодильники</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__link" href="#">Встраиваемые морозильные камеры</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__link" href="#">Винные шкафы</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__link" href="#">Хьюмидоры</a>
+									</li>
+								</ul>
+							</nav>
+							<nav class="dropdown-menu dropdown-menu">
+								<span class="dropdown-menu__title js-dropdown-menu__title">Профессиональная техника</span>
+								<ul class="dropdown-menu__list">
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__link" href="#">Медицинское и лабораторное оборудование</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__link" href="#">Для гостиниц и ресторанов</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__link" href="#">Для охлаждения напитков</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__link" href="#">Для пекарен</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__link" href="#">Для хранения замороженных продуктов и мороженого</a>
+									</li>
+								</ul>
+							</nav>
+							<nav class="dropdown-menu dropdown-menu">
+								<span class="dropdown-menu__title last">
+									<a href="#">Сервис</a>
+								</span>
+							</nav>
+							<div class="header__telephones">
+								<a href="#" data-url="ajax/callback.html" data-ajax class="header__call-phone-button js-callback">Заказать звонок</a>
+								<div class="telephones">
+									<a href="tel:+749519126330" class="header__phone">+7 495 191-26-33</a>
+									<a href="tel:+78003331936" class="header__phone">+7 800 333-19-36</a>
+								</div>
+							</div>
+						</div>
+						<div class="menu" aria-expanded="false">
+							<nav>
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="06 - 01 - About us_desktop.html" class="menu__link">О Liebherr</a>
+									</li>
+									<li class="menu__item">
+										<a href="06 - 02 - Shipping and payment_desktop.html" class="menu__link">Доставка и оплата</a>
+									</li>
+									<li class="menu__item">
+										<a href="06 - 03 - Service_desktop.html" class="menu__link">Подключение</a>
+									</li>
+									<li class="menu__item">
+										<a href="06 - 04 - Warranty_desktop.html" class="menu__link">Гарантия</a>
+									</li>
+									<li class="menu__item">
+										<a href="05 - 01 - Promotions and articles_desktop.html" class="menu__link">Статьи</a>
+									</li>
+									<li class="menu__item">
+										<a href="06 - 05 - Help_desktop" class="menu__link">Новинки</a>
+									</li>
+									<li class="menu__item">
+										<a href="06 - 08 - Contacts_desktop.html" class="menu__link">Контакты</a>
+									</li>
+								</ul>
+								<div class="header__telephones">
+									<a href="#" data-url="ajax/callback.html" data-ajax class="header__call-phone-button js-callback">Заказать звонок</a>
+									<div class="telephones">
+										<a href="tel:+749519126330" class="header__phone">+7 495 191-26-33</a>
+										<a href="tel:+78003331936" class="header__phone">+7 800 333-19-36</a>
+									</div>
+								</div>
+							</nav>
+						</div>
+						<!--end menu-->
+					</div>
+				</div>
+			</div>
+			<div class="search__popup">
+				<form action="/search/" class="header__form">
+					<input type="text" name="q" maxlength="50" class="header__input js-search-header__input">
+					<div class="header__button js-header__button"></div>
+				</form>
+			</div>
+			<div class="header__overlay"></div>
+		</header>
+
+
+		<div class="section">
+			<div class="content">
+				<div class="container">
+					<div class="d-flex flex-column-reverse flex-md-row">
+						<div class="col-md-3">
+							<div class="sidebar">
+								<ul class="work-link">
+									<li class="work-link__item">
+										<a class="work-link__a" href="/service/">Сервисные центры</a>
+									</li>
+									<li class="work-link__item">
+										<a class="work-link__a" href="/documentation/">Техническая документация</a>
+									</li>
+									<li class="work-link__item">
+										<a class="work-link__a" href="/warranty/">Гарантия Liebherr</a>
+									</li>
+								</ul>
+								<div class="yandex">
+									<div class="yandex__inner">
+										<div class="yandex__logo">
+											<img src="images/ylogo.png" alt="" srcset="" class="yandex__img">
+										</div>
+										<div class="yandex__ratings">
+											<img src="images/5-stars.png" alt="" srcset="">
+										</div>
+										<a href="#" target="_blank" class="yandex__button">Оставить отзыв</a>
+										<a href="#" target="_blank" class="yandex__button">Читать все отзывы</a>
+									</div>
+								</div>
+								<div class="quality">
+									<span class="quality__title">Контроль качества</span>
+									<span class="quality__text">Номер для претензий и предложений:</span>
+									<a href="tel:+74951201196" class="quality__number">+7 (495) 120-11-96</a>
+									<span class="quality__worktime">с 9:00 до 19:00</span>
+									<a href="#" class="quality__button" id="js-quality-opener">Написать</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-9">
+							<div class="breadcrumbs">
+								<a href="#" class="breadcrumbs__link">De Dietrich</a>
+								<span class="breadcrumbs__sep">»</span>
+								<span class="breadcrumbs__text">Помощь</span>
+							</div>
+							<h1 class="title">
+								Помощь
+							</h1>
+							<div class="text-default">
+								<p>
+									<b>При доставке техники</b>Напишите нам, и мы ответим на них!
+									<span>
+										Наш email:
+										<a href="mailto:shop@dedietrich-home.ru" title="Ссылка: mailto:shop@dedietrich-home.ru" data-bx-clean-attribute="title">
+											shop@dedietrich-home.ru
+										</a>
+									</span>
+								</p>
+								<p>
+									Чтобы не терять времени на переписку, посмотрите, возможно, мы уже отвечали на подобный вопрос. Перед Вами – список самых часто задаваемых вопросов по ассортименту техники De Dietrich.
+								</p>
+								<hr>
+							</div>
+							<div class="help">
+								<div class="help__row js-help__row">
+									В какие сроки происходит доставка техники De Dietrich?
+									<span class="help__info">По Москве и Москвовской области доставка осуществляется в течение 1 дней (при условии, что статус товара – «В наличии»). Если статус товара «Под заказ», оператор интернет-магазина выяснит для Вас срок доставки индивидуально.</span>
+								</div>
+								<div class="help__row js-help__row">
+									Где производится техника De Dietrich?
+									<span class="help__info">Основное производство находится во Франции и Италии. Подогреватели и несколько моделей варочных панелей производятся в Бельгии, некоторые модели техники производятся в Испании и Венгрии. Страна-производитель указана в технических характеристиках
+										товара. Вы можете уточнить эту информацию в каталоге.</span>
+								</div>
+								<div class="help__row js-help__row">
+									Можно ли вместе с доставкой заказать установку техники De Dietrich?
+									<span class="help__info">
+										Да. Одновременно с доставкой вы можете заказать установку техники De Dietrich. О стоимости и сроках установки спрашивайте у Вашего менеджера.
+									</span>
+								</div>
+								<div class="help__row js-help__row">
+									Можно ли обменять технику De Dietrich после покупки?
+									<span class="help__info">Да, по Закону «О правах потребителей» Вы можете обменять купленную технику в течение 14 дней со дня покупки при наличии упаковки, товарного и кассового чека и отсутствии механических повреждений.</span>
+								</div>
+								<div class="help__row js-help__row">
+									Как ухаживать за стеклокерамической варочной панелью DeDietrich?
+									<span class="help__info">Для долгой и качественной службы стеклокерамической панели используйте только подходящую к размерам конфорок посуду. Желательно избегать алюминиевых, медных, эмалированных сковородок и кастрюль, посуды с неровным дном. Очищать рабочую поверхность
+										нужно только после того, как она остыла. Для чистки нельзя использовать абразивные средства, щелочь, грубые губки и щетки. Лучше всего пользоваться специальными средствами для очистки стеклокерамики.</span>
+								</div>
+								<div class="help__row js-help__row">
+									Почему нельзя хранить вино в обычном холодильнике, а только в винному шкафу?
+									<span class="help__info">Хорошему вину нужны особая температура и влажность. В винных шкафах De Dietrich температура регулируется от 5 до 15 градусов, а влажностный режим постоянно находится на одном уровне. Стекло в винном шкафу не обычное – оно не пропускает ультрафиолета,
+										губительного для вина. Особые компрессоры и специальные деревянные полки предотвратят вибрацию, от которой может образоваться осадок.</span>
+								</div>
+								<div class="help__row js-help__row">
+									Какие запчасти используются при починке техники DeDietrich?
+									<span class="help__info">Мы работаем только с авторизованными сервисными центрами, которые используют оригинальные запчасти для техники De Dietrich.</span>
+								</div>
+								<div class="help__row js-help__row">
+									Как часто нужно размораживать морозильные камеры DeDietrich?
+									<span class="help__info">В основном модели холодильников De Dietrich оснащены системой No Frost. Это означает, что морозильные камеры не нуждаются в разморозке, только в регулярной чистке. Единственная модель – встраиваемый под столешницу морозильник De Dietrich – имеет
+										автоматическую систему разморозки. Это означает, что его нужно размораживать примерно 1 раз в год.</span>
+								</div>
+								<div class="help__row js-help__row">
+									У нас на кухне нет возможности подключения вытяжки к вентиляции. Может ли она работать исключительно в режиме рециркуляции?
+									<span class="help__info">Да, все вытяжки компании De Dietrich имеют и режим циркуляции, и режим отвода. Вы можете пользоваться двумя режимами попеременно в зависимости от ситуации или всегда одним.</span>
+								</div>
+								<div class="help__row js-help__row">
+									Можно ли самостоятельно установить технику DeDietrich?
+									<span class="help__info">К каждой модели встраиваемой техники прилагается схема установки и инструкция. Однако мы рекомендуем Вам воспользоваться услугами одного из наших авторизованных сервисных центров. Это избавит Вас от многих хлопот и недоразумений, связанных с
+										неправильной установкой бытовой техники.</span>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<!-- END WORKAREA -->
+			</div>
+			<!-- /.content -->
+		</div>
+		<!-- /.middle -->
+
+	</div>
+	<!-- /.wrapper -->
+
+	<div class="footer" id="js-footer">
+		<div class="container">
+			<div class="footer__inner">
+				<div class="footer__col">
+					<nav class="menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__title js-menu-footer__title">Бытовые холодильники</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Холодильники</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Отдельностоящие морозильные камеры</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Встраиваемые холодильники</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Встраиваемые морозильные камеры</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Винные шкафы</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Хьюмидоры</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- /.footer__col -->
+				<div class="footer__col">
+					<nav class="menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__title js-menu-footer__title">Профессиональная техника</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Медицинское и лабораторное оборудование</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Для гостиниц и ресторанов</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Для охлаждения напитков</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Для пекарен</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Для хранения замороженных продуктов и мороженого
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- /.footer__col -->
+				<div class="footer__col">
+					<nav class="menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__title js-menu-footer__title">Информация</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">О Liebherr</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Акции и статьи</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Глоссарий</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Оплата и доставка</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Контакты</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Подключение</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Гарантия</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Возврат и обмен</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Сервис и обслуживание</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- /.footer__col -->
+				<div class="footer__col">
+					<div class="footer__text footer__text_first">Интернет-магазин Liebherr</div>
+					<a href="tel:+74951912633" class="footer__tel">+7 495 191-26-33</a>
+					<a href="tel:+78003331936" class="footer__tel">+7 800 333-19-36</a>
+					<a href="mailto:shop@l-rus.ru" class="footer__email">
+						<i>Email:</i>shop@l-rus.ru</a>
+					<div class="footer__text footer__text_two">Режим работы</div>
+					<div class="footer__text footer__text_three">Пн-Пт: 08:00—22:00
+						<br>Сб-Вс: 09:00—22:00</div>
+				</div>
+				<!-- /.footer__col -->
+			</div>
+			<div class="footer__row">
+				<div class="footer__copyright">
+					© 2004 – 2018 Магазин LIEBHERR. «NTK LTD TM all rights reserved/
+				</div>
+				<div class="footer__telephones">
+					<div class="l-abuse">
+						<a href="#" data-url="ajax/abuse.html" data-ajax class="footer__button abuse__button js-abuse__button" id="js-abuse-opener">Пожаловаться руководству
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- /.footer__row -->
+		</div>
+
+		<!-- /.footer__inner -->
+
+	</div>
+	<!-- /.footer -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+	<script src="js/frontend-works.js"></script>
+	<script src="js/jquery.ui.touch-punch.min.js"></script>
+	<script src="js/script.min.js"></script>
+
+	<script src="https://yastatic.net/browser-updater/v1/script.js" charset="utf-8"></script>
+	<script>
+		var yaBrowserUpdater = new ya.browserUpdater.init({
+			"lang": "ru",
+			"browsers": {
+				"yabrowser": "15.12",
+				"chrome": "54",
+				"ie": "11",
+				"opera": "41",
+				"safari": "8",
+				"fx": "49",
+				"iron": "35",
+				"flock": "Infinity",
+				"palemoon": "25",
+				"camino": "Infinity",
+				"maxthon": "4.5",
+				"seamonkey": "2.3"
+			},
+			"theme": "yellow"
+		});
+	</script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+.product_video::after {
+    background: rgba(0, 0, 0, 0) url("/tpl/images/k/play.png") no-repeat scroll left top;
+    content: "";
+    height: 90px;
+    left: 50%;
+    margin: -45px 0 0 -45px;
+    position: absolute;
+    top: 50%;
+    width: 90px;
+}
+.product_video {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    height: 420px;
+	min-width: 640px;   
+    position: relative;    
+}
+
+@media (max-width: 767px) {
+	
+.product_video { 
+	min-width: auto;     
+}
+	
+	
+}

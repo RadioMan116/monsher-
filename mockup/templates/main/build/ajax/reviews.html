@@ -1,0 +1,89 @@
+<!--						opinion-->
+<div class="opinion">
+	<div class="opinion__title">Оставить отзыв</div>
+	<div class="opinion__name">Духовой шкаф De Dietrich DOM1195GX</div>
+	<div class="ratings__section js-ratings__section">
+		<div class="ratings__start"></div>
+		<div class="ratings__click"></div>
+		<div class="ratings__disable"></div>
+		<div class="ratings__hover"></div>
+	</div>
+	<form action="" class="opinion__form">
+		<div class="opinion__block">
+			<div class="opinion__field-wrapper opinion__field-wrapper_req">
+				<label class="opinion__label">Ваше имя</label>
+				<input type="text" name="name" class="opinion__field" placeholder="Ваше имя *" required>
+			</div>
+			<div class="opinion__field-wrapper opinion__field-wrapper_req">
+				<label class="opinion__label">Email</label>
+				<input type="email" name="email" class="opinion__field" placeholder="Email *" required>
+			</div>
+		</div>
+		<div class="opinion__block">
+			<div class="opinion__field-wrapper">
+				<label class="opinion__label">Преимущества</label>
+				<textarea name="pluses" class="opinion__textarea" placeholder="Преимущества"></textarea>
+			</div>
+
+		</div>
+		<div class="opinion__block">
+			<div class="opinion__field-wrapper">
+				<label class="opinion__label">Недостатки</label>
+				<textarea name="minuses" class="opinion__textarea" placeholder="Недостатки"></textarea>
+			</div>
+
+		</div>
+		<div class="opinion__block">
+			<div class="opinion__field-wrapper">
+				<label class="opinion__label">Комментарии</label>
+				<textarea name="comment" class="opinion__textarea" placeholder="Комментарий *"></textarea>
+			</div>
+
+		</div>
+		<div class="contact-form__field">
+			<label>
+				<input class="checkbox filter_checkbox pers_data_check" type="checkbox" checked="">
+				<span class="checkbox-custom"></span>
+				<span class="checkbox__oferta">
+					Согласен с
+					<a target="_blank" href="/personal_data/">
+						использованием персональных данных
+					</a>
+					для обработки обращения
+				</span>
+			</label>
+		</div>
+		<button type="submit" class="opinion__submit">отправить</button>
+		<input type="hidden" name="rate" class="js-hidden">
+		<input type="hidden" name="submit_form" value="Y">
+		<input type="hidden" name="productId" value="" class="js-productId">
+	</form>
+</div>
+<!--	end opinion-->
+<script>
+	new Ratings({
+		element: document.querySelector('.js-ratings__section'), // передаем элемент
+		countRate: 5, // кол-во оценок
+		clickFn: function (index) {
+			$(".js-review_rating").val(index);
+		}
+	});
+
+	$(document).on("submit", ".opinion__form", function (e) {
+		e.preventDefault();
+		var dataForm = $(this).serialize();
+		var form = $(this);
+		$.ajax({
+			type: "POST",
+			url: "/reviews/ajax.php",
+			data: dataForm,
+			success: function (resp) {
+				alert("Спасибо, ваш отзыв отправлен!");
+				form.find("input").val("");
+				form.find("textarea").val("");
+				globalPopup.close();
+			}
+		});
+		return false;
+	});
+</script>

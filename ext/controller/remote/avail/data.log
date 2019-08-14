@@ -1,0 +1,7 @@
+array (
+  'shop_unid' => 'LHR',
+  'product_unid' => '270504',
+  'territory_code' => 'MSK',
+  'avail_code' => 3,
+)
+ok

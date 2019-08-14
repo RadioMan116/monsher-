@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="19px" viewBox="0 0 16 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>share</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02---02---Карточка_desktop" transform="translate(-1136.000000, -245.000000)" fill="#666666">
+            <g id="карточка" transform="translate(132.000000, 190.000000)">
+                <g id="цена-и-информация" transform="translate(600.000000, 53.000000)">
+                    <g id="share" transform="translate(400.000000, 0.000000)">
+                        <path d="M4,21.0008 L4,10 L8,10 L8,12.0004 L6,12.0004 L6,19.0008 L18,19.0008 L18,12.0004 L16,12.0004 L16,10 L20,10 L20,21.0008 L4,21.0008 Z M11,5.47388372 L10.366,6.13 C10.17,6.333 9.909,6.435 9.647,6.435 C9.397,6.435 9.146,6.342 8.952,6.154 C8.555,5.77 8.544,5.137 8.928,4.74 L11.281,2.306 C11.469,2.11 11.729,2 12,2 C12.272,2 12.53,2.111 12.719,2.306 L15.071,4.74 C15.455,5.137 15.444,5.77 15.048,6.154 C14.651,6.539 14.019,6.528 13.634,6.13 L13,5.47388372 L13,14.0005 L11,14.0005 L11,5.47388372 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

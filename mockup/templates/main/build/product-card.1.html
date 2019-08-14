@@ -1,0 +1,1920 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Example</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta name="HandheldFriendly" content="True">
+	<meta name="format-detection" content="telephone=yes">
+	<meta name="MobileOptimized" content="320">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> -->
+
+	<link rel="icon" type="image/png" href="images/Icon-16.png">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&amp;subset=cyrillic" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+	<div class="wrapper" id="js-wrapper">
+
+		<header class="header">
+			<div class="header__blocks">
+				<div class="header__block header__block_top">
+					<div class="container">
+						<button class="hamburger" id="js-hamburger" aria-expanded="false">
+							<div class="hamburger__img"></div>
+						</button>
+						<div class="menu" aria-expanded="false">
+							<nav>
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="06 - 01 - About us_desktop.html" class="menu__link">О Liebherr</a>
+									</li>
+									<li class="menu__item">
+										<a href="06 - 02 - Shipping and payment_desktop.html" class="menu__link">Доставка и оплата</a>
+									</li>
+									<li class="menu__item">
+										<a href="06 - 03 - Service_desktop.html" class="menu__link">Подключение</a>
+									</li>
+									<li class="menu__item">
+										<a href="06 - 04 - Warranty_desktop.html" class="menu__link">Гарантия</a>
+									</li>
+									<li class="menu__item">
+										<a href="05 - 01 - Promotions and articles_desktop.html" class="menu__link">Статьи</a>
+									</li>
+									<li class="menu__item">
+										<a href="06 - 05 - Help_desktop" class="menu__link">Новинки</a>
+									</li>
+									<li class="menu__item">
+										<a href="06 - 08 - Contacts_desktop.html" class="menu__link">Контакты</a>
+									</li>
+								</ul>
+								<div class="header__telephones">
+									<a href="#" data-url="ajax/callback.html" data-ajax class="header__call-phone-button js-callback">Заказать звонок</a>
+									<div class="telephones">
+										<a href="tel:+74959297078" class="header__phone">+7 495 929-70-78</a>
+										<a href="tel:+78003331936" class="header__phone">+7 800 333-19-36</a>
+									</div>
+								</div>
+							</nav>
+						</div>
+						<!--end menu-->
+						<div class="header__icons">
+							<div class="header__search js-header__search"></div>
+							<a class="header__mobile-tel" href="tel:+74959297078"></a>
+							<a href="#" class="header__favorite active">
+								<span class="header__number">3</span>
+							</a>
+							<a href="04 - Comparison_desktop.html" class="header__compare">
+								<span class="header__number">0</span>
+							</a>
+							<a href="03 - Order Form.html" class="header__basket">
+								<span class="header__number">0</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="header__block header__block_bottom" id='js-header__block_bottom'>
+					<div class="container">
+						<div class="logo">
+							<a href="#" class="logo__link">
+								<img src="images/logo-new.svg" alt="" class="logo__pic">
+							</a>
+						</div>
+						<!-- /.logo -->
+						<div class="header__dropdown-menu" id="js-menu">
+							<nav class="dropdown-menu dropdown-menu">
+								<span class="dropdown-menu__title js-dropdown-menu__title">Бытовые холодильники</span>
+								<ul class="dropdown-menu__list">
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__link" target="_blank" href="catalog.html">Холодильники</a>
+										<ul class="sub-menu__list">
+											<li class="sub-menu__item">
+												<a class="sub-menu__link" target="_blank" href="#">
+													∙ Однокамерные
+												</a>
+											</li>
+											<li class="sub-menu__item">
+												<a class="sub-menu__link" href="#">
+													∙ Двухкамерные
+												</a>
+											</li>
+											<li class="sub-menu__item">
+												<a class="sub-menu__link" href="#">
+													∙ Side-by-Side
+												</a>
+											</li>
+											<li class="sub-menu__item">
+												<a class="sub-menu__link" href="#">
+													∙ Морозильные камеры
+												</a>
+											</li>
+											<li class="sub-menu__item">
+												<a class="sub-menu__link" href="#">
+													∙ Морозильные лари
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__link" href="#">Отдельностоящие морозильные камеры</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__link" href="#">Встраиваемые холодильники</a>
+										<ul class="sub-menu__list">
+											<li class="sub-menu__item">
+												<a class="sub-menu__link" target="_blank" href="#">
+													∙ Встраиваемые однокамерные
+												</a>
+											</li>
+											<li class="sub-menu__item">
+												<a class="sub-menu__link" href="#">
+													∙ Двухкамерные
+												</a>
+											</li>
+											<li class="sub-menu__item">
+												<a class="sub-menu__link" href="#">
+													∙ Встраиваемые двухкамерные
+												</a>
+											</li>
+											<li class="sub-menu__item">
+												<a class="sub-menu__link" href="#">
+													∙ Встраиваемые Side-by-Side
+												</a>
+											</li>
+											<li class="sub-menu__item">
+												<a class="sub-menu__link" href="#">
+													∙ Встраиваемые морозильные камеры
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__link" href="#">Встраиваемые морозильные камеры</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__link" href="#">Винные шкафы</a>
+										<ul class="sub-menu__list">
+											<li class="sub-menu__item">
+												<a class="sub-menu__link" target="_blank" href="#">
+													∙ Встраиваемые
+												</a>
+											</li>
+											<li class="sub-menu__item">
+												<a class="sub-menu__link" href="#">
+													∙ Отдельностоящие
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__link" href="#">Хьюмидоры</a>
+									</li>
+								</ul>
+							</nav>
+							<nav class="dropdown-menu dropdown-menu">
+								<span class="dropdown-menu__title js-dropdown-menu__title">Профессиональная техника</span>
+								<ul class="dropdown-menu__list">
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__link" href="#">Медицинское и лабораторное оборудование</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__link" href="#">Для гостиниц и ресторанов</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__link" href="#">Для охлаждения напитков</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__link" href="#">Для пекарен</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__link" href="#">Для хранения замороженных продуктов и мороженого</a>
+									</li>
+								</ul>
+							</nav>
+							<nav class="dropdown-menu dropdown-menu">
+								<span class="dropdown-menu__title last">
+									<a href="#">Сервис</a>
+								</span>
+							</nav>
+							<div class="header__telephones">
+								<a href="#" data-url="ajax/callback.html" data-ajax class="header__call-phone-button js-callback">Заказать звонок</a>
+								<div class="telephones">
+									<a href="tel:+74959297078" class="header__phone">+7 495 929-70-78</a>
+									<a href="tel:+78003331936" class="header__phone">+7 800 333-19-36</a>
+								</div>
+							</div>
+						</div>
+						<div class="menu" aria-expanded="false">
+							<nav>
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="06 - 01 - About us_desktop.html" class="menu__link">О Liebherr</a>
+									</li>
+									<li class="menu__item">
+										<a href="06 - 02 - Shipping and payment_desktop.html" class="menu__link">Доставка и оплата</a>
+									</li>
+									<li class="menu__item">
+										<a href="06 - 03 - Service_desktop.html" class="menu__link">Подключение</a>
+									</li>
+									<li class="menu__item">
+										<a href="06 - 04 - Warranty_desktop.html" class="menu__link">Гарантия</a>
+									</li>
+									<li class="menu__item">
+										<a href="05 - 01 - Promotions and articles_desktop.html" class="menu__link">Статьи</a>
+									</li>
+									<li class="menu__item">
+										<a href="06 - 05 - Help_desktop" class="menu__link">Новинки</a>
+									</li>
+									<li class="menu__item">
+										<a href="06 - 08 - Contacts_desktop.html" class="menu__link">Контакты</a>
+									</li>
+								</ul>
+								<div class="header__telephones">
+									<a href="#" data-url="ajax/callback.html" data-ajax class="header__call-phone-button js-callback">Заказать звонок</a>
+									<div class="telephones">
+										<a href="tel:+74959297078" class="header__phone">+7 495 929-70-78</a>
+										<a href="tel:+78003331936" class="header__phone">+7 800 333-19-36</a>
+									</div>
+								</div>
+							</nav>
+						</div>
+						<!--end menu-->
+					</div>
+				</div>
+			</div>
+			<div class="search__popup">
+				<form action="/search/" class="header__form">
+					<input type="text" name="q" maxlength="50" class="header__input js-search-header__input">
+					<div class="header__button js-header__button"></div>
+				</form>
+			</div>
+			<div class="header__overlay"></div>
+		</header>
+
+
+		<div class="section">
+			<div class="content">
+				<div class="container">
+					<link rel="stylesheet" type="text/css" href="https://lbhr.ret-team.ru/local/templates/lb_main/components/bitrix/catalog.smart.filter/.default/style.css?155013938718695">
+					<link rel="stylesheet" type="text/css" href="https://lbhr.ret-team.ru/local/templates/lb_main/components/bitrix/catalog.smart.filter/.default/themes/blue/colors.css?15501408324780">
+					<link rel="stylesheet" type="text/css" href="https://lbhr.ret-team.ru/bitrix/css/main/bootstrap.css?1540476611141508">
+					<div class="col-md-3">
+						<div class="filter__date">Обновление цен от 14 июля 2018</div>
+						<form class="filter__form closed" action="" method="get" id="products-filter">
+							<input type="hidden" name="F[SET_FILTER]" id="SET_FILTER" value="Y">
+							<div class="filter__item">
+								<div class="filter__title  js-filter__title">Цена, руб.</div>
+								<div class="filter__container filter-slider-container" itemkey="316177">
+									<div class="filter__price filter-price">
+										<span>
+											от
+											<input type="text" placeholder="" name="" value=" 12990" class="input_min">
+										</span>
+										<span>
+											до
+											<input type="text" name="" value="132480" class="input_max">
+										</span>
+									</div>
+									<div class="filter__slider slider__filter_range filter-slider slider-filter_range slider_filter_range ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" min="12990" max="132480" minval="12990" maxval="132480" aria-disabled="false">
+										<div class="ui-slider-range ui-widget-header ui-corner-all">
+										</div>
+										<a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left:0"></a>
+										<a class="ui-slider-handle ui-state-default ui-corner-all" href="#"></a>
+									</div>
+								</div>
+							</div>
+							<div class="filter__item">
+								<div class="filter__title  js-filter__title">Подборки</div>
+								<div class="filter__checkbox">
+									<a href="#" data-value="12" class="filter-collections active">Новинки</a>
+									<a href="#" data-value="22" class="filter-collections">Лучшие</a>
+									<a href="#" data-value="9" class="filter-collections">Акции</a>
+								</div>
+							</div>
+							<div class="filter__item">
+								<div class="filter__title  js-filter__title">Цвет</div>
+								<div class="filter__checkbox">
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">
+											BlackSteel
+										</span>
+										<span class="checkbox-number">13</span>
+									</label>
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">StickerArt</span>
+
+										<span class="checkbox-number">13</span>
+									</label>
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">Бежевый</span>
+
+										<span class="checkbox-number">13</span>
+									</label>
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">Белый</span>
+
+										<span class="checkbox-number">13</span>
+									</label>
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">Зеленый KiwiGreen
+										</span>
+										<span class="checkbox-number">13</span>
+									</label>
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">Зеленый авакадо</span>
+										<span class="checkbox-number">13</span>
+									</label>
+								</div>
+								<a href="#" class="catalog__simile">Показать еще</a>
+							</div>
+							<div class="filter__item">
+								<div class="filter__title  js-filter__title">Высота (см)</div>
+								<div class="filter__container filter-slider-container" itemkey="316177">
+									<div class="filter__price filter-price">
+										<span>
+											от
+											<input type="text" placeholder="" name="" value="62" class="input_min">
+										</span>
+										<span>
+											до
+											<input type="text" name="" value="204" class="input_max">
+										</span>
+									</div>
+									<div class="filter__slider slider__filter_range filter-slider slider-filter_range slider_filter_range ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" min="0" max="250" minval="0" maxval="250" aria-disabled="false">
+										<div class="ui-slider-range ui-widget-header ui-corner-all">
+										</div>
+										<a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left:0"></a>
+										<a class="ui-slider-handle ui-state-default ui-corner-all" href="#"></a>
+									</div>
+								</div>
+							</div>
+							<div class="filter__item">
+								<div class="filter__title  js-filter__title">Ширина (см)</div>
+								<div class="filter__container filter-slider-container" itemkey="316177">
+									<div class="filter__price filter-price">
+										<span>
+											от
+											<input type="text" placeholder="" name="" value="62" class="input_min">
+										</span>
+										<span>
+											до
+											<input type="text" name="" value="204" class="input_max">
+										</span>
+									</div>
+									<div class="filter__slider slider__filter_range filter-slider slider-filter_range slider_filter_range ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" min="0" max="250" minval="0" maxval="250" aria-disabled="false">
+										<div class="ui-slider-range ui-widget-header ui-corner-all">
+										</div>
+										<a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left:0"></a>
+										<a class="ui-slider-handle ui-state-default ui-corner-all" href="#"></a>
+									</div>
+								</div>
+							</div>
+							<div class="filter__item">
+								<div class="filter__title  js-filter__title">Глубина (см)</div>
+								<div class="filter__container filter-slider-container" itemkey="316177">
+									<div class="filter__price filter-price">
+										<span>
+											от
+											<input type="text" placeholder="" name="" value="62" class="input_min">
+										</span>
+										<span>
+											до
+											<input type="text" name="" value="204" class="input_max">
+										</span>
+									</div>
+									<div class="filter__slider slider__filter_range filter-slider slider-filter_range slider_filter_range ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" min="0" max="250" minval="0" maxval="250" aria-disabled="false">
+										<div class="ui-slider-range ui-widget-header ui-corner-all">
+										</div>
+										<a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left:0"></a>
+										<a class="ui-slider-handle ui-state-default ui-corner-all" href="#"></a>
+									</div>
+								</div>
+							</div>
+							<div class="filter__item">
+								<div class="filter__title  js-filter__title">Расположение морозильной камеры</div>
+								<div class="filter__checkbox">
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">
+											Side by Side
+										</span>
+										<span class="checkbox-number">11</span>
+									</label>
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">Сверху</span>
+
+										<span class="checkbox-number">13</span>
+									</label>
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">Снизу</span>
+
+										<span class="checkbox-number">13</span>
+									</label>
+								</div>
+							</div>
+							<div class="filter__item">
+								<div class="filter__title  js-filter__title">Класс энергопотребления
+									<a href="#" class="filter-tip" title="Классы энергопотребления A+ и A++ - экономия энергии. Потребление энергии в холодильном и морозильном оборудовании этих классов заметно снижено. Экономичность моделей данной серии убеждает даже самых бережливых хозяев и вносит активный вклад в охрану окружающей среды."></a>
+								</div>
+								<div class="filter__checkbox">
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">A</span>
+										<span class="checkbox-number">0</span>
+									</label>
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">A+
+										</span>
+										<span class="checkbox-number">13</span>
+									</label>
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">A++
+										</span>
+										<span class="checkbox-number">13</span>
+									</label>
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">A+++</span>
+
+										<span class="checkbox-number">13</span>
+									</label>
+								</div>
+							</div>
+							<div class="filter__item">
+								<div class="filter__title  js-filter__title">Завоеванные призы</div>
+								<div class="filter__checkbox">
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">German Design Award</span>
+
+										<span class="checkbox-number">13</span>
+									</label>
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">iF Design Award</span>
+
+										<span class="checkbox-number">13</span>
+									</label>
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">Interior innovation Award</span>
+
+										<span class="checkbox-number">0</span>
+									</label>
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">PLUS X AWARD</span>
+
+										<span class="checkbox-number">13</span>
+									</label>
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">Red Dot Design Award</span>
+
+										<span class="checkbox-number">13</span>
+									</label>
+								</div>
+							</div>
+							<div class="filter__item">
+								<div class="filter__title  js-filter__title">Страна сборки</div>
+								<div class="filter__checkbox">
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">Австралия</span>
+
+										<span class="checkbox-number">13</span>
+									</label>
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">Болгария</span>
+
+										<span class="checkbox-number">13</span>
+									</label>
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">Германия</span>
+
+										<span class="checkbox-number">13</span>
+									</label>
+								</div>
+							</div>
+							<div class="filter__item">
+								<div class="filter__title  js-filter__title">Дополнительные возможности</div>
+								<div class="filter__checkbox">
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">Зона свежести BioFresh</span>
+										<span class="checkbox-number">13</span>
+										<a href="#" class="filter-tip" title="BioFresh - это специальная регулирующаяся зона в холодильной камере, в которой поддерживается определенный микроклимат. Зона свежести BioFresh состоит из двух контейнеров - DrySafe с низкой влажностью для хранения молочных продуктов, морепродуктов и мяса и HydroSafe для хранения фруктов и овощей. При хранении в отделении BioFresh, скоропортящиеся продукты в значительной степени сохраняют вкусовые качества, свежесть и питательность."></a>
+									</label>
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">Доводчик двери SoftSystem</span>
+										<span class="checkbox-number">13</span>
+										<a href="#" class="filter-tip" title="SoftSystem - эта система обеспечивает дополнительную безопасность и комфорт. Встроенный амортизированный доводчик двери гарантирует удивительно мягкое закрывание даже при максимальном заполнении двери. Кроме того дверь закрывается автоматически, если угол открытия будет меньше 30°."></a>
+									</label>
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">Система NoFrost</span>
+										<span class="checkbox-number">13</span>
+										<a href="#" class="filter-tip" title="NoFrost - благодаря этой современной системе продукты замораживаются с помощью циркулирующего охлажденного воздуха, подающегося специальным вентилятором. Влажный воздух выводится наружу, что позволяет предотвратить образование инея&nbsp;&nbsp;на стенках морозильного отделения, и тем самым забыть о процедуре размораживания."></a>
+									</label>
+									<label>
+										<input class="checkbox filter_checkbox pers_data_check" type="checkbox">
+										<span class="checkbox-custom">Ледогенератор IceMaker</span>
+										<span class="checkbox-number">13</span>
+										<a href="#" class="filter-tip" title="IceMaker - инновационное решение для производства кубиков льда даже при отсутствии стационарной подачи или недостаточно высоком качестве питьевой воды. Для наполнения водой резервуар легко извлекается из холодильника."></a>
+									</label>
+								</div>
+							</div>
+							<div class="filter__item item__close js-item__close">
+								<span class="close__filter">
+									Открыть фильтр
+								</span>
+								<span class="close__filter">
+									Закрыть фильтр
+								</span>
+							</div>
+							<div class="filter__button">
+								<input type="submit" name="" value="Показать" class="btn-sub">
+								<span class="filter_reset js-filter_reset" id="filter_reset">Сбросить фильтр</span>
+							</div>
+							<script type="text/javascript">
+							</script>
+						</form>
+					</div>
+					<div class="col-md-3">
+						<div class="filter__date">Обновление цен от 5 апреля 2019</div>
+
+						<div class="bx-filter bx-blue filter-new">
+							<div class="bx-filter-section container-fluid">
+								<div class="row">
+									<div class="col-lg-12 bx-filter-title">Подбор параметров</div>
+								</div>
+								<form name="_form" action="/work/holodilniki/?IBLOCK_CODE=holodilniki" method="get" class="smartfilter">
+									<input type="hidden" name="IBLOCK_CODE" id="IBLOCK_CODE" value="holodilniki">
+									<div class="row">
+										<div class="col-lg-12 bx-filter-parameters-box bx-active">
+											<span class="bx-filter-container-modef"></span>
+											<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+												<span>MSK
+													<i data-role="prop_angle" class="fa fa-angle-up"></i>
+												</span>
+											</div>
+											<div class="bx-filter-block" data-role="bx_filter_block">
+												<div class="row bx-filter-parameters-box-container">
+													<div class="col-xs-6 bx-filter-parameters-box-container-block bx-left">
+														<i class="bx-ft-sub">От</i>
+														<div class="bx-filter-input-container">
+															<input class="min-price" type="text" name="arrFilter2_P1_MIN" id="arrFilter2_P1_MIN" value="" size="5" onkeyup="smartFilter.keyup(this)">
+														</div>
+													</div>
+													<div class="col-xs-6 bx-filter-parameters-box-container-block bx-right">
+														<i class="bx-ft-sub">До</i>
+														<div class="bx-filter-input-container">
+															<input class="max-price" type="text" name="arrFilter2_P1_MAX" id="arrFilter2_P1_MAX" value="" size="5" onkeyup="smartFilter.keyup(this)">
+														</div>
+													</div>
+
+													<div class="col-xs-10 col-xs-offset-1 bx-ui-slider-track-container">
+														<div class="bx-ui-slider-track" id="drag_track_c4ca4238a0b923820dcc509a6f75849b">
+															<div class="bx-ui-slider-part p1">
+																<span>13 230</span>
+															</div>
+															<div class="bx-ui-slider-part p2">
+																<span>97 422.50</span>
+															</div>
+															<div class="bx-ui-slider-part p3">
+																<span>181 615</span>
+															</div>
+															<div class="bx-ui-slider-part p4">
+																<span>265 807.50</span>
+															</div>
+															<div class="bx-ui-slider-part p5">
+																<span>350 000</span>
+															</div>
+
+															<div class="bx-ui-slider-pricebar-vd" style="left: 0px; right: 0%;" id="colorUnavailableActive_c4ca4238a0b923820dcc509a6f75849b"></div>
+															<div class="bx-ui-slider-pricebar-vn" style="left: 1.71334%; right: 8.90816%;" id="colorAvailableInactive_c4ca4238a0b923820dcc509a6f75849b"></div>
+															<div class="bx-ui-slider-pricebar-v" style="left: 1.71334%; right: 8.90816%;" id="colorAvailableActive_c4ca4238a0b923820dcc509a6f75849b"></div>
+															<div class="bx-ui-slider-range" id="drag_tracker_c4ca4238a0b923820dcc509a6f75849b" style="left: 0%; right: 0%;">
+																<a class="bx-ui-slider-handle left" style="left:0;" href="javascript:void(0)" id="left_slider_c4ca4238a0b923820dcc509a6f75849b"></a>
+																<a class="bx-ui-slider-handle right" style="right: 0%;" href="javascript:void(0)" id="right_slider_c4ca4238a0b923820dcc509a6f75849b"></a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<script type="text/javascript">
+											BX.ready(function () {
+												window['trackBarc4ca4238a0b923820dcc509a6f75849b'] = new BX.Iblock.SmartFilter({
+													'leftSlider': 'left_slider_c4ca4238a0b923820dcc509a6f75849b',
+													'rightSlider': 'right_slider_c4ca4238a0b923820dcc509a6f75849b',
+													'tracker': 'drag_tracker_c4ca4238a0b923820dcc509a6f75849b',
+													'trackerWrap': 'drag_track_c4ca4238a0b923820dcc509a6f75849b',
+													'minInputId': 'arrFilter2_P1_MIN',
+													'maxInputId': 'arrFilter2_P1_MAX',
+													'minPrice': '13230',
+													'maxPrice': '350000',
+													'curMinPrice': '',
+													'curMaxPrice': '',
+													'fltMinPrice': '13230',
+													'fltMaxPrice': '350000',
+													'precision': '',
+													'colorUnavailableActive': 'colorUnavailableActive_c4ca4238a0b923820dcc509a6f75849b',
+													'colorAvailableActive': 'colorAvailableActive_c4ca4238a0b923820dcc509a6f75849b',
+													'colorAvailableInactive': 'colorAvailableInactive_c4ca4238a0b923820dcc509a6f75849b'
+												});
+											});
+										</script>
+										<div class="col-lg-12 bx-filter-parameters-box bx-active">
+											<span class="bx-filter-container-modef"></span>
+											<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+												<span class="bx-filter-parameters-box-hint">Тип
+													<i data-role="prop_angle" class="fa fa-angle-down"></i>
+												</span>
+											</div>
+
+											<div class="bx-filter-block" data-role="bx_filter_block">
+												<div class="row bx-filter-parameters-box-container">
+													<div class="col-xs-12">
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_1538_532509844" class="bx-filter-param-label" for="arrFilter2_1538_532509844">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_1538_532509844" id="arrFilter2_1538_532509844" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="морозильник-шкаф">морозильник-шкаф&nbsp;(
+																		<span data-role="count_arrFilter2_1538_532509844">1</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_1538_3059817806" class="bx-filter-param-label disabled" for="arrFilter2_1538_3059817806">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_1538_3059817806" id="arrFilter2_1538_3059817806" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="морозильник-ларь">морозильник-ларь&nbsp;(
+																		<span data-role="count_arrFilter2_1538_3059817806">0</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_1538_3244699096" class="bx-filter-param-label disabled" for="arrFilter2_1538_3244699096">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_1538_3244699096" id="arrFilter2_1538_3244699096" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="холодильник без морозильника">холодильник без морозильника&nbsp;(
+																		<span data-role="count_arrFilter2_1538_3244699096">0</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_1538_1483701346" class="bx-filter-param-label disabled" for="arrFilter2_1538_1483701346">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_1538_1483701346" id="arrFilter2_1538_1483701346" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="холодильник с винным шкафом">холодильник с винным шкафом&nbsp;(
+																		<span data-role="count_arrFilter2_1538_1483701346">0</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_1538_795364596" class="bx-filter-param-label" for="arrFilter2_1538_795364596">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_1538_795364596" id="arrFilter2_1538_795364596" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="холодильник с морозильником">холодильник с морозильником&nbsp;(
+																		<span data-role="count_arrFilter2_1538_795364596">6</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_1538_2970409303" class="bx-filter-param-label disabled" for="arrFilter2_1538_2970409303">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_1538_2970409303" id="arrFilter2_1538_2970409303" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="морозильник с винным шкафом">морозильник с винным шкафом&nbsp;(
+																		<span data-role="count_arrFilter2_1538_2970409303">0</span>)</span>
+																</span>
+															</label>
+														</div>
+													</div>
+												</div>
+												<div style="clear: both"></div>
+											</div>
+										</div>
+										<div class="col-lg-12 bx-filter-parameters-box bx-active">
+											<span class="bx-filter-container-modef"></span>
+											<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+												<span class="bx-filter-parameters-box-hint">Высота [см]
+													<i data-role="prop_angle" class="fa fa-angle-up"></i>
+												</span>
+											</div>
+
+											<div class="bx-filter-block" data-role="bx_filter_block">
+												<div class="row bx-filter-parameters-box-container">
+													<div class="col-xs-6 bx-filter-parameters-box-container-block bx-left">
+														<i class="bx-ft-sub">От</i>
+														<div class="bx-filter-input-container">
+															<input class="min-price" type="text" name="arrFilter2_1541_MIN" id="arrFilter2_1541_MIN" value="" size="5" onkeyup="smartFilter.keyup(this)">
+														</div>
+													</div>
+													<div class="col-xs-6 bx-filter-parameters-box-container-block bx-right">
+														<i class="bx-ft-sub">До</i>
+														<div class="bx-filter-input-container">
+															<input class="max-price" type="text" name="arrFilter2_1541_MAX" id="arrFilter2_1541_MAX" value="" size="5" onkeyup="smartFilter.keyup(this)">
+														</div>
+													</div>
+
+													<div class="col-xs-10 col-xs-offset-1 bx-ui-slider-track-container">
+														<div class="bx-ui-slider-track" id="drag_track_1541">
+															<div class="bx-ui-slider-part p1">
+																<span>61.20</span>
+															</div>
+															<div class="bx-ui-slider-part p2">
+																<span>96.88</span>
+															</div>
+															<div class="bx-ui-slider-part p3">
+																<span>132.55</span>
+															</div>
+															<div class="bx-ui-slider-part p4">
+																<span>168.23</span>
+															</div>
+															<div class="bx-ui-slider-part p5">
+																<span>203.90</span>
+															</div>
+
+															<div class="bx-ui-slider-pricebar-vd" style="left: 0;right: 0;" id="colorUnavailableActive_1541"></div>
+															<div class="bx-ui-slider-pricebar-vn" style="left: 16.6783%; right: 0%;" id="colorAvailableInactive_1541"></div>
+															<div class="bx-ui-slider-pricebar-v" style="left: 16.6783%; right: 0%;" id="colorAvailableActive_1541"></div>
+															<div class="bx-ui-slider-range" id="drag_tracker_1541" style="left: 0;right: 0;">
+																<a class="bx-ui-slider-handle left" style="left:0;" href="javascript:void(0)" id="left_slider_1541"></a>
+																<a class="bx-ui-slider-handle right" style="right:0;" href="javascript:void(0)" id="right_slider_1541"></a>
+															</div>
+														</div>
+													</div>
+													<script type="text/javascript">
+														BX.ready(function () {
+															window['trackBar1541'] = new BX.Iblock.SmartFilter({
+																'leftSlider': 'left_slider_1541',
+																'rightSlider': 'right_slider_1541',
+																'tracker': 'drag_tracker_1541',
+																'trackerWrap': 'drag_track_1541',
+																'minInputId': 'arrFilter2_1541_MIN',
+																'maxInputId': 'arrFilter2_1541_MAX',
+																'minPrice': '61.2',
+																'maxPrice': '203.9',
+																'curMinPrice': '',
+																'curMaxPrice': '',
+																'fltMinPrice': '61.2',
+																'fltMaxPrice': '203.9',
+																'precision': '2',
+																'colorUnavailableActive': 'colorUnavailableActive_1541',
+																'colorAvailableActive': 'colorAvailableActive_1541',
+																'colorAvailableInactive': 'colorAvailableInactive_1541'
+															});
+														});
+													</script>
+												</div>
+												<div style="clear: both"></div>
+											</div>
+										</div>
+										<div class="col-lg-12 bx-filter-parameters-box bx-active">
+											<span class="bx-filter-container-modef"></span>
+											<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+												<span class="bx-filter-parameters-box-hint">Ширина [см]
+													<i data-role="prop_angle" class="fa fa-angle-up"></i>
+												</span>
+											</div>
+
+											<div class="bx-filter-block" data-role="bx_filter_block">
+												<div class="row bx-filter-parameters-box-container">
+													<div class="col-xs-6 bx-filter-parameters-box-container-block bx-left">
+														<i class="bx-ft-sub">От</i>
+														<div class="bx-filter-input-container">
+															<input class="min-price" type="text" name="arrFilter2_1542_MIN" id="arrFilter2_1542_MIN" value="" size="5" onkeyup="smartFilter.keyup(this)">
+														</div>
+													</div>
+													<div class="col-xs-6 bx-filter-parameters-box-container-block bx-right">
+														<i class="bx-ft-sub">До</i>
+														<div class="bx-filter-input-container">
+															<input class="max-price" type="text" name="arrFilter2_1542_MAX" id="arrFilter2_1542_MAX" value="" size="5" onkeyup="smartFilter.keyup(this)">
+														</div>
+													</div>
+
+													<div class="col-xs-10 col-xs-offset-1 bx-ui-slider-track-container">
+														<div class="bx-ui-slider-track" id="drag_track_1542">
+															<div class="bx-ui-slider-part p1">
+																<span>42.5</span>
+															</div>
+															<div class="bx-ui-slider-part p2">
+																<span>73.1</span>
+															</div>
+															<div class="bx-ui-slider-part p3">
+																<span>103.7</span>
+															</div>
+															<div class="bx-ui-slider-part p4">
+																<span>134.2</span>
+															</div>
+															<div class="bx-ui-slider-part p5">
+																<span>164.8</span>
+															</div>
+
+															<div class="bx-ui-slider-pricebar-vd" style="left: 0;right: 0;" id="colorUnavailableActive_1542"></div>
+															<div class="bx-ui-slider-pricebar-vn" style="left: 6.21423%; right: 60.3434%;" id="colorAvailableInactive_1542"></div>
+															<div class="bx-ui-slider-pricebar-v" style="left: 6.21423%; right: 60.3434%;" id="colorAvailableActive_1542"></div>
+															<div class="bx-ui-slider-range" id="drag_tracker_1542" style="left: 0;right: 0;">
+																<a class="bx-ui-slider-handle left" style="left:0;" href="javascript:void(0)" id="left_slider_1542"></a>
+																<a class="bx-ui-slider-handle right" style="right:0;" href="javascript:void(0)" id="right_slider_1542"></a>
+															</div>
+														</div>
+													</div>
+													<script type="text/javascript">
+														BX.ready(function () {
+															window['trackBar1542'] = new BX.Iblock.SmartFilter({
+																'leftSlider': 'left_slider_1542',
+																'rightSlider': 'right_slider_1542',
+																'tracker': 'drag_tracker_1542',
+																'trackerWrap': 'drag_track_1542',
+																'minInputId': 'arrFilter2_1542_MIN',
+																'maxInputId': 'arrFilter2_1542_MAX',
+																'minPrice': '42.5',
+																'maxPrice': '164.8',
+																'curMinPrice': '',
+																'curMaxPrice': '',
+																'fltMinPrice': '42.5',
+																'fltMaxPrice': '164.8',
+																'precision': '1',
+																'colorUnavailableActive': 'colorUnavailableActive_1542',
+																'colorAvailableActive': 'colorAvailableActive_1542',
+																'colorAvailableInactive': 'colorAvailableInactive_1542'
+															});
+														});
+													</script>
+												</div>
+												<div style="clear: both"></div>
+											</div>
+										</div>
+										<div class="col-lg-12 bx-filter-parameters-box bx-active">
+											<span class="bx-filter-container-modef">
+												<div class="bx-filter-popup-result right" id="modef" style="display: inline-block;">
+													Выбрано:
+													<span id="modef_num">7</span>
+													<span class="arrow"></span>
+													<br>
+													<a href="/work/holodilniki/?IBLOCK_CODE=holodilniki&amp;set_filter=y&amp;arrFilter2_2250_1738692762=Y" target="">Показать</a>
+												</div>
+											</span>
+											<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+												<span class="bx-filter-parameters-box-hint">Цвет
+													<i data-role="prop_angle" class="fa fa-angle-up"></i>
+												</span>
+											</div>
+
+											<div class="bx-filter-block" data-role="bx_filter_block" style="display: block; opacity: 1; height: 437px;">
+												<div class="row bx-filter-parameters-box-container">
+													<div class="col-xs-12">
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_1738692762" class="bx-filter-param-label" for="arrFilter2_2250_1738692762">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_1738692762" id="arrFilter2_2250_1738692762" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="бежевый">бежевый&nbsp;(
+																		<span data-role="count_arrFilter2_2250_1738692762">7</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_841265288" class="bx-filter-param-label" for="arrFilter2_2250_841265288">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_841265288" id="arrFilter2_2250_841265288" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="белый">белый&nbsp;(
+																		<span data-role="count_arrFilter2_2250_841265288">176</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_3303624126" class="bx-filter-param-label" for="arrFilter2_2250_3303624126">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_3303624126" id="arrFilter2_2250_3303624126" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="бронза">бронза&nbsp;(
+																		<span data-role="count_arrFilter2_2250_3303624126">1</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_3834431074" class="bx-filter-param-label" for="arrFilter2_2250_3834431074">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_3834431074" id="arrFilter2_2250_3834431074" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="зеленый KiwiGreen">зеленый KiwiGreen&nbsp;(
+																		<span data-role="count_arrFilter2_2250_3834431074">1</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_2587736799" class="bx-filter-param-label" for="arrFilter2_2250_2587736799">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_2587736799" id="arrFilter2_2250_2587736799" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="зеленый авокадо">зеленый авокадо&nbsp;(
+																		<span data-role="count_arrFilter2_2250_2587736799">1</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_3761914965" class="bx-filter-param-label" for="arrFilter2_2250_3761914965">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_3761914965" id="arrFilter2_2250_3761914965" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="красный">красный&nbsp;(
+																		<span data-role="count_arrFilter2_2250_3761914965">1</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_2871910706" class="bx-filter-param-label" for="arrFilter2_2250_2871910706">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_2871910706" id="arrFilter2_2250_2871910706" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="нержавеющая сталь">нержавеющая сталь&nbsp;(
+																		<span data-role="count_arrFilter2_2250_2871910706">47</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_1949555699" class="bx-filter-param-label" for="arrFilter2_2250_1949555699">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_1949555699" id="arrFilter2_2250_1949555699" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="оранжевый NeonOrange">оранжевый NeonOrange&nbsp;(
+																		<span data-role="count_arrFilter2_2250_1949555699">1</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_1239821711" class="bx-filter-param-label" for="arrFilter2_2250_1239821711">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_1239821711" id="arrFilter2_2250_1239821711" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="серебристый">серебристый&nbsp;(
+																		<span data-role="count_arrFilter2_2250_1239821711">71</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_3685956360" class="bx-filter-param-label" for="arrFilter2_2250_3685956360">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_3685956360" id="arrFilter2_2250_3685956360" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="серебристый + нержавеющая сталь">серебристый + нержавеющая сталь&nbsp;(
+																		<span data-role="count_arrFilter2_2250_3685956360">16</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_965531904" class="bx-filter-param-label" for="arrFilter2_2250_965531904">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_965531904" id="arrFilter2_2250_965531904" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="синий">синий&nbsp;(
+																		<span data-role="count_arrFilter2_2250_965531904">1</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_2475423476" class="bx-filter-param-label" for="arrFilter2_2250_2475423476">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_2475423476" id="arrFilter2_2250_2475423476" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="синий FrozenBlue">синий FrozenBlue&nbsp;(
+																		<span data-role="count_arrFilter2_2250_2475423476">1</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_1842303647" class="bx-filter-param-label" for="arrFilter2_2250_1842303647">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_1842303647" id="arrFilter2_2250_1842303647" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="цветной StickerArt">цветной StickerArt&nbsp;(
+																		<span data-role="count_arrFilter2_2250_1842303647">1</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_3693793700" class="bx-filter-param-label" for="arrFilter2_2250_3693793700">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_3693793700" id="arrFilter2_2250_3693793700" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="черный">черный&nbsp;(
+																		<span data-role="count_arrFilter2_2250_3693793700">6</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_53799781" class="bx-filter-param-label" for="arrFilter2_2250_53799781">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_53799781" id="arrFilter2_2250_53799781" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="черный / серебристый">черный / серебристый&nbsp;(
+																		<span data-role="count_arrFilter2_2250_53799781">2</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_1865533099" class="bx-filter-param-label" for="arrFilter2_2250_1865533099">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_1865533099" id="arrFilter2_2250_1865533099" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="черный BlackSteel">черный BlackSteel&nbsp;(
+																		<span data-role="count_arrFilter2_2250_1865533099">14</span>)</span>
+																</span>
+															</label>
+														</div>
+													</div>
+												</div>
+												<div style="clear: both"></div>
+											</div>
+										</div>
+										<div class="col-lg-12 bx-filter-parameters-box bx-active">
+											<span class="bx-filter-container-modef"></span>
+											<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+												<span class="bx-filter-parameters-box-hint">Зона свежести BioFresh
+													<i data-role="prop_angle" class="fa fa-angle-up"></i>
+												</span>
+											</div>
+
+											<div class="bx-filter-block" data-role="bx_filter_block" style="display: block; opacity: 1; height: 46px;">
+												<div class="row bx-filter-parameters-box-container">
+													<div class="col-xs-12">
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_1619_2457050331" class="bx-filter-param-label" for="arrFilter2_1619_2457050331">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_1619_2457050331" id="arrFilter2_1619_2457050331" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="Есть">Есть&nbsp;(
+																		<span data-role="count_arrFilter2_1619_2457050331">2</span>)</span>
+																</span>
+															</label>
+														</div>
+													</div>
+												</div>
+												<div style="clear: both"></div>
+											</div>
+										</div>
+										<div class="col-lg-12 bx-filter-parameters-box bx-active">
+											<span class="bx-filter-container-modef"></span>
+											<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+												<span class="bx-filter-parameters-box-hint">Система замораживания NoFrost
+													<i data-role="prop_angle" class="fa fa-angle-up"></i>
+												</span>
+											</div>
+
+											<div class="bx-filter-block" data-role="bx_filter_block" style="display: block; opacity: 1; height: 46px;">
+												<div class="row bx-filter-parameters-box-container">
+													<div class="col-xs-12">
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_1642_1644890287" class="bx-filter-param-label" for="arrFilter2_1642_1644890287">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_1642_1644890287" id="arrFilter2_1642_1644890287" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="Есть">Есть&nbsp;(
+																		<span data-role="count_arrFilter2_1642_1644890287">4</span>)</span>
+																</span>
+															</label>
+														</div>
+													</div>
+												</div>
+												<div style="clear: both"></div>
+											</div>
+										</div>
+										<div class="col-lg-12 bx-filter-parameters-box bx-active">
+											<span class="bx-filter-container-modef"></span>
+											<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+												<span class="bx-filter-parameters-box-hint">Ледогенератор IceMaker
+													<i data-role="prop_angle" class="fa fa-angle-up"></i>
+												</span>
+											</div>
+
+											<div class="bx-filter-block" data-role="bx_filter_block" style="display: block; opacity: 1; height: 46px;">
+												<div class="row bx-filter-parameters-box-container">
+													<div class="col-xs-12">
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_1668_3157780942" class="bx-filter-param-label" for="arrFilter2_1668_3157780942">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_1668_3157780942" id="arrFilter2_1668_3157780942" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="Есть">Есть&nbsp;(
+																		<span data-role="count_arrFilter2_1668_3157780942">1</span>)</span>
+																</span>
+															</label>
+														</div>
+													</div>
+												</div>
+												<div style="clear: both"></div>
+											</div>
+										</div>
+										<div class="col-lg-12 bx-filter-parameters-box bx-active">
+											<span class="bx-filter-container-modef"></span>
+											<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+												<span class="bx-filter-parameters-box-hint">Ледогенератор IceMaker
+													<i data-role="prop_angle" class="fa fa-angle-up"></i>
+												</span>
+											</div>
+
+											<div class="bx-filter-block" data-role="bx_filter_block" style="display: block; opacity: 1; height: 46px;">
+												<div class="row bx-filter-parameters-box-container">
+													<div class="col-xs-12">
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_1669_3408976216" class="bx-filter-param-label" for="arrFilter2_1669_3408976216">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_1669_3408976216" id="arrFilter2_1669_3408976216" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="Есть">Есть&nbsp;(
+																		<span data-role="count_arrFilter2_1669_3408976216">1</span>)</span>
+																</span>
+															</label>
+														</div>
+													</div>
+												</div>
+												<div style="clear: both"></div>
+											</div>
+										</div>
+									</div>
+									<!--//row-->
+									<div class="row">
+										<div class="col-xs-12 bx-filter-button-box">
+											<div class="bx-filter-block">
+												<div class="bx-filter-parameters-box-container">
+													<input class="btn btn-themes" type="submit" id="set_filter" name="set_filter" value="Показать">
+													<input class="btn btn-link" type="submit" id="del_filter" name="del_filter" value="Сбросить">
+
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="clb"></div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="filter__date">Обновление цен от 5 апреля 2019</div>
+						<div class="bx-filter bx-blue filter-new">
+							<div class="bx-filter-section container-fluid">
+								<form name="_form" action="/work/holodilniki/?IBLOCK_CODE=holodilniki" method="get" class="smartfilter">
+									<input type="hidden" name="IBLOCK_CODE" id="IBLOCK_CODE" value="holodilniki">
+									<div class="row">
+										<div class="col-lg-12 bx-filter-parameters-box bx-active">
+											<span class="bx-filter-container-modef"></span>
+											<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+												<span>Цена, руб.
+													<i data-role="prop_angle" class="fa fa-angle-up"></i>
+												</span>
+											</div>
+											<div class="bx-filter-block" data-role="bx_filter_block" style="display: block; opacity: 1; height: 149px;">
+												<div class="row bx-filter-parameters-box-container">
+													<div class="col-xs-6 bx-filter-parameters-box-container-block bx-left">
+														<i class="bx-ft-sub">От</i>
+														<div class="bx-filter-input-container">
+															<input class="min-price" type="text" name="arrFilter2_P1_MIN" id="arrFilter2_P1_MIN" value="" size="5" onkeyup="smartFilter.keyup(this)">
+														</div>
+													</div>
+													<div class="col-xs-6 bx-filter-parameters-box-container-block bx-right">
+														<i class="bx-ft-sub">До</i>
+														<div class="bx-filter-input-container">
+															<input class="max-price" type="text" name="arrFilter2_P1_MAX" id="arrFilter2_P1_MAX" value="" size="5" onkeyup="smartFilter.keyup(this)">
+														</div>
+													</div>
+
+													<div class="col-xs-10 col-xs-offset-1 bx-ui-slider-track-container">
+														<div class="bx-ui-slider-track" id="drag_track_c4ca4238a0b923820dcc509a6f75849b">
+															<div class="bx-ui-slider-part p1">
+																<span>13 230</span>
+															</div>
+															<div class="bx-ui-slider-part p2">
+																<span>97 422.50</span>
+															</div>
+															<div class="bx-ui-slider-part p3">
+																<span>181 615</span>
+															</div>
+															<div class="bx-ui-slider-part p4">
+																<span>265 807.50</span>
+															</div>
+															<div class="bx-ui-slider-part p5">
+																<span>350 000</span>
+															</div>
+
+															<div class="bx-ui-slider-pricebar-vd" style="left: 0;right: 0;" id="colorUnavailableActive_c4ca4238a0b923820dcc509a6f75849b"></div>
+															<div class="bx-ui-slider-pricebar-vn" style="left: 0%; right: 0%;" id="colorAvailableInactive_c4ca4238a0b923820dcc509a6f75849b"></div>
+															<div class="bx-ui-slider-pricebar-v" style="left: 0%; right: 0%;" id="colorAvailableActive_c4ca4238a0b923820dcc509a6f75849b"></div>
+															<div class="bx-ui-slider-range" id="drag_tracker_c4ca4238a0b923820dcc509a6f75849b" style="left: 0%; right: 0%;">
+																<a class="bx-ui-slider-handle left" style="left:0;" href="javascript:void(0)" id="left_slider_c4ca4238a0b923820dcc509a6f75849b"></a>
+																<a class="bx-ui-slider-handle right" style="right:0;" href="javascript:void(0)" id="right_slider_c4ca4238a0b923820dcc509a6f75849b"></a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<script type="text/javascript">
+											BX.ready(function () {
+												window['trackBarc4ca4238a0b923820dcc509a6f75849b'] = new BX.Iblock.SmartFilter({
+													'leftSlider': 'left_slider_c4ca4238a0b923820dcc509a6f75849b',
+													'rightSlider': 'right_slider_c4ca4238a0b923820dcc509a6f75849b',
+													'tracker': 'drag_tracker_c4ca4238a0b923820dcc509a6f75849b',
+													'trackerWrap': 'drag_track_c4ca4238a0b923820dcc509a6f75849b',
+													'minInputId': 'arrFilter2_P1_MIN',
+													'maxInputId': 'arrFilter2_P1_MAX',
+													'minPrice': '13230',
+													'maxPrice': '350000',
+													'curMinPrice': '',
+													'curMaxPrice': '',
+													'fltMinPrice': '13230',
+													'fltMaxPrice': '350000',
+													'precision': '',
+													'colorUnavailableActive': 'colorUnavailableActive_c4ca4238a0b923820dcc509a6f75849b',
+													'colorAvailableActive': 'colorAvailableActive_c4ca4238a0b923820dcc509a6f75849b',
+													'colorAvailableInactive': 'colorAvailableInactive_c4ca4238a0b923820dcc509a6f75849b'
+												});
+											});
+										</script>
+										<div class="col-lg-12 bx-filter-parameters-box ">
+											<span class="bx-filter-container-modef"></span>
+											<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+												<span class="bx-filter-parameters-box-hint">Тип
+													<i data-role="prop_angle" class="fa fa-angle-down"></i>
+												</span>
+											</div>
+
+											<div class="bx-filter-block" data-role="bx_filter_block">
+												<div class="row bx-filter-parameters-box-container">
+													<div class="col-xs-12">
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_1538_532509844" class="bx-filter-param-label " for="arrFilter2_1538_532509844">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_1538_532509844" id="arrFilter2_1538_532509844" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="морозильник-шкаф">морозильник-шкаф&nbsp;(
+																		<span data-role="count_arrFilter2_1538_532509844">42</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_1538_3059817806" class="bx-filter-param-label " for="arrFilter2_1538_3059817806">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_1538_3059817806" id="arrFilter2_1538_3059817806" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="морозильник-ларь">морозильник-ларь&nbsp;(
+																		<span data-role="count_arrFilter2_1538_3059817806">29</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_1538_3244699096" class="bx-filter-param-label " for="arrFilter2_1538_3244699096">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_1538_3244699096" id="arrFilter2_1538_3244699096" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="холодильник без морозильника">холодильник без морозильника&nbsp;(
+																		<span data-role="count_arrFilter2_1538_3244699096">39</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_1538_1483701346" class="bx-filter-param-label " for="arrFilter2_1538_1483701346">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_1538_1483701346" id="arrFilter2_1538_1483701346" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="холодильник с винным шкафом">холодильник с винным шкафом&nbsp;(
+																		<span data-role="count_arrFilter2_1538_1483701346">2</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_1538_795364596" class="bx-filter-param-label " for="arrFilter2_1538_795364596">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_1538_795364596" id="arrFilter2_1538_795364596" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="холодильник с морозильником">холодильник с морозильником&nbsp;(
+																		<span data-role="count_arrFilter2_1538_795364596">235</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_1538_2970409303" class="bx-filter-param-label " for="arrFilter2_1538_2970409303">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_1538_2970409303" id="arrFilter2_1538_2970409303" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="морозильник с винным шкафом">морозильник с винным шкафом&nbsp;(
+																		<span data-role="count_arrFilter2_1538_2970409303">1</span>)</span>
+																</span>
+															</label>
+														</div>
+													</div>
+												</div>
+												<div style="clear: both"></div>
+											</div>
+										</div>
+										<div class="col-lg-12 bx-filter-parameters-box bx-active">
+											<span class="bx-filter-container-modef"></span>
+											<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+												<span class="bx-filter-parameters-box-hint">Высота [см]
+													<i data-role="prop_angle" class="fa fa-angle-up"></i>
+												</span>
+											</div>
+
+											<div class="bx-filter-block" data-role="bx_filter_block">
+												<div class="row bx-filter-parameters-box-container">
+													<div class="col-xs-6 bx-filter-parameters-box-container-block bx-left">
+														<i class="bx-ft-sub">От</i>
+														<div class="bx-filter-input-container">
+															<input class="min-price" type="text" name="arrFilter2_1541_MIN" id="arrFilter2_1541_MIN" value="" size="5" onkeyup="smartFilter.keyup(this)">
+														</div>
+													</div>
+													<div class="col-xs-6 bx-filter-parameters-box-container-block bx-right">
+														<i class="bx-ft-sub">До</i>
+														<div class="bx-filter-input-container">
+															<input class="max-price" type="text" name="arrFilter2_1541_MAX" id="arrFilter2_1541_MAX" value="" size="5" onkeyup="smartFilter.keyup(this)">
+														</div>
+													</div>
+
+													<div class="col-xs-10 col-xs-offset-1 bx-ui-slider-track-container">
+														<div class="bx-ui-slider-track" id="drag_track_1541">
+															<div class="bx-ui-slider-part p1">
+																<span>61.20</span>
+															</div>
+															<div class="bx-ui-slider-part p2">
+																<span>96.88</span>
+															</div>
+															<div class="bx-ui-slider-part p3">
+																<span>132.55</span>
+															</div>
+															<div class="bx-ui-slider-part p4">
+																<span>168.23</span>
+															</div>
+															<div class="bx-ui-slider-part p5">
+																<span>203.90</span>
+															</div>
+
+															<div class="bx-ui-slider-pricebar-vd" style="left: 0;right: 0;" id="colorUnavailableActive_1541"></div>
+															<div class="bx-ui-slider-pricebar-vn" style="left: 0%; right: 0%;" id="colorAvailableInactive_1541"></div>
+															<div class="bx-ui-slider-pricebar-v" style="left: 0%; right: 0%;" id="colorAvailableActive_1541"></div>
+															<div class="bx-ui-slider-range" id="drag_tracker_1541" style="left: 0;right: 0;">
+																<a class="bx-ui-slider-handle left" style="left:0;" href="javascript:void(0)" id="left_slider_1541"></a>
+																<a class="bx-ui-slider-handle right" style="right:0;" href="javascript:void(0)" id="right_slider_1541"></a>
+															</div>
+														</div>
+													</div>
+													<script type="text/javascript">
+														BX.ready(function () {
+															window['trackBar1541'] = new BX.Iblock.SmartFilter({
+																'leftSlider': 'left_slider_1541',
+																'rightSlider': 'right_slider_1541',
+																'tracker': 'drag_tracker_1541',
+																'trackerWrap': 'drag_track_1541',
+																'minInputId': 'arrFilter2_1541_MIN',
+																'maxInputId': 'arrFilter2_1541_MAX',
+																'minPrice': '61.2',
+																'maxPrice': '203.9',
+																'curMinPrice': '',
+																'curMaxPrice': '',
+																'fltMinPrice': '61.2',
+																'fltMaxPrice': '203.9',
+																'precision': '2',
+																'colorUnavailableActive': 'colorUnavailableActive_1541',
+																'colorAvailableActive': 'colorAvailableActive_1541',
+																'colorAvailableInactive': 'colorAvailableInactive_1541'
+															});
+														});
+													</script>
+												</div>
+												<div style="clear: both"></div>
+											</div>
+										</div>
+										<div class="col-lg-12 bx-filter-parameters-box bx-active">
+											<span class="bx-filter-container-modef"></span>
+											<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+												<span class="bx-filter-parameters-box-hint">Ширина [см]
+													<i data-role="prop_angle" class="fa fa-angle-up"></i>
+												</span>
+											</div>
+
+											<div class="bx-filter-block" data-role="bx_filter_block">
+												<div class="row bx-filter-parameters-box-container">
+													<div class="col-xs-6 bx-filter-parameters-box-container-block bx-left">
+														<i class="bx-ft-sub">От</i>
+														<div class="bx-filter-input-container">
+															<input class="min-price" type="text" name="arrFilter2_1542_MIN" id="arrFilter2_1542_MIN" value="" size="5" onkeyup="smartFilter.keyup(this)">
+														</div>
+													</div>
+													<div class="col-xs-6 bx-filter-parameters-box-container-block bx-right">
+														<i class="bx-ft-sub">До</i>
+														<div class="bx-filter-input-container">
+															<input class="max-price" type="text" name="arrFilter2_1542_MAX" id="arrFilter2_1542_MAX" value="" size="5" onkeyup="smartFilter.keyup(this)">
+														</div>
+													</div>
+
+													<div class="col-xs-10 col-xs-offset-1 bx-ui-slider-track-container">
+														<div class="bx-ui-slider-track" id="drag_track_1542">
+															<div class="bx-ui-slider-part p1">
+																<span>42.5</span>
+															</div>
+															<div class="bx-ui-slider-part p2">
+																<span>73.1</span>
+															</div>
+															<div class="bx-ui-slider-part p3">
+																<span>103.7</span>
+															</div>
+															<div class="bx-ui-slider-part p4">
+																<span>134.2</span>
+															</div>
+															<div class="bx-ui-slider-part p5">
+																<span>164.8</span>
+															</div>
+
+															<div class="bx-ui-slider-pricebar-vd" style="left: 0;right: 0;" id="colorUnavailableActive_1542"></div>
+															<div class="bx-ui-slider-pricebar-vn" style="left: 0%; right: 0%;" id="colorAvailableInactive_1542"></div>
+															<div class="bx-ui-slider-pricebar-v" style="left: 0%; right: 0%;" id="colorAvailableActive_1542"></div>
+															<div class="bx-ui-slider-range" id="drag_tracker_1542" style="left: 0;right: 0;">
+																<a class="bx-ui-slider-handle left" style="left:0;" href="javascript:void(0)" id="left_slider_1542"></a>
+																<a class="bx-ui-slider-handle right" style="right:0;" href="javascript:void(0)" id="right_slider_1542"></a>
+															</div>
+														</div>
+													</div>
+													<script type="text/javascript">
+														BX.ready(function () {
+															window['trackBar1542'] = new BX.Iblock.SmartFilter({
+																'leftSlider': 'left_slider_1542',
+																'rightSlider': 'right_slider_1542',
+																'tracker': 'drag_tracker_1542',
+																'trackerWrap': 'drag_track_1542',
+																'minInputId': 'arrFilter2_1542_MIN',
+																'maxInputId': 'arrFilter2_1542_MAX',
+																'minPrice': '42.5',
+																'maxPrice': '164.8',
+																'curMinPrice': '',
+																'curMaxPrice': '',
+																'fltMinPrice': '42.5',
+																'fltMaxPrice': '164.8',
+																'precision': '1',
+																'colorUnavailableActive': 'colorUnavailableActive_1542',
+																'colorAvailableActive': 'colorAvailableActive_1542',
+																'colorAvailableInactive': 'colorAvailableInactive_1542'
+															});
+														});
+													</script>
+												</div>
+												<div style="clear: both"></div>
+											</div>
+										</div>
+										<div class="col-lg-12 bx-filter-parameters-box ">
+											<span class="bx-filter-container-modef"></span>
+											<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+												<span class="bx-filter-parameters-box-hint">Цвет
+													<i data-role="prop_angle" class="fa fa-angle-down"></i>
+												</span>
+											</div>
+
+											<div class="bx-filter-block" data-role="bx_filter_block">
+												<div class="row bx-filter-parameters-box-container">
+													<div class="col-xs-12">
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_1738692762" class="bx-filter-param-label " for="arrFilter2_2250_1738692762">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_1738692762" id="arrFilter2_2250_1738692762" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="бежевый">бежевый&nbsp;(
+																		<span data-role="count_arrFilter2_2250_1738692762">7</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_841265288" class="bx-filter-param-label " for="arrFilter2_2250_841265288">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_841265288" id="arrFilter2_2250_841265288" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="белый">белый&nbsp;(
+																		<span data-role="count_arrFilter2_2250_841265288">176</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_3303624126" class="bx-filter-param-label " for="arrFilter2_2250_3303624126">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_3303624126" id="arrFilter2_2250_3303624126" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="бронза">бронза&nbsp;(
+																		<span data-role="count_arrFilter2_2250_3303624126">1</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_3834431074" class="bx-filter-param-label " for="arrFilter2_2250_3834431074">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_3834431074" id="arrFilter2_2250_3834431074" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="зеленый KiwiGreen">зеленый KiwiGreen&nbsp;(
+																		<span data-role="count_arrFilter2_2250_3834431074">1</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_2587736799" class="bx-filter-param-label " for="arrFilter2_2250_2587736799">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_2587736799" id="arrFilter2_2250_2587736799" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="зеленый авокадо">зеленый авокадо&nbsp;(
+																		<span data-role="count_arrFilter2_2250_2587736799">1</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_3761914965" class="bx-filter-param-label " for="arrFilter2_2250_3761914965">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_3761914965" id="arrFilter2_2250_3761914965" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="красный">красный&nbsp;(
+																		<span data-role="count_arrFilter2_2250_3761914965">1</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_2871910706" class="bx-filter-param-label " for="arrFilter2_2250_2871910706">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_2871910706" id="arrFilter2_2250_2871910706" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="нержавеющая сталь">нержавеющая сталь&nbsp;(
+																		<span data-role="count_arrFilter2_2250_2871910706">47</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_1949555699" class="bx-filter-param-label " for="arrFilter2_2250_1949555699">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_1949555699" id="arrFilter2_2250_1949555699" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="оранжевый NeonOrange">оранжевый NeonOrange&nbsp;(
+																		<span data-role="count_arrFilter2_2250_1949555699">1</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_1239821711" class="bx-filter-param-label " for="arrFilter2_2250_1239821711">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_1239821711" id="arrFilter2_2250_1239821711" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="серебристый">серебристый&nbsp;(
+																		<span data-role="count_arrFilter2_2250_1239821711">71</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_3685956360" class="bx-filter-param-label " for="arrFilter2_2250_3685956360">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_3685956360" id="arrFilter2_2250_3685956360" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="серебристый + нержавеющая сталь">серебристый + нержавеющая сталь&nbsp;(
+																		<span data-role="count_arrFilter2_2250_3685956360">16</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_965531904" class="bx-filter-param-label " for="arrFilter2_2250_965531904">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_965531904" id="arrFilter2_2250_965531904" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="синий">синий&nbsp;(
+																		<span data-role="count_arrFilter2_2250_965531904">1</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_2475423476" class="bx-filter-param-label " for="arrFilter2_2250_2475423476">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_2475423476" id="arrFilter2_2250_2475423476" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="синий FrozenBlue">синий FrozenBlue&nbsp;(
+																		<span data-role="count_arrFilter2_2250_2475423476">1</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_1842303647" class="bx-filter-param-label " for="arrFilter2_2250_1842303647">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_1842303647" id="arrFilter2_2250_1842303647" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="цветной StickerArt">цветной StickerArt&nbsp;(
+																		<span data-role="count_arrFilter2_2250_1842303647">1</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_3693793700" class="bx-filter-param-label " for="arrFilter2_2250_3693793700">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_3693793700" id="arrFilter2_2250_3693793700" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="черный">черный&nbsp;(
+																		<span data-role="count_arrFilter2_2250_3693793700">6</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_53799781" class="bx-filter-param-label " for="arrFilter2_2250_53799781">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_53799781" id="arrFilter2_2250_53799781" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="черный / серебристый">черный / серебристый&nbsp;(
+																		<span data-role="count_arrFilter2_2250_53799781">2</span>)</span>
+																</span>
+															</label>
+														</div>
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_2250_1865533099" class="bx-filter-param-label " for="arrFilter2_2250_1865533099">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_2250_1865533099" id="arrFilter2_2250_1865533099" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="черный BlackSteel">черный BlackSteel&nbsp;(
+																		<span data-role="count_arrFilter2_2250_1865533099">14</span>)</span>
+																</span>
+															</label>
+														</div>
+													</div>
+												</div>
+												<div style="clear: both"></div>
+											</div>
+										</div>
+										<div class="col-lg-12 bx-filter-parameters-box ">
+											<span class="bx-filter-container-modef"></span>
+											<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+												<span class="bx-filter-parameters-box-hint">Зона свежести BioFresh
+													<i data-role="prop_angle" class="fa fa-angle-down"></i>
+												</span>
+											</div>
+
+											<div class="bx-filter-block" data-role="bx_filter_block">
+												<div class="row bx-filter-parameters-box-container">
+													<div class="col-xs-12">
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_1619_2457050331" class="bx-filter-param-label " for="arrFilter2_1619_2457050331">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_1619_2457050331" id="arrFilter2_1619_2457050331" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="Есть">Есть&nbsp;(
+																		<span data-role="count_arrFilter2_1619_2457050331">86</span>)</span>
+																</span>
+															</label>
+														</div>
+													</div>
+												</div>
+												<div style="clear: both"></div>
+											</div>
+										</div>
+										<div class="col-lg-12 bx-filter-parameters-box ">
+											<span class="bx-filter-container-modef"></span>
+											<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+												<span class="bx-filter-parameters-box-hint">Система замораживания NoFrost
+													<i data-role="prop_angle" class="fa fa-angle-down"></i>
+												</span>
+											</div>
+
+											<div class="bx-filter-block" data-role="bx_filter_block">
+												<div class="row bx-filter-parameters-box-container">
+													<div class="col-xs-12">
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_1642_1644890287" class="bx-filter-param-label " for="arrFilter2_1642_1644890287">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_1642_1644890287" id="arrFilter2_1642_1644890287" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="Есть">Есть&nbsp;(
+																		<span data-role="count_arrFilter2_1642_1644890287">184</span>)</span>
+																</span>
+															</label>
+														</div>
+													</div>
+												</div>
+												<div style="clear: both"></div>
+											</div>
+										</div>
+										<div class="col-lg-12 bx-filter-parameters-box ">
+											<span class="bx-filter-container-modef"></span>
+											<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+												<span class="bx-filter-parameters-box-hint">Ледогенератор IceMaker
+													<i data-role="prop_angle" class="fa fa-angle-down"></i>
+												</span>
+											</div>
+
+											<div class="bx-filter-block" data-role="bx_filter_block">
+												<div class="row bx-filter-parameters-box-container">
+													<div class="col-xs-12">
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_1668_3157780942" class="bx-filter-param-label " for="arrFilter2_1668_3157780942">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_1668_3157780942" id="arrFilter2_1668_3157780942" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="Есть">Есть&nbsp;(
+																		<span data-role="count_arrFilter2_1668_3157780942">29</span>)</span>
+																</span>
+															</label>
+														</div>
+													</div>
+												</div>
+												<div style="clear: both"></div>
+											</div>
+										</div>
+										<div class="col-lg-12 bx-filter-parameters-box ">
+											<span class="bx-filter-container-modef"></span>
+											<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+												<span class="bx-filter-parameters-box-hint">Ледогенератор IceMaker
+													<i data-role="prop_angle" class="fa fa-angle-down"></i>
+												</span>
+											</div>
+
+											<div class="bx-filter-block" data-role="bx_filter_block">
+												<div class="row bx-filter-parameters-box-container">
+													<div class="col-xs-12">
+														<div class="checkbox">
+															<label data-role="label_arrFilter2_1669_3408976216" class="bx-filter-param-label " for="arrFilter2_1669_3408976216">
+																<span class="bx-filter-input-checkbox">
+																	<input type="checkbox" value="Y" name="arrFilter2_1669_3408976216" id="arrFilter2_1669_3408976216" onclick="smartFilter.click(this)">
+																	<span class="bx-filter-param-text" title="Есть">Есть&nbsp;(
+																		<span data-role="count_arrFilter2_1669_3408976216">19</span>)</span>
+																</span>
+															</label>
+														</div>
+													</div>
+												</div>
+												<div style="clear: both"></div>
+											</div>
+										</div>
+									</div>
+									<!--//row-->
+									<div class="row">
+										<div class="col-xs-12 bx-filter-button-box">
+											<div class="bx-filter-block">
+												<div class="bx-filter-parameters-box-container">
+													<input class="btn btn-themes" type="submit" id="set_filter" name="set_filter" value="Показать">
+													<input class="btn btn-link" type="submit" id="del_filter" name="del_filter" value="Сбросить">
+													<div class="bx-filter-popup-result right" id="modef" style="display:none">
+														Выбрано:
+														<span id="modef_num">0</span>
+														<span class="arrow"></span>
+														<br>
+														<a href="/work/holodilniki/?IBLOCK_CODE=holodilniki&amp;set_filter=y" target="">Показать</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="clb"></div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END WORKAREA -->
+			</div>
+			<!-- /.content -->
+		</div>
+		<!-- /.middle -->
+
+	</div>
+	<!-- /.wrapper -->
+
+	<div class="footer wrapper" id="js-footer">
+		<div class="container">
+			<div class="footer__inner">
+				<div class="footer__col">
+					<nav class="menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__title js-menu-footer__title">Бытовые холодильники</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Холодильники</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Отдельностоящие морозильные камеры
+								</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Встраиваемые холодильники
+								</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Встраиваемые морозильные камеры
+								</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Винные шкафы</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Хьюмидоры</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- /.footer__col -->
+				<div class="footer__col">
+					<nav class="menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__title js-menu-footer__title">Профессиональная техника</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Медицинское и лабораторное оборудование
+								</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Для гостиниц и ресторанов
+								</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Для охлаждения напитков</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Для пекарен</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Для хранения замороженных продуктов и мороженого
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- /.footer__col -->
+				<div class="footer__col">
+					<nav class="menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__title js-menu-footer__title">Информация</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">О Liebherr</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Акции и статьи</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Глоссарий</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Оплата и доставка</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Контакты</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Подключение</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Гарантия</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Возврат и обмен</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Сервис и обслуживание</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- /.footer__col -->
+				<div class="footer__col">
+					<div class="footer__text footer__text_first">Интернет-магазин Liebherr</div>
+					<a href="tel:+74951912633" class="footer__tel">+7 495 191-26-33</a>
+					<a href="tel:+78003331936" class="footer__tel">+7 800 333-19-36</a>
+					<a href="#" data-url="ajax/callback.html" data-ajax="" class="footer__call-phone-button js-callback">
+						<span>
+							Заказать звонок
+						</span>
+
+					</a>
+					<a href="mailto:shop@l-rus.ru" class="footer__email">
+						<i></i>shop@l-rus.ru</a>
+					<div class="footer__text footer__text_two">Режим работы</div>
+					<div class="footer__text footer__text_three">Пн-Пт: 08:00—22:00
+						<br>Сб-Вс: 09:00—22:00</div>
+				</div>
+				<!-- /.footer__col -->
+			</div>
+			<div class="footer__row">
+				<div class="footer__copyright">
+					© 2004 – 2019 Магазин LIEBHERR.
+					<br>«NTK LTD TM all rights reserved»
+				</div>
+				<div class="social-items">
+					<a href="#" class="social-link vk"></a>
+					<a href="#" class="social-link fb"></a>
+					<a href="#" class="social-link tw"></a>
+					<a href="#" class="social-link ok"></a>
+				</div>
+				<a class="privacy-policy" href="https://lbhr.ret-team.ru/personal-data/">Политика конфиденциальности</a>
+				<div class="footer__telephones">
+					<div class="l-abuse">
+						<a href="#" data-url="ajax/abuse.html" data-ajax class="footer__button abuse__button js-abuse__button" id="js-abuse-opener">Пожаловаться руководству
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- /.footer__row -->
+		</div>
+
+		<!-- /.footer__inner -->
+
+	</div>
+	<!-- /.footer -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+	<script src="js/frontend-works.js"></script>
+	<script src="js/jquery.ui.touch-punch.min.js"></script>
+	<script src="js/script.min.js"></script>
+	<script src="js/mobile.js"></script>
+
+	<script src="https://yastatic.net/browser-updater/v1/script.js" charset="utf-8"></script>
+	<script>
+		var yaBrowserUpdater = new ya.browserUpdater.init({
+			"lang": "ru",
+			"browsers": {
+				"yabrowser": "15.12",
+				"chrome": "54",
+				"ie": "11",
+				"opera": "41",
+				"safari": "8",
+				"fx": "49",
+				"iron": "35",
+				"flock": "Infinity",
+				"palemoon": "25",
+				"camino": "Infinity",
+				"maxthon": "4.5",
+				"seamonkey": "2.3"
+			},
+			"theme": "yellow"
+		});
+	</script>
+
+
+</body>
+
+</html>

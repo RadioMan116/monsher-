@@ -1,0 +1,9 @@
+array (
+  'TITLE' => 'Комплект фильтров для вытяжки Monsher KFM-1',
+  'SITE_ID' => 's2',
+  'PARAM1' => 'lb_catalog',
+  'PARAM2' => '77',
+  'BODY' => 'комплектфильтровдлявытяжкиmonsherkfm-1 monsherkfm1',
+  'MODULE_ID' => 'iblock',
+  'ITEM_ID' => 2914,
+)

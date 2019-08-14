@@ -1,0 +1,38 @@
+<header class="header">
+	<div class="header__blocks">
+		<div class="header__block header__block_top">
+			<div class="container">
+				<button class="hamburger" id="js-hamburger" aria-expanded="false">
+					<div class="hamburger__img"></div>
+				</button>
+				{% include 'menu/menu-header/menu-header.html' %}
+				<div class="header__icons">
+					<div class="header__search js-header__search"></div>
+					<a class="header__mobile-tel" href="tel:+74959297078"></a>
+					<a title="Перейти в отложенные" href="#" class="header__favorite  active">
+						<span class="header__number">3</span>
+					</a>
+					<a title="Перейти в сравнение" href="04 - Comparison_desktop.html" class="header__compare  active">
+						<span class="header__number">2</span>
+					</a>
+					<a href="03 - Order Form.html" class="header__basket  active">
+						<span class="header__number">1</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="header__block header__block_bottom" id='js-header__block_bottom'>
+			<div class="container">
+				{% include 'logo/global/logo.html' %}
+				{% include 'menu/drop-menu/drop-menu.html' %}
+			</div>
+		</div>
+	</div>
+	<div class="search__popup">
+		<form action="/search/" class="header__form">
+			<input type="text" name="q" maxlength="50" class="header__input js-search-header__input">
+			<div class="header__button js-header__button"></div>
+		</form>
+	</div>
+	<div class="header__overlay"></div>
+</header>

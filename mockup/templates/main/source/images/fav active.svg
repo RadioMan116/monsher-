@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="12px" viewBox="0 0 14 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>compare</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8.02125,14.1367847 C4.545,11.0828338 2.25,9.06866485 2.25,6.59673025 C2.25,4.58256131 3.8835,3 5.9625,3 C7.137,3 8.26425,3.52970027 9,4.36675749 C9.73575,3.52970027 10.863,3 12.0375,3 C14.1165,3 15.75,4.58256131 15.75,6.59673025 C15.75,9.06866485 13.455,11.0828338 9.97875,14.1433243 L9,15 L8.02125,14.1367847 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="шапка-hd" transform="translate(-1107.000000, -13.000000)">
+            <g id="сравнение">
+                <g transform="translate(1105.000000, 10.000000)">
+                    <g id="favorite">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Icon" fill="#394791" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
