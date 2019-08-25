@@ -483,7 +483,7 @@ $(document).ready(function () {
 	if ($(".catalog .js-advantages").length) {
 		var mySwiper20 = new Swiper(".catalog .advantages__container", {
 			slidesPerView: 3,
-			slidesPerColumn: 2,
+			// slidesPerColumn: 2,
 			spaceBetween: 9,
 			touchRatio: 1,
 			allowTouchMove: false,
