@@ -1,6 +1,0 @@
-<?
-class CMNTFeatures extends CMNTFeaturesCommon
-{
-
-}
-?>

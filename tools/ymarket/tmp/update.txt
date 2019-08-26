@@ -1,1 +1,0 @@
-a:4:{s:6:"UPDATE";i:1;s:5:"EVENT";s:26:"OnAfterIBlockElementUpdate";s:4:"TIME";s:19:"2019.07.16 10:30:10";s:9:"MICROTIME";d:1563262210.768946;}

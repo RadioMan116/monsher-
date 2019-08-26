@@ -1,6 +1,0 @@
-<?
-class CMNTSitemap extends CMNTSitemapCommon
-{
-
-}
-?>

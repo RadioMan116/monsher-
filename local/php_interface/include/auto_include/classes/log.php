@@ -1,6 +1,0 @@
-<?
-class CMNTLog extends CMNTLogCommon
-{
-
-}
-?>

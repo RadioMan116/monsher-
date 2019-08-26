@@ -1,6 +1,0 @@
-<?
-class CMNTGeneral extends CMNTGeneralCommon
-{
-
-}
-?>

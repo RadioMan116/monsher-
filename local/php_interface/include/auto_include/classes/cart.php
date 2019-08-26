@@ -1,6 +1,0 @@
-<?
-class CMNTCart extends CMNTCartCommon
-{
-
-}
-?>

@@ -1,6 +1,0 @@
-<?
-class CMNTTemplateHelper extends CMNTTemplateHelperCommon
-{
-
-}
-?>

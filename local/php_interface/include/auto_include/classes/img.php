@@ -1,6 +1,0 @@
-<?
-class CMNTImg extends CMNTImgCommon
-{
-
-}
-?>

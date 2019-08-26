@@ -1,6 +1,0 @@
-<?
-class CMNTSku extends CMNTSkuCommon
-{
-
-}
-?>

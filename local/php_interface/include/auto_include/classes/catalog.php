@@ -1,6 +1,0 @@
-<?
-class CMNTCatalog extends CMNTCatalogCommon
-{
-
-}
-?>

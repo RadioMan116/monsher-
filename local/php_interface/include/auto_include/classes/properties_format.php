@@ -1,6 +1,0 @@
-<?
-class CMNTPropertiesFormat extends CMNTPropertiesFormatCommon
-{
-
-}
-?>
