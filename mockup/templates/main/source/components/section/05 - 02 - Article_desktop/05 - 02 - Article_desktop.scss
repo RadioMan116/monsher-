@@ -1,4 +1,4 @@
-.articles-main {
+.articles-main,.order-form {
 	display: flex;
 	flex-wrap: wrap;
 	max-width: 100%;
@@ -196,6 +196,7 @@
 					// padding-top: 44px;
 					height: unset !important;
 					max-height: 700px !important;
+					align-items: stretch;
 				}
 
 			}
