@@ -497,7 +497,8 @@
 		}
 	}
 
-	.sidebar {
+	.sidebar,
+	&__description+.sidebar {
 		display: none;
 	}
 
@@ -1866,7 +1867,8 @@
 		}
 
 
-		.sidebar {
+		.sidebar,
+		&__description+.sidebar {
 			display: flex;
 			margin-bottom: 44px;
 		}

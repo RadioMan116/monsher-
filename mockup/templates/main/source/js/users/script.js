@@ -2314,6 +2314,10 @@ $(window).on('load', function () {
 			}
 		});
 
+		$('.comparison__item').click(function () {
+			$('.comparison__item').removeClass('order')
+			$(this).addClass('order')
+		});
 
 	}
 	if ($('a[data-fancybox="gallery"] img').length) {
@@ -2343,8 +2347,6 @@ $(window).on('load', function () {
 		// 	});
 		// }, 300);
 	}
-
-
 	// $('.js-compare_block-change.active').parent().addClass('order');
 	if ($('.comparison__link')) {
 		$('.comparison__list').each(function () {
@@ -2360,9 +2362,16 @@ $(window).on('load', function () {
 		// }
 	}
 
-	$('.comparison__item').click(function () {
-		$('.comparison__item').removeClass('order')
-		$(this).addClass('order')
-	})
 
+
+	// Убрать прикрепленный файл после отправки рекламации
+
+	$(document).ajaxSuccess(function () {
+		let returnExchangeForm = document.querySelector('.return-exchange__form');
+
+		returnExchangeForm.querySelectorAll('.MultiFile-remove').forEach(element => element.click())
+		// if (returnExchangeForm) {
+		// 	returnExchangeForm.querySelectorAll('.MultiFile-remove').forEach(element => console.log(element))
+		// }
+	});
 });
