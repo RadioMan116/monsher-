@@ -1060,13 +1060,14 @@
 		}
 	}
 
-	.advantages {
+	.advantages,+.advantages {
 		position: relative;
 		margin-bottom: 39px;
+		width: 100%;
 
 		// .advantages__title
 
-		&__title {
+		&__title,.advantages__title {
 			color: #394791;
 			font-family: "Roboto Condensed";
 			font-size: 26px;
@@ -1085,7 +1086,7 @@
 
 		// .advantages__slide
 
-		&__slide {
+		&__slide,.advantages__slide {
 			position: relative;
 
 			&:hover {
@@ -1100,7 +1101,7 @@
 
 		// .advantages__item
 
-		&__item {
+		&__item,.advantages__item {
 			position: absolute;
 			background-color: #394791;
 			width: 100%;
@@ -1111,7 +1112,7 @@
 			opacity: 0;
 		}
 
-		&__subtitle {
+		&__subtitle,.advantages__subtitle {
 			color: #ffffff;
 			font-family: "Roboto Condensed";
 			font-size: 18px;
@@ -1121,7 +1122,7 @@
 
 		// .advantages__link
 
-		&__link {
+		&__link,.advantages__link {
 			color: #ffffff;
 			font-family: "Roboto Condensed";
 			font-size: 14px;

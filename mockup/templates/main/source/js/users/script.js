@@ -5,7 +5,7 @@ $(document).ready(function () {
 	function hamburger(element, menu) {
 		var button = document.getElementById(element),
 			menu = document.getElementById(menu),
-			menuList = document.querySelector('.menu')
+			menuList = document.querySelector('.menu');
 		menuBottom = document.getElementById('js-header__block_bottom');
 		button.onclick = function () {
 			// Toggle class "opened". Set also aria-expanded to true or false.
@@ -443,7 +443,7 @@ $(document).ready(function () {
 		}
 	}
 	if ($(".catalog .js-recently-watched").length) {
-		var mySwiper13 = new Swiper(".js-recently-watched .swiper-container", {
+		var mySwiper133 = new Swiper(".js-recently-watched .swiper-container", {
 			slidesPerView: 3,
 			slidesPerGroup: 1,
 			spaceBetween: 25,
@@ -480,8 +480,8 @@ $(document).ready(function () {
 			$('.recently-watched__next').hide();
 		}
 	}
-	if ($(".catalog .js-advantages").length) {
-		var mySwiper20 = new Swiper(".catalog .advantages__container", {
+	if ($(".catalog + .js-advantages").length) {
+		var mySwiper20 = new Swiper(".js-advantages  .advantages__container", {
 			slidesPerView: 3,
 			// slidesPerColumn: 2,
 			spaceBetween: 9,
@@ -516,7 +516,58 @@ $(document).ready(function () {
 			}
 
 		});
-		if ($(".advantages .swiper-slide").length > 6) {
+		if ($(".advantages .swiper-slide").length > 3) {
+			$('.advantages__prev').show();
+			$('.advantages__next').show();
+		} else {
+			$('.advantages__prev').hide();
+			$('.advantages__next').hide();
+		}
+		$(this).on("click", "a.advantages__link", function (e) {
+			console.log('true');
+			console.log(window.location = $(this).attr('href'));
+			window.location = $(this).attr('href');
+			return true;
+		});
+
+	}
+	if ($(".catalog .js-advantages").length) {
+		var mySwiper200 = new Swiper(".catalog .advantages__container", {
+			slidesPerView: 3,
+			// slidesPerColumn: 2,
+			spaceBetween: 9,
+			touchRatio: 1,
+			allowTouchMove: false,
+			navigation: {
+				nextEl: ".advantages__next",
+				prevEl: ".advantages__prev"
+			},
+			pagination: {
+				el: ".swiper-pagination-advantages",
+				clickable: true
+			},
+			breakpoints: {
+				767: {
+					allowTouchMove: true,
+					slidesPerView: 3,
+					slidesPerColumn: 1,
+					spaceBetween: 9,
+				},
+				450: {
+					allowTouchMove: true,
+					slidesPerView: 1,
+					slidesPerColumn: 1,
+				},
+				660: {
+					allowTouchMove: true,
+					slidesPerView: 2,
+					slidesPerGroup: 1,
+					slidesPerColumn: 1,
+				}
+			}
+
+		});
+		if ($(".advantages .swiper-slide").length > 3) {
 			$('.advantages__prev').show();
 			$('.advantages__next').show();
 		} else {
@@ -643,7 +694,7 @@ $(document).ready(function () {
 			}
 
 		});
-	})
+	});
 	if ($(".gallery__item").length) {
 		$('.js-button__open').click(function (e) {
 			if (!$(this).hasClass('active')) {
@@ -1313,43 +1364,43 @@ $(document).ready(function () {
 		// $this.parent().append($this.attr('alt'));
 		if ($(this).attr('alt') == 'Бесплатная доставка') {
 			$(this).attr('alt', 'Бесплатная <br> доставка')
-			$(this).attr('title', 'Бесплатная доставка по Москве в пределах МКАД')
+			$(this).attr('title', 'Бесплатная доставка по Москве в пределах МКАД');
 			$(this).parent().append($this.attr('alt'));
 		}
 		if ($(this).attr('alt') == 'Удобная доставка') {
-			$(this).attr('alt', 'Удобная <br> доставка')
+			$(this).attr('alt', 'Удобная <br> доставка');
 			$(this).parent().append($this.attr('alt'));
 		}
 		if ($(this).attr('alt') == 'Бесплатное подключение') {
 			$(this).attr('alt', 'Бесплатное <br> подключение')
-			$(this).attr('title', 'Бесплатное подключение на готовые коммуникации в пределах МКАД в Москве')
+			$(this).attr('title', 'Бесплатное подключение на готовые коммуникации в пределах МКАД в Москве');
 			$(this).parent().append($this.attr('alt'));
 		}
 		if ($(this).attr('alt') == 'Профессиональное подключение') {
-			$(this).attr('alt', 'Профессиональное <br> подключение')
+			$(this).attr('alt', 'Профессиональное <br> подключение');
 			$(this).parent().append($this.attr('alt'));
 		}
 		if ($(this).attr('alt') == 'Лучшее предложение') {
-			$(this).attr('alt', 'Лучшее <br> предложение')
+			$(this).attr('alt', 'Лучшее <br> предложение');
 			$(this).parent().append($this.attr('alt'));
 		}
 		if ($(this).attr('alt') == 'Производство Болгария') {
-			$(this).attr('alt', 'Сделано в <br> Болгарии')
-			$(this).attr('title', 'Сделано в Болгарии')
+			$(this).attr('alt', 'Сделано в <br> Болгарии');
+			$(this).attr('title', 'Сделано в Болгарии');
 			$(this).parent().append($this.attr('alt'));
 		}
 		if ($(this).attr('alt') == 'Производство Австрия') {
-			$(this).attr('alt', 'Сделано в <br> Австрии')
-			$(this).attr('title', 'Сделано в  Австрии')
+			$(this).attr('alt', 'Сделано в <br> Австрии');
+			$(this).attr('title', 'Сделано в  Австрии');
 			$(this).parent().append($this.attr('alt'));
 		}
 		if ($(this).attr('alt') == 'Производство Германия') {
-			$(this).attr('alt', 'Сделано в <br> Германии')
-			$(this).attr('title', 'Сделано в  Германии')
+			$(this).attr('alt', 'Сделано в <br> Германии');
+			$(this).attr('title', 'Сделано в  Германии');
 			$(this).parent().append($this.attr('alt'));
 		}
 		if ($(this).attr('alt') == 'Производство Array') {
-			$(this).attr('alt', 'Производство <br> Array')
+			$(this).attr('alt', 'Производство <br> Array');
 			$(this).parent().append($this.attr('alt'));
 		}
 
@@ -1599,13 +1650,13 @@ $(document).ready(function () {
 						if ($(this).text().length > 60) {
 							$(this).addClass('level')
 							$('.js-swiper-comparison .characteristic__row').eq(index).addClass("level");
-							console.log($(this).text())
+							console.log($(this).text());
 						}
 					});
 				}
 			}();
 			var comparison_height = $('.thead__comparison').height();
-			console.log(comparison_height)
+			console.log(comparison_height);
 
 			var if_max_width = false;
 			$(window).scroll(function () {
