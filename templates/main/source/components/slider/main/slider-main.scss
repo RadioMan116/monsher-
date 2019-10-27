@@ -460,11 +460,23 @@
 		&__link {
 			flex-direction: row;
 			margin: 0 auto;
+			align-items: center;
 
 			img {
 				width: 22%;
 				height: 100%;
 			}
+
+			picture {
+				width: 22%;
+				display: flex;
+				align-items: center;
+
+				img {
+					width: 100%;
+				}
+			}
+
 		}
 
 		&+.special-offers {
