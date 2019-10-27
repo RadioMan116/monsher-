@@ -1,0 +1,68 @@
+@custom-media --phone (width < 1200px);
+@custom-media --notPhone (width >=1200px);
+@custom-media --tablet (width >=768px) and (width <=1259px);
+
+@mixin button($bg:#394791, $bgrepeat: no-repeat, $color:#fff, $border: none, $shadow: 0 0 0 0 rgba(0, 0, 0, 0.16), $font-size:16px, $text-transform:uppercase, $font-weight:400, $padding:12px 38px, $border-radius:2px, $height:46px, $line-height: 1, $display: flex, $bg-hover:#3d57db, $color-hover:#fff, $width: auto, $align-items: center, $justify-content: center, $shadow-hover:0 2px 12px 0 rgba(0, 0, 0, 0.16), $margin: 0) {
+	& {
+		background-color: $bg;
+		background-repeat: $bgrepeat;
+		color: $color;
+		box-shadow: $shadow;
+		text-decoration: none;
+		// font-size: $font-size;
+		font-weight: $font-weight;
+		text-transform: $text-transform;
+		padding: $padding;
+		margin: $margin;
+		border-radius: $border-radius;
+		line-height: $line-height;
+		// height: $height;
+		display: $display;
+		align-items: $align-items;
+		justify-content: $justify-content;
+		border: $border;
+		cursor: pointer;
+		// width: $width;
+		transition: all 400ms;
+		text-align: center;
+
+		&:hover {
+			background-color: $bg-hover;
+			// color: $color-hover;
+			box-shadow: $shadow-hover;
+			text-decoration: none;
+		}
+	}
+}
+
+@mixin color($bg:#394791) {
+	& {
+		background-color: $bg;
+	}
+}
+
+
+@mixin link() {
+	text-decoration: none;
+	// border-bottom: 1px solid #e6ecf2;
+	transition: all 400ms;
+	color: #394791;
+
+	&:hover {
+		text-decoration: none;
+		border-bottom-color: transparent;
+	}
+}
+
+@mixin justify($margin-bottom: -25px) {
+	& {
+		text-align: justify;
+		margin-bottom: $margin-bottom;
+
+		&:after {
+			display: inline-block;
+			content: '';
+			width: 100%;
+		}
+	}
+}

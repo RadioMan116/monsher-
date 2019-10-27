@@ -1,0 +1,279 @@
+.return-exchange {
+
+
+	&__form {
+		margin-top: 22px;
+		margin-right: auto;
+		margin-bottom: 30px;
+		width: 100%;
+	}
+
+	&__name {
+		font-size: 14px;
+		font-weight: normal;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 2.29;
+		letter-spacing: normal;
+		text-align: left;
+		color: #333333;
+		width: 200px;
+		flex-shrink: 0;
+		display: flex;
+		padding-top: 8px;
+	}
+
+	&__field {
+		display: flex;
+		margin-bottom: 16px;
+		flex-wrap: wrap;
+		justify-content: unset !important;
+	}
+
+	&__input {
+		height: 46px;
+		border-radius: 2px;
+		background-color: #ffffff;
+		border: solid 1px #cbcbcb;
+		max-width: 372px;
+		flex-grow: 1;
+		padding-left: 15px;
+	}
+
+	&__textarea {
+		width: 372px;
+		height: 124px;
+		border-radius: 2px;
+		background-color: #ffffff;
+		border: solid 1px #cbcbcb;
+		resize: none;
+		flex-grow: 1;
+		padding-left: 15px;
+	}
+
+	&__required {
+		color: #394791;
+	}
+
+	&__copyright {
+		width: 100%;
+		color: #666666;
+		font-family: Arial;
+		font-size: 12px;
+		line-height: 18px;
+		margin-bottom: 15px;
+
+		a {
+			color: #394791;
+		}
+
+		i {
+			font-style: normal;
+			font-weight: 500;
+			color: #ff4b4b;
+			margin-right: 5px;
+			margin-left: 5px;
+		}
+	}
+
+	&__attachment {
+		padding-left: 200px;
+		justify-content: unset !important;
+		position: relative;
+		flex-direction: column;
+
+		label {
+
+			&.return-exchange__label {
+				margin-left: 25px;
+			}
+		}
+
+		.checkbox_oferta {
+			padding-top: 6px;
+		}
+
+		a {
+			color: #394791;
+		}
+	}
+
+	&__file {
+		position: relative;
+		// overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: baseline;
+		margin-bottom: 0;
+		justify-content: center;
+		align-self: baseline;
+		max-width: 100%;
+
+
+		input[type=file] {
+			opacity: 0;
+			position: absolute;
+			width: 100%;
+			top: 0;
+			left: 0;
+			height: 34px;
+			cursor: pointer !important;
+
+			&::-webkit-file-upload-button {
+				cursor: pointer;
+			}
+		}
+
+		.button {
+			width: 133px;
+			height: 34px;
+			border-radius: 2px;
+			border: 1px solid #394791;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 5px;
+			color: #394791;
+			font-family: "Roboto Condensed";
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 24px;
+			text-transform: uppercase;
+			cursor: pointer !important;
+		}
+
+		.MultiFile-wrap {
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+		}
+
+		.MultiFile-label {
+			display: flex;
+			flex-direction: row-reverse;
+			align-items: center;
+			margin-bottom: 5px;
+
+			// padding: 5px;
+
+			span {
+				display: inline-block;
+				height: 28px;
+				line-height: 28px;
+				white-space: nowrap;
+				font-size: 12px;
+				text-transform: uppercase;
+				color: #000;
+				background: #E3E3E3;
+
+				&.MultiFile-title {
+					padding: 0 15px;
+				}
+			}
+		}
+
+		.MultiFile-remove {
+			margin-left: 10px;
+			color: #E63333 !important;
+			font-size: 12px;
+			text-decoration: none !important;
+			border-bottom: 1px dotted #E63333;
+			line-height: 1.5;
+		}
+
+		.MultiFile-list {
+			display: flex;
+			flex-direction: column;
+			align-items: baseline;
+		}
+
+	}
+
+
+
+
+
+	@media screen and (max-width: 767px) {
+		&__form {
+			margin-bottom: 0px;
+
+			.return-exchange__textarea {
+				width: unset;
+			}
+		}
+
+
+	}
+
+	@media screen and (max-width: 767px) {
+		&__attachment {
+			padding-left: 0;
+
+			label {
+				// margin-left: 15px;
+			}
+
+			.abuse-popup__submit {
+				width: 100%;
+			}
+		}
+
+		&__form {
+			margin-top: 20px;
+		}
+
+		&__name {
+			padding-top: 0px;
+			margin-bottom: 13px;
+			line-height: 17px;
+			width: 100%;
+		}
+
+		&__file {
+			margin-left: 0 !important;
+			flex-grow: 0 !important;
+
+			.MultiFile-label {
+				flex-wrap: nowrap;
+				width: 100%;
+				justify-content: flex-end;
+
+				>span {
+					padding-right: 10px;
+				}
+			}
+
+			.MultiFile-remove {
+				flex-shrink: 0;
+			}
+
+			.MultiFile-label span {
+				max-width: 230px;
+				overflow: hidden;
+			}
+
+		}
+
+		&__input {
+			max-width: 100%;
+		}
+
+		&__field {
+			flex-direction: column;
+			flex-wrap: wrap;
+		}
+
+		&__attachment__container {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+		}
+
+		&__textarea {
+			height: 81px;
+			resize: none;
+		}
+
+	}
+}

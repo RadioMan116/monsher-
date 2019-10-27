@@ -1,0 +1,120 @@
+.popup__change {
+    .callback_popup {
+        width: 373px;
+        justify-content: center;
+
+        a {
+            @include link;
+        }
+
+        .modal__close {
+            position: absolute;
+            right: 15px;
+            top: 15px;
+            font-size: 24px;
+            color: #394791;
+        }
+
+        .callback__name {
+            display: none;
+        }
+
+        .abuse-popup__item {
+            margin-top: 21px;
+        }
+
+        .abuse-popup__item label {
+            padding-left: 26px;
+            margin-bottom: 16px;
+
+            i {
+                margin-right: 5px;
+            }
+        }
+
+        .checkbox-custom {
+            margin-left: -24px;
+            margin-right: 5px;
+        }
+
+        .call-popup-phone-inner {
+            text-align: center;
+
+            p {
+                width: 80%;
+                margin: 0 auto 1rem;
+            }
+        }
+
+        .callback__form {
+            display: flex;
+            flex-wrap: wrap;
+
+            input[type="text"],
+            input[type='tel'] {
+                width: 100%;
+                border-radius: 2px;
+                background-color: #ffffff;
+                border: solid 1px #cbcbcb;
+                padding-left: 15px;
+
+                font-size: 12px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.5;
+                letter-spacing: normal;
+                text-align: left;
+                color: #666666;
+                height: 46px;
+
+                &:first-child {
+                    margin-bottom: 12px;
+                }
+
+                &:nth-child(2) {
+                    margin-bottom: 21px;
+                }
+
+            }
+        }
+
+        .abuse-popup__item {
+            height: unset;
+            flex-wrap: wrap;
+            text-align: left;
+
+            input[type="submit"] {
+                width: 100%;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            max-width: 373px;
+        }
+
+        @media screen and (max-width: 480px) {
+
+            .call-popup-phone-inner p,
+            .abuse__title {
+                text-align: left;
+                width: 100%;
+            }
+        }
+
+        @media screen and (max-width: 375px) {
+            .title-strike {
+                margin-right: auto;
+                font-size: 20px;
+                font-weight: 500;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.3;
+                letter-spacing: normal;
+                text-align: left;
+                color: #333333;
+            }
+
+        }
+    }
+}

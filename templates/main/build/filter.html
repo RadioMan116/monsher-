@@ -1,0 +1,3168 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Example</title>
+	<script src="js/mobile.js"></script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta name="HandheldFriendly" content="True">
+	<meta name="format-detection" content="telephone=yes">
+	<meta name="MobileOptimized" content="320">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> -->
+
+	<link rel="icon" type="image/png" href="images/Icon-16.png">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+	<div class="wrapper" id="js-wrapper">
+
+		<header class="header">
+			<div class="header__blocks">
+				<div class="header__block header__block_top">
+					<div class="container">
+						<button class="hamburger" id="js-hamburger" aria-expanded="false">
+							<div class="hamburger__img"></div>
+						</button>
+						<div class="menu" aria-expanded="false">
+							<!-- <div class="city-change js-city-change ">
+		<div class="city-change__title">Санкт-Петербург</div>
+		<div class="city-change__bullet"></div>
+		<div class="city-change__popup">
+			<a class="city-change__link" href="https://spb.l-rus.ru/">Москва</a>
+			<a class="city-change__link" href="#">Регионы</a>
+		</div>
+	</div> -->
+							<ul class="menu__list">
+
+								<li class="menu__item">
+									<a href="/delivery-and-payment/" title="Доставка и оплата" class="menu__link">Доставка и оплата</a>
+								</li>
+
+								<li class="menu__item">
+									<a href="/services/" title="Подключение" class="menu__link">Подключение</a>
+								</li>
+
+								<li class="menu__item">
+									<a href="/guarantee/" title="Сервисные центры Monsher" class="menu__link">Сервисные центры Monsher</a>
+								</li>
+
+								<li class="menu__item">
+									<a href="/news/" title="Статьи" class="menu__link">Статьи</a>
+								</li>
+
+								<li class="menu__item">
+									<a href="/glossary/" title="Глоссарий " class="menu__link">Глоссарий</a>
+								</li>
+
+								<li class="menu__item">
+									<a href="/contacts/" title="Контакты" class="menu__link">Контакты</a>
+								</li>
+
+							</ul>
+
+							<a href="" class="abuse__button js-abuse__button js-viewForm" data-action="guideback" id="js-abuse-opener">Обратиться к руководству
+							</a>
+						</div>
+						<!--end menu-->
+
+						<div class="header__icons">
+							<div class="header__search js-header__search"></div>
+							<a class="header__mobile-tel" href="tel:+74959297078"></a>
+							<a title="Перейти в отложенные" href="#" class="header__favorite  active">
+								<span class="header__number">3</span>
+							</a>
+							<a title="Перейти в сравнение" href="04 - Comparison_desktop.html" class="header__compare  active">
+								<span class="header__number">2</span>
+							</a>
+							<a href="03 - Order Form.html" class="header__basket  active">
+								<span class="header__number">1</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="header__block header__block_bottom" id='js-header__block_bottom'>
+					<div class="container">
+						<div class="logo">
+							<a href="#" class="logo__link">
+								<img src="images/logo-new.svg" alt="" class="logo__pic">
+							</a>
+						</div>
+						<!-- /.logo -->
+						<div class="header__dropdown-menu" id="js-menu">
+							<nav class="dropdown-menu">
+								<span class="dropdown-menu__title js-dropdown-menu__title">Техника</span>
+								<div class="dropdown-menu__parent">
+									<ul class="dropdown-menu__list">
+
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="/catalog/varochnye-paneli-monsher/" title="Варочные панели">Варочные панели</a>
+
+										</li>
+
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="/catalog/dukhovye-shkafy-monsher/" title="Духовые шкафы">Духовые шкафы
+											</a>
+
+										</li>
+
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="/catalog/mikrovolnovye-pechi-monsher/" title="Микроволновые печи">Микроволновые печи</a>
+
+										</li>
+
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="/catalog/posudomoechnye-mashiny-monsher/" title="Посудомоечные машины">Посудомоечные машины</a>
+
+										</li>
+
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="/catalog/vytyazhki-monsher/" title="Вытяжки">Вытяжки</a>
+
+										</li>
+
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="/catalog/aksessuary-monsher/" title="Аксессуары">Аксессуары</a>
+
+										</li>
+									</ul>
+								</div>
+							</nav>
+							<nav class="dropdown-menu">
+								<span class="dropdown-menu__title last">
+									<a href="/catalog/type-nov/" title="Новинки">Новинки</a>
+								</span>
+							</nav>
+							<nav class="dropdown-menu">
+								<span class="dropdown-menu__title last">
+									<a href="/guarantee/#services-list" title="Сервис">Сервис</a>
+								</span>
+							</nav>
+							<div class="header__telephones">
+								<a href="#" data-url="ajax/callback.html" data-ajax class="header__call-phone-button js-callback">Заказать звонок
+								</a>
+								<div class="telephones">
+									<a href="tel:+74959297078" class="header__phone">+7 495 929-70-78</a>
+									<a href="tel:+78003331936" class="header__phone">+7 800 333-19-36</a>
+								</div>
+								<div class="time-work">
+									<div class="time-work__text">Режим работы</div>
+									<div class="time-work__text">
+										Пн-Пт: 08:00—22:00
+										<br>Сб-Вс: 09:00—22:00
+									</div>
+									<a href="mailto:shop@l-rus.ru" class="time-work__email">
+										<i>Email:</i>shop@l-rus.ru</a>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="search__popup">
+				<form action="/search/" class="header__form">
+					<input type="text" name="q" maxlength="50" class="header__input js-search-header__input">
+					<div class="header__button js-header__button"></div>
+				</form>
+			</div>
+			<div class="header__overlay"></div>
+		</header>
+
+
+
+		<div class="section">
+			<div class="content">
+				<div class="container">
+					<!DOCTYPE HTML>
+					<!--[if IE 8]>      <html class="no-js lt-ie9" lang="ru-RU"> <![endif]-->
+					<!--[if IE 9]>      <html class="no-js ie9" lang="ru-RU"> <![endif]-->
+					<!--[if (gt IE 9)|!(IE)]><!-->
+					<html class="page" lang="ru-RU">
+					<!--<![endif]-->
+
+					<head>
+						<title>Холодильники Liebherr - купить в интернет-магазине Москвы по официальной цене, читайте отзывы на холодильники Либхер на l-rus.ru.</title>
+						<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+						<meta name="description" content="Купить холодильники Либхер - выгодные цены в нашем интернет-магазине Liebherr. Бесплатная доставка и подключение в Москве! Читайте отзывы, скачивайте инструкции, руководство и схемы установки на холодильники Liebherr."
+						/>
+						<link href="https://lbhr.ret-team.ru/bitrix/js/main/core/css/core.css?15404766103963" type="text/css" rel="stylesheet" />
+						<link href="https://lbhr.ret-team.ru/bitrix/js/ui/fonts/opensans/ui.font.opensans.css?15445607232003" type="text/css" rel="stylesheet" />
+						<link href="https://lbhr.ret-team.ru/bitrix/js/main/core/css/core_popup.css?154456072017339" type="text/css" rel="stylesheet" />
+						<link href="https://lbhr.ret-team.ru/bitrix/css/main/bootstrap.css?1540476611141508" type="text/css" rel="stylesheet" />
+						<link href="/bitrix/css/main/font-awesome.css?154047661128777" type="text/css" rel="stylesheet" />
+						<link href="https://lbhr.ret-team.ru/local/templates/lb_main/components/bitrix/catalog.smart.filter/.default/style.css?155013938718695" type="text/css" rel="stylesheet" />
+						<link href="/local/templates/lb_main/components/bitrix/catalog.smart.filter/.default/themes/blue/colors.css?15501408324780" type="text/css" rel="stylesheet" />
+						<link href="/mockup/templates/main/build/css/style.css?1554709803423416" type="text/css" data-template-style="true" rel="stylesheet" />
+						<link href="/tpl/css/style_k.css?15542875442245" type="text/css" data-template-style="true" rel="stylesheet" />
+						<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&amp;subset=cyrillic" type="text/css" rel="stylesheet" />
+						<script type="text/javascript">
+							if (!window.BX) window.BX = {};
+							if (!window.BX.message) window.BX.message = function (mess) {
+								if (typeof mess == 'object')
+									for (var i in mess) BX.message[i] = mess[i];
+								return true;
+							};
+						</script>
+						<script type="text/javascript">
+							(window.BX || top.BX).message({
+								'JS_CORE_LOADING': 'Загрузка...',
+								'JS_CORE_NO_DATA': '- Нет данных -',
+								'JS_CORE_WINDOW_CLOSE': 'Закрыть',
+								'JS_CORE_WINDOW_EXPAND': 'Развернуть',
+								'JS_CORE_WINDOW_NARROW': 'Свернуть в окно',
+								'JS_CORE_WINDOW_SAVE': 'Сохранить',
+								'JS_CORE_WINDOW_CANCEL': 'Отменить',
+								'JS_CORE_WINDOW_CONTINUE': 'Продолжить',
+								'JS_CORE_H': 'ч',
+								'JS_CORE_M': 'м',
+								'JS_CORE_S': 'с',
+								'JSADM_AI_HIDE_EXTRA': 'Скрыть лишние',
+								'JSADM_AI_ALL_NOTIF': 'Показать все',
+								'JSADM_AUTH_REQ': 'Требуется авторизация!',
+								'JS_CORE_WINDOW_AUTH': 'Войти',
+								'JS_CORE_IMAGE_FULL': 'Полный размер'
+							});
+						</script>
+						<script type="text/javascript">
+							(window.BX || top.BX).message({
+								'LANGUAGE_ID': 'ru',
+								'FORMAT_DATE': 'DD.MM.YYYY',
+								'FORMAT_DATETIME': 'DD.MM.YYYY HH:MI:SS',
+								'COOKIE_PREFIX': 'BITRIX_SM',
+								'SERVER_TZ_OFFSET': '10800',
+								'SITE_ID': 's2',
+								'SITE_DIR': '/',
+								'USER_ID': '',
+								'SERVER_TIME': '1554710370',
+								'USER_TZ_OFFSET': '0',
+								'USER_TZ_AUTO': 'Y',
+								'bitrix_sessid': '44644d2ea4625d4f6f96ede823672621'
+							});
+						</script>
+
+
+						<script type="text/javascript" src="/bitrix/js/main/core/core.js?1549645046122604"></script>
+						<script type="text/javascript" src="/bitrix/js/main/core/core_promise.js?15427526265265"></script>
+						<script type="text/javascript" src="/bitrix/js/main/polyfill/promise/js/promise.js?15404797338241"></script>
+						<script type="text/javascript" src="/bitrix/js/main/loadext/loadext.js?15427526292917"></script>
+						<script type="text/javascript" src="/bitrix/js/main/loadext/extension.js?15427526292895"></script>
+						<script type="text/javascript" src="/bitrix/js/main/core/core_fx.js?154047661016888"></script>
+						<script type="text/javascript" src="/bitrix/js/main/core/core_ajax.js?154964504641772"></script>
+						<script type="text/javascript" src="/bitrix/js/main/json/json2.min.js?15404766103467"></script>
+						<script type="text/javascript" src="/bitrix/js/main/core/core_ls.js?154047661010430"></script>
+						<script type="text/javascript" src="/bitrix/js/main/jquery/jquery-1.8.3.min.js?154047661093637"></script>
+						<script type="text/javascript" src="/bitrix/js/main/core/core_popup.js?154047661070773"></script>
+						<script type="text/javascript">
+							(function () {
+								"use strict";
+					
+								var counter = function () {
+									var cookie = (function (name) {
+										var parts = ("; " + document.cookie).split("; " + name + "=");
+										if (parts.length == 2) {
+											try {
+												return JSON.parse(decodeURIComponent(parts.pop().split(";").shift()));
+											} catch (e) {}
+										}
+									})("BITRIX_CONVERSION_CONTEXT_s2");
+					
+									if (cookie && cookie.EXPIRE >= BX.message("SERVER_TIME"))
+										return;
+					
+									var request = new XMLHttpRequest();
+									request.open("POST", "/bitrix/tools/conversion/ajax_counter.php", true);
+									request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+									request.send(
+										"SITE_ID=" + encodeURIComponent("s2") +
+										"&sessid=" + encodeURIComponent(BX.bitrix_sessid()) +
+										"&HTTP_REFERER=" + encodeURIComponent(document.referrer)
+									);
+								};
+					
+								if (window.frameRequestStart === true)
+									BX.addCustomEvent("onFrameDataReceived", counter);
+								else
+									BX.ready(counter);
+							})();
+						</script>
+
+
+
+						<script type="text/javascript" src="/mockup/templates/main/build/js/jquery-3.3.1.min.js?154471866286926"></script>
+						<script type="text/javascript" src="/mockup/templates/main/build/js/jquery-ui-1.12.1/jquery-ui.min.js?1544718662253669"></script>
+						<script type="text/javascript" src="/mockup/templates/main/build/js/frontend-works.js?1544718662247"></script>
+						<script type="text/javascript" src="/mockup/templates/main/build/js/jquery.ui.touch-punch.min.js?15447186621291">
+						</script>
+						<script type="text/javascript" src="/tpl/js/jquery.cookie.js?15445600193140"></script>
+						<script type="text/javascript" src="/tpl/js/inputmask.js?1544560019112767"></script>
+						<script type="text/javascript" src="/tpl/js/core.js?15457472158874"></script>
+						<script type="text/javascript" src="/tpl/js/custom.js?155399419718622"></script>
+						<script type="text/javascript" src="/_ecommerce/ecommerce.js?154876854617421"></script>
+						<script type="text/javascript" src="/local/templates/lb_main/components/bitrix/catalog.smart.filter/.default/script.js?155013938721906">
+						</script>
+						<script type="text/javascript" src="/local/templates/lb_main/components/bitrix/catalog.section/tovs.list/script.js?1544560048120"></script>
+						<script type="text/javascript">
+							var _ba = _ba || [];
+							_ba.push(["aid", "0a7b75f424e42550242f6332dbb64b5e"]);
+							_ba.push(["host", "lbhr.ret-team.ru"]);
+							(function () {
+								var ba = document.createElement("script");
+								ba.type = "text/javascript";
+								ba.async = true;
+								ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";
+								var s = document.getElementsByTagName("script")[0];
+								s.parentNode.insertBefore(ba, s);
+							})();
+						</script>
+
+
+						<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+						<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+						<meta name="HandheldFriendly" content="True">
+						<meta name="format-detection" content="telephone=yes">
+						<meta name="MobileOptimized" content="320">
+						<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+						<!-- Google Tag Manager -->
+						<script>
+							(function (w, d, s, l, i) {
+								w[l] = w[l] || [];
+								w[l].push({
+									'gtm.start': new Date().getTime(),
+									event: 'gtm.js'
+								});
+								var f = d.getElementsByTagName(s)[0],
+									j = d.createElement(s),
+									dl = l != 'dataLayer' ? '&l=' + l : '';
+								j.async = true;
+								j.src =
+									'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+								f.parentNode.insertBefore(j, f);
+							})(window, document, 'script', 'dataLayer', 'GTM-WQTXM5B');
+						</script>
+						<!-- End Google Tag Manager -->
+					</head>
+
+					<body>
+						<!-- Google Tag Manager (noscript) -->
+						<noscript>
+							<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQTXM5B" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+						</noscript>
+						<!-- End Google Tag Manager (noscript) -->
+						<div id="panel"></div>
+
+						<div class="wrapper" id="js-wrapper">
+
+							<header class="header">
+
+								<div class="header__blocks">
+									<div class="header__block header__block_top">
+										<div class="container">
+											<button class="hamburger" id="js-hamburger" aria-expanded="false">
+												<div class="hamburger__img"></div>
+											</button>
+
+											<div class="menu" aria-expanded="false">
+												<nav>
+													<ul class="menu__list">
+
+														<li class="menu__item">
+															<a href="/delivery-and-payment/" title="Доставка и оплата" class="menu__link">Доставка и оплата</a>
+														</li>
+
+
+														<li class="menu__item">
+															<a href="/services/" title="Подключение" class="menu__link">Подключение</a>
+														</li>
+
+
+														<li class="menu__item">
+															<a href="/guarantee/" title="Гарантия" class="menu__link">Гарантия</a>
+														</li>
+
+
+														<li class="menu__item">
+															<a href="/news/" title="Статьи" class="menu__link">Статьи</a>
+														</li>
+
+
+														<li class="menu__item">
+															<a href="/liebherr/type-novelty/" title="Новинки" class="menu__link">Новинки</a>
+														</li>
+
+
+														<li class="menu__item">
+															<a href="/contacts/" title="Контакты" class="menu__link">Контакты</a>
+														</li>
+
+													</ul>
+
+													<div class="header__telephones">
+														<a href="" class="header__call-phone-button js-viewForm" data-action="callback">Заказать звонок</a>
+														<div class="telephones">
+															<a href="tel:74959297078" class="header__phone">+7 495 929-70-78</a>
+															<a href="tel:78003331936" class="header__phone">+7 800 333-19-36</a>
+														</div>
+													</div>
+												</nav>
+											</div>
+											<!--end menu-->
+											<div class="header__icons">
+												<div class="header__search js-header__search"></div>
+												<a class="header__mobile-tel" href="tel:74959297078"></a>
+
+												<a href="/favorites/" class="header__favorite">
+													<span class="header__number js-GoodsInFavorites">1</span>
+												</a>
+												<a href="/compare/" title="Перейти в сравнение" class="header__compare">
+													<span class="header__number js-GoodsInCompare">0</span>
+												</a>
+												<a href="/cart/" title="Перейти в корзину" class="header__basket">
+													<span class="header__number js-GoodsInBasket">0</span>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="header__block header__block_bottom" id="js-header__block_bottom">
+										<div class="container">
+
+											<div class="logo">
+												<a href="/" title="Liebherr" class="logo__link">
+													<img src="/mockup/templates/main/build/images/liebherr.png" alt="Liebherr" class="logo__pic">
+												</a>
+											</div>
+											<div class="header__dropdown-menu" id="js-menu">
+												<nav class="dropdown-menu">
+													<span class="dropdown-menu__title js-dropdown-menu__title">Бытовые холодильники</span>
+													<ul class="dropdown-menu__list">
+
+														<li class="dropdown-menu__item">
+															<a class="dropdown-menu__link" href="/liebherr/holodilniki/" title="Холодильники">Холодильники</a>
+														</li>
+
+														<li class="dropdown-menu__item">
+															<a class="dropdown-menu__link" href="/liebherr/vstraivaemiye-holodilniki/" title="Встраиваемые холодильники">Встраиваемые холодильники</a>
+														</li>
+
+														<li class="dropdown-menu__item">
+															<a class="dropdown-menu__link" href="/liebherr/wine-cabinets/" title="Винные шкафы">Винные шкафы</a>
+														</li>
+
+														<li class="dropdown-menu__item">
+															<a class="dropdown-menu__link" href="/liebherr/humidors/" title="Хьюмидоры">Хьюмидоры</a>
+														</li>
+
+														<li class="dropdown-menu__item">
+															<a class="dropdown-menu__link" href="/liebherr/aksessuary/" title="Аксессуары">Аксессуары</a>
+														</li>
+													</ul>
+												</nav>
+
+
+
+
+												<nav class="dropdown-menu">
+													<span class="dropdown-menu__title js-dropdown-menu__title">Профессиональная техника
+													</span>
+													<ul class="dropdown-menu__list">
+
+														<li class="dropdown-menu__item">
+															<a class="dropdown-menu__link" href="/liebherr/professional/meditsinskoe-i-laboratornoe-oborudovanie/" title="Медицинское и лабораторное оборудование">Медицинское и лабораторное оборудование
+															</a>
+														</li>
+
+														<li class="dropdown-menu__item">
+															<a class="dropdown-menu__link" href="/liebherr/professional/oborudovanie-dlya-gostinits-i-restoranov/" title="Оборудование для гостиниц и ресторанов">Оборудование для гостиниц и ресторанов
+															</a>
+														</li>
+
+														<li class="dropdown-menu__item">
+															<a class="dropdown-menu__link" href="/liebherr/professional/oborudovanie-dlya-okhlazhdeniya-napitkov/" title="Оборудование для охлаждения напитков">Оборудование для охлаждения напитков
+															</a>
+														</li>
+
+														<li class="dropdown-menu__item">
+															<a class="dropdown-menu__link" href="/liebherr/professional/oborudovanie-dlya-pekaren/" title="Оборудование для пекарен">Оборудование для пекарен</a>
+														</li>
+
+														<li class="dropdown-menu__item">
+															<a class="dropdown-menu__link" href="/liebherr/professional/oborudovanie-dlya-khraneniya-zamorozhennykh-produktov-i-morozhenogo/" title="Оборудование для хранения замороженных продуктов и мороженого">Оборудование для хранения замороженных продуктов и мороженого</a>
+														</li>
+													</ul>
+												</nav>
+
+
+												<nav class="dropdown-menu dropdown-menu">
+													<span class="dropdown-menu__title last">
+														<a href="/guarantee/#services-list" title="Сервис">Сервис</a>
+													</span>
+												</nav>
+
+
+												<!-- end menu-content -->
+
+												<div class="header__telephones">
+													<a href="" class="header__call-phone-button js-viewForm" data-action="callback">Заказать звонок
+													</a>
+													<div class="telephones">
+														<a href="tel:74959297078" class="header__phone">+7 495 929-70-78</a>
+														<a href="tel:78003331936" class="header__phone">+7 800 333-19-36</a>
+													</div>
+												</div>
+												</nav>
+											</div>
+
+											<div class="menu" aria-expanded="false">
+
+												<ul class="menu__list">
+
+													<li class="menu__item">
+														<a href="/delivery-and-payment/" title="Доставка и оплата" class="menu__link">Доставка и оплата</a>
+													</li>
+
+
+													<li class="menu__item">
+														<a href="/services/" title="Подключение" class="menu__link">Подключение</a>
+													</li>
+
+
+													<li class="menu__item">
+														<a href="/guarantee/" title="Гарантия" class="menu__link">Гарантия</a>
+													</li>
+
+
+													<li class="menu__item">
+														<a href="/news/" title="Статьи" class="menu__link">Статьи</a>
+													</li>
+
+
+													<li class="menu__item">
+														<a href="/liebherr/type-novelty/" title="Новинки" class="menu__link">Новинки</a>
+													</li>
+
+
+													<li class="menu__item">
+														<a href="/contacts/" title="Контакты" class="menu__link">Контакты</a>
+													</li>
+
+												</ul>
+
+												<div class="header__telephones">
+													<a href="" class="header__call-phone-button js-viewForm" data-action="callback">Заказать звонок
+													</a>
+													<div class="telephones">
+														<a href="tel:74959297078" class="header__phone">+7 495 929-70-78</a>
+														<a href="tel:78003331936" class="header__phone">+7 800 333-19-36</a>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+
+
+								<div class="search__popup">
+									<form action="/search/" class="header__form">
+										<input type="text" name="q" maxlength="50" class="header__input js-search-header__input">
+										<div class="header__button js-header__button"></div>
+									</form>
+								</div>
+								<div class="header__overlay"></div>
+
+							</header>
+
+							<div class="section">
+								<div class="content-top" style="background-image: url(/upload/iblock/c1b/c1b6e904abec6cffa360b624ea4b7b46.jpg);">
+									<div class="content-top__inner">
+										<div class="container">
+
+											<div class="breadcrumbs">
+												<div itemscope itemtype="http://schema.org/BreadcrumbList">
+													<div class="breadcrumbs__link" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+														<a href="/" title="Главная" itemprop="item">
+															<span itemprop="name">Liebherr</span>
+														</a>
+														<meta itemprop="position" content="1" />
+													</div>
+													<div class="breadcrumbs__sep">»</div>
+													<div class="breadcrumbs__link" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+														<span itemprop="name">Холодильники</span>
+														<a itemprop="item" href="/work/holodilniki/" title="Холодильники"></a>
+														<meta itemprop="position" content="2" />
+													</div>
+												</div>
+											</div>
+											<h1 class="page__title content-top__title content-top__title_top">Холодильники Liebherr</h1>
+
+											<div class="page__title content-top__title content-top__title_bottom">
+
+												Холодильники Либхер отличаются не&nbsp;только безупречным внешним видом, но&nbsp;и&nbsp;невероятными функциональными возможностями. Грамотное применение инновационных технологий позволяет значительно упростить эксплуатацию бытовой техники. В&nbsp;зависимости
+												от&nbsp;модели они могут быть оборудованы функцией No&nbsp;Frost, то&nbsp;есть их&nbsp;не&nbsp;нужно размораживать. Автоматическая вентиляция проветривает внутреннее пространство холодильника, а&nbsp;система отвода конденсата препятствует
+												накоплению инея.
+
+
+
+											</div>
+
+
+
+											<div class="tags">
+												<ul class="tags__list">
+													<li class="tags__item ">
+														<a href="/liebherr/holodilniki/odnokamernye-kholodilniki-bez-morozilnika/" title="Однокамерные холодильники" class="tags__link">Однокамерные холодильники
+														</a>
+													</li>
+													<li class="tags__item ">
+														<a href="/liebherr/holodilniki/dvukhkamernye-kholodilniki-s-morozilnikom/" title="Двухкамерные холодильники" class="tags__link">Двухкамерные холодильники
+														</a>
+													</li>
+													<li class="tags__item ">
+														<a href="/liebherr/holodilniki/side-by-side/" title="Холодильники Side-by-Side" class="tags__link">Холодильники Side-by-Side</a>
+													</li>
+													<li class="tags__item ">
+														<a href="/liebherr/holodilniki/morozilnye-kamery/" title="Морозильные камеры" class="tags__link">Морозильные камеры</a>
+													</li>
+													<li class="tags__item ">
+														<a href="/liebherr/holodilniki/morozilnye-lari/" title="Морозильные лари" class="tags__link">Морозильные лари</a>
+													</li>
+												</ul>
+											</div>
+
+
+
+										</div>
+
+									</div>
+								</div>
+								<div class="content">
+									<div class="container">
+										<div class="col-md-3">
+											<div class="filter__date">Обновление цен от 8 апреля 2019</div>
+
+											<div class="bx-filter bx-blue filter-new">
+												<div class="bx-filter-section container-fluid">
+													<form name="_form" action="/work/holodilniki/?IBLOCK_CODE=holodilniki" method="get" class="smartfilter">
+														<input type="hidden" name="IBLOCK_CODE" id="IBLOCK_CODE" value="holodilniki">
+														<div class="row">
+															<div class="col-lg-12 bx-filter-parameters-box bx-active">
+																<span class="bx-filter-container-modef"></span>
+																<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+																	<span>Цена, руб.
+																		<i data-role="prop_angle" class="fa fa-angle-up"></i>
+																	</span>
+																</div>
+																<div class="bx-filter-block" data-role="bx_filter_block" style="display: block; opacity: 1; height: 149px;">
+																	<div class="row bx-filter-parameters-box-container">
+																		<div class="col-xs-6 bx-filter-parameters-box-container-block bx-left">
+																			<i class="bx-ft-sub">От</i>
+																			<div class="bx-filter-input-container">
+																				<input class="min-price" type="text" name="arrFilter2_P1_MIN" id="arrFilter2_P1_MIN" value="10" size="5" onkeyup="smartFilter.keyup(this)">
+																			</div>
+																		</div>
+																		<div class="col-xs-6 bx-filter-parameters-box-container-block bx-right">
+																			<i class="bx-ft-sub">До</i>
+																			<div class="bx-filter-input-container">
+																				<input class="max-price" type="text" name="arrFilter2_P1_MAX" id="arrFilter2_P1_MAX" value="33333" size="5" onkeyup="smartFilter.keyup(this)">
+																			</div>
+																		</div>
+
+																		<div class="col-xs-10 col-xs-offset-1 bx-ui-slider-track-container">
+																			<div class="bx-ui-slider-track" id="drag_track_c4ca4238a0b923820dcc509a6f75849b">
+																				<div class="bx-ui-slider-part p1">
+																					<span>13 230</span>
+																				</div>
+																				<div class="bx-ui-slider-part p2">
+																					<span>97 422.50</span>
+																				</div>
+																				<div class="bx-ui-slider-part p3">
+																					<span>181 615</span>
+																				</div>
+																				<div class="bx-ui-slider-part p4">
+																					<span>265 807.50</span>
+																				</div>
+																				<div class="bx-ui-slider-part p5">
+																					<span>350 000</span>
+																				</div>
+
+																				<div class="bx-ui-slider-pricebar-vd" style="left: 0;right: 0;" id="colorUnavailableActive_c4ca4238a0b923820dcc509a6f75849b">
+																				</div>
+																				<div class="bx-ui-slider-pricebar-vn" style="left: 0%; right: 0%;" id="colorAvailableInactive_c4ca4238a0b923820dcc509a6f75849b">
+																				</div>
+																				<div class="bx-ui-slider-pricebar-v" style="left: 0%; right: 0%;" id="colorAvailableActive_c4ca4238a0b923820dcc509a6f75849b">
+																				</div>
+																				<div class="bx-ui-slider-range" id="drag_tracker_c4ca4238a0b923820dcc509a6f75849b" style="left: 0%; right: 0%;">
+																					<a class="bx-ui-slider-handle left" style="left:0;" href="javascript:void(0)" id="left_slider_c4ca4238a0b923820dcc509a6f75849b"></a>
+																					<a class="bx-ui-slider-handle right" style="right:0;" href="javascript:void(0)" id="right_slider_c4ca4238a0b923820dcc509a6f75849b"></a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<script type="text/javascript">
+																BX.ready(function () {
+																	window['trackBarc4ca4238a0b923820dcc509a6f75849b'] = new BX.Iblock.SmartFilter({
+																		'leftSlider': 'left_slider_c4ca4238a0b923820dcc509a6f75849b',
+																		'rightSlider': 'right_slider_c4ca4238a0b923820dcc509a6f75849b',
+																		'tracker': 'drag_tracker_c4ca4238a0b923820dcc509a6f75849b',
+																		'trackerWrap': 'drag_track_c4ca4238a0b923820dcc509a6f75849b',
+																		'minInputId': 'arrFilter2_P1_MIN',
+																		'maxInputId': 'arrFilter2_P1_MAX',
+																		'minPrice': '13230',
+																		'maxPrice': '350000',
+																		'curMinPrice': '',
+																		'curMaxPrice': '',
+																		'fltMinPrice': '13230',
+																		'fltMaxPrice': '350000',
+																		'precision': '',
+																		'colorUnavailableActive': 'colorUnavailableActive_c4ca4238a0b923820dcc509a6f75849b',
+																		'colorAvailableActive': 'colorAvailableActive_c4ca4238a0b923820dcc509a6f75849b',
+																		'colorAvailableInactive': 'colorAvailableInactive_c4ca4238a0b923820dcc509a6f75849b'
+																	});
+																});
+															</script>
+															<div class="col-lg-12 bx-filter-parameters-box bx-active">
+																<span class="bx-filter-container-modef"></span>
+																<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+																	<span class="bx-filter-parameters-box-hint">
+																		Подборки
+																		<i data-role="prop_angle" class="fa fa-angle-up"></i>
+																	</span>
+																</div>
+																<div class="filter-glossary js-filter-glossary">
+																	<div class="icon-gloss"></div>
+																	<div class="popup-gloss">
+																		<img src="images/characteristic-glossary__img.png" alt="" class="filter-glossary__img">
+																		<div class="filter-glossary__title">Климатический класс SN-T</div>
+																		<div class="filter-glossary__text">Благодаря использованию технологии SmartFrost внутренняя поверхность стенок морозильной камеры очень гладкая, поэтому ее легко мыть.
+																		</div>
+																		<a href="#" class="filter-glossary__link">Перейти в глоссарий</a>
+																	</div>
+																</div>
+																<div class="bx-filter-block" data-role="bx_filter_block">
+																	<div class="row bx-filter-parameters-box-container">
+																		<div class="col-xs-12">
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_1538_532509899" class="bx-filter-param-label " for="arrFilter2_1538_532509899">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_1538_532509899" id="arrFilter2_1538_532509899" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="морозильник-шкаф">Новинки</span>
+																					</span>
+																				</label>
+																				<div class="filter-glossary js-filter-glossary">
+																					<div class="icon-gloss"></div>
+																					<div class="popup-gloss">
+																						<img src="images/characteristic-glossary__img.png" alt="" class="filter-glossary__img">
+																						<div class="filter-glossary__title">Климатический класс SN-T
+																						</div>
+																						<div class="filter-glossary__text">Благодаря использованию технологии SmartFrost внутренняя поверхность стенок морозильной камеры очень гладкая, поэтому ее легко мыть.
+																						</div>
+																						<a href="#" class="filter-glossary__link">Перейти в глоссарий
+																						</a>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_1538_532509887" class="bx-filter-param-label " for="arrFilter2_1538_532509887">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_1538_532509887" id="arrFilter2_1538_532509887" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="морозильник-шкаф">Лучшие</span>
+																					</span>
+																				</label>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_1538_532509845" class="bx-filter-param-label " for="arrFilter2_1538_532509845">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_1538_532509845" id="arrFilter2_1538_532509845" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="морозильник-шкаф">Акции</span>
+																					</span>
+																				</label>
+																			</div>
+
+																		</div>
+																	</div>
+																	<div style="clear: both"></div>
+																</div>
+															</div>
+															<div class="col-lg-12 bx-filter-parameters-box bx-active">
+																<span class="bx-filter-container-modef"></span>
+																<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+																	<span class="bx-filter-parameters-box-hint">Тип
+																		<i data-role="prop_angle" class="fa fa-angle-up"></i>
+																	</span>
+																</div>
+
+																<div class="bx-filter-block" data-role="bx_filter_block">
+																	<div class="row bx-filter-parameters-box-container">
+																		<div class="col-xs-12">
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_1538_532509844" class="bx-filter-param-label " for="arrFilter2_1538_532509844">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_1538_532509844" id="arrFilter2_1538_532509844" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="морозильник-шкаф">морозильник-шкаф&nbsp;(
+																							<span data-role="count_arrFilter2_1538_532509844">42</span>)</span>
+																					</span>
+																				</label>
+																				<div class="filter-glossary js-filter-glossary">
+																					<div class="icon-gloss"></div>
+																					<div class="popup-gloss">
+																						<img src="images/characteristic-glossary__img.png" alt="" class="filter-glossary__img">
+																						<div class="filter-glossary__title">Климатический класс SN-T
+																						</div>
+																						<div class="filter-glossary__text">Благодаря использованию технологии SmartFrost внутренняя поверхность стенок морозильной камеры очень гладкая, поэтому ее легко мыть.
+																						</div>
+																						<a href="#" class="filter-glossary__link">Перейти в глоссарий
+																						</a>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_1538_3059817806" class="bx-filter-param-label " for="arrFilter2_1538_3059817806">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_1538_3059817806" id="arrFilter2_1538_3059817806" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="морозильник-ларь">морозильник-ларь&nbsp;(
+																							<span data-role="count_arrFilter2_1538_3059817806">29</span>)</span>
+																					</span>
+																				</label>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_1538_3244699096" class="bx-filter-param-label " for="arrFilter2_1538_3244699096">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_1538_3244699096" id="arrFilter2_1538_3244699096" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="холодильник без морозильника">холодильник без морозильника&nbsp;(
+																							<span data-role="count_arrFilter2_1538_3244699096">39</span>)</span>
+																					</span>
+																				</label>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_1538_1483701346" class="bx-filter-param-label " for="arrFilter2_1538_1483701346">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_1538_1483701346" id="arrFilter2_1538_1483701346" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="холодильник с винным шкафом">холодильник с винным шкафом&nbsp;(
+																							<span data-role="count_arrFilter2_1538_1483701346">2</span>)</span>
+																					</span>
+																				</label>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_1538_795364596" class="bx-filter-param-label " for="arrFilter2_1538_795364596">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_1538_795364596" id="arrFilter2_1538_795364596" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="холодильник с морозильником">холодильник с морозильником&nbsp;(
+																							<span data-role="count_arrFilter2_1538_795364596">235</span>)</span>
+																					</span>
+																				</label>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_1538_2970409303" class="bx-filter-param-label " for="arrFilter2_1538_2970409303">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_1538_2970409303" id="arrFilter2_1538_2970409303" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="морозильник с винным шкафом">морозильник с винным шкафом&nbsp;(
+																							<span data-role="count_arrFilter2_1538_2970409303">1</span>)</span>
+																					</span>
+																				</label>
+																			</div>
+																		</div>
+																	</div>
+																	<div style="clear: both"></div>
+																</div>
+															</div>
+															<div class="col-lg-12 bx-filter-parameters-box bx-active">
+																<span class="bx-filter-container-modef"></span>
+																<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+																	<span class="bx-filter-parameters-box-hint">Цвет
+																		<i data-role="prop_angle" class="fa fa-angle-up"></i>
+																	</span>
+																</div>
+
+																<div class="bx-filter-block" data-role="bx_filter_block">
+																	<div class="row bx-filter-parameters-box-container">
+																		<div class="col-xs-12">
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_2250_1738692762" class="bx-filter-param-label " for="arrFilter2_2250_1738692762">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_2250_1738692762" id="arrFilter2_2250_1738692762" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="бежевый">бежевый&nbsp;(
+																							<span data-role="count_arrFilter2_2250_1738692762">7</span>)</span>
+																					</span>
+																				</label>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_2250_841265288" class="bx-filter-param-label " for="arrFilter2_2250_841265288">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_2250_841265288" id="arrFilter2_2250_841265288" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="белый">белый&nbsp;(
+																							<span data-role="count_arrFilter2_2250_841265288">176</span>)</span>
+																					</span>
+																				</label>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_2250_3303624126" class="bx-filter-param-label " for="arrFilter2_2250_3303624126">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_2250_3303624126" id="arrFilter2_2250_3303624126" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="бронза">бронза&nbsp;(
+																							<span data-role="count_arrFilter2_2250_3303624126">1</span>)</span>
+																					</span>
+																				</label>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_2250_3834431074" class="bx-filter-param-label " for="arrFilter2_2250_3834431074">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_2250_3834431074" id="arrFilter2_2250_3834431074" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="зеленый KiwiGreen">зеленый KiwiGreen&nbsp;(
+																							<span data-role="count_arrFilter2_2250_3834431074">1</span>)</span>
+																					</span>
+																				</label>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_2250_2587736799" class="bx-filter-param-label " for="arrFilter2_2250_2587736799">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_2250_2587736799" id="arrFilter2_2250_2587736799" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="зеленый авокадо">зеленый авокадо&nbsp;(
+																							<span data-role="count_arrFilter2_2250_2587736799">1</span>)</span>
+																					</span>
+																				</label>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_2250_3761914965" class="bx-filter-param-label " for="arrFilter2_2250_3761914965">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_2250_3761914965" id="arrFilter2_2250_3761914965" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="красный">красный&nbsp;(
+																							<span data-role="count_arrFilter2_2250_3761914965">1</span>)</span>
+																					</span>
+																				</label>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_2250_2871910706" class="bx-filter-param-label " for="arrFilter2_2250_2871910706">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_2250_2871910706" id="arrFilter2_2250_2871910706" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="нержавеющая сталь">нержавеющая сталь&nbsp;(
+																							<span data-role="count_arrFilter2_2250_2871910706">47</span>)</span>
+																					</span>
+																				</label>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_2250_1949555699" class="bx-filter-param-label " for="arrFilter2_2250_1949555699">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_2250_1949555699" id="arrFilter2_2250_1949555699" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="оранжевый NeonOrange">оранжевый NeonOrange&nbsp;(
+																							<span data-role="count_arrFilter2_2250_1949555699">1</span>)</span>
+																					</span>
+																				</label>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_2250_1239821711" class="bx-filter-param-label " for="arrFilter2_2250_1239821711">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_2250_1239821711" id="arrFilter2_2250_1239821711" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="серебристый">серебристый&nbsp;(
+																							<span data-role="count_arrFilter2_2250_1239821711">71</span>)</span>
+																					</span>
+																				</label>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_2250_3685956360" class="bx-filter-param-label " for="arrFilter2_2250_3685956360">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_2250_3685956360" id="arrFilter2_2250_3685956360" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="серебристый + нержавеющая сталь">серебристый + нержавеющая сталь&nbsp;(
+																							<span data-role="count_arrFilter2_2250_3685956360">16</span>)</span>
+																					</span>
+																				</label>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_2250_965531904" class="bx-filter-param-label " for="arrFilter2_2250_965531904">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_2250_965531904" id="arrFilter2_2250_965531904" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="синий">синий&nbsp;(
+																							<span data-role="count_arrFilter2_2250_965531904">1</span>)</span>
+																					</span>
+																				</label>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_2250_2475423476" class="bx-filter-param-label " for="arrFilter2_2250_2475423476">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_2250_2475423476" id="arrFilter2_2250_2475423476" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="синий FrozenBlue">синий FrozenBlue&nbsp;(
+																							<span data-role="count_arrFilter2_2250_2475423476">1</span>)</span>
+																					</span>
+																				</label>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_2250_1842303647" class="bx-filter-param-label " for="arrFilter2_2250_1842303647">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_2250_1842303647" id="arrFilter2_2250_1842303647" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="цветной StickerArt">цветной StickerArt&nbsp;(
+																							<span data-role="count_arrFilter2_2250_1842303647">1</span>)</span>
+																					</span>
+																				</label>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_2250_3693793700" class="bx-filter-param-label " for="arrFilter2_2250_3693793700">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_2250_3693793700" id="arrFilter2_2250_3693793700" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="черный">черный&nbsp;(
+																							<span data-role="count_arrFilter2_2250_3693793700">6</span>)</span>
+																					</span>
+																				</label>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_2250_53799781" class="bx-filter-param-label " for="arrFilter2_2250_53799781">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_2250_53799781" id="arrFilter2_2250_53799781" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="черный / серебристый">черный / серебристый&nbsp;(
+																							<span data-role="count_arrFilter2_2250_53799781">2</span>)</span>
+																					</span>
+																				</label>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_2250_1865533099" class="bx-filter-param-label " for="arrFilter2_2250_1865533099">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_2250_1865533099" id="arrFilter2_2250_1865533099" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="черный BlackSteel">черный BlackSteel&nbsp;(
+																							<span data-role="count_arrFilter2_2250_1865533099">14</span>)</span>
+																					</span>
+																				</label>
+																			</div>
+																		</div>
+																	</div>
+																	<div style="clear: both"></div>
+																</div>
+															</div>
+															<div class="col-lg-12 bx-filter-parameters-box bx-active">
+																<span class="bx-filter-container-modef"></span>
+																<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+																	<span class="bx-filter-parameters-box-hint">Высота [см]
+																		<i data-role="prop_angle" class="fa fa-angle-up"></i>
+																	</span>
+																</div>
+
+																<div class="bx-filter-block" data-role="bx_filter_block">
+																	<div class="row bx-filter-parameters-box-container">
+																		<div class="col-xs-6 bx-filter-parameters-box-container-block bx-left">
+																			<i class="bx-ft-sub">От</i>
+																			<div class="bx-filter-input-container">
+																				<input class="min-price" type="text" name="arrFilter2_1541_MIN" id="arrFilter2_1541_MIN" value="" size="5" onkeyup="smartFilter.keyup(this)">
+																			</div>
+																		</div>
+																		<div class="col-xs-6 bx-filter-parameters-box-container-block bx-right">
+																			<i class="bx-ft-sub">До</i>
+																			<div class="bx-filter-input-container">
+																				<input class="max-price" type="text" name="arrFilter2_1541_MAX" id="arrFilter2_1541_MAX" value="" size="5" onkeyup="smartFilter.keyup(this)">
+																			</div>
+																		</div>
+
+																		<div class="col-xs-10 col-xs-offset-1 bx-ui-slider-track-container">
+																			<div class="bx-ui-slider-track" id="drag_track_1541">
+																				<div class="bx-ui-slider-part p1">
+																					<span>61.20</span>
+																				</div>
+																				<div class="bx-ui-slider-part p2">
+																					<span>96.88</span>
+																				</div>
+																				<div class="bx-ui-slider-part p3">
+																					<span>132.55</span>
+																				</div>
+																				<div class="bx-ui-slider-part p4">
+																					<span>168.23</span>
+																				</div>
+																				<div class="bx-ui-slider-part p5">
+																					<span>203.90</span>
+																				</div>
+
+																				<div class="bx-ui-slider-pricebar-vd" style="left: 0;right: 0;" id="colorUnavailableActive_1541"></div>
+																				<div class="bx-ui-slider-pricebar-vn" style="left: 0%; right: 0%;" id="colorAvailableInactive_1541"></div>
+																				<div class="bx-ui-slider-pricebar-v" style="left: 0%; right: 0%;" id="colorAvailableActive_1541"></div>
+																				<div class="bx-ui-slider-range" id="drag_tracker_1541" style="left: 0;right: 0;">
+																					<a class="bx-ui-slider-handle left" style="left:0;" href="javascript:void(0)" id="left_slider_1541"></a>
+																					<a class="bx-ui-slider-handle right" style="right:0;" href="javascript:void(0)" id="right_slider_1541"></a>
+																				</div>
+																			</div>
+																		</div>
+																		<script type="text/javascript">
+																			BX.ready(function () {
+																				window['trackBar1541'] = new BX.Iblock.SmartFilter({
+																					'leftSlider': 'left_slider_1541',
+																					'rightSlider': 'right_slider_1541',
+																					'tracker': 'drag_tracker_1541',
+																					'trackerWrap': 'drag_track_1541',
+																					'minInputId': 'arrFilter2_1541_MIN',
+																					'maxInputId': 'arrFilter2_1541_MAX',
+																					'minPrice': '61.2',
+																					'maxPrice': '203.9',
+																					'curMinPrice': '',
+																					'curMaxPrice': '',
+																					'fltMinPrice': '61.2',
+																					'fltMaxPrice': '203.9',
+																					'precision': '2',
+																					'colorUnavailableActive': 'colorUnavailableActive_1541',
+																					'colorAvailableActive': 'colorAvailableActive_1541',
+																					'colorAvailableInactive': 'colorAvailableInactive_1541'
+																				});
+																			});
+																		</script>
+																	</div>
+																	<div style="clear: both"></div>
+																</div>
+															</div>
+															<div class="col-lg-12 bx-filter-parameters-box bx-active">
+																<span class="bx-filter-container-modef"></span>
+																<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+																	<span class="bx-filter-parameters-box-hint">Ширина [см]
+																		<i data-role="prop_angle" class="fa fa-angle-up"></i>
+																	</span>
+																</div>
+
+																<div class="bx-filter-block" data-role="bx_filter_block">
+																	<div class="row bx-filter-parameters-box-container">
+																		<div class="col-xs-6 bx-filter-parameters-box-container-block bx-left">
+																			<i class="bx-ft-sub">От</i>
+																			<div class="bx-filter-input-container">
+																				<input class="min-price" type="text" name="arrFilter2_1542_MIN" id="arrFilter2_1542_MIN" value="" size="5" onkeyup="smartFilter.keyup(this)">
+																			</div>
+																		</div>
+																		<div class="col-xs-6 bx-filter-parameters-box-container-block bx-right">
+																			<i class="bx-ft-sub">До</i>
+																			<div class="bx-filter-input-container">
+																				<input class="max-price" type="text" name="arrFilter2_1542_MAX" id="arrFilter2_1542_MAX" value="" size="5" onkeyup="smartFilter.keyup(this)">
+																			</div>
+																		</div>
+
+																		<div class="col-xs-10 col-xs-offset-1 bx-ui-slider-track-container">
+																			<div class="bx-ui-slider-track" id="drag_track_1542">
+																				<div class="bx-ui-slider-part p1">
+																					<span>42.5</span>
+																				</div>
+																				<div class="bx-ui-slider-part p2">
+																					<span>73.1</span>
+																				</div>
+																				<div class="bx-ui-slider-part p3">
+																					<span>103.7</span>
+																				</div>
+																				<div class="bx-ui-slider-part p4">
+																					<span>134.2</span>
+																				</div>
+																				<div class="bx-ui-slider-part p5">
+																					<span>164.8</span>
+																				</div>
+
+																				<div class="bx-ui-slider-pricebar-vd" style="left: 0;right: 0;" id="colorUnavailableActive_1542"></div>
+																				<div class="bx-ui-slider-pricebar-vn" style="left: 0%; right: 0%;" id="colorAvailableInactive_1542"></div>
+																				<div class="bx-ui-slider-pricebar-v" style="left: 0%; right: 0%;" id="colorAvailableActive_1542"></div>
+																				<div class="bx-ui-slider-range" id="drag_tracker_1542" style="left: 0;right: 0;">
+																					<a class="bx-ui-slider-handle left" style="left:0;" href="javascript:void(0)" id="left_slider_1542"></a>
+																					<a class="bx-ui-slider-handle right" style="right:0;" href="javascript:void(0)" id="right_slider_1542"></a>
+																				</div>
+																			</div>
+																		</div>
+																		<script type="text/javascript">
+																			BX.ready(function () {
+																				window['trackBar1542'] = new BX.Iblock.SmartFilter({
+																					'leftSlider': 'left_slider_1542',
+																					'rightSlider': 'right_slider_1542',
+																					'tracker': 'drag_tracker_1542',
+																					'trackerWrap': 'drag_track_1542',
+																					'minInputId': 'arrFilter2_1542_MIN',
+																					'maxInputId': 'arrFilter2_1542_MAX',
+																					'minPrice': '42.5',
+																					'maxPrice': '164.8',
+																					'curMinPrice': '',
+																					'curMaxPrice': '',
+																					'fltMinPrice': '42.5',
+																					'fltMaxPrice': '164.8',
+																					'precision': '1',
+																					'colorUnavailableActive': 'colorUnavailableActive_1542',
+																					'colorAvailableActive': 'colorAvailableActive_1542',
+																					'colorAvailableInactive': 'colorAvailableInactive_1542'
+																				});
+																			});
+																		</script>
+																	</div>
+																	<div style="clear: both"></div>
+																</div>
+															</div>
+															<div class="col-lg-12 bx-filter-parameters-box bx-active">
+																<span class="bx-filter-container-modef"></span>
+																<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+																	<span class="bx-filter-parameters-box-hint">Дополнительные возможности
+																		<i data-role="prop_angle" class="fa fa-angle-up"></i>
+																	</span>
+																</div>
+
+																<div class="bx-filter-block" data-role="bx_filter_block">
+																	<div class="row bx-filter-parameters-box-container">
+																		<div class="col-xs-12">
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_1619_2457050333" class="bx-filter-param-label " for="arrFilter2_1619_2457050333">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_1619_2457050333" id="arrFilter2_1619_2457050333" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="Зона свежести BioFresh">Зона свежести BioFresh&nbsp;(
+																							<span data-role="count_arrFilter2_1619_2457050333">86</span>)</span>
+																					</span>
+																				</label>
+																				<div class="filter-glossary js-filter-glossary">
+																					<div class="icon-gloss"></div>
+																					<div class="popup-gloss">
+																						<img src="images/characteristic-glossary__img.png" alt="" class="filter-glossary__img">
+																						<div class="filter-glossary__title">Климатический класс SN-T
+																						</div>
+																						<div class="filter-glossary__text">Благодаря использованию технологии SmartFrost внутренняя поверхность стенок морозильной камеры очень гладкая, поэтому ее легко мыть.
+																						</div>
+																						<a href="#" class="filter-glossary__link">Перейти в глоссарий
+																						</a>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_1619_2457050399" class="bx-filter-param-label " for="arrFilter2_1619_2457050399">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_1619_2457050399" id="arrFilter2_1619_2457050399" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="Доводчик двери SoftSystem">Доводчик двери SoftSystem&nbsp;(
+																							<span data-role="count_arrFilter2_1619_2457050399">86</span>)</span>
+																					</span>
+																				</label>
+																				<div class="filter-glossary js-filter-glossary">
+																					<div class="icon-gloss"></div>
+																					<div class="popup-gloss">
+																						<img src="images/characteristic-glossary__img.png" alt="" class="filter-glossary__img">
+																						<div class="filter-glossary__title">Климатический класс SN-T
+																						</div>
+																						<div class="filter-glossary__text">Благодаря использованию технологии SmartFrost внутренняя поверхность стенок морозильной камеры очень гладкая, поэтому ее легко мыть.
+																						</div>
+																						<a href="#" class="filter-glossary__link">Перейти в глоссарий
+																						</a>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_1619_2457050388" class="bx-filter-param-label " for="arrFilter2_1619_2457050388">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_1619_2457050388" id="arrFilter2_1619_2457050388" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="Система NoFrost">Система NoFrost&nbsp;(
+																							<span data-role="count_arrFilter2_1619_2457050388">86</span>)</span>
+																					</span>
+																				</label>
+																				<div class="filter-glossary js-filter-glossary">
+																					<div class="icon-gloss"></div>
+																					<div class="popup-gloss">
+																						<img src="images/characteristic-glossary__img.png" alt="" class="filter-glossary__img">
+																						<div class="filter-glossary__title">Климатический класс SN-T
+																						</div>
+																						<div class="filter-glossary__text">Благодаря использованию технологии SmartFrost внутренняя поверхность стенок морозильной камеры очень гладкая, поэтому ее легко мыть.
+																						</div>
+																						<a href="#" class="filter-glossary__link">Перейти в глоссарий
+																						</a>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_1619_24570503312" class="bx-filter-param-label " for="arrFilter2_1619_24570503312">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_1619_24570503312" id="arrFilter2_1619_24570503312" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="Ледогенератор IceMaker">Ледогенератор IceMaker&nbsp;(
+																							<span data-role="count_arrFilter2_1619_24570503312">86</span>)</span>
+																					</span>
+																				</label>
+																				<div class="filter-glossary js-filter-glossary">
+																					<div class="icon-gloss"></div>
+																					<div class="popup-gloss">
+																						<img src="images/characteristic-glossary__img.png" alt="" class="filter-glossary__img">
+																						<div class="filter-glossary__title">Климатический класс SN-T
+																						</div>
+																						<div class="filter-glossary__text">Благодаря использованию технологии SmartFrost внутренняя поверхность стенок морозильной камеры очень гладкая, поэтому ее легко мыть.
+																						</div>
+																						<a href="#" class="filter-glossary__link">Перейти в глоссарий
+																						</a>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div style="clear: both"></div>
+																</div>
+															</div>
+															<div class="col-lg-12 bx-filter-parameters-box bx-active">
+																<span class="bx-filter-container-modef"></span>
+																<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+																	<span class="bx-filter-parameters-box-hint">Система замораживания NoFrost
+																		<i data-role="prop_angle" class="fa fa-angle-up"></i>
+																	</span>
+																</div>
+
+																<div class="bx-filter-block" data-role="bx_filter_block">
+																	<div class="row bx-filter-parameters-box-container">
+																		<div class="col-xs-12">
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_1642_1644890287" class="bx-filter-param-label " for="arrFilter2_1642_1644890287">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_1642_1644890287" id="arrFilter2_1642_1644890287" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="Есть">Есть&nbsp;(
+																							<span data-role="count_arrFilter2_1642_1644890287">184</span>)</span>
+																					</span>
+																				</label>
+																			</div>
+																		</div>
+																	</div>
+																	<div style="clear: both"></div>
+																</div>
+															</div>
+															<div class="col-lg-12 bx-filter-parameters-box bx-active">
+																<span class="bx-filter-container-modef"></span>
+																<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+																	<span class="bx-filter-parameters-box-hint">Ледогенератор IceMaker
+																		<i data-role="prop_angle" class="fa fa-angle-up"></i>
+																	</span>
+																</div>
+
+																<div class="bx-filter-block" data-role="bx_filter_block">
+																	<div class="row bx-filter-parameters-box-container">
+																		<div class="col-xs-12">
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_1668_3157780942" class="bx-filter-param-label " for="arrFilter2_1668_3157780942">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_1668_3157780942" id="arrFilter2_1668_3157780942" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="Есть">Есть&nbsp;(
+																							<span data-role="count_arrFilter2_1668_3157780942">29</span>)</span>
+																					</span>
+																				</label>
+																			</div>
+																		</div>
+																	</div>
+																	<div style="clear: both"></div>
+																</div>
+															</div>
+															<div class="col-lg-12 bx-filter-parameters-box bx-active">
+																<span class="bx-filter-container-modef"></span>
+																<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
+																	<span class="bx-filter-parameters-box-hint">Ледогенератор IceMaker
+																		<i data-role="prop_angle" class="fa fa-angle-up"></i>
+																	</span>
+																</div>
+
+																<div class="bx-filter-block" data-role="bx_filter_block">
+																	<div class="row bx-filter-parameters-box-container">
+																		<div class="col-xs-12">
+																			<div class="checkbox">
+																				<label data-role="label_arrFilter2_1669_3408976216" class="bx-filter-param-label " for="arrFilter2_1669_3408976216">
+																					<span class="bx-filter-input-checkbox">
+																						<input type="checkbox" value="Y" name="arrFilter2_1669_3408976216" id="arrFilter2_1669_3408976216" onclick="smartFilter.click(this)">
+																						<span class="bx-filter-param-text" title="Есть">Есть&nbsp;(
+																							<span data-role="count_arrFilter2_1669_3408976216">19</span>)</span>
+																					</span>
+																				</label>
+																			</div>
+																		</div>
+																	</div>
+																	<div style="clear: both"></div>
+																</div>
+															</div>
+														</div>
+														<!--//row-->
+														<div class="row">
+															<div class="col-xs-12 bx-filter-button-box">
+																<div class="bx-filter-block">
+																	<div class="bx-filter-parameters-box-container">
+																		<input class="btn btn-themes" type="submit" id="set_filter" name="set_filter" value="Показать">
+																		<input class="btn btn-link" type="submit" id="del_filter" name="del_filter" value="Сбросить фильтр">
+																		<div class="bx-filter-popup-result right" id="modef" style="display:none">
+																			Выбрано:
+																			<span id="modef_num">0</span>
+																			<span class="arrow"></span>
+																			<br>
+																			<a href="/work/holodilniki/?IBLOCK_CODE=holodilniki&amp;set_filter=y" target="">Показать</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="clb"></div>
+													</form>
+												</div>
+											</div>
+											<script type="text/javascript">
+												var smartFilter = new JCSmartFilter('/work/holodilniki/', 'VERTICAL', []);
+											</script>
+
+											<div class="sidebar">
+
+												<ul class="work-link">
+
+													<li class="work-link__item">
+														<a href="/guarantee/#services-list" title="Сервисные центры" class="work-link__a">Сервисные центры</a>
+													</li>
+
+
+													<li class="work-link__item">
+														<a href="/technical-documentation/" title="Техническая документация" class="work-link__a">Техническая документация</a>
+													</li>
+
+
+													<li class="work-link__item">
+														<a href="/guarantee/" title="Гарантия Liebherr" class="work-link__a">Гарантия Liebherr
+														</a>
+													</li>
+
+												</ul>
+
+
+												<div class="download-catalogs">
+													<div class="download-catalogs__title">Скачать каталоги</div>
+													<div class="download-catalogs__items swiper-container">
+														<div class="swiper-wrapper">
+															<div class="download-catalogs__item swiper-slide" id="bx_3218110189_2581">
+																<a href="/upload/iblock/c16/c16b1341b924988746ca637e1ac609ee.pdf" title="Новая линейка комбинированных холодильников-морозильников" class="download-catalogs__link" target="_blank">
+																	<div class="download-catalogs__pic">
+																		<img src="/upload/resize_cache/iblock/caf/74_74_0/caf4a26a11e53e1dcad0453324ecca53.png" alt="Новая линейка комбинированных холодильников-морозильников" />
+																	</div>
+																	<div class="download-catalogs__text">
+																		Новая линейка комбинированных холодильников-морозильников
+																		<i>pdf, 659.38 KB</i>
+																	</div>
+																</a>
+															</div>
+
+															<div class="download-catalogs__item swiper-slide" id="bx_3218110189_2582">
+																<a href="/upload/iblock/458/4580432fa67a8c03c35a4e78f13158c0.pdf" title="BioFresh 2018/2019" class="download-catalogs__link" target="_blank">
+																	<div class="download-catalogs__pic">
+																		<img src="/upload/resize_cache/iblock/c2a/74_74_0/c2a3339c3826d2edea38ba1b91868c0c.png" alt="BioFresh 2018/2019" />
+																	</div>
+																	<div class="download-catalogs__text">
+																		BioFresh 2018/2019
+																		<i>pdf, 5.38 MB</i>
+																	</div>
+																</a>
+															</div>
+
+															<div class="download-catalogs__item swiper-slide" id="bx_3218110189_2583">
+																<a href="/upload/iblock/cda/cda2e14fb3a4c8e19c7982d6d9042d06.pdf" title="Дизайнерская серия ColourLine" class="download-catalogs__link" target="_blank">
+																	<div class="download-catalogs__pic">
+																		<img src="/upload/resize_cache/iblock/4df/74_74_0/4df484b5e0f1b126f197b76540c052a5.png" alt="Дизайнерская серия ColourLine" />
+																	</div>
+																	<div class="download-catalogs__text">
+																		Дизайнерская серия ColourLine
+																		<i>pdf, 1.73 MB</i>
+																	</div>
+																</a>
+															</div>
+
+															<div class="download-catalogs__item swiper-slide" id="bx_3218110189_2595">
+																<a href="/upload/iblock/d01/d010473df5948d83c783b3d14acb373d.pdf" title="Blu Performance - новое измерение свежести" class="download-catalogs__link" target="_blank">
+																	<div class="download-catalogs__pic">
+																		<img src="/upload/resize_cache/iblock/b23/74_74_0/b23eb501b59a249ed8faf28878ac683f.jpg" alt="Blu Performance - новое измерение свежести" />
+																	</div>
+																	<div class="download-catalogs__text">
+																		Blu Performance - новое измерение свежести
+																		<i>pdf, 2.59 MB</i>
+																	</div>
+																</a>
+															</div>
+
+															<div class="download-catalogs__item swiper-slide" id="bx_3218110189_2599">
+																<a href="/upload/iblock/ba9/ba96212235032515e5f53b5318d2ad1d.pdf" title="Винные шкафы 2018" class="download-catalogs__link" target="_blank">
+																	<div class="download-catalogs__pic">
+																		<img src="/upload/resize_cache/iblock/1db/74_74_0/1dbcbee639a94933f36a39fe6fcc3931.jpg" alt="Винные шкафы 2018" />
+																	</div>
+																	<div class="download-catalogs__text">
+																		Винные шкафы 2018
+																		<i>pdf, 3.02 MB</i>
+																	</div>
+																</a>
+															</div>
+
+															<div class="download-catalogs__item swiper-slide" id="bx_3218110189_2597">
+																<a href="/upload/iblock/dbb/dbb3f85d8218e98ca1c05bfcdf37c523.pdf" title="Компактные винные шкафы" class="download-catalogs__link" target="_blank">
+																	<div class="download-catalogs__pic">
+																		<img src="/upload/resize_cache/iblock/396/74_74_0/3964e838d0b6b95253d57c6e156c4173.jpg" alt="Компактные винные шкафы" />
+																	</div>
+																	<div class="download-catalogs__text">
+																		Компактные винные шкафы
+																		<i>pdf, 1.49 MB</i>
+																	</div>
+																</a>
+															</div>
+
+															<div class="download-catalogs__item swiper-slide" id="bx_3218110189_2600">
+																<a href="/upload/iblock/a11/a11b11ae359664ea97922c74912293e7.pdf" title="Новинки холодильной техники 2019" class="download-catalogs__link" target="_blank">
+																	<div class="download-catalogs__pic">
+																		<img src="/upload/resize_cache/iblock/7df/74_74_0/7dfb83590393bc1f5317401d00ba9554.jpg" alt="Новинки холодильной техники 2019" />
+																	</div>
+																	<div class="download-catalogs__text">
+																		Новинки холодильной техники 2019
+																		<i>pdf, 4.18 MB</i>
+																	</div>
+																</a>
+															</div>
+
+															<div class="download-catalogs__item swiper-slide" id="bx_3218110189_2594">
+																<a href="/upload/iblock/c18/c1843926087735d374a2d7aaff5d0046.pdf" title="Специальные решения для хранения, охлаждения и заморозки 2018/2019" class="download-catalogs__link" target="_blank">
+																	<div class="download-catalogs__pic">
+																		<img src="/upload/resize_cache/iblock/2ac/74_74_0/2acdfcf1563f3f8364cf3af6fe73bdf6.jpg" alt="Специальные решения для хранения, охлаждения и заморозки 2018/2019" />
+																	</div>
+																	<div class="download-catalogs__text">
+																		Специальные решения для хранения, охлаждения и заморозки 2018/2019
+																		<i>pdf, 5.47 MB</i>
+																	</div>
+																</a>
+															</div>
+
+															<div class="download-catalogs__item swiper-slide" id="bx_3218110189_2596">
+																<a href="/upload/iblock/7af/7af7002f72e36043b2b26fca5405c177.pdf" title="Холодильники и морозильники 2018" class="download-catalogs__link" target="_blank">
+																	<div class="download-catalogs__pic">
+																		<img src="/upload/resize_cache/iblock/0fe/74_74_0/0fe89e241a42a51cf26b229e99c57e12.jpg" alt="Холодильники и морозильники 2018" />
+																	</div>
+																	<div class="download-catalogs__text">
+																		Холодильники и морозильники 2018
+																		<i>pdf, 9.28 MB</i>
+																	</div>
+																</a>
+															</div>
+
+															<div class="download-catalogs__item swiper-slide" id="bx_3218110189_2598">
+																<a href="/upload/iblock/74d/74d0f037b1f4284dba2c2949678aa178.pdf" title="Холодильники с верхней морозильной камерой и технологией PowerCooling" class="download-catalogs__link" target="_blank">
+																	<div class="download-catalogs__pic">
+																		<img src="/upload/resize_cache/iblock/279/74_74_0/27919d80cbf5ddf4d1342093aeb875b2.jpg" alt="Холодильники с верхней морозильной камерой и технологией PowerCooling" />
+																	</div>
+																	<div class="download-catalogs__text">
+																		Холодильники с верхней морозильной камерой и технологией PowerCooling
+																		<i>pdf, 6.04 MB</i>
+																	</div>
+																</a>
+															</div>
+
+														</div>
+													</div>
+												</div>
+
+
+
+
+
+
+
+
+
+												<div class="yandex">
+													<div class="yandex__inner">
+														<div class="yandex__logo">
+															<img src="/mockup/templates/main/build/images/ylogo.png" alt="" class="yandex__img" />
+														</div>
+														<div class="yandex__ratings">
+															<img src="/mockup/templates/main/build/images/5-stars.png" alt="" />
+														</div>
+														<a href="https://market.yandex.ru/shop/394451/reviews/add?retpath=https%3A%2F%2Fmarket.yandex.ru%2Fshop%2F394451%2Freviews&track=rev_sh" target="_blank" class="yandex__button">Оставить отзыв</a>
+														<a href=" https://market.yandex.ru/shop/394451/reviews" target="_blank" class="yandex__button">Читать все отзывы</a>
+													</div>
+												</div>
+
+
+												<div class="quality">
+													<span class="quality__title">Контроль качества</span>
+													<span class="quality__text">Номер для претензий и предложений:</span>
+													<a href="tel:+74951201196" class="quality__number">+7 (495) 120-11-96</a>
+													<span class="quality__worktime">с 9:00 до 21:00 по будням</span>
+													<a href="/kachestvo/" class="quality__button">Написать</a>
+												</div>
+
+											</div>
+
+										</div>
+										<div class="special-offers catalog">
+
+											<div class="catalog__sorting">
+												<ul class="catalog__ul">
+													Сортировать по:
+
+													<li class="catalog__li ">
+														<a href="" data-sort="HIT" data-order="ASC" class="catalog__sort js-sort_change">
+															<span>популярности</span>
+															<i></i>
+														</a>
+													</li>
+													<li class="catalog__li ">
+														<a href="" data-sort="NEW" data-order="ASC" class="catalog__sort js-sort_change">
+															<span>новизне</span>
+															<i></i>
+														</a>
+													</li>
+													<li class="catalog__li active">
+														<a href="" data-sort="PRICE" data-order="ASC" class="catalog__sort js-sort_change">
+															<span>цене</span>
+															<i></i>
+														</a>
+													</li>
+												</ul>
+												<div class="sorting__info">
+													<span class="sorting__number js-catalog_count-blk"></span>
+												</div>
+											</div>
+
+
+
+											<input type="hidden" class="js-catalog_count" name="catalog_count" value="348 позиций" />
+
+
+											<div class="catalog__items">
+												<div class="catalog__item">
+													<a class="catalog__pic" href="#">
+														<img src="images/new-items_3.jpg" srcset="images/new-items_3@2x.jpg 2x,images/new-items_3@3x.jpg 3x" class="special-offers__img catalog__img">
+													</a>
+													<a href="product-card.html" class="special-offers__text  catalog__text">Винный шкаф Liebherr EWTgw 3583 Vinidor
+													</a>
+													<span class="catalog__presence">В наличии</span>
+													<div class="catalog__specification">
+														<span class="catalog__feature">Цвет:
+															<span class="catalog__bold">белый</span>
+														</span>
+														<span class="catalog__feature">Габариты (см):
+															<span class="catalog__bold">
+																63x55.4x62.4</span>
+														</span>
+														<span class="catalog__feature">Полезный объем холодильной камеры (л):
+															<span class="catalog__bold">107</span>
+														</span>
+														<span class="catalog__feature">Полезный объем морозильной камеры (л):
+															<span class="catalog__bold">15</span>
+														</span>
+														<span class="catalog__feature">Тип размораживания:
+															<span class="catalog__bold">ручная</span>
+														</span>
+													</div>
+													<div class="catalog__prop">
+														<a href="/glossary/nofrost.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties.png" class="icons-prop-item" title="NoFrost – благодаря этой современной системе продукты замораживаются с помощью циркулирующего охлажденного воздуха, подающегося специальным вентилятором. Влажный воздух выводится наружу, что позволяет предотвратить образование инея&nbsp;&nbsp;на стенках морозильного отделения, и тем самым забыть о процедуре размораживания.">
+														</a>
+														<a href="/glossary/holidaymode.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties2.png" class="icons-prop-item" title="HolidayMode – выбор данного режима обеспечивает поддержание постоянной температуры на уровне +15 °С. В случае длительного отсутствия владельцев установка режима HolidayMode гарантирует экономию электроэнергии и защиту от образования посторонних запахов в пустой камере.">
+														</a>
+														<a href="/glossary/klassy-energopotrebleniya-a-i-a-.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties-appp.png" class="icons-prop-item" title="Классы энергопотребления A+ и A++ – экономия энергии. Потребление энергии в холодильном и морозильном оборудовании этих классов заметно снижено. Экономичность моделей данной серии убеждает даже самых бережливых хозяев и вносит активный вклад в охрану окружающей среды.">
+														</a>
+														<a href="/glossary/nofrost.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties.png" class="icons-prop-item" title="NoFrost – благодаря этой современной системе продукты замораживаются с помощью циркулирующего охлажденного воздуха, подающегося специальным вентилятором. Влажный воздух выводится наружу, что позволяет предотвратить образование инея&nbsp;&nbsp;на стенках морозильного отделения, и тем самым забыть о процедуре размораживания.">
+														</a>
+														<a href="/glossary/holidaymode.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties2.png" class="icons-prop-item" title="HolidayMode – выбор данного режима обеспечивает поддержание постоянной температуры на уровне +15 °С. В случае длительного отсутствия владельцев установка режима HolidayMode гарантирует экономию электроэнергии и защиту от образования посторонних запахов в пустой камере.">
+														</a>
+														<a href="/glossary/klassy-energopotrebleniya-a-i-a-.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties-appp.png" class="icons-prop-item" title="Классы энергопотребления A+ и A++ – экономия энергии. Потребление энергии в холодильном и морозильном оборудовании этих классов заметно снижено. Экономичность моделей данной серии убеждает даже самых бережливых хозяев и вносит активный вклад в охрану окружающей среды.">
+														</a>
+													</div>
+													<div class="special-offers__sale catalog__sale">
+														<span class="special-offers__price catalog__price">134 200
+															<i class="special-offers__rub catalog__rub">руб.</i>
+														</span>
+														<a href="#" data-url="ajax/add-cart.html" data-ajax class="special-offers__buy">В корзину
+														</a>
+													</div>
+													<div class="catalog__existence">
+
+														<a href="#" class="catalog__simile active"></a>
+														<a href="#" class="catalog__favorite active"></a>
+														<a href="#" class="catalog__oneclick">Купить&nbsp;в&nbsp;1&nbsp;клик</a>
+													</div>
+													<div class="announcing">
+														<div class="announcing__item">
+															<img src="images/small/flag-ger.svg" alt="сделано в Германии" title="сделано в Германии">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/new.svg" alt="Новинка" title="Новинка">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/tools.svg" alt="Бесплатное подключение" title="Бесплатное подключение">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/truck.svg" alt="Бесплатная доставка" title="Бесплатная доставка">
+														</div>
+													</div>
+												</div>
+												<div class="catalog__item">
+													<a class="catalog__pic" href="#">
+														<img src="images/new-items_1.jpg" srcset="images/new-items_1@2x.jpg 2x,images/new-items_1@3x.jpg 3x" class="special-offers__img catalog__img">
+													</a>
+													<a href="product-card.html" class="special-offers__text catalog__text">Холодильник Liebherr SBS 66I2 Premium NoFrost (SICN 3386 + ICN 3386)</a>
+													<span class="catalog__presence">В наличии</span>
+													<div class="catalog__specification">
+														<span class="catalog__feature">Цвет:
+															<span class="catalog__bold">белый</span>
+														</span>
+														<span class="catalog__feature">Габариты (см):
+															<span class="catalog__bold">
+																63x55.4x62.4</span>
+														</span>
+														<span class="catalog__feature">Полезный объем холодильной камеры (л):
+															<span class="catalog__bold">107</span>
+														</span>
+														<span class="catalog__feature">Полезный объем морозильной камеры (л):
+															<span class="catalog__bold">15</span>
+														</span>
+														<span class="catalog__feature">Тип размораживания:
+															<span class="catalog__bold">ручная</span>
+														</span>
+													</div>
+													<div class="catalog__prop">
+														<a href="/glossary/nofrost.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties.png" class="icons-prop-item" title="NoFrost – благодаря этой современной системе продукты замораживаются с помощью циркулирующего охлажденного воздуха, подающегося специальным вентилятором. Влажный воздух выводится наружу, что позволяет предотвратить образование инея&nbsp;&nbsp;на стенках морозильного отделения, и тем самым забыть о процедуре размораживания.">
+														</a>
+														<a href="/glossary/holidaymode.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties2.png" class="icons-prop-item" title="HolidayMode – выбор данного режима обеспечивает поддержание постоянной температуры на уровне +15 °С. В случае длительного отсутствия владельцев установка режима HolidayMode гарантирует экономию электроэнергии и защиту от образования посторонних запахов в пустой камере.">
+														</a>
+														<a href="/glossary/klassy-energopotrebleniya-a-i-a-.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties-appp.png" class="icons-prop-item" title="Классы энергопотребления A+ и A++ – экономия энергии. Потребление энергии в холодильном и морозильном оборудовании этих классов заметно снижено. Экономичность моделей данной серии убеждает даже самых бережливых хозяев и вносит активный вклад в охрану окружающей среды.">
+														</a>
+														<a href="/glossary/nofrost.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties.png" class="icons-prop-item" title="NoFrost – благодаря этой современной системе продукты замораживаются с помощью циркулирующего охлажденного воздуха, подающегося специальным вентилятором. Влажный воздух выводится наружу, что позволяет предотвратить образование инея&nbsp;&nbsp;на стенках морозильного отделения, и тем самым забыть о процедуре размораживания.">
+														</a>
+														<a href="/glossary/holidaymode.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties2.png" class="icons-prop-item" title="HolidayMode – выбор данного режима обеспечивает поддержание постоянной температуры на уровне +15 °С. В случае длительного отсутствия владельцев установка режима HolidayMode гарантирует экономию электроэнергии и защиту от образования посторонних запахов в пустой камере.">
+														</a>
+														<a href="/glossary/klassy-energopotrebleniya-a-i-a-.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties-appp.png" class="icons-prop-item" title="Классы энергопотребления A+ и A++ – экономия энергии. Потребление энергии в холодильном и морозильном оборудовании этих классов заметно снижено. Экономичность моделей данной серии убеждает даже самых бережливых хозяев и вносит активный вклад в охрану окружающей среды.">
+														</a>
+													</div>
+													<div class="special-offers__sale catalog__sale price__dashed">
+														<span class="special-offers__price catalog__price">
+															199 000
+															<i class="special-offers__rub catalog__rub">руб.</i>
+															<span class="price__absolute">
+																250 000 руб.
+															</span>
+														</span>
+														<a href="#" data-url="ajax/add-cart.html" data-ajax class="special-offers__buy">В корзину
+														</a>
+													</div>
+													<div class="catalog__existence">
+														<a href="#" class="catalog__simile"></a>
+														<a href="#" class="catalog__favorite"></a>
+														<a href="#" class="catalog__oneclick">Купить&nbsp;в&nbsp;1&nbsp;клик</a>
+													</div>
+													<div class="announcing">
+														<div class="announcing__item">
+															<img src="images/small/flag.svg" alt="сделано в Болгарии" title="сделано в Болгарии">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/new.svg" alt="Новинка" title="Новинка">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/tools.svg" alt="Бесплатное подключение" title="Бесплатное подключение">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/truck.svg" alt="Бесплатная доставка" title="сделано в Германии">
+														</div>
+													</div>
+												</div>
+												<div class="catalog__item">
+													<a class="catalog__pic" href="#">
+														<img src="images/new-items_2.jpg" srcset="images/new-items_2@2x.jpg 2x,images/new-items_2@3x.jpg 3x" class="special-offers__img catalog__img">
+													</a>
+
+													<a href="#" class="special-offers__text catalog__text">Морозильник Liebherr GN 2723 Comfort NoFrost</a>
+													<span class="catalog__presence">В наличии</span>
+													<div class="catalog__specification">
+														<span class="catalog__feature">Цвет:
+															<span class="catalog__bold">белый</span>
+														</span>
+														<span class="catalog__feature">Габариты (см):
+															<span class="catalog__bold">
+																63x55.4x62.4</span>
+														</span>
+														<span class="catalog__feature">Полезный объем холодильной камеры (л):
+															<span class="catalog__bold">107</span>
+														</span>
+														<span class="catalog__feature">Полезный объем морозильной камеры (л):
+															<span class="catalog__bold">15</span>
+														</span>
+														<span class="catalog__feature">Тип размораживания:
+															<span class="catalog__bold">ручная</span>
+														</span>
+													</div>
+													<div class="catalog__prop">
+														<a href="/glossary/nofrost.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties.png" class="icons-prop-item" title="NoFrost – благодаря этой современной системе продукты замораживаются с помощью циркулирующего охлажденного воздуха, подающегося специальным вентилятором. Влажный воздух выводится наружу, что позволяет предотвратить образование инея&nbsp;&nbsp;на стенках морозильного отделения, и тем самым забыть о процедуре размораживания.">
+														</a>
+														<a href="/glossary/holidaymode.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties2.png" class="icons-prop-item" title="HolidayMode – выбор данного режима обеспечивает поддержание постоянной температуры на уровне +15 °С. В случае длительного отсутствия владельцев установка режима HolidayMode гарантирует экономию электроэнергии и защиту от образования посторонних запахов в пустой камере.">
+														</a>
+														<a href="/glossary/klassy-energopotrebleniya-a-i-a-.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties-appp.png" class="icons-prop-item" title="Классы энергопотребления A+ и A++ – экономия энергии. Потребление энергии в холодильном и морозильном оборудовании этих классов заметно снижено. Экономичность моделей данной серии убеждает даже самых бережливых хозяев и вносит активный вклад в охрану окружающей среды.">
+														</a>
+														<a href="/glossary/nofrost.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties.png" class="icons-prop-item" title="NoFrost – благодаря этой современной системе продукты замораживаются с помощью циркулирующего охлажденного воздуха, подающегося специальным вентилятором. Влажный воздух выводится наружу, что позволяет предотвратить образование инея&nbsp;&nbsp;на стенках морозильного отделения, и тем самым забыть о процедуре размораживания.">
+														</a>
+														<a href="/glossary/holidaymode.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties2.png" class="icons-prop-item" title="HolidayMode – выбор данного режима обеспечивает поддержание постоянной температуры на уровне +15 °С. В случае длительного отсутствия владельцев установка режима HolidayMode гарантирует экономию электроэнергии и защиту от образования посторонних запахов в пустой камере.">
+														</a>
+														<a href="/glossary/klassy-energopotrebleniya-a-i-a-.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties-appp.png" class="icons-prop-item" title="Классы энергопотребления A+ и A++ – экономия энергии. Потребление энергии в холодильном и морозильном оборудовании этих классов заметно снижено. Экономичность моделей данной серии убеждает даже самых бережливых хозяев и вносит активный вклад в охрану окружающей среды.">
+														</a>
+													</div>
+													<div class="special-offers__sale catalog__sale price__dashed">
+														<span class="special-offers__price catalog__price">
+															115 000
+															<i class="special-offers__rub catalog__rub">руб.</i>
+															<span class="price__absolute">
+																122 750 руб.
+															</span>
+														</span>
+														<a href="#" data-url="ajax/add-cart.html" data-ajax class="special-offers__buy">В корзину
+														</a>
+													</div>
+													<div class="catalog__existence">
+
+														<a href="#" class="catalog__simile"></a>
+														<a href="#" class="catalog__favorite"></a>
+														<a href="#" class="catalog__oneclick">Купить&nbsp;в&nbsp;1&nbsp;клик</a>
+													</div>
+													<div class="announcing">
+														<div class="announcing__item">
+															<img src="images/small/flag_austria_small.svg" alt="сделано в Австрии" title="сделано в Австрии">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/new.svg" alt="Новинка" title="Новинка">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/tools.svg" alt="Бесплатное подключение" title="Бесплатное подключение">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/truck.svg" alt="Бесплатная доставка" title="сделано в Германии">
+														</div>
+													</div>
+												</div>
+												<div class="catalog__item">
+													<a class="catalog__pic" href="#">
+														<img src="images/new-items_4.jpg" srcset="images/new-items_4@2x.jpg 2x,images/new-items_4@3x.jpg 3x" class="special-offers__img catalog__img">
+													</a>
+
+													<a href="#" class="special-offers__text catalog__text">Холодильник Liebherr SBS 66I2 Premium NoFrost (SICN 3386 + ICN 3386)</a>
+													<span class="catalog__presence">В наличии</span>
+													<div class="catalog__specification">
+														<span class="catalog__feature">Цвет:
+															<span class="catalog__bold">белый</span>
+														</span>
+														<span class="catalog__feature">Габариты (см):
+															<span class="catalog__bold">
+																63x55.4x62.4</span>
+														</span>
+														<span class="catalog__feature">Полезный объем холодильной камеры (л):
+															<span class="catalog__bold">107</span>
+														</span>
+														<span class="catalog__feature">Полезный объем морозильной камеры (л):
+															<span class="catalog__bold">15</span>
+														</span>
+														<span class="catalog__feature">Тип размораживания:
+															<span class="catalog__bold">ручная</span>
+														</span>
+													</div>
+													<div class="catalog__prop">
+														<a href="/glossary/nofrost.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties.png" class="icons-prop-item" title="NoFrost – благодаря этой современной системе продукты замораживаются с помощью циркулирующего охлажденного воздуха, подающегося специальным вентилятором. Влажный воздух выводится наружу, что позволяет предотвратить образование инея&nbsp;&nbsp;на стенках морозильного отделения, и тем самым забыть о процедуре размораживания.">
+														</a>
+														<a href="/glossary/holidaymode.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties2.png" class="icons-prop-item" title="HolidayMode – выбор данного режима обеспечивает поддержание постоянной температуры на уровне +15 °С. В случае длительного отсутствия владельцев установка режима HolidayMode гарантирует экономию электроэнергии и защиту от образования посторонних запахов в пустой камере.">
+														</a>
+														<a href="/glossary/klassy-energopotrebleniya-a-i-a-.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties-appp.png" class="icons-prop-item" title="Классы энергопотребления A+ и A++ – экономия энергии. Потребление энергии в холодильном и морозильном оборудовании этих классов заметно снижено. Экономичность моделей данной серии убеждает даже самых бережливых хозяев и вносит активный вклад в охрану окружающей среды.">
+														</a>
+														<a href="/glossary/nofrost.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties.png" class="icons-prop-item" title="NoFrost – благодаря этой современной системе продукты замораживаются с помощью циркулирующего охлажденного воздуха, подающегося специальным вентилятором. Влажный воздух выводится наружу, что позволяет предотвратить образование инея&nbsp;&nbsp;на стенках морозильного отделения, и тем самым забыть о процедуре размораживания.">
+														</a>
+														<a href="/glossary/holidaymode.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties2.png" class="icons-prop-item" title="HolidayMode – выбор данного режима обеспечивает поддержание постоянной температуры на уровне +15 °С. В случае длительного отсутствия владельцев установка режима HolidayMode гарантирует экономию электроэнергии и защиту от образования посторонних запахов в пустой камере.">
+														</a>
+														<a href="/glossary/klassy-energopotrebleniya-a-i-a-.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties-appp.png" class="icons-prop-item" title="Классы энергопотребления A+ и A++ – экономия энергии. Потребление энергии в холодильном и морозильном оборудовании этих классов заметно снижено. Экономичность моделей данной серии убеждает даже самых бережливых хозяев и вносит активный вклад в охрану окружающей среды.">
+														</a>
+													</div>
+													<div class="special-offers__sale catalog__sale">
+														<span class="special-offers__price catalog__price">134 200
+															<i class="special-offers__rub catalog__rub">руб.</i>
+														</span>
+														<a href="#" data-url="ajax/add-cart.html" data-ajax class="special-offers__buy">В корзину
+														</a>
+													</div>
+													<div class="catalog__existence">
+
+														<a href="#" class="catalog__simile"></a>
+														<a href="#" class="catalog__favorite"></a>
+														<a href="#" class="catalog__oneclick">Купить в 1 клик</a>
+													</div>
+													<div class="announcing">
+														<div class="announcing__item">
+															<img src="images/small/flag.svg" alt="сделано в Болгарии" title="сделано в Болгарии">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/new.svg" alt="Новинка" title="Новинка">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/tools.svg" alt="Бесплатное подключение" title="Бесплатное подключение">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/truck.svg" alt="Бесплатная доставка" title="сделано в Германии">
+														</div>
+													</div>
+												</div>
+												<div class="catalog__item">
+													<a class="catalog__pic" href="#">
+														<img src="images/new-items_3.jpg" srcset="images/new-items_3@2x.jpg 2x,images/new-items_3@3x.jpg 3x" class="special-offers__img catalog__img">
+													</a>
+													<a href="#" class="special-offers__text  catalog__text">Винный шкаф Liebherr EWTgw 3583 Vinidor
+													</a>
+													<span class="catalog__presence">В наличии</span>
+													<div class="catalog__specification">
+														<span class="catalog__feature">Цвет:
+															<span class="catalog__bold">белый</span>
+														</span>
+														<span class="catalog__feature">Габариты (см):
+															<span class="catalog__bold">
+																63x55.4x62.4</span>
+														</span>
+														<span class="catalog__feature">Полезный объем холодильной камеры (л):
+															<span class="catalog__bold">107</span>
+														</span>
+														<span class="catalog__feature">Полезный объем морозильной камеры (л):
+															<span class="catalog__bold">15</span>
+														</span>
+														<span class="catalog__feature">Тип размораживания:
+															<span class="catalog__bold">ручная</span>
+														</span>
+													</div>
+													<div class="catalog__prop">
+														<a href="/glossary/nofrost.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties.png" class="icons-prop-item" title="NoFrost – благодаря этой современной системе продукты замораживаются с помощью циркулирующего охлажденного воздуха, подающегося специальным вентилятором. Влажный воздух выводится наружу, что позволяет предотвратить образование инея&nbsp;&nbsp;на стенках морозильного отделения, и тем самым забыть о процедуре размораживания.">
+														</a>
+														<a href="/glossary/holidaymode.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties2.png" class="icons-prop-item" title="HolidayMode – выбор данного режима обеспечивает поддержание постоянной температуры на уровне +15 °С. В случае длительного отсутствия владельцев установка режима HolidayMode гарантирует экономию электроэнергии и защиту от образования посторонних запахов в пустой камере.">
+														</a>
+														<a href="/glossary/klassy-energopotrebleniya-a-i-a-.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties-appp.png" class="icons-prop-item" title="Классы энергопотребления A+ и A++ – экономия энергии. Потребление энергии в холодильном и морозильном оборудовании этих классов заметно снижено. Экономичность моделей данной серии убеждает даже самых бережливых хозяев и вносит активный вклад в охрану окружающей среды.">
+														</a>
+													</div>
+													<div class="special-offers__sale catalog__sale">
+														<span class="special-offers__price catalog__price">134 200
+															<i class="special-offers__rub catalog__rub">руб.</i>
+														</span>
+														<a href="#" data-url="ajax/add-cart.html" data-ajax class="special-offers__buy">В корзину
+														</a>
+													</div>
+													<div class="catalog__existence">
+														<!-- <span class="catalog__presence grey">под заказ</span> -->
+														<a href="#" class="catalog__simile"></a>
+														<a href="#" class="catalog__favorite"></a>
+														<a href="#" class="catalog__oneclick">Купить&nbsp;в&nbsp;1&nbsp;клик</a>
+													</div>
+													<div class="announcing">
+														<div class="announcing__item">
+															<img src="images/small/flag.svg" alt="сделано в Болгарии" title="сделано в Болгарии">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/new.svg" alt="Новинка" title="Новинка">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/tools.svg" alt="Бесплатное подключение" title="Бесплатное подключение">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/truck.svg" alt="Бесплатная доставка" title="сделано в Германии">
+														</div>
+													</div>
+												</div>
+												<div class="catalog__item stock">
+													<a class=upsale__parent href="#">
+														<img class="stock_img" src="images/Catalog_stock.jpg" srcset="images/Catalog_stock@2x.jpg 2x,images/Catalog_stock@3x.jpg 3x" alt="">
+													</a>
+													<div class="stock__info">
+														<span class="stock__title">30%</span>
+														<span class="stock__text">Морозильник
+															<br>Liebherr GN 2723 Comfort NoFrost
+															<span>скидка до 30%</span>
+														</span>
+														<a class="stock__link" href="#">
+															<span class="stock__arrow">Узнать больше</span>
+														</a>
+													</div>
+												</div>
+												<div class="catalog__item">
+													<a class="catalog__pic" href="#">
+														<img src="images/new-items_3.jpg" srcset="images/new-items_3@2x.jpg 2x,images/new-items_3@3x.jpg 3x" class="special-offers__img catalog__img">
+													</a>
+													<a href="product-card.html" class="special-offers__text  catalog__text">Винный шкаф Liebherr EWTgw 3583 Vinidor
+													</a>
+													<span class="catalog__presence">В наличии</span>
+													<div class="catalog__specification">
+														<span class="catalog__feature">Цвет:
+															<span class="catalog__bold">белый</span>
+														</span>
+														<span class="catalog__feature">Габариты (см):
+															<span class="catalog__bold">
+																63x55.4x62.4</span>
+														</span>
+														<span class="catalog__feature">Полезный объем холодильной камеры (л):
+															<span class="catalog__bold">107</span>
+														</span>
+														<span class="catalog__feature">Полезный объем морозильной камеры (л):
+															<span class="catalog__bold">15</span>
+														</span>
+														<span class="catalog__feature">Тип размораживания:
+															<span class="catalog__bold">ручная</span>
+														</span>
+													</div>
+													<div class="catalog__prop">
+														<a href="/glossary/nofrost.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties.png" class="icons-prop-item" title="NoFrost – благодаря этой современной системе продукты замораживаются с помощью циркулирующего охлажденного воздуха, подающегося специальным вентилятором. Влажный воздух выводится наружу, что позволяет предотвратить образование инея&nbsp;&nbsp;на стенках морозильного отделения, и тем самым забыть о процедуре размораживания.">
+														</a>
+														<a href="/glossary/holidaymode.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties2.png" class="icons-prop-item" title="HolidayMode – выбор данного режима обеспечивает поддержание постоянной температуры на уровне +15 °С. В случае длительного отсутствия владельцев установка режима HolidayMode гарантирует экономию электроэнергии и защиту от образования посторонних запахов в пустой камере.">
+														</a>
+														<a href="/glossary/klassy-energopotrebleniya-a-i-a-.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties-appp.png" class="icons-prop-item" title="Классы энергопотребления A+ и A++ – экономия энергии. Потребление энергии в холодильном и морозильном оборудовании этих классов заметно снижено. Экономичность моделей данной серии убеждает даже самых бережливых хозяев и вносит активный вклад в охрану окружающей среды.">
+														</a>
+														<a href="/glossary/nofrost.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties.png" class="icons-prop-item" title="NoFrost – благодаря этой современной системе продукты замораживаются с помощью циркулирующего охлажденного воздуха, подающегося специальным вентилятором. Влажный воздух выводится наружу, что позволяет предотвратить образование инея&nbsp;&nbsp;на стенках морозильного отделения, и тем самым забыть о процедуре размораживания.">
+														</a>
+														<a href="/glossary/holidaymode.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties2.png" class="icons-prop-item" title="HolidayMode – выбор данного режима обеспечивает поддержание постоянной температуры на уровне +15 °С. В случае длительного отсутствия владельцев установка режима HolidayMode гарантирует экономию электроэнергии и защиту от образования посторонних запахов в пустой камере.">
+														</a>
+														<a href="/glossary/klassy-energopotrebleniya-a-i-a-.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties-appp.png" class="icons-prop-item" title="Классы энергопотребления A+ и A++ – экономия энергии. Потребление энергии в холодильном и морозильном оборудовании этих классов заметно снижено. Экономичность моделей данной серии убеждает даже самых бережливых хозяев и вносит активный вклад в охрану окружающей среды.">
+														</a>
+													</div>
+													<div class="special-offers__sale catalog__sale">
+														<span class="special-offers__price catalog__price">134 200
+															<i class="special-offers__rub catalog__rub">руб.</i>
+														</span>
+														<a href="#" data-url="ajax/add-cart.html" data-ajax class="special-offers__buy">В корзину
+														</a>
+													</div>
+													<div class="catalog__existence">
+
+														<a href="#" class="catalog__simile"></a>
+														<a href="#" class="catalog__favorite"></a>
+														<a href="#" class="catalog__oneclick">Купить&nbsp;в&nbsp;1&nbsp;клик</a>
+													</div>
+													<div class="announcing">
+														<div class="announcing__item">
+															<img src="images/small/flag-ger.svg" alt="сделано в Германии" title="сделано в Германии">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/new.svg" alt="Новинка" title="Новинка">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/tools.svg" alt="Бесплатное подключение" title="Бесплатное подключение">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/truck.svg" alt="Бесплатная доставка" title="сделано в Германии">
+														</div>
+													</div>
+												</div>
+												<div class="catalog__item">
+													<a class="catalog__pic" href="#">
+														<img src="images/new-items_1.jpg" srcset="images/new-items_1@2x.jpg 2x,images/new-items_1@3x.jpg 3x" class="special-offers__img catalog__img">
+													</a>
+													<a href="product-card.html" class="special-offers__text catalog__text">Холодильник Liebherr SBS 66I2 Premium NoFrost (SICN 3386 + ICN 3386)</a>
+													<span class="catalog__presence">В наличии</span>
+													<div class="catalog__specification">
+														<span class="catalog__feature">Цвет:
+															<span class="catalog__bold">белый</span>
+														</span>
+														<span class="catalog__feature">Габариты (см):
+															<span class="catalog__bold">
+																63x55.4x62.4</span>
+														</span>
+														<span class="catalog__feature">Полезный объем холодильной камеры (л):
+															<span class="catalog__bold">107</span>
+														</span>
+														<span class="catalog__feature">Полезный объем морозильной камеры (л):
+															<span class="catalog__bold">15</span>
+														</span>
+														<span class="catalog__feature">Тип размораживания:
+															<span class="catalog__bold">ручная</span>
+														</span>
+													</div>
+													<div class="catalog__prop">
+														<a href="/glossary/nofrost.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties.png" class="icons-prop-item" title="NoFrost – благодаря этой современной системе продукты замораживаются с помощью циркулирующего охлажденного воздуха, подающегося специальным вентилятором. Влажный воздух выводится наружу, что позволяет предотвратить образование инея&nbsp;&nbsp;на стенках морозильного отделения, и тем самым забыть о процедуре размораживания.">
+														</a>
+														<a href="/glossary/holidaymode.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties2.png" class="icons-prop-item" title="HolidayMode – выбор данного режима обеспечивает поддержание постоянной температуры на уровне +15 °С. В случае длительного отсутствия владельцев установка режима HolidayMode гарантирует экономию электроэнергии и защиту от образования посторонних запахов в пустой камере.">
+														</a>
+														<a href="/glossary/klassy-energopotrebleniya-a-i-a-.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties-appp.png" class="icons-prop-item" title="Классы энергопотребления A+ и A++ – экономия энергии. Потребление энергии в холодильном и морозильном оборудовании этих классов заметно снижено. Экономичность моделей данной серии убеждает даже самых бережливых хозяев и вносит активный вклад в охрану окружающей среды.">
+														</a>
+														<a href="/glossary/nofrost.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties.png" class="icons-prop-item" title="NoFrost – благодаря этой современной системе продукты замораживаются с помощью циркулирующего охлажденного воздуха, подающегося специальным вентилятором. Влажный воздух выводится наружу, что позволяет предотвратить образование инея&nbsp;&nbsp;на стенках морозильного отделения, и тем самым забыть о процедуре размораживания.">
+														</a>
+														<a href="/glossary/holidaymode.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties2.png" class="icons-prop-item" title="HolidayMode – выбор данного режима обеспечивает поддержание постоянной температуры на уровне +15 °С. В случае длительного отсутствия владельцев установка режима HolidayMode гарантирует экономию электроэнергии и защиту от образования посторонних запахов в пустой камере.">
+														</a>
+														<a href="/glossary/klassy-energopotrebleniya-a-i-a-.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties-appp.png" class="icons-prop-item" title="Классы энергопотребления A+ и A++ – экономия энергии. Потребление энергии в холодильном и морозильном оборудовании этих классов заметно снижено. Экономичность моделей данной серии убеждает даже самых бережливых хозяев и вносит активный вклад в охрану окружающей среды.">
+														</a>
+													</div>
+													<div class="special-offers__sale catalog__sale">
+														<span class="special-offers__price catalog__price">98 400
+															<i class="special-offers__rub catalog__rub">руб.</i>
+														</span>
+														<a href="#" data-url="ajax/add-cart.html" data-ajax class="special-offers__buy">В корзину
+														</a>
+													</div>
+													<div class="catalog__existence">
+														<a href="#" class="catalog__simile"></a>
+														<a href="#" class="catalog__favorite"></a>
+														<a href="#" class="catalog__oneclick">Купить&nbsp;в&nbsp;1&nbsp;клик</a>
+													</div>
+													<div class="announcing">
+														<div class="announcing__item">
+															<img src="images/small/flag.svg" alt="сделано в Болгарии" title="сделано в Болгарии">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/new.svg" alt="Новинка" title="Новинка">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/tools.svg" alt="Бесплатное подключение" title="Бесплатное подключение">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/truck.svg" alt="Бесплатная доставка" title="сделано в Германии">
+														</div>
+													</div>
+												</div>
+												<div class="catalog__item">
+													<a class="catalog__pic" href="#">
+														<img src="images/new-items_2.jpg" srcset="images/new-items_2@2x.jpg 2x,images/new-items_2@3x.jpg 3x" class="special-offers__img catalog__img">
+													</a>
+
+													<a href="#" class="special-offers__text catalog__text">Морозильник Liebherr GN 2723 Comfort NoFrost</a>
+													<span class="catalog__presence">В наличии</span>
+													<div class="catalog__specification">
+														<span class="catalog__feature">Цвет:
+															<span class="catalog__bold">белый</span>
+														</span>
+														<span class="catalog__feature">Габариты (см):
+															<span class="catalog__bold">
+																63x55.4x62.4</span>
+														</span>
+														<span class="catalog__feature">Полезный объем холодильной камеры (л):
+															<span class="catalog__bold">107</span>
+														</span>
+														<span class="catalog__feature">Полезный объем морозильной камеры (л):
+															<span class="catalog__bold">15</span>
+														</span>
+														<span class="catalog__feature">Тип размораживания:
+															<span class="catalog__bold">ручная</span>
+														</span>
+													</div>
+													<div class="catalog__prop">
+														<a href="/glossary/nofrost.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties.png" class="icons-prop-item" title="NoFrost – благодаря этой современной системе продукты замораживаются с помощью циркулирующего охлажденного воздуха, подающегося специальным вентилятором. Влажный воздух выводится наружу, что позволяет предотвратить образование инея&nbsp;&nbsp;на стенках морозильного отделения, и тем самым забыть о процедуре размораживания.">
+														</a>
+														<a href="/glossary/holidaymode.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties2.png" class="icons-prop-item" title="HolidayMode – выбор данного режима обеспечивает поддержание постоянной температуры на уровне +15 °С. В случае длительного отсутствия владельцев установка режима HolidayMode гарантирует экономию электроэнергии и защиту от образования посторонних запахов в пустой камере.">
+														</a>
+														<a href="/glossary/klassy-energopotrebleniya-a-i-a-.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties-appp.png" class="icons-prop-item" title="Классы энергопотребления A+ и A++ – экономия энергии. Потребление энергии в холодильном и морозильном оборудовании этих классов заметно снижено. Экономичность моделей данной серии убеждает даже самых бережливых хозяев и вносит активный вклад в охрану окружающей среды.">
+														</a>
+														<a href="/glossary/nofrost.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties.png" class="icons-prop-item" title="NoFrost – благодаря этой современной системе продукты замораживаются с помощью циркулирующего охлажденного воздуха, подающегося специальным вентилятором. Влажный воздух выводится наружу, что позволяет предотвратить образование инея&nbsp;&nbsp;на стенках морозильного отделения, и тем самым забыть о процедуре размораживания.">
+														</a>
+														<a href="/glossary/holidaymode.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties2.png" class="icons-prop-item" title="HolidayMode – выбор данного режима обеспечивает поддержание постоянной температуры на уровне +15 °С. В случае длительного отсутствия владельцев установка режима HolidayMode гарантирует экономию электроэнергии и защиту от образования посторонних запахов в пустой камере.">
+														</a>
+														<a href="/glossary/klassy-energopotrebleniya-a-i-a-.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties-appp.png" class="icons-prop-item" title="Классы энергопотребления A+ и A++ – экономия энергии. Потребление энергии в холодильном и морозильном оборудовании этих классов заметно снижено. Экономичность моделей данной серии убеждает даже самых бережливых хозяев и вносит активный вклад в охрану окружающей среды.">
+														</a>
+													</div>
+													<div class="special-offers__sale catalog__sale price__dashed">
+														<span class="special-offers__price catalog__price">115 000
+															<i class="special-offers__rub catalog__rub">руб.</i>
+															<span class="price__absolute">122 750 руб.
+															</span>
+														</span>
+														<a href="#" data-url="ajax/add-cart.html" data-ajax class="special-offers__buy">В корзину
+														</a>
+													</div>
+													<div class="catalog__existence">
+
+														<a href="#" class="catalog__simile"></a>
+														<a href="#" class="catalog__favorite"></a>
+														<a href="#" class="catalog__oneclick">Купить&nbsp;в&nbsp;1&nbsp;клик</a>
+													</div>
+													<div class="announcing">
+														<div class="announcing__item">
+															<img src="images/small/flag_austria_small.svg" alt="сделано в Австрии" title="сделано в Австрии">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/new.svg" alt="Новинка" title="Новинка">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/tools.svg" alt="Бесплатное подключение" title="Бесплатное подключение">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/truck.svg" alt="Бесплатная доставка" title="сделано в Германии">
+														</div>
+													</div>
+												</div>
+												<div class="catalog__item">
+													<a class="catalog__pic" href="#">
+														<img src="images/new-items_4.jpg" srcset="images/new-items_4@2x.jpg 2x,images/new-items_4@3x.jpg 3x" class="special-offers__img catalog__img">
+													</a>
+
+													<a href="#" class="special-offers__text catalog__text">Холодильник Liebherr SBS 66I2 Premium NoFrost (SICN 3386 + ICN 3386)</a>
+													<span class="catalog__presence">В наличии</span>
+													<div class="catalog__specification">
+														<span class="catalog__feature">Цвет:
+															<span class="catalog__bold">белый</span>
+														</span>
+														<span class="catalog__feature">Габариты (см):
+															<span class="catalog__bold">
+																63x55.4x62.4</span>
+														</span>
+														<span class="catalog__feature">Полезный объем холодильной камеры (л):
+															<span class="catalog__bold">107</span>
+														</span>
+														<span class="catalog__feature">Полезный объем морозильной камеры (л):
+															<span class="catalog__bold">15</span>
+														</span>
+														<span class="catalog__feature">Тип размораживания:
+															<span class="catalog__bold">ручная</span>
+														</span>
+													</div>
+													<div class="catalog__prop">
+														<a href="/glossary/nofrost.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties.png" class="icons-prop-item" title="NoFrost – благодаря этой современной системе продукты замораживаются с помощью циркулирующего охлажденного воздуха, подающегося специальным вентилятором. Влажный воздух выводится наружу, что позволяет предотвратить образование инея&nbsp;&nbsp;на стенках морозильного отделения, и тем самым забыть о процедуре размораживания.">
+														</a>
+														<a href="/glossary/holidaymode.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties2.png" class="icons-prop-item" title="HolidayMode – выбор данного режима обеспечивает поддержание постоянной температуры на уровне +15 °С. В случае длительного отсутствия владельцев установка режима HolidayMode гарантирует экономию электроэнергии и защиту от образования посторонних запахов в пустой камере.">
+														</a>
+														<a href="/glossary/klassy-energopotrebleniya-a-i-a-.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties-appp.png" class="icons-prop-item" title="Классы энергопотребления A+ и A++ – экономия энергии. Потребление энергии в холодильном и морозильном оборудовании этих классов заметно снижено. Экономичность моделей данной серии убеждает даже самых бережливых хозяев и вносит активный вклад в охрану окружающей среды.">
+														</a>
+														<a href="/glossary/nofrost.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties.png" class="icons-prop-item" title="NoFrost – благодаря этой современной системе продукты замораживаются с помощью циркулирующего охлажденного воздуха, подающегося специальным вентилятором. Влажный воздух выводится наружу, что позволяет предотвратить образование инея&nbsp;&nbsp;на стенках морозильного отделения, и тем самым забыть о процедуре размораживания.">
+														</a>
+														<a href="/glossary/holidaymode.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties2.png" class="icons-prop-item" title="HolidayMode – выбор данного режима обеспечивает поддержание постоянной температуры на уровне +15 °С. В случае длительного отсутствия владельцев установка режима HolidayMode гарантирует экономию электроэнергии и защиту от образования посторонних запахов в пустой камере.">
+														</a>
+														<a href="/glossary/klassy-energopotrebleniya-a-i-a-.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties-appp.png" class="icons-prop-item" title="Классы энергопотребления A+ и A++ – экономия энергии. Потребление энергии в холодильном и морозильном оборудовании этих классов заметно снижено. Экономичность моделей данной серии убеждает даже самых бережливых хозяев и вносит активный вклад в охрану окружающей среды.">
+														</a>
+													</div>
+													<div class="special-offers__sale catalog__sale">
+														<span class="special-offers__price catalog__price">134 200
+															<i class="special-offers__rub catalog__rub">руб.</i>
+														</span>
+														<a href="#" data-url="ajax/add-cart.html" data-ajax class="special-offers__buy">В корзину
+														</a>
+													</div>
+													<div class="catalog__existence">
+
+														<a href="#" class="catalog__simile"></a>
+														<a href="#" class="catalog__favorite"></a>
+														<a href="#" class="catalog__oneclick">Купить в 1 клик</a>
+													</div>
+													<div class="announcing">
+														<div class="announcing__item">
+															<img src="images/small/flag.svg" alt="сделано в Болгарии" title="сделано в Болгарии">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/new.svg" alt="Новинка" title="Новинка">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/tools.svg" alt="Бесплатное подключение" title="Бесплатное подключение">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/truck.svg" alt="Бесплатная доставка" title="сделано в Германии">
+														</div>
+													</div>
+												</div>
+												<div class="catalog__item">
+													<a class="catalog__pic" href="#">
+														<img src="images/new-items_3.jpg" srcset="images/new-items_3@2x.jpg 2x,images/new-items_3@3x.jpg 3x" class="special-offers__img catalog__img">
+													</a>
+													<a href="#" class="special-offers__text  catalog__text">Винный шкаф Liebherr EWTgw 3583 Vinidor
+													</a>
+													<span class="catalog__presence">В наличии</span>
+													<div class="catalog__specification">
+														<span class="catalog__feature">Цвет:
+															<span class="catalog__bold">белый</span>
+														</span>
+														<span class="catalog__feature">Габариты (см):
+															<span class="catalog__bold">
+																63x55.4x62.4</span>
+														</span>
+														<span class="catalog__feature">Полезный объем холодильной камеры (л):
+															<span class="catalog__bold">107</span>
+														</span>
+														<span class="catalog__feature">Полезный объем морозильной камеры (л):
+															<span class="catalog__bold">15</span>
+														</span>
+														<span class="catalog__feature">Тип размораживания:
+															<span class="catalog__bold">ручная</span>
+														</span>
+													</div>
+													<div class="catalog__prop">
+														<a href="/glossary/nofrost.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties.png" class="icons-prop-item" title="NoFrost – благодаря этой современной системе продукты замораживаются с помощью циркулирующего охлажденного воздуха, подающегося специальным вентилятором. Влажный воздух выводится наружу, что позволяет предотвратить образование инея&nbsp;&nbsp;на стенках морозильного отделения, и тем самым забыть о процедуре размораживания.">
+														</a>
+														<a href="/glossary/holidaymode.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties2.png" class="icons-prop-item" title="HolidayMode – выбор данного режима обеспечивает поддержание постоянной температуры на уровне +15 °С. В случае длительного отсутствия владельцев установка режима HolidayMode гарантирует экономию электроэнергии и защиту от образования посторонних запахов в пустой камере.">
+														</a>
+														<a href="/glossary/klassy-energopotrebleniya-a-i-a-.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties-appp.png" class="icons-prop-item" title="Классы энергопотребления A+ и A++ – экономия энергии. Потребление энергии в холодильном и морозильном оборудовании этих классов заметно снижено. Экономичность моделей данной серии убеждает даже самых бережливых хозяев и вносит активный вклад в охрану окружающей среды.">
+														</a>
+													</div>
+													<div class="special-offers__sale catalog__sale">
+														<span class="special-offers__price catalog__price">134 200
+															<i class="special-offers__rub catalog__rub">руб.</i>
+														</span>
+														<a href="#" data-url="ajax/add-cart.html" data-ajax class="special-offers__buy">В корзину
+														</a>
+													</div>
+													<div class="catalog__existence">
+														<!-- <span class="catalog__presence grey">под заказ</span> -->
+														<a href="#" class="catalog__simile"></a>
+														<a href="#" class="catalog__favorite"></a>
+														<a href="#" class="catalog__oneclick">Купить&nbsp;в&nbsp;1&nbsp;клик</a>
+													</div>
+													<div class="announcing">
+														<div class="announcing__item">
+															<img src="images/small/flag.svg" alt="сделано в Болгарии" title="сделано в Болгарии">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/new.svg" alt="Новинка" title="Новинка">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/tools.svg" alt="Бесплатное подключение" title="Бесплатное подключение">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/truck.svg" alt="Бесплатная доставка" title="сделано в Германии">
+														</div>
+													</div>
+												</div>
+												<div class="catalog__item">
+													<a class="catalog__pic" href="#">
+														<img src="images/new-items_3.jpg" srcset="images/new-items_3@2x.jpg 2x,images/new-items_3@3x.jpg 3x" class="special-offers__img catalog__img">
+													</a>
+													<a href="product-card.html" class="special-offers__text  catalog__text">Винный шкаф Liebherr EWTgw 3583 Vinidor
+													</a>
+													<span class="catalog__presence">В наличии</span>
+													<div class="catalog__specification">
+														<span class="catalog__feature">Цвет:
+															<span class="catalog__bold">белый</span>
+														</span>
+														<span class="catalog__feature">Габариты (см):
+															<span class="catalog__bold">
+																63x55.4x62.4</span>
+														</span>
+														<span class="catalog__feature">Полезный объем холодильной камеры (л):
+															<span class="catalog__bold">107</span>
+														</span>
+														<span class="catalog__feature">Полезный объем морозильной камеры (л):
+															<span class="catalog__bold">15</span>
+														</span>
+														<span class="catalog__feature">Тип размораживания:
+															<span class="catalog__bold">ручная</span>
+														</span>
+													</div>
+													<div class="catalog__prop">
+														<a href="/glossary/nofrost.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties.png" class="icons-prop-item" title="NoFrost – благодаря этой современной системе продукты замораживаются с помощью циркулирующего охлажденного воздуха, подающегося специальным вентилятором. Влажный воздух выводится наружу, что позволяет предотвратить образование инея&nbsp;&nbsp;на стенках морозильного отделения, и тем самым забыть о процедуре размораживания.">
+														</a>
+														<a href="/glossary/holidaymode.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties2.png" class="icons-prop-item" title="HolidayMode – выбор данного режима обеспечивает поддержание постоянной температуры на уровне +15 °С. В случае длительного отсутствия владельцев установка режима HolidayMode гарантирует экономию электроэнергии и защиту от образования посторонних запахов в пустой камере.">
+														</a>
+														<a href="/glossary/klassy-energopotrebleniya-a-i-a-.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties-appp.png" class="icons-prop-item" title="Классы энергопотребления A+ и A++ – экономия энергии. Потребление энергии в холодильном и морозильном оборудовании этих классов заметно снижено. Экономичность моделей данной серии убеждает даже самых бережливых хозяев и вносит активный вклад в охрану окружающей среды.">
+														</a>
+														<a href="/glossary/nofrost.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties.png" class="icons-prop-item" title="NoFrost – благодаря этой современной системе продукты замораживаются с помощью циркулирующего охлажденного воздуха, подающегося специальным вентилятором. Влажный воздух выводится наружу, что позволяет предотвратить образование инея&nbsp;&nbsp;на стенках морозильного отделения, и тем самым забыть о процедуре размораживания.">
+														</a>
+														<a href="/glossary/holidaymode.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties2.png" class="icons-prop-item" title="HolidayMode – выбор данного режима обеспечивает поддержание постоянной температуры на уровне +15 °С. В случае длительного отсутствия владельцев установка режима HolidayMode гарантирует экономию электроэнергии и защиту от образования посторонних запахов в пустой камере.">
+														</a>
+														<a href="/glossary/klassy-energopotrebleniya-a-i-a-.html#popup-glossary" class="link-pop-glossary">
+															<img src="images/icons-properties-appp.png" class="icons-prop-item" title="Классы энергопотребления A+ и A++ – экономия энергии. Потребление энергии в холодильном и морозильном оборудовании этих классов заметно снижено. Экономичность моделей данной серии убеждает даже самых бережливых хозяев и вносит активный вклад в охрану окружающей среды.">
+														</a>
+													</div>
+													<div class="special-offers__sale catalog__sale">
+														<span class="special-offers__price catalog__price">134 200
+															<i class="special-offers__rub catalog__rub">руб.</i>
+														</span>
+														<a href="#" data-url="ajax/add-cart.html" data-ajax class="special-offers__buy">В корзину
+														</a>
+													</div>
+													<div class="catalog__existence">
+
+														<a href="#" class="catalog__simile"></a>
+														<a href="#" class="catalog__favorite active"></a>
+														<a href="#" class="catalog__oneclick">Купить&nbsp;в&nbsp;1&nbsp;клик</a>
+													</div>
+													<div class="announcing">
+														<div class="announcing__item">
+															<img src="images/small/flag-ger.svg" alt="сделано в Германии" title="сделано в Германии">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/new.svg" alt="Новинка" title="Новинка">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/tools.svg" alt="Бесплатное подключение" title="Бесплатное подключение">
+														</div>
+														<div class="announcing__item">
+															<img src="images/small/truck.svg" alt="Бесплатная доставка" title="Бесплатная доставка">
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+
+
+
+
+											<!-- begin nav -->
+
+											<div class="pagination">
+
+
+												<span class="pagination__item pagination__item_state_current">1</span>
+												<a class="pagination__item" href="/work/holodilniki/?PAGEN_2=2">2</a>
+												<a class="pagination__item" href="/work/holodilniki/?PAGEN_2=3">3</a>
+												<a class="pagination__item" href="/work/holodilniki/?PAGEN_2=4">4</a>
+												<a class="pagination__item" href="/work/holodilniki/?PAGEN_2=5">5</a>
+												<a class="pagination__item" href="/work/holodilniki/?PAGEN_2=17">...</a>
+												<a class="pagination__item" href="/work/holodilniki/?PAGEN_2=29">29</a>
+												<a class="pagination__next" href="/work/holodilniki/?PAGEN_2=2"></a>
+											</div>
+
+
+
+
+
+
+
+
+
+
+
+
+											<div class="reviews" id="reviews">
+
+
+												<h2 class="reviews__title">Отзывы на холодильники Либхер</h2>
+												<div class="reviews__top">
+
+
+													<div class="reviews__section">
+														<div class="ratings">
+															<div class="ratings__star "></div>
+															<div class="ratings__star "></div>
+															<div class="ratings__star "></div>
+															<div class="ratings__star "></div>
+															<div class="ratings__star "></div>
+
+															<b class="ratings__number">5.6</b>
+														</div>
+														<a href="/reviews/category-holodilniki/" class="reviews__all" target="_blank">74 отзыва
+														</a>
+													</div>
+
+
+
+													<div itemscope itemtype="http://schema.org/Product">
+														<meta itemprop="name" content="Холодильники Liebherr" />
+														<meta itemprop="description" content="Холодильники Liebherr" />
+														<meta itemprop="brand" content="Liebherr" />
+
+														<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+															<meta itemprop="ratingValue" content="5.6" />
+															<meta itemprop="reviewCount" content="74" />
+														</div>
+
+														<div itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
+															<meta itemprop="lowPrice" content="18000" />
+															<meta itemprop="priceCurrency" content="RUB" />
+															<meta itemprop="offerCount" content="74" />
+														</div>
+													</div>
+
+
+
+
+												</div>
+
+
+
+
+
+
+
+												<div class="reviews-list">
+
+
+
+													<div class="reviews-list__item" itemprop="review" itemscope itemtype="https://schema.org/Review" id="bx_1373509569_2584">
+														<div class="reviews-list__field reviews-list__field_header">
+															<div class="reviews-list__col" itemprop="author" itemscope itemtype="http://schema.org/Person">
+																<strong itemprop="name">Сергей тест 4</strong>
+															</div>
+															<div class="reviews-list__col reviews-list__col_desc">
+																<div class="ratings ratings_small">
+																	<div class="ratings__star "></div>
+																	<div class="ratings__star "></div>
+																	<div class="ratings__star "></div>
+																	<div class="ratings__star "></div>
+																	<div class="ratings__star ratings__none"></div>
+
+																</div>
+															</div>
+															<div class="reviews-list__col reviews-list__col_date">29.03.2019</div>
+														</div>
+
+														<div class="reviews-list__field">
+															<div class="reviews-list__col">Модель:</div>
+															<div class="reviews-list__col reviews-list__col_desc">
+																<a href="/liebherr/holodilniki/dvukhkamernye-kholodilniki-s-morozilnikom/kholodilnik-cp-4613-comfort.html" title="Холодильник Liebherr CP 4613 Comfort" target="_blank" class="reviews-list__model">Холодильник Liebherr CP 4613 Comfort</a>
+															</div>
+														</div>
+
+														<!-- /.reviews-list__field -->
+														<div class="reviews-list__field">
+															<div class="reviews-list__col">
+																Достоинства:
+															</div>
+															<div class="reviews-list__col reviews-list__col_desc">++++++++++++++</div>
+														</div>
+														<!-- /.reviews-list__field -->
+														<div class="reviews-list__field">
+															<div class="reviews-list__col">
+																Недостатки:
+															</div>
+															<div class="reviews-list__col reviews-list__col_desc">----------------</div>
+														</div>
+														<!-- /.reviews-list__field -->
+														<div class="reviews-list__field">
+															<div class="reviews-list__col">
+																Комментарий:
+															</div>
+															<div class="reviews-list__col reviews-list__col_desc" itemprop="reviewBody">
+																тестовый отзыв</div>
+														</div>
+
+														<meta itemprop="datePublished" content="--" />
+														<a href="/reviews/category-holodilniki/" itemprop="url" class="hide"></a>
+
+														<span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+															<meta itemprop="worstRating" content="1" />
+															<meta itemprop="bestRating" content="5" />
+															<meta itemprop="ratingValue" content="4" />
+														</span>
+
+														<div itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
+
+															<meta itemprop="name" content="Холодильник Liebherr CP 4613 Comfort" />
+															<a href="https://lbhr.ret-team.ru/liebherr/holodilniki/dvukhkamernye-kholodilniki-s-morozilnikom/kholodilnik-cp-4613-comfort.html" itemprop="url" class="hide"></a>
+															<meta itemprop="image" content="https://lbhr.ret-team.ru" />
+
+														</div>
+													</div>
+												</div>
+
+											</div>
+
+
+
+
+
+											<div class="catalog__description description">
+
+
+
+
+
+
+
+											</div>
+
+
+
+
+
+											<div class="sidebar">
+
+												<ul class="work-link">
+
+													<li class="work-link__item">
+														<a href="/guarantee/#services-list" title="Сервисные центры" class="work-link__a">Сервисные центры</a>
+													</li>
+
+
+													<li class="work-link__item">
+														<a href="/technical-documentation/" title="Техническая документация" class="work-link__a">Техническая документация</a>
+													</li>
+
+
+													<li class="work-link__item">
+														<a href="/guarantee/" title="Гарантия Liebherr" class="work-link__a">Гарантия Liebherr
+														</a>
+													</li>
+
+												</ul>
+
+
+
+
+
+												<div class="download-catalogs">
+													<div class="download-catalogs__title">Скачать каталоги</div>
+													<div class="download-catalogs__items swiper-container">
+														<div class="swiper-wrapper">
+															<div class="download-catalogs__item swiper-slide" id="bx_3099439860_2581">
+																<a href="/upload/iblock/c16/c16b1341b924988746ca637e1ac609ee.pdf" title="Новая линейка комбинированных холодильников-морозильников" class="download-catalogs__link" target="_blank">
+																	<div class="download-catalogs__pic">
+																		<img src="/upload/resize_cache/iblock/caf/74_74_0/caf4a26a11e53e1dcad0453324ecca53.png" alt="Новая линейка комбинированных холодильников-морозильников" />
+																	</div>
+																	<div class="download-catalogs__text">
+																		Новая линейка комбинированных холодильников-морозильников
+																		<i>pdf, 659.38 KB</i>
+																	</div>
+																</a>
+															</div>
+
+															<div class="download-catalogs__item swiper-slide" id="bx_3099439860_2582">
+																<a href="/upload/iblock/458/4580432fa67a8c03c35a4e78f13158c0.pdf" title="BioFresh 2018/2019" class="download-catalogs__link" target="_blank">
+																	<div class="download-catalogs__pic">
+																		<img src="/upload/resize_cache/iblock/c2a/74_74_0/c2a3339c3826d2edea38ba1b91868c0c.png" alt="BioFresh 2018/2019" />
+																	</div>
+																	<div class="download-catalogs__text">
+																		BioFresh 2018/2019
+																		<i>pdf, 5.38 MB</i>
+																	</div>
+																</a>
+															</div>
+
+															<div class="download-catalogs__item swiper-slide" id="bx_3099439860_2583">
+																<a href="/upload/iblock/cda/cda2e14fb3a4c8e19c7982d6d9042d06.pdf" title="Дизайнерская серия ColourLine" class="download-catalogs__link" target="_blank">
+																	<div class="download-catalogs__pic">
+																		<img src="/upload/resize_cache/iblock/4df/74_74_0/4df484b5e0f1b126f197b76540c052a5.png" alt="Дизайнерская серия ColourLine" />
+																	</div>
+																	<div class="download-catalogs__text">
+																		Дизайнерская серия ColourLine
+																		<i>pdf, 1.73 MB</i>
+																	</div>
+																</a>
+															</div>
+
+															<div class="download-catalogs__item swiper-slide" id="bx_3099439860_2595">
+																<a href="/upload/iblock/d01/d010473df5948d83c783b3d14acb373d.pdf" title="Blu Performance - новое измерение свежести" class="download-catalogs__link" target="_blank">
+																	<div class="download-catalogs__pic">
+																		<img src="/upload/resize_cache/iblock/b23/74_74_0/b23eb501b59a249ed8faf28878ac683f.jpg" alt="Blu Performance - новое измерение свежести" />
+																	</div>
+																	<div class="download-catalogs__text">
+																		Blu Performance - новое измерение свежести
+																		<i>pdf, 2.59 MB</i>
+																	</div>
+																</a>
+															</div>
+
+															<div class="download-catalogs__item swiper-slide" id="bx_3099439860_2599">
+																<a href="/upload/iblock/ba9/ba96212235032515e5f53b5318d2ad1d.pdf" title="Винные шкафы 2018" class="download-catalogs__link" target="_blank">
+																	<div class="download-catalogs__pic">
+																		<img src="/upload/resize_cache/iblock/1db/74_74_0/1dbcbee639a94933f36a39fe6fcc3931.jpg" alt="Винные шкафы 2018" />
+																	</div>
+																	<div class="download-catalogs__text">
+																		Винные шкафы 2018
+																		<i>pdf, 3.02 MB</i>
+																	</div>
+																</a>
+															</div>
+
+															<div class="download-catalogs__item swiper-slide" id="bx_3099439860_2597">
+																<a href="/upload/iblock/dbb/dbb3f85d8218e98ca1c05bfcdf37c523.pdf" title="Компактные винные шкафы" class="download-catalogs__link" target="_blank">
+																	<div class="download-catalogs__pic">
+																		<img src="/upload/resize_cache/iblock/396/74_74_0/3964e838d0b6b95253d57c6e156c4173.jpg" alt="Компактные винные шкафы" />
+																	</div>
+																	<div class="download-catalogs__text">
+																		Компактные винные шкафы
+																		<i>pdf, 1.49 MB</i>
+																	</div>
+																</a>
+															</div>
+
+															<div class="download-catalogs__item swiper-slide" id="bx_3099439860_2600">
+																<a href="/upload/iblock/a11/a11b11ae359664ea97922c74912293e7.pdf" title="Новинки холодильной техники 2019" class="download-catalogs__link" target="_blank">
+																	<div class="download-catalogs__pic">
+																		<img src="/upload/resize_cache/iblock/7df/74_74_0/7dfb83590393bc1f5317401d00ba9554.jpg" alt="Новинки холодильной техники 2019" />
+																	</div>
+																	<div class="download-catalogs__text">
+																		Новинки холодильной техники 2019
+																		<i>pdf, 4.18 MB</i>
+																	</div>
+																</a>
+															</div>
+
+															<div class="download-catalogs__item swiper-slide" id="bx_3099439860_2594">
+																<a href="/upload/iblock/c18/c1843926087735d374a2d7aaff5d0046.pdf" title="Специальные решения для хранения, охлаждения и заморозки 2018/2019" class="download-catalogs__link" target="_blank">
+																	<div class="download-catalogs__pic">
+																		<img src="/upload/resize_cache/iblock/2ac/74_74_0/2acdfcf1563f3f8364cf3af6fe73bdf6.jpg" alt="Специальные решения для хранения, охлаждения и заморозки 2018/2019" />
+																	</div>
+																	<div class="download-catalogs__text">
+																		Специальные решения для хранения, охлаждения и заморозки 2018/2019
+																		<i>pdf, 5.47 MB</i>
+																	</div>
+																</a>
+															</div>
+
+															<div class="download-catalogs__item swiper-slide" id="bx_3099439860_2596">
+																<a href="/upload/iblock/7af/7af7002f72e36043b2b26fca5405c177.pdf" title="Холодильники и морозильники 2018" class="download-catalogs__link" target="_blank">
+																	<div class="download-catalogs__pic">
+																		<img src="/upload/resize_cache/iblock/0fe/74_74_0/0fe89e241a42a51cf26b229e99c57e12.jpg" alt="Холодильники и морозильники 2018" />
+																	</div>
+																	<div class="download-catalogs__text">
+																		Холодильники и морозильники 2018
+																		<i>pdf, 9.28 MB</i>
+																	</div>
+																</a>
+															</div>
+
+															<div class="download-catalogs__item swiper-slide" id="bx_3099439860_2598">
+																<a href="/upload/iblock/74d/74d0f037b1f4284dba2c2949678aa178.pdf" title="Холодильники с верхней морозильной камерой и технологией PowerCooling" class="download-catalogs__link" target="_blank">
+																	<div class="download-catalogs__pic">
+																		<img src="/upload/resize_cache/iblock/279/74_74_0/27919d80cbf5ddf4d1342093aeb875b2.jpg" alt="Холодильники с верхней морозильной камерой и технологией PowerCooling" />
+																	</div>
+																	<div class="download-catalogs__text">
+																		Холодильники с верхней морозильной камерой и технологией PowerCooling
+																		<i>pdf, 6.04 MB</i>
+																	</div>
+																</a>
+															</div>
+
+														</div>
+													</div>
+												</div>
+
+
+
+
+
+
+
+
+
+												<div class="yandex">
+													<div class="yandex__inner">
+														<div class="yandex__logo">
+															<img src="/mockup/templates/main/build/images/ylogo.png" alt="" class="yandex__img" />
+														</div>
+														<div class="yandex__ratings">
+															<img src="/mockup/templates/main/build/images/5-stars.png" alt="" />
+														</div>
+														<a href="https://market.yandex.ru/shop/394451/reviews/add?retpath=https%3A%2F%2Fmarket.yandex.ru%2Fshop%2F394451%2Freviews&track=rev_sh" target="_blank" class="yandex__button">Оставить отзыв</a>
+														<a href=" https://market.yandex.ru/shop/394451/reviews" target="_blank" class="yandex__button">Читать все отзывы</a>
+													</div>
+												</div>
+
+
+												<div class="quality">
+													<span class="quality__title">Контроль качества</span>
+													<span class="quality__text">Номер для претензий и предложений:</span>
+													<a href="tel:+74951201196" class="quality__number">+7 (495) 120-11-96</a>
+													<span class="quality__worktime">с 9:00 до 21:00 по будням</span>
+													<a href="/kachestvo/" class="quality__button">Написать</a>
+												</div>
+
+											</div>
+
+										</div>
+
+									</div>
+								</div>
+
+							</div>
+							<!-- /.middle -->
+						</div>
+						<!-- /.wrapper -->
+
+
+						<div class="footer" id="js-footer">
+							<div class="container">
+								<div class="footer__inner">
+
+
+									<div class="footer__col">
+
+
+
+
+
+										<nav class="menu-footer">
+											<ul class="menu-footer__list">
+												<li class="menu-footer__title js-menu-footer__title">Бытовые холодильники</li>
+
+
+												<li class="menu-footer__item">
+													<a class="menu-footer__link" href="/liebherr/holodilniki/" title="Холодильники">Холодильники</a>
+												</li>
+
+												<li class="menu-footer__item">
+													<a class="menu-footer__link" href="/liebherr/vstraivaemiye-holodilniki/" title="Встраиваемые холодильники">Встраиваемые холодильники</a>
+												</li>
+
+												<li class="menu-footer__item">
+													<a class="menu-footer__link" href="/liebherr/wine-cabinets/" title="Винные шкафы">Винные шкафы
+													</a>
+												</li>
+
+												<li class="menu-footer__item">
+													<a class="menu-footer__link" href="/liebherr/humidors/" title="Хьюмидоры">Хьюмидоры</a>
+												</li>
+
+												<li class="menu-footer__item">
+													<a class="menu-footer__link" href="/liebherr/aksessuary/" title="Аксессуары">Аксессуары</a>
+												</li>
+											</ul>
+										</nav>
+
+
+
+
+									</div>
+									<div class="footer__col">
+
+
+										<nav class="menu-footer">
+											<ul class="menu-footer__list">
+												<li class="menu-footer__title js-menu-footer__title">Профессиональная техника</li>
+
+
+												<li class="menu-footer__item">
+													<a class="menu-footer__link" href="/liebherr/professional/meditsinskoe-i-laboratornoe-oborudovanie/" title="Медицинское и лабораторное оборудование">Медицинское и лабораторное оборудование
+													</a>
+												</li>
+
+												<li class="menu-footer__item">
+													<a class="menu-footer__link" href="/liebherr/professional/oborudovanie-dlya-gostinits-i-restoranov/" title="Оборудование для гостиниц и ресторанов">Оборудование для гостиниц и ресторанов
+													</a>
+												</li>
+
+												<li class="menu-footer__item">
+													<a class="menu-footer__link" href="/liebherr/professional/oborudovanie-dlya-okhlazhdeniya-napitkov/" title="Оборудование для охлаждения напитков">Оборудование для охлаждения напитков
+													</a>
+												</li>
+
+												<li class="menu-footer__item">
+													<a class="menu-footer__link" href="/liebherr/professional/oborudovanie-dlya-pekaren/" title="Оборудование для пекарен">Оборудование для пекарен</a>
+												</li>
+
+												<li class="menu-footer__item">
+													<a class="menu-footer__link" href="/liebherr/professional/oborudovanie-dlya-khraneniya-zamorozhennykh-produktov-i-morozhenogo/" title="Оборудование для хранения замороженных продуктов и мороженого">Оборудование для хранения замороженных продуктов и мороженого</a>
+												</li>
+											</ul>
+										</nav>
+
+									</div>
+
+									<!-- end menu-content -->
+									<!-- /.footer__col -->
+									<div class="footer__col">
+										<nav class="menu-footer">
+											<ul class="menu-footer__list">
+												<li class="menu-footer__title js-menu-footer__title">Информация</li>
+
+												<li class="menu-footer__item">
+													<a href="/delivery-and-payment/" title="Доставка и оплата" class="menu-footer__link">Доставка и оплата</a>
+												</li>
+
+
+												<li class="menu-footer__item">
+													<a href="/glossary/" title="Глоссарий" class="menu-footer__link">Глоссарий</a>
+												</li>
+
+
+												<li class="menu-footer__item">
+													<a href="/services/" title="Сервис" class="menu-footer__link">Сервис</a>
+												</li>
+
+
+												<li class="menu-footer__item">
+													<a href="/guarantee/" title="Гарантия" class="menu-footer__link">Гарантия</a>
+												</li>
+
+
+												<li class="menu-footer__item">
+													<a href="/news/" title="Статьи" class="menu-footer__link">Статьи</a>
+												</li>
+
+
+												<li class="menu-footer__item">
+													<a href="/video/" title="Видео" class="menu-footer__link">Видео</a>
+												</li>
+
+
+												<li class="menu-footer__item">
+													<a href="/kachestvo/" title="Возврат и обмен" class="menu-footer__link">Возврат и обмен
+													</a>
+												</li>
+
+
+												<li class="menu-footer__item">
+													<a href="/help/" title="Помощь" class="menu-footer__link">Помощь</a>
+												</li>
+
+
+												<li class="menu-footer__item">
+													<a href="/contacts/" title="Контакты" class="menu-footer__link">Контакты</a>
+												</li>
+
+											</ul>
+										</nav>
+									</div>
+									<!-- /.footer__col -->
+									<div class="footer__col">
+										<div class="footer__text footer__text_first">Интернет-магазин Liebherr</div>
+										<a href="tel:74959297078" class="footer__tel">+7 495 929-70-78</a>
+										<a href="tel:78003331936" class="footer__tel">+7 800 333-19-36</a>
+
+										<a href="" class="footer__call-phone-button js-viewForm" data-action="callback">
+											<span>Заказать звонок
+											</span>
+										</a>
+
+										<a href="mailto:shop@l-rus.ru" class="footer__email">
+											<i>Email:</i>shop@l-rus.ru</a>
+
+										<div class="footer__text footer__text_two">Режим работы</div>
+										<div class="footer__text footer__text_three">Пн-Пт: 08:00—22:00
+											<br>Сб-Вс: 09:00—22:00</div>
+									</div>
+									<!-- /.footer__col -->
+								</div>
+
+
+
+								<div class="footer__row">
+									<div class="footer__copyright">
+										© 2004 – 2019 Магазин LIEBHERR.
+										<br>«NTK LTD TM all rights reserved»
+										<div itemscope itemtype="http://schema.org/Store">
+											<div class="hide">
+												<a href="https://lbhr.ret-team.ru" itemprop="url">
+													<span itemprop="name">Специализированный магазин Liebherr</span>
+												</a>
+												<img itemprop="logo" src="https://lbhr.ret-team.ru/mockup/templates/main/build/images/liebherr.png" alt="Liebherr" />
+												<img itemprop="image" src="https://lbhr.ret-team.ru/mockup/templates/main/build/images/liebherr.png" alt="Liebherr" />
+												<meta itemprop="legalName" content="ООО «НТК Трейд»" />
+												<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+													<meta itemprop="streetAddress" content="проспект Маршала Жукова, дом 59" />
+													<meta itemprop="postalCode" content="123103" />
+													<meta itemprop="addressLocality" content="Москва" />
+												</div>
+												<meta itemprop="PriceRange" content="150-487490RUB" />
+												<meta itemprop="openingHours" content="Mo-Fr 08:00-22:00" />
+												<meta itemprop="openingHours" content="Sa-Su 09:00-22:00" />
+												<meta itemprop="telephone" content="74959297078" />
+												<meta itemprop="telephone" content="78003331936" />
+											</div>
+										</div>
+
+									</div>
+									<div class="social-items">
+										<a href="" class="social-link vk"></a>
+										<a href="" class="social-link fb"></a>
+										<a href="" class="social-link tw"></a>
+										<a href="" class="social-link ok"></a>
+									</div>
+									<a class="privacy-policy" href="/personal-data/">Политика конфиденциальности</a>
+									<div class="footer__telephones">
+										<div class="l-abuse">
+											<a href="" class="footer__button abuse__button js-viewForm" data-action="guideback">Пожаловаться руководству
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<!-- /.footer__row -->
+							</div>
+
+							<!-- /.footer__inner -->
+
+						</div>
+
+
+
+						<!-- end footer -->
+					</body>
+
+					</html>
+				</div>
+				<!-- END WORKAREA -->
+			</div>
+			<!-- /.content -->
+		</div>
+		<!-- /.middle -->
+
+	</div>
+	<!-- /.wrapper -->
+
+	<div class="footer" id="js-footer">
+		<div class="container">
+			<div class="footer__inner">
+				<div class="footer__col">
+					<nav class="menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__title js-menu-footer__title">Бытовые холодильники</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Холодильники</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Отдельностоящие морозильные камеры
+								</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Встраиваемые холодильники
+								</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Встраиваемые морозильные камеры
+								</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Винные шкафы</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Хьюмидоры</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- /.footer__col -->
+				<!-- <div class="footer__col">
+				<nav class="menu-footer">
+					<ul class="menu-footer__list">
+						<li class="menu-footer__title js-menu-footer__title">Профессиональная техника</li>
+						<li class="menu-footer__item"><a class="menu-footer__link" href="#">Медицинское и лабораторное
+								оборудование</a></li>
+						<li class="menu-footer__item"><a class="menu-footer__link" href="#">Для гостиниц и
+								ресторанов</a></li>
+						<li class="menu-footer__item"><a class="menu-footer__link" href="#">Для охлаждения напитков</a>
+						</li>
+						<li class="menu-footer__item"><a class="menu-footer__link" href="#">Для пекарен</a></li>
+						<li class="menu-footer__item"><a class="menu-footer__link" href="#">Для хранения замороженных
+								продуктов и
+								мороженого</a></li>
+					</ul>
+				</nav>
+			</div> -->
+				<!-- /.footer__col -->
+				<div class="footer__col">
+					<nav class="menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__title js-menu-footer__title">Информация</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">О Liebherr</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Акции и статьи</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Глоссарий</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Оплата и доставка</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Контакты</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Подключение</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Гарантия</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Возврат и обмен</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__link" href="#">Сервис и обслуживание</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- /.footer__col -->
+				<div class="footer__col">
+					<div class="footer__text footer__text_first">Интернет-магазин Liebherr</div>
+					<a href="tel:+74951912633" class="footer__tel">+7 495 191-26-33</a>
+					<a href="tel:+78003331936" class="footer__tel">+7 800 333-19-36</a>
+					<a href="#" data-url="ajax/callback.html" data-ajax="" class="footer__call-phone-button js-callback">
+						<span>
+							Заказать звонок
+						</span>
+
+					</a>
+					<a href="mailto:shop@l-rus.ru" class="footer__email">
+						<i></i>shop@l-rus.ru</a>
+					<div class="footer__text footer__text_two">Режим работы</div>
+					<div class="footer__text footer__text_three">Пн-Пт: 08:00—22:00
+						<br>Сб-Вс: 09:00—22:00</div>
+				</div>
+				<!-- /.footer__col -->
+			</div>
+			<div class="footer__row">
+				<div class="footer__copyright">
+					© 2004 – 2019 Магазин LIEBHERR.
+					<br>«NTK LTD TM all rights reserved»
+				</div>
+				<div class="social-items">
+					<a href="#" class="social-link vk"></a>
+					<a href="#" class="social-link fb"></a>
+					<a href="#" class="social-link tw"></a>
+					<a href="#" class="social-link ok"></a>
+				</div>
+				<a class="privacy-policy" href="https://lbhr.ret-team.ru/personal-data/">Политика конфиденциальности</a>
+				<div class="footer__telephones">
+					<div class="l-abuse">
+						<a href="#" data-url="ajax/abuse.html" data-ajax class="footer__button abuse__button js-abuse__button" id="js-abuse-opener">Пожаловаться руководству
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- /.footer__row -->
+		</div>
+
+		<!-- /.footer__inner -->
+
+	</div>
+	<!-- /.footer -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+	<script src="js/frontend-works.js"></script>
+	<script src="js/jquery.ui.touch-punch.min.js"></script>
+	<script src="js/script.min.js"></script>
+
+
+	<script src="https://yastatic.net/browser-updater/v1/script.js" charset="utf-8"></script>
+	<script>
+		var yaBrowserUpdater = new ya.browserUpdater.init({
+			"lang": "ru",
+			"browsers": {
+				"yabrowser": "15.12",
+				"chrome": "54",
+				"ie": "11",
+				"opera": "41",
+				"safari": "8",
+				"fx": "49",
+				"iron": "35",
+				"flock": "Infinity",
+				"palemoon": "25",
+				"camino": "Infinity",
+				"maxthon": "4.5",
+				"seamonkey": "2.3"
+			},
+			"theme": "yellow"
+		});
+	</script>
+
+
+</body>
+
+</html>
