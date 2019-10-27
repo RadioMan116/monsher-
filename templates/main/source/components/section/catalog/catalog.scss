@@ -498,7 +498,8 @@
 	}
 
 	.sidebar,
-	&__description+.sidebar {
+	&__description + .sidebar,
+	&__description + .recently-watched  + .sidebar{
 		display: none;
 	}
 
