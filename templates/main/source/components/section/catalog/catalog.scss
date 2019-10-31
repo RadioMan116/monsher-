@@ -498,8 +498,8 @@
 	}
 
 	.sidebar,
-	&__description + .sidebar,
-	&__description + .recently-watched  + .sidebar{
+	&__description+.sidebar,
+	&__description+.recently-watched+.sidebar {
 		display: none;
 	}
 
@@ -1061,14 +1061,16 @@
 		}
 	}
 
-	.advantages,+.advantages {
+	.advantages,
+	+.advantages {
 		position: relative;
 		margin-bottom: 39px;
 		width: 100%;
 
 		// .advantages__title
 
-		&__title,.advantages__title {
+		&__title,
+		.advantages__title {
 			color: #394791;
 			font-family: "Roboto Condensed";
 			font-size: 26px;
@@ -1087,7 +1089,8 @@
 
 		// .advantages__slide
 
-		&__slide,.advantages__slide {
+		&__slide,
+		.advantages__slide {
 			position: relative;
 
 			&:hover {
@@ -1102,7 +1105,8 @@
 
 		// .advantages__item
 
-		&__item,.advantages__item {
+		&__item,
+		.advantages__item {
 			position: absolute;
 			background-color: #394791;
 			width: 100%;
@@ -1113,7 +1117,8 @@
 			opacity: 0;
 		}
 
-		&__subtitle,.advantages__subtitle {
+		&__subtitle,
+		.advantages__subtitle {
 			color: #ffffff;
 			font-family: "Roboto Condensed";
 			font-size: 18px;
@@ -1123,7 +1128,8 @@
 
 		// .advantages__link
 
-		&__link,.advantages__link {
+		&__link,
+		.advantages__link {
 			color: #ffffff;
 			font-family: "Roboto Condensed";
 			font-size: 14px;
@@ -1686,7 +1692,8 @@
 			}
 		}
 
-		.advantages {
+		.advantages,
+		+.advantages {
 			padding-bottom: 32px;
 
 			.advantages__title {
@@ -1709,8 +1716,11 @@
 
 			.swiper-pagination-advantages {
 				top: unset;
-				right: unset;
+				left: 0;
+				right: 0;
 				bottom: 0;
+				display: flex;
+				justify-content: center;
 			}
 
 			.advantages__slide {
@@ -1720,7 +1730,7 @@
 			}
 		}
 
-		.all-video {
+		.all-video,.advantages+.all-video {
 			width: 100%;
 			flex-direction: column;
 			margin-bottom: 44px;

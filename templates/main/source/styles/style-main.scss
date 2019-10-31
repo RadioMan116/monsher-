@@ -169,15 +169,16 @@ body.fancybox-active {
 	cursor: pointer;
 	z-index: 10;
 }
-.advantages +
-.all-video {
+
+.advantages+.all-video {
 	position: relative;
 	display: flex;
 	width: 100%;
 
 	// .all-video__title
 
-	&__title,.all-video__title {
+	&__title,
+	.all-video__title {
 		color: #212121;
 		font-family: "Roboto Condensed";
 		font-size: 30px;
@@ -189,7 +190,8 @@ body.fancybox-active {
 
 	// .all-video__items
 
-	&__items,.all-video__items {
+	&__items,
+	.all-video__items {
 		display: flex;
 		height: auto;
 	}
@@ -200,7 +202,8 @@ body.fancybox-active {
 
 	// .all-video__item
 
-	&__item,.all-video__item {
+	&__item,
+	.all-video__item {
 		width: calc((100%/3) - 19px);
 
 		height: auto;
@@ -218,7 +221,8 @@ body.fancybox-active {
 
 	// .all-video__link
 
-	&__more,.all-video__more {
+	&__more,
+	.all-video__more {
 		color: #394791;
 		font-family: "Roboto Condensed";
 		font-size: 14px;
@@ -237,10 +241,16 @@ body.fancybox-active {
 		justify-content: center;
 	}
 }
-.col-md-3 +.special-offers.catalog ~ div {
-	max-width: 75%;
-	margin-left: auto;
-	margin-right: 0;
+
+
+@media only screen and (min-width : 768px) {
+
+
+	.col-md-3+.special-offers.catalog~div {
+		max-width: 75%;
+		margin-left: auto;
+		margin-right: 0;
+	}
 }
 
 @media screen and (max-width: 767px) {
@@ -275,14 +285,16 @@ body.fancybox-active {
 	.fixed {
 		width: 100%;
 	}
-	.advantages + 	.all-video {
+
+	.advantages+.all-video {
 		width: 100%;
 		flex-direction: column;
 		margin-bottom: 44px;
 
 		// .all-video__title
 
-		&__title,.all-video__title {
+		&__title,
+		.all-video__title {
 			color: #212121;
 			font-family: "Roboto Condensed";
 			font-size: 24px;
@@ -292,7 +304,8 @@ body.fancybox-active {
 
 		// .all-video__more
 
-		&__more,.all-video__more {
+		&__more,
+		.all-video__more {
 			position: unset;
 			order: 5;
 			width: 100%;
@@ -303,12 +316,14 @@ body.fancybox-active {
 
 		// .all-video__item
 
-		&__item,.all-video__item {
+		&__item,
+		.all-video__item {
 			margin-bottom: 0;
 			height: auto;
 		}
 
-		&__items,.all-video__items {
+		&__items,
+		.all-video__items {
 			margin-bottom: 11px;
 		}
 
@@ -331,5 +346,6 @@ body.fancybox-active {
 			margin-bottom: 30px;
 		}
 	}
+
 
 }
