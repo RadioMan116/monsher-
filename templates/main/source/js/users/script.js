@@ -2419,14 +2419,14 @@ $(window).on('load', function () {
 
 	// Убрать прикрепленный файл после отправки рекламации
 	if ($('.MultiFile-intercepted').length) {
-$(document).ajaxSuccess(function () {
-		let returnExchangeForm = document.querySelector('.return-exchange__form');
+		$(document).ajaxSuccess(function () {
+			let returnExchangeForm = document.querySelector('.return-exchange__form');
 
-		returnExchangeForm.querySelectorAll('.MultiFile-remove').forEach(element => element.click())
-		// if (returnExchangeForm) {
-		// 	returnExchangeForm.querySelectorAll('.MultiFile-remove').forEach(element => console.log(element))
-		// }
-	});
+			returnExchangeForm.querySelectorAll('.MultiFile-remove').forEach(element => element.click())
+			// if (returnExchangeForm) {
+			// 	returnExchangeForm.querySelectorAll('.MultiFile-remove').forEach(element => console.log(element))
+			// }
+		});
 
 	}
 
