@@ -69,11 +69,11 @@
 		// }
 		&:nth-child(3) {
 			width: 15%;
-			flex-basis: 180px;
 			display: flex;
 			flex-direction: column;
-			flex-basis: 100px;
+			flex-basis: 192px;
 			padding-top: 12px;
+			flex-grow: 0;
 		}
 	}
 
@@ -122,6 +122,9 @@
 		font-size: 13px;
 		line-height: 22px;
 		text-align: right;
+		b {
+			font-weight: bold;
+		}
 	}
 
 	&__tel {
