@@ -2176,14 +2176,19 @@
 	.catalog__link {
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
 	}
 
 	.labels {
 		margin-left: 24px;
 		position: relative;
+		width: 230px;
+		display: flex;
+		align-items: center;
 
 		img {
 			margin-left: 14px;
+			max-height: 42px;
 		}
 
 		&__popup {
@@ -3341,6 +3346,7 @@
 			justify-content: center;
 			display: flex;
 			margin-bottom: 29px;
+			align-items: center;
 
 			img:first-child {
 				margin-left: 0;
@@ -4563,7 +4569,8 @@
 		}
 	}
 }
-.catalog__description +.recently-watched {
+
+.catalog__description+.recently-watched {
 	width: 100%;
 	position: relative;
 	padding-top: 24px;
