@@ -1,6 +1,6 @@
 .new-items {
 	background-color: #f8f8f8;
-	margin: 0 auto !important;
+	margin: 0 auto ;
 	padding-top: 52px;
 
 	&__caption {
@@ -51,11 +51,12 @@
 		font-size: 18px;
 		font-weight: 400;
 		line-height: 26px;
+		padding-top: 24px;
 
 	}
 
 	.special-offers__sale {
-		padding-top: 11px;
+		padding-top: 14px;
 	}
 
 
@@ -77,7 +78,7 @@
 
 		a,
 		i {
-			color: #394791;
+			color: $base;
 			font-style: initial;
 			padding: 0 5px;
 
@@ -87,7 +88,7 @@
 	&__link {
 		padding: 7px;
 		border-radius: 3px;
-		border: solid 1px #394791;
+		border: solid 1px $base;
 		font-size: 14px;
 		font-weight: 500;
 		font-style: normal;
@@ -95,8 +96,8 @@
 		line-height: normal;
 		letter-spacing: normal;
 		text-align: left;
-		color: #394791;
-		margin: 3rem auto;
+		color: $base;
+		margin: 41px auto;
 		text-transform: uppercase;
 		text-decoration: none !important;
 	}
@@ -112,21 +113,26 @@
 		}
 
 		.new-items__caption {
-			margin-bottom: 33px;
+			margin-bottom: 15px;
 			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
 		}
 
 		.new-items__title {
 			margin-top: 27px;
+			margin-right: 20px;
+			margin-bottom: 10px !important;
 		}
 
 		.special-offers__text {
-			padding-top: 14px !important;
-			padding-bottom: 3px !important;
+			padding-top: 16px !important;
+			padding-bottom: 13px !important;
 		}
 
 		.special-offers__sale {
 			align-items: flex-end !important;
+			padding-top: 0;
 		}
 
 		.special-offers__slide {
@@ -143,6 +149,10 @@
 			margin-top: 24px;
 		}
 
+		.swiper-pagination-bullet {
+			margin-left: 8px;
+		}
+
 		.container {
 
 			.new-items_prev,
@@ -156,11 +166,12 @@
 		}
 
 		.new-items__how {
-			margin-left: auto;
+
 			color: #2e2e2e;
-			font-family: Arial;
+			font-family: Arial,sans-serif;
 			font-size: 14px;
 			margin-right: -3px;
+			margin-top: 27px;
 		}
 
 

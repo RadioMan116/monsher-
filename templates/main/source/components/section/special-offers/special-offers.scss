@@ -1,5 +1,5 @@
 .special-offers {
-	margin: 89px 0 47px;
+	margin: 44px 0;
 	display: flex;
 	flex-direction: column;
 	max-width: 1436px;
@@ -50,12 +50,12 @@
 		line-height: 22px;
 		letter-spacing: -0.2px;
 		color: #333333;
-		padding: 2rem 0;
+		padding: 30px 0 17px;
 		display: block;
 		flex-shrink: 0;
 
 		&:hover {
-			color: #394791;
+			color: $base;
 		}
 	}
 
@@ -69,7 +69,7 @@
 		flex-shrink: 0;
 		flex-grow: 1;
 		align-items: flex-end;
-		margin-bottom: 8px;
+		// margin-bottom: 8px;
 	}
 
 	&__price {
@@ -218,6 +218,7 @@
 		display: none;
 	}
 
+	.swiper-pagination,
 	.swiper-pagination_2,
 	.swiper-pagination_3 {
 		top: 14px;
@@ -232,7 +233,7 @@
 
 	.swiper-button-prev,
 	.new-items_prev {
-		background: url("../images/special-offers_prev.png") 0/34px no-repeat;
+		background: url("../images/special-offers_prev.svg") 0/34px no-repeat;
 		position: absolute;
 		top: 22px;
 		right: 48px;
@@ -241,7 +242,7 @@
 		height: 34px;
 
 		&:hover {
-			background: url("../images/swiper-button-color-prev.png") 0/34px no-repeat;
+			background: url("../images/swiper-button-color-prev.svg") 0/34px no-repeat;
 		}
 	}
 
@@ -251,14 +252,14 @@
 
 	.swiper-button-next,
 	.new-items_next {
-		background: url("../images/special-offers_next.png") 0/34px no-repeat;
+		background: url("../images/special-offers_next.svg") 0/34px no-repeat;
 		top: 22px;
 		right: 3px;
 		width: 34px;
 		height: 34px;
 
 		&:hover {
-			background: url("../images/swiper-button-color-next.png") 0/34px no-repeat;
+			background: url("../images/swiper-button-color-next.svg") 0/34px no-repeat;
 		}
 	}
 
@@ -299,13 +300,13 @@
 
 	&.promotional-goods {
 		margin-top: 0;
-		margin-bottom: 40px;
+		margin-bottom: 47px;
 
 		.swiper-pagination {
 			top: 14px;
 			right: 124px;
 			display: flex;
-			justify-content: flex-end;
+			// justify-content: flex-end;
 		}
 
 		.price__dashed {
@@ -356,26 +357,9 @@
 	}
 
 	@media screen and (max-width: 767px) {
-		margin: 87px 0 64px;
+		margin: 35px 0;
+		padding-bottom: 24px;
 
-
-		.special-offers {
-
-			&__buy {
-				// padding: 0;
-				// color: transparent;
-				// background-image: url('../images/shopping-cart.png');
-				// background-size: 18px;
-				// background-position: center;
-				// width: 56px;
-				// height: 36px;
-			}
-
-			&__slide {
-				min-height: unset;
-				padding: 1rem;
-			}
-		}
 
 		.announcing {
 			top: 15px;
@@ -399,25 +383,16 @@
 
 		.swiper-pagination-bullet {}
 
-		&__text {
-			color: #333333;
-			font-family: "Roboto Condensed";
-			font-size: 16px;
-			font-weight: 400;
-			line-height: 24px;
-			padding: 20px 0 38px;
-		}
 
-		&__pic {
-			max-height: 205px;
-		}
+
 
 		&__title {
-			margin-bottom: 28px;
+			margin-bottom: 19px;
 			color: #212121;
 			font-family: "Roboto Condensed";
-			font-size: 24px;
+			font-size: 5vw;
 			font-weight: 400;
+			white-space: normal;
 		}
 
 		.new-items_prev,
@@ -432,13 +407,9 @@
 			text-align: center;
 		}
 
-
-
-
-
 		.swiper-button-prev,
 		.swiper-button-next {
-			display: none;
+			display: none !important;
 		}
 
 		.special-offers__buy {
@@ -456,7 +427,8 @@
 		}
 
 		.special-offers__slide {
-			padding: 30px 21px 7px;
+			padding: 38px 19px 19px;
+			min-height: unset;
 		}
 
 		// .special-offers__sale {
@@ -464,17 +436,20 @@
 		// }
 
 		.special-offers__pic {
-			max-height: 249px;
+			max-height: 240px;
 		}
 
 		.special-offers__text {
+			color: #333333;
+			font-family: "Roboto Condensed";
 			font-size: 18px;
-			padding: 19px 0 29px;
+			padding: 19px 0 40px;
 		}
 
-		.swiper-pagination_2 {
+		.swiper-pagination_2,
+		.swiper-pagination {
 			display: flex;
-			bottom: -30px;
+			bottom: -21px;
 			width: 100%;
 			margin: 0 auto;
 			justify-content: center;
@@ -490,13 +465,21 @@
 			margin-bottom: 31px;
 
 			.special-offers__text {
-				padding-bottom: 18px;
+				padding-bottom: 39px;
+			}
+
+			.special-offers__sale {
+				flex-grow: 0;
+				margin-top: 0;
 			}
 
 			.swiper-pagination {
 				position: unset;
 				margin: 28px auto 0;
+			}
 
+			.special-offers__slide {
+				padding: 30px 21px 15px;
 			}
 		}
 	}
