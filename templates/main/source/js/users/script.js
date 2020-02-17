@@ -1480,6 +1480,9 @@ $(document).ready(function () {
 			// 	nextEl: ".practical-features__next",
 			// 	prevEl: ".practical-features__prev"
 			// },
+				slidesPerView: 4,
+			slidesPerGroup: 1,
+			spaceBetween: 12,
 			pagination: {
 				el: ".swiper-pagination-all-video",
 				clickable: true
