@@ -592,7 +592,7 @@ $(document).ready(function () {
 
 
 				if (windowWidth2 > 767) {
-					if (element.querySelectorAll('.swiper-slide').length > 4) {
+					if (element.querySelectorAll('.swiper-slide').length > 3) {
 						element.querySelector('.swiper-button-next').style.display = 'block';
 						element.querySelector('.swiper-button-prev').style.display = 'block';
 						element.querySelector(".instance-pagination-" + index).style.display = 'flex';
@@ -1480,7 +1480,7 @@ $(document).ready(function () {
 			// 	nextEl: ".practical-features__next",
 			// 	prevEl: ".practical-features__prev"
 			// },
-				slidesPerView: 4,
+			slidesPerView: 4,
 			slidesPerGroup: 1,
 			spaceBetween: 12,
 			pagination: {
