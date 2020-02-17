@@ -600,7 +600,7 @@ $(document).ready(function () {
 					} else {
 						element.querySelector('.swiper-button-next').style.display = 'none';
 						element.querySelector('.swiper-button-prev').style.display = 'none';
-						element.querySelector(".instance-pagination-" + index).style.display = 'none';
+						// element.querySelector(".instance-pagination-" + index).style.display = 'none';
 					}
 				}
 
