@@ -537,70 +537,139 @@ $(document).ready(function () {
 
 	(function () {
 		let mainCollection = document.querySelectorAll('.special-offers .container');
-		let jsAdvantages = document.querySelectorAll('.js-advantages');
+		let catalog = document.querySelector('.special-offers.catalog');
 
 		$(".special-offers").each(function (index, element) {
 			var $this = $(this);
 			$this.find('[class ^=swiper-pagination]').addClass("instance-pagination-" + index);
 		});
-		mainCollection.forEach(function (element, index) {
-			let $this = $(this);
-			element.querySelector('.swiper-container').classList.add("instance-" + index);
-			element.querySelector('.swiper-button-next').classList.add("instance-next-" + index);
-			element.querySelector('.swiper-button-prev').classList.add("instance-prev-" + index);
-			var mySwiper33 = new Swiper(".instance-" + index, {
-				slidesPerView: 4,
-				spaceBetween: 25,
-				slidesPerGroup: 4,
-				allowTouchMove: false,
+		if (catalog) {
+			mainCollection.forEach(function (element, index) {
+				let $this = $(this);
+				element.querySelector('.swiper-container').classList.add("instance-" + index);
+				element.querySelector('.swiper-button-next').classList.add("instance-next-" + index);
+				element.querySelector('.swiper-button-prev').classList.add("instance-prev-" + index);
 
-				// loop: true,
-				// loopFillGroupWithBlank: true,
-				pagination: {
-					el: ".instance-pagination-" + index,
-					clickable: true
-				},
-				scrollbar: {
-					el: ".swiper-scrollbar",
-					hide: false,
-					draggable: true
-				},
-				navigation: {
-					nextEl: ".instance-next-" + index,
-					prevEl: ".instance-prev-" + index
-				},
-				breakpoints: {
-					// when window width is <= 320px
-					767: {
-						allowTouchMove: true,
-						slidesPerGroup: 1,
-						spaceBetween: 22,
-						slidesPerView: 2
+				var mySwiper33 = new Swiper(".instance-" + index, {
+					slidesPerView: 3,
+					spaceBetween: 25,
+					slidesPerGroup: 4,
+					allowTouchMove: false,
+
+					// loop: true,
+					// loopFillGroupWithBlank: true,
+					pagination: {
+						el: ".instance-pagination-" + index,
+						clickable: true
 					},
-					600: {
-						allowTouchMove: true,
-						slidesPerGroup: 1,
-						slidesPerView: 1,
-						spaceBetween: 10
+					scrollbar: {
+						el: ".swiper-scrollbar",
+						hide: false,
+						draggable: true
+					},
+					navigation: {
+						nextEl: ".instance-next-" + index,
+						prevEl: ".instance-prev-" + index
+					},
+					breakpoints: {
+						// when window width is <= 320px
+						767: {
+							allowTouchMove: true,
+							slidesPerGroup: 1,
+							spaceBetween: 22,
+							slidesPerView: 2
+						},
+						600: {
+							allowTouchMove: true,
+							slidesPerGroup: 1,
+							slidesPerView: 1,
+							spaceBetween: 10
+						}
+
+
 					}
+				});
 
 
+				if (windowWidth2 > 767) {
+					if (element.querySelectorAll('.swiper-slide').length > 4) {
+						element.querySelector('.swiper-button-next').style.display = 'block';
+						element.querySelector('.swiper-button-prev').style.display = 'block';
+						element.querySelector(".instance-pagination-" + index).style.display = 'flex';
+
+					} else {
+						element.querySelector('.swiper-button-next').style.display = 'none';
+						element.querySelector('.swiper-button-prev').style.display = 'none';
+						element.querySelector(".instance-pagination-" + index).style.display = 'none';
+					}
 				}
-			});
 
-			if (windowWidth2 > 767) {
-				if (element.querySelectorAll('.swiper-slide').length > 4) {
-					element.querySelector('.swiper-button-next').style.display = 'block';
-					element.querySelector('.swiper-button-prev').style.display = 'block';
-					element.querySelector(".instance-pagination-" + index).style.display = 'flex';
+			})
+		} else {
+			mainCollection.forEach(function (element, index) {
+				let $this = $(this);
+				element.querySelector('.swiper-container').classList.add("instance-" + index);
+				element.querySelector('.swiper-button-next').classList.add("instance-next-" + index);
+				element.querySelector('.swiper-button-prev').classList.add("instance-prev-" + index);
 
-				} else {
-					element.querySelector('.swiper-button-next').style.display = 'none';
-					element.querySelector('.swiper-button-prev').style.display = 'none';
-					element.querySelector(".instance-pagination-" + index).style.display = 'none';
+				var mySwiper33 = new Swiper(".instance-" + index, {
+					slidesPerView: 4,
+					spaceBetween: 25,
+					slidesPerGroup: 4,
+					allowTouchMove: false,
+
+					// loop: true,
+					// loopFillGroupWithBlank: true,
+					pagination: {
+						el: ".instance-pagination-" + index,
+						clickable: true
+					},
+					scrollbar: {
+						el: ".swiper-scrollbar",
+						hide: false,
+						draggable: true
+					},
+					navigation: {
+						nextEl: ".instance-next-" + index,
+						prevEl: ".instance-prev-" + index
+					},
+					breakpoints: {
+						// when window width is <= 320px
+						767: {
+							allowTouchMove: true,
+							slidesPerGroup: 1,
+							spaceBetween: 22,
+							slidesPerView: 2
+						},
+						600: {
+							allowTouchMove: true,
+							slidesPerGroup: 1,
+							slidesPerView: 1,
+							spaceBetween: 10
+						}
+
+
+					}
+				});
+
+
+				if (windowWidth2 > 767) {
+					if (element.querySelectorAll('.swiper-slide').length > 4) {
+						element.querySelector('.swiper-button-next').style.display = 'block';
+						element.querySelector('.swiper-button-prev').style.display = 'block';
+						element.querySelector(".instance-pagination-" + index).style.display = 'flex';
+
+					} else {
+						element.querySelector('.swiper-button-next').style.display = 'none';
+						element.querySelector('.swiper-button-prev').style.display = 'none';
+						element.querySelector(".instance-pagination-" + index).style.display = 'none';
+					}
 				}
-			}
-		})
+
+			})
+		}
+
+
 	})();
 	var mySwiper9 = new Swiper(".js-product-card__rel", {
 		slidesPerView: 3,
