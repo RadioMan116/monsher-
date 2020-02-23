@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="compare">
+    <g id="compare">
+      <path d="M0 0L24 0L24 24L0 24L0 0Z" id="Rectangle-5" fill="none" stroke="none" />
+      <path d="M0 0L16 0L16 2L0 2L0 0ZM16 6L0 6L0 8L16 8L16 6ZM12 12L12 10L14 10L14 12L16 12L16 14L14 14L14 16L12 16L12 14L10 14L10 12L12 12ZM8 12L0 12L0 14L8 14L8 12Z" transform="translate(4 4)" id="Shape" fill="#1A45B4" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>

@@ -1,6 +1,6 @@
 .breadcrumbs {
 	color: #999999;
-	font-family: Arial;
+	font-family: Arial,sans-serif;
 	font-size: 12px;
 	line-height: 24px;
 	text-align: left;
@@ -10,17 +10,17 @@
 	div {
 		display: flex;
 		flex-wrap: wrap;
-		
+
 	}
 	&__link {
 		color: #999999;
 	}
-	
+
 	&__link>a {
-		color: #394791;
+		color: #999999;
 		text-decoration: none;
 	}
-	
+
 	&__sep {
 		margin: 0 5px;
 	}
@@ -36,4 +36,3 @@
 
 
 }
-
