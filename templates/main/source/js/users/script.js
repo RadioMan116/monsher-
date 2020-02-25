@@ -935,14 +935,7 @@ $(document).ready(function () {
 			});
 		}
 	})();
-	(function () {
-		let productCard = document.querySelector('.product-card');
-		if (productCard) {
-			let favorite = productCard.querySelector('.product-card__social');
-			let productHeaderBottom = productCard.querySelector('.product__header_bottom');
-			productHeaderBottom.append(favorite);
-		}
-	})();
+
 	var mySwiper15 = new Swiper(".js-sidebar-articles", {
 		navigation: {
 			nextEl: ".articles__next",
@@ -1210,7 +1203,14 @@ $(document).ready(function () {
 			firstDropdownMenu.classList.add("active");
 		})();
 
-
+		(function () {
+			let productCard = document.querySelector('.product-card');
+			if (productCard) {
+				let favorite = productCard.querySelector('.product-card__social');
+				let productHeaderBottom = productCard.querySelector('.product__header_bottom');
+				productHeaderBottom.append(favorite);
+			}
+		})();
 
 
 	}
