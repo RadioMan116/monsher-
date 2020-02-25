@@ -2244,9 +2244,9 @@
 		&-list {
 			.ratings_small {
 				.ratings__star {
-					width: 12px;
-					height: 10px;
-					background-size: 12px 10px;
+					width: 13px;
+					height: 13px;
+					background-size: 13px 13px;
 					margin-right: 4px;
 				}
 			}
@@ -2255,7 +2255,12 @@
 				width: 180px;
 
 				strong {
+
+					color: #333333;
+					font-family: "Roboto Condensed";
+					font-size: 21px;
 					font-weight: 400;
+					line-height: 24px;
 				}
 			}
 
@@ -2880,21 +2885,28 @@
 
 			&__sale {
 				border-radius: 4px;
-				background-color: rgba(208, 2, 27, 0.05);
-				display: flex;
+				// background-color: rgba(208, 2, 27, 0.05);
+				// display: flex;
 				// flex-wrap: wrap;
-				white-space: nowrap;
+				// white-space: nowrap;
 				font-family: Arial;
 				font-size: 12px;
 				font-weight: 700;
 				line-height: 17px;
 				align-items: center;
-				border: 2px solid #d0021b;
+				// border: 2px solid #d0021b;
 				padding: 10px 6px;
 				margin-right: 25px;
 				position: relative;
 				color: #d0021b;
-				border: 2px solid #d0021b;
+				// border: 2px solid #d0021b;
+				max-width: 115px;
+
+				a {
+					color: #d0021b;
+					margin-right: 5px;
+					text-decoration: none;
+				}
 
 				img {
 					margin-right: 10px;
@@ -3940,7 +3952,7 @@
 
 			.checkbox__text {
 				a {
-					margin: 0 7px 0 5px;
+					margin: 0 7px 0 3px;
 				}
 			}
 		}

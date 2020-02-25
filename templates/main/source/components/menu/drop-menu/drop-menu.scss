@@ -29,6 +29,27 @@
 			max-height: calc(100vh - 95px);
 		}
 
+		&:nth-child(1) {
+			.dropdown-menu__title {
+				display: flex;
+				align-items: center;
+
+				&:before {
+					width: 14px;
+					height: 12px;
+					-ms-flex-negative: 0;
+					flex-shrink: 0;
+					content: "";
+					background: url("../images/neff-menuPic.svg");
+					background-repeat: no-repeat;
+					background-size: 14px 12px;
+					background-position: 0;
+					margin-right: 11px;
+				}
+			}
+
+		}
+
 		&:nth-child(2) {
 			margin-left: 7px;
 		}
@@ -44,12 +65,12 @@
 			font-style: normal;
 			font-stretch: condensed;
 			line-height: normal;
-			padding: 9px 35px 9px 17px;
+			padding: 9px 44px 9px 17px;
 			color: #333333;
 			box-shadow: 0 2px 21px 0 transparent;
 			letter-spacing: -0.1px;
 			cursor: pointer;
-			background: url("https://icongr.am/entypo/chevron-down.svg?color=d6d6d6") 97%/14px no-repeat;
+			background: url("https://icongr.am/entypo/chevron-down.svg?color=d6d6d6") calc(100% - 16px)/14px no-repeat;
 			white-space: nowrap;
 
 			&.last {
@@ -70,7 +91,7 @@
 			&:hover {
 
 				color: #394791;
-				background: url("https://icongr.am/entypo/chevron-down.svg?color=394791") 97%/14px no-repeat;
+				background: url("https://icongr.am/entypo/chevron-down.svg?color=394791") calc(100% - 16px)/14px no-repeat;
 			}
 
 			&.last {
@@ -104,7 +125,7 @@
 			.dropdown-menu__list {
 				display: flex;
 				overflow-y: scroll;
-				margin-right: -16px;
+				margin-right: -21px;
 				padding-right: 20px;
 
 			}
@@ -123,7 +144,7 @@
 				z-index: 999;
 				position: relative;
 				color: #394791;
-				background: url("https://icongr.am/entypo/chevron-up.svg?color=394791") 97%/14px no-repeat;
+				background: url("https://icongr.am/entypo/chevron-up.svg?color=394791") calc(100% - 16px)/14px no-repeat;
 			}
 
 			.dropdown-menu__parent {
@@ -131,7 +152,7 @@
 				overflow: hidden;
 				box-shadow: 0 18px 41px 0 rgba(0, 0, 0, 0.1);
 				z-index: 99999;
-				top: 31px;
+				top: 40px;
 			}
 
 		}

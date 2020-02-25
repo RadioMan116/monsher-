@@ -14,6 +14,7 @@
 	align-items: center;
 	flex-shrink: 1;
 	width:701px;
+	flex-grow: 1;
 
 	nav {
 		width: 100%;
@@ -24,17 +25,19 @@
 		padding: 0;
 		list-style-type: none;
 		display: flex;
-		justify-content: space-between;
+		// justify-content: space-between;
 		width: 100%;
 	}
 
 	&__item {
+		// margin-right: 38px;
+		margin-right: 24px;
 
 		&:hover {
 
 			a,
 			span {
-				color: #394791;
+				color: $base;
 				text-decoration: none;
 			}
 		}
@@ -46,7 +49,7 @@
 
 	&__link {
 		display: block;
-		font-family: "Arial";
+		font-family: Arial, sans-serif;
 		font-size: 13px;
 		font-weight: normal;
 		font-style: normal;
@@ -58,11 +61,11 @@
 
 	.city-change {
 		display: flex;
-		color: #394791;
-		font-family: Arial;
+		color: $base;
+		font-family: Arial, sans-serif;
 		font-size: 13px;
 		line-height: 22px;
-		margin-right: 15px;
+		margin-right: 50px;
 		cursor: pointer;
 		position: relative;
 
@@ -135,7 +138,8 @@
 			border-top: 1px solid #f1f1f1;
 			width: 100%;
 			padding-top: 1em;
-			padding-left: 10px;
+			padding-left: 0px;
+			margin-right: 0;
 
 
 			&.active {
@@ -149,7 +153,16 @@
 
 
 
-			&__title {}
+			&__title {
+				color: $base;
+				font-family: Arial;
+				font-size: 16px;
+				font-weight: 400;
+				line-height: 22px;
+				text-align: right;
+			}
+
+
 
 			&__bullet {}
 
@@ -171,11 +184,13 @@
 			order: 3;
 			flex-wrap: wrap;
 			height: unset;
-			max-height: 125px;
+			max-height: 120px;
 			padding-top: 1rem;
 			padding-bottom: 0;
+			margin-bottom: auto;
+			max-width: unset;
 
-			&:nth-of-type(2) {
+			&:nth-of-type(4) {
 				display: none;
 			}
 		}
@@ -188,18 +203,23 @@
 		}
 
 		&__list {
-			flex-direction: column;
+			flex-direction: row;
 			padding: 7px 16px 10px;
 			width: calc(100% + 32px);
 			flex-wrap: wrap;
 			background-color: #f1f1f1;
-			max-height: 140px;
+			justify-content: space-between;
 		}
 
 		&__item {
-			width: 50%;
-			margin: 8px 0;
+			width: 40%;
+			margin-top: 17px;
 			cursor: pointer;
+			margin-left: 0 !important;
+
+			a {
+				white-space: nowrap;
+			}
 		}
 
 		.header__block_bottom & {
@@ -218,17 +238,17 @@
 		}
 
 		.header__phone {
-			margin-bottom: 2px;
+			margin-bottom: 5px;
 			color: #333333;
 			font-family: "Roboto Condensed";
-			font-size: 16px;
+			font-size: 18px;
 			font-weight: 400;
 			line-height: 26px;
 		}
 
 		.time-work {
 			color: #666;
-			font-family: Arial;
+			font-family: Arial, sans-serif;
 			font-size: 13px;
 			line-height: 22px;
 			text-align: left;
@@ -236,7 +256,7 @@
 
 			i {
 				color: #666;
-				font-family: Arial;
+				font-family: Arial, sans-serif;
 				font-size: 13px;
 				line-height: 22px;
 				text-align: left;
@@ -245,8 +265,22 @@
 			}
 		}
 
+		.time-work__email {
+			color: #666666;
+			font-family: Arial;
+			font-size: 13px;
+			font-weight: 400;
+			line-height: 22px;
+			display: flex;
+			margin-top: 6px;
+
+			i {
+				display: none;
+			}
+		}
+
 		.abuse__button {
-			color: #394791;
+			color: $base;
 			font-family: Roboto Condensed;
 			font-size: 14px;
 			font-weight: 400;
@@ -256,14 +290,14 @@
 			padding-top: 5px;
 			padding-bottom: 5px;
 			width: 100%;
-			border: 1px solid #394791;
+			border: 1px solid $base;
 			text-align: center;
 			border-radius: 4px;
-			margin-top: 23px;
+			margin-top: 17px;
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			text-decoration: none !important;
+			margin-top: 27px;
 		}
 	}
 
