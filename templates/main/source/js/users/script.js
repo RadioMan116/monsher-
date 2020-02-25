@@ -1051,28 +1051,28 @@ $(document).ready(function () {
 			// 	el: ".swiper-scrollbar"
 			// }
 		});
-		var mySwiper15 = new Swiper(".js-sidebar-articles", {
-			// navigation: {
-			// 	nextEl: ".practical-features__next",
-			// 	prevEl: ".practical-features__prev"
-			// },
-			pagination: {
-				el: ".articles__pagination",
-				clickable: true
-			},
-			breakpoints: {
-				600: {
-					slidesPerView: 1,
-					slidesPerGroup: 1,
-					spaceBetween: 12,
-				},
-				767: {
-					slidesPerView: 2,
-					slidesPerGroup: 1,
-					spaceBetween: 12,
-				},
-			}
-		});
+		// var mySwiper15 = new Swiper(".js-sidebar-articles", {
+		// 	// navigation: {
+		// 	// 	nextEl: ".practical-features__next",
+		// 	// 	prevEl: ".practical-features__prev"
+		// 	// },
+		// 	pagination: {
+		// 		el: ".articles__pagination",
+		// 		clickable: true
+		// 	},
+		// 	breakpoints: {
+		// 		600: {
+		// 			slidesPerView: 1,
+		// 			slidesPerGroup: 1,
+		// 			spaceBetween: 12,
+		// 		},
+		// 		767: {
+		// 			slidesPerView: 2,
+		// 			slidesPerGroup: 1,
+		// 			spaceBetween: 12,
+		// 		},
+		// 	}
+		// });
 		var mySwiper22 = new Swiper(".js-all-video", {
 			// navigation: {
 			// 	nextEl: ".practical-features__next",
