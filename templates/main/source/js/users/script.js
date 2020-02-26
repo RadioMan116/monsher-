@@ -884,20 +884,22 @@ $(document).ready(function () {
 	// })();
 	(function () {
 		let productCard = document.querySelector('.product-card');
-		if (productCard.classList.contains('new-product-card')) {
-			console.log('yes')
-		} else {
 
-			$('.product-card__announcing .announcing__item img').each(function () {
-				var $this = $(this);
+		if (productCard) {
+			if (productCard.classList.contains('new-product-card')) {
+				console.log('yes')
+			} else {
 
+				$('.product-card__announcing .announcing__item img').each(function () {
+					var $this = $(this);
+					$(this).parent().append($this.attr('alt'));
 
-
-				$(this).parent().append($this.attr('alt'));
-
-
-			});
+				});
+			}
 		}
+
+
+
 	})();
 
 	var mySwiper15 = new Swiper(".js-sidebar-articles", {
