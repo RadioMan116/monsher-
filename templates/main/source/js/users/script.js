@@ -1456,7 +1456,8 @@ $(document).ready(function () {
 				e.preventDefault();
 			});
 			$('.js-compare_block-change.active').parent().addClass('order');
-
+			// $('.comparison__list').height($('.js-compare_block-change.active').innerHeight());
+			$('.comparison__list').height($('.comparison__item.order').innerHeight());
 			window.onload = function () {
 				// $('.comparison__main .characteristic__row').each(function (index, el) {
 				// 	var height = $('.swiper-container-comparison .characteristic__row').eq(index).height();
@@ -1490,13 +1491,13 @@ $(document).ready(function () {
 						if ($(this).text().length > 60) {
 							$(this).addClass('level')
 							$('.js-swiper-comparison .characteristic__row').eq(index).addClass("level");
-							console.log($(this).text());
+							console.log($(this).text())
 						}
 					});
 				}
 			}();
 			var comparison_height = $('.thead__comparison').height();
-			console.log(comparison_height);
+			console.log(comparison_height)
 
 			var if_max_width = false;
 			$(window).scroll(function () {
