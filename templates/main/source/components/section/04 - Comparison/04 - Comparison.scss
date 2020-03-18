@@ -1,12 +1,12 @@
 .comparison {
 	max-width: 100%;
-	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	margin-bottom: 19px;
 	position: relative;
 	padding-bottom: 30px;
 	overflow: unset !important;
+	width: 100%;
 
 	thead {
 		display: flex;
@@ -29,7 +29,7 @@
 	}
 
 	.special-offers__sale {
-		margin-top: auto;
+		margin-top: 0;
 		flex-grow: unset;
 
 		.special-offers__price {
@@ -58,8 +58,8 @@
 	&__middle {
 		display: flex;
 		max-width: 100%;
-		position: relative;
 		width: 100%;
+		position: relative;
 	}
 
 	.tabs {
@@ -126,7 +126,7 @@
 		padding-top: 10px;
 		padding-bottom: 10px;
 		display: flex;
-		flex: 1 0 calc(33% - 18px);
+		flex: 0 0 calc(33% - 18px);
 		width: calc(33% - 18px);
 		margin-right: 27px;
 		position: relative;
@@ -136,6 +136,7 @@
 		.swiper-slide {
 			padding-left: 0;
 			align-items: baseline;
+			height: auto;
 		}
 
 		.swiper__comparison_first {
@@ -169,6 +170,7 @@
 		padding: 0;
 		// height: 30px;
 		max-height: 50px;
+		max-height: 30px;
 		margin: 16px 0 0;
 		// background: white;
 		border-radius: 2px;
@@ -280,7 +282,7 @@
 	.comparison__filter {
 		padding: 0 16px 16px 45px;
 		background: url("../images/comparison-delete.png") 21px 4px/12px no-repeat;
-		color: #394791;
+		color: $base;
 		margin-top: 16px;
 		display: block !important;
 
@@ -290,7 +292,7 @@
 	}
 
 	.open-all {
-		color: #394791;
+		color: $base;
 		font-family: Arial;
 		font-size: 14px;
 		line-height: 20px;
@@ -331,7 +333,7 @@
 			height: 52px;
 			display: flex;
 			width: 100%;
-			color: #394791;
+			color: $base;
 			font-family: "Roboto Condensed";
 			font-size: 18px;
 			font-weight: 400;
@@ -354,7 +356,7 @@
 			margin-bottom: 14px;
 
 			td {
-				color: #394791;
+				color: $base;
 				font-family: "Roboto Condensed";
 				font-size: 18px;
 				font-weight: 400;
@@ -429,7 +431,7 @@
 		right: 15px;
 		color: #b0b0b0;
 		font-size: 20px;
-		background: url("../images/comparison-delete-2.png") no-repeat;
+		background: url("../images/comparison-delete-2.svg") no-repeat;
 		color: transparent;
 	}
 
@@ -446,8 +448,12 @@
 		height: 100%;
 		width: 100%;
 
+		.catalog__presence {
+			margin-top: 14px;
+		}
+
 		.special-offers__text {
-			padding: 20px 0;
+			padding: 0 0 20px;
 			// height: 100px;
 			display: flex;
 			max-height: unset;
@@ -456,10 +462,12 @@
 			font-weight: 400;
 			line-height: 26px;
 			width: 100%;
+			margin-bottom: auto;
 		}
 
 		.special-offers__pic {
 			height: 200px;
+			margin-bottom: 14px;
 		}
 	}
 
@@ -470,22 +478,22 @@
 		top: 38px;
 		right: 50px;
 		left: unset;
-		background: url("../images/special-offers_prev.svg") 0/34px no-repeat;
+		background: url("../images/special-offers_prev.png") 0/34px no-repeat;
 
 		&:hover {
-			background: url("../images/swiper-button-color-prev.svg") 0/34px no-repeat;
+			background: url("../images/swiper-button-color-prev.png") 0/34px no-repeat;
 		}
 	}
 
 	.swiper-button-next {
-		background: url("../images/special-offers_next.svg") 0/34px no-repeat;
+		background: url("../images/special-offers_next.png") 0/34px no-repeat;
 		width: 34px;
 		height: 34px;
 		top: 38px;
 		right: 0px;
 
 		&:hover {
-			background: url("../images/swiper-button-color-next.svg") 0/34px no-repeat;
+			background: url("../images/swiper-button-color-next.png") 0/34px no-repeat;
 		}
 	}
 
@@ -503,7 +511,7 @@
 		&-drag {
 			height: 10px;
 			border-radius: 8.5px;
-			background-color: #394791;
+			background-color: $base;
 		}
 	}
 
@@ -554,7 +562,7 @@
 					// background: rebeccapurple;
 					background-color: #f8f8f8;
 					width: 1000%;
-					height: 106%;
+					height: calc(100% + 14px);
 					z-index: -1;
 					top: -11px;
 					left: -300%;
@@ -688,7 +696,7 @@
 			}
 
 			&__tabs {
-				color: #394791;
+				color: $base;
 				font-family: "Roboto Condensed";
 				font-size: 14px;
 				font-weight: 400;
@@ -706,7 +714,7 @@
 				cursor: pointer;
 
 				&.active {
-					background-color: #394791;
+					background-color: $base;
 					color: #ffffff;
 					border: 0;
 				}
@@ -816,7 +824,7 @@
 			&__name {
 				width: 100%;
 				padding: 0 12px;
-				color: #394791;
+				color: $base;
 				font-family: Arial;
 				font-size: 14px;
 				line-height: 1;
@@ -1043,6 +1051,8 @@
 			margin-bottom: 60px;
 		}
 
+		&__middle {}
+
 		thead {
 			position: absolute;
 			width: 100% !important;
@@ -1050,6 +1060,7 @@
 			padding-top: 0;
 			display: flex;
 			flex-direction: column;
+
 
 			tr {
 				position: relative;
@@ -1103,7 +1114,7 @@
 						font-family: Arial;
 						font-size: 14px;
 						font-weight: 700;
-						line-height: 20px;
+						line-height: 18px;
 
 
 						&:after {
@@ -1258,7 +1269,7 @@
 
 				.diagram__name {
 					text-align: center;
-					color: #394791;
+					color: $base;
 					font-family: Arial;
 					font-size: 14px;
 					line-height: 20px;
@@ -1415,7 +1426,7 @@
 		.comparison__list {
 			margin-top: 0;
 			margin-bottom: 18px;
-			// height: 40px;
+			height: 50px;
 
 			&.active {
 				overflow: unset;
@@ -1462,6 +1473,11 @@
 			.special-offers__pic {
 				width: 100%;
 				max-height: 145px;
+
+				picture {
+					height: 100%;
+				}
+
 				// height: 100%;
 			}
 
@@ -1511,13 +1527,15 @@
 			margin-top: 0;
 			padding-left: 30px;
 			background-position: 5px 0;
-			color: #394791;
+			color: $base;
 			font-family: Arial;
 			font-size: 14px;
 		}
 
 		&__main tr.thead__comparison:before {
-			height: 239%;
+			// height: 239%;
+			height: calc(200% + 40px);
+			display: none;
 		}
 
 		.comparison-menu__title {
@@ -1529,6 +1547,8 @@
 			padding: 11px 12px;
 			line-height: 1;
 			text-decoration: none !important;
+			display: flex;
+			align-items: center;
 		}
 
 		.comparison__text {
@@ -1543,6 +1563,7 @@
 				background: url(../images/papka.png) 3px/16px no-repeat;
 			}
 		}
+
 	}
 
 	@media screen and (max-width: 320px) {
