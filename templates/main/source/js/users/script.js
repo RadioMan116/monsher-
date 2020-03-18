@@ -1456,7 +1456,7 @@ $(document).ready(function () {
 				e.preventDefault();
 			});
 			$('.js-compare_block-change.active').parent().addClass('order');
-			$('.comparison__list').height($('.comparison__item.order').innerHeight());
+
 			window.onload = function () {
 				// $('.comparison__main .characteristic__row').each(function (index, el) {
 				// 	var height = $('.swiper-container-comparison .characteristic__row').eq(index).height();
@@ -2244,6 +2244,7 @@ $(window).on('load', function () {
 			console.log(this)
 			if ($(this).find('.comparison__link').hasClass('active')) {
 				$(this).parent().addClass('order');
+
 			} else {
 				$('.comparison__list .comparison__item:eq(0)').addClass('order')
 			}
@@ -2251,6 +2252,7 @@ $(window).on('load', function () {
 		// if (select.hasClass('active')) {
 		// 	console.log('1')
 		// }
+		$('.comparison__list').height($('.comparison__item.order').innerHeight());
 	}
 	// Убрать прикрепленный файл после отправки рекламации
 	if ($('.MultiFile-intercepted').length) {
