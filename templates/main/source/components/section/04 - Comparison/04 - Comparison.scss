@@ -478,22 +478,22 @@
 		top: 38px;
 		right: 50px;
 		left: unset;
-		background: url("../images/special-offers_prev.png") 0/34px no-repeat;
+		background: url("../images/special-offers_prev.svg") 0/34px no-repeat;
 
 		&:hover {
-			background: url("../images/swiper-button-color-prev.png") 0/34px no-repeat;
+			background: url("../images/swiper-button-color-prev.svg") 0/34px no-repeat;
 		}
 	}
 
 	.swiper-button-next {
-		background: url("../images/special-offers_next.png") 0/34px no-repeat;
+		background: url("../images/special-offers_next.svg") 0/34px no-repeat;
 		width: 34px;
 		height: 34px;
 		top: 38px;
 		right: 0px;
 
 		&:hover {
-			background: url("../images/swiper-button-color-next.png") 0/34px no-repeat;
+			background: url("../images/swiper-button-color-next.svg") 0/34px no-repeat;
 		}
 	}
 
@@ -771,19 +771,19 @@
 			}
 
 			&__next {
-				background: url("../images/special-offers_next.png") 0/34px no-repeat;
+				background: url("../images/special-offers_next.svg") 0/34px no-repeat;
 				top: 52px;
 				right: 31px;
 				width: 34px;
 				height: 34px;
 
 				&:hover {
-					background: url("../images/swiper-button-color-next.png") 0/34px no-repeat;
+					background: url("../images/swiper-button-color-next.svg") 0/34px no-repeat;
 				}
 			}
 
 			&__prev {
-				background: url("../images/special-offers_prev.png") 0/34px no-repeat;
+				background: url("../images/special-offers_prev.svg") 0/34px no-repeat;
 				position: absolute;
 				top: 52px;
 				right: 78px;
@@ -792,7 +792,7 @@
 				height: 34px;
 
 				&:hover {
-					background: url("../images/swiper-button-color-prev.png") 0/34px no-repeat;
+					background: url("../images/swiper-button-color-prev.svg") 0/34px no-repeat;
 				}
 			}
 
