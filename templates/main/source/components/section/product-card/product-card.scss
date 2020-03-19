@@ -6035,16 +6035,45 @@
 			}
 
 			.product-card__delivery {
+				padding: 0 0px;
+				// background: url('../images/big/truck.svg') no-repeat 0 9px;
 				background: none;
-				padding: 9px 0;
-				// padding: 9px 0 9px 52px;
+				min-height: 60px;
+				flex-direction: row;
+				flex-wrap: wrap;
+				align-items: center;
+
+				// justify-content: center;
+				&:before {
+					content: url('../images/big/truck.svg');
+					height: 40px;
+					width: 40px;
+					margin-right: 12px;
+					margin-bottom: 9px;
+					margin-top: 9px;
+				}
 
 				.delivery__info {
-					font-size: 12px;
+					font-size: 14px;
 					line-height: 18px;
 
+
+					&:last-of-type {
+						// line-height: 2;
+						margin-bottom: 9px;
+					}
+
 					&:first-of-type {
-						margin-bottom: 5px;
+						margin-bottom: 0px;
+						// padding-left: 52px;
+						// margin: auto 0;
+						width: calc(100% - 52px);
+
+						// a {
+						// 	margin: 0 3px;
+						// }
+
+
 					}
 				}
 			}
