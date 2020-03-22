@@ -156,10 +156,10 @@
 	}
 
 	&__el {
-		margin-right: 2rem;
-		display: flex;
-		background-color: #ffffff;
+		margin-right: auto;
+		background-color: #fff;
 		height: 230px;
+		width: calc(25% - 22px);
 
 		.gallery__parent {
 			display: flex;
