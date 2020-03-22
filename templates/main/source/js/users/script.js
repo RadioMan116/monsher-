@@ -1966,8 +1966,8 @@ $(document).ready(function () {
 			// animationEffect: 'fade',
 			animationDuration: 350,
 			animationEffect: "material",
-			transitionEffect: "slide",
-			transitionDuration: 500,
+			// transitionEffect: "slide",
+			transitionDuration: 350,
 
 		});
 		$("[data-scroll]").click(function () {
