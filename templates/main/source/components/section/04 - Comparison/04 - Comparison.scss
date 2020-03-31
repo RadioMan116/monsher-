@@ -172,9 +172,9 @@
 		// flex-wrap: wrap;
 		list-style: none;
 		padding: 0;
-		// height: 30px;
-		// max-height: 50px;
-		position: relative;
+		height: 25px;
+		max-height: 50px;
+		max-height: 30px;
 		margin: 16px 0 0;
 		// background: white;
 		border-radius: 2px;
@@ -182,14 +182,23 @@
 		// overflow: hidden;
 		border: solid 1px #d6d6d6;
 		border-bottom: 0;
-		background: url("https://icongr.am/entypo/triangle-down.svg") white calc(100% - 10px) 5px/15px no-repeat;
-		// max-height: 26px;
+		background: white;
+
+		&.triangle {
+			background: url("https://icongr.am/entypo/triangle-down.svg") white calc(100% - 10px) 5px/15px no-repeat;
+		}
 
 		&:hover {
 			overflow: unset;
 
 			.comparison__item {
 				display: flex;
+				min-height: 24px;
+				flex: 1 0 100%;
+			}
+
+			.comparison__link {
+				display: block;
 			}
 		}
 
@@ -213,9 +222,10 @@
 		background: white;
 		z-index: 99;
 		display: flex;
-		flex: 1 0 auto;
+
 		margin: 0 -1px;
-		display: none;
+		// display: none;
+
 
 
 		&.active {
@@ -229,14 +239,24 @@
 			border-top: 0;
 			border-bottom: 0;
 			display: flex;
+
+			.comparison__link {
+				pointer-events: none;
+				display: block;
+			}
+		}
+
+		&:only-child {
+			.comparison__link {
+				pointer-events: none;
+				display: block;
+			}
 		}
 
 		// &:hover{
 		// 	background-color: hsla(0,0%,93%,.29);
 		// }
-		// &:not(.order) {
-		// 	position: absolute;
-		// }
+
 	}
 
 	&__link {
@@ -246,10 +266,12 @@
 		font-size: 14px;
 		line-height: 25px;
 		position: relative;
+		display: none;
 		text-decoration: none !important;
 
 		&.active {
 			pointer-events: none;
+			display: block;
 		}
 	}
 
@@ -1437,13 +1459,7 @@
 			}
 		}
 
-		&__item {
-			width: calc(100% + 2px);
 
-			&.order {
-				background: url("https://icongr.am/entypo/triangle-down.svg") white calc(100% - 4px) 11px/15px no-repeat;
-			}
-		}
 
 		.swiper-block {
 			padding-top: 28px;
@@ -1531,15 +1547,7 @@
 			}
 		}
 
-		.comparison__list {
-			margin-top: 0;
-			margin-bottom: 18px;
-			// height: 50px;
 
-			&.active {
-				overflow: unset;
-			}
-		}
 
 		.comparison__button {
 			padding-left: 0;
@@ -1651,12 +1659,113 @@
 			margin-bottom: 19px;
 		}
 
-		.comparison__link {
-			padding: 11px 12px;
-			line-height: 1;
-			text-decoration: none !important;
+		&__list {
 			display: flex;
-			align-items: center;
+			// flex-wrap: wrap;
+			list-style: none;
+			padding: 0;
+			height: 25px;
+			max-height: 50px;
+			max-height: 30px;
+			margin: 0px 0 18px;
+			// background: white;
+			border-radius: 2px;
+			flex-direction: column;
+			// overflow: hidden;
+			border: solid 1px #d6d6d6;
+			border-bottom: 0;
+			background: white;
+
+			&.triangle {
+				background: url("https://icongr.am/entypo/triangle-down.svg") white calc(100% - 10px) 8px/15px no-repeat;
+			}
+
+			&:hover {
+				overflow: unset;
+
+				.comparison__item {
+					display: flex;
+					min-height: 24px;
+					flex: 1 0 100%;
+				}
+
+				.comparison__link {
+					display: block;
+				}
+			}
+
+			&::after {
+				content: '';
+				width: calc(100% + 3px);
+				margin: 0 -1.5px -1px;
+				height: 100%;
+				height: -moz-available;
+				height: -webkit-fill-available;
+				height: fill-available;
+				border-top: solid 1px #d6d6d6;
+				background: #f8f8f8;
+			}
+		}
+
+		&__item {
+			height: auto;
+			border-left: solid 1px #d6d6d6;
+			border-right: solid 1px #d6d6d6;
+			background: white;
+			z-index: 99;
+			display: flex;
+			width: calc(100% + 2px);
+			margin: 0 -1px;
+			flex: 1 0 auto;
+			// display: none;
+
+
+
+			&.active {
+				order: -1;
+				background: transparent;
+			}
+
+			&.order {
+				order: -1;
+				background: transparent;
+				border-top: 0;
+				border-bottom: 0;
+				display: flex;
+
+				.comparison__link {
+					pointer-events: none;
+					display: block;
+				}
+			}
+
+			&:only-child {
+				.comparison__link {
+					pointer-events: none;
+					display: block;
+				}
+			}
+
+			// &:hover{
+			// 	background-color: hsla(0,0%,93%,.29);
+			// }
+
+		}
+
+		&__link {
+			padding: 3px 12px;
+			color: #2e2e2e;
+			font-family: Arial, sans-serif;
+			font-size: 14px;
+			line-height: 25px;
+			position: relative;
+			display: none;
+			text-decoration: none !important;
+
+			&.active {
+				pointer-events: none;
+				display: block;
+			}
 		}
 
 		.comparison__text {

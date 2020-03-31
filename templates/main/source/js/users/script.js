@@ -1631,7 +1631,11 @@ $(document).ready(function () {
 					swiper: mySwiper8
 				}
 			});
-
+			let comparisonItem = document.querySelectorAll('.comparison__item');
+			let comparisonList = document.querySelector('.comparison__list');
+			if (comparisonItem.length > 1) {
+				comparisonList.classList.add('triangle')
+			}
 		}
 		if ($(".diagram").length) {
 			var value = 0
