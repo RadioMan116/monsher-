@@ -143,24 +143,35 @@ body.fancybox-active {
 }
 
 .docs-frame {
-	display: flex;
 	// flex-shrink: 0;
 	max-width: 100%;
-	height: 500px;
-	display: block;
+	min-height: 400px;
+	display: flex !important;
+	flex-direction: column;
+	align-items: center;
 	// overflow-y: auto;
-	margin-bottom: 16px;
+	margin-bottom: 40px;
 
 	iframe {
 		// height: auto !important;
-		height: 100% !important;
+		// height: 100% !important;
+		height: 90vh !important;
+
+		// height: -moz-available !important;
+		// /* WebKit-based browsers will ignore this. */
+		// height: -webkit-fill-available !important;
+		// /* Mozilla-based browsers will ignore this. */
+		// height: fill-available !important;
 		// width: 100%;
 		// // overflow: hidden;
 		// margin: 0px;
 		// // max-height: 1176px !important;
 		// overflow-y: scroll !important;
 		// height: 1176px !important;
-		padding-bottom: 24px;
+		// padding-bottom: 24px;
+		@media screen and (max-width: 767px) {
+			height: 60vh !important;
+		}
 	}
 }
 
