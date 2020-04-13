@@ -55,7 +55,7 @@
 				order: 2;
 				margin-top: 15px;
 				max-width: calc(100% + 32px);
-
+				width: auto;
 			}
 		}
 	}
@@ -99,11 +99,13 @@
 		height: 830px;
 		overflow: hidden;
 		padding-bottom: 24px;
-		&.active{
+
+		&.active {
 			height: auto;
 			overflow: visible;
 		}
-		&:before{
+
+		&:before {
 			background-color: white;
 			content: "";
 			position: absolute;
@@ -137,7 +139,7 @@
 				order: 2;
 				margin-top: 15px;
 				max-width: calc(100% + 32px);
-
+				width: auto;
 			}
 		}
 
@@ -152,7 +154,7 @@
 			position: absolute;
 			left: 16px;
 			bottom: 0;
-			
+
 		}
 	}
 }
