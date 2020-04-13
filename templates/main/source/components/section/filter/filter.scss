@@ -306,9 +306,9 @@
 			display: flex;
 			margin-right: 12px;
 
-			&:last-child {
-				margin-bottom: 0;
-			}
+			// &:last-child {
+			// 	margin-bottom: 0;
+			// }
 
 			.filter-tip {
 				position: absolute;
@@ -708,7 +708,9 @@
 			flex-grow: 1;
 			flex-wrap: wrap;
 
-
+			label {
+				min-width: calc(35%-12px)
+			}
 		}
 
 		&__button {
