@@ -85,6 +85,31 @@
 				color: #999999;
 			}
 
+			&-close {
+				position: absolute;
+				right: 0px;
+				top: 0px;
+				width: 30px;
+				height: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				z-index: 2;
+				// color: #999999;
+			}
+
+			&:hover+.checkbox-custom+.checkbox-close {
+				color: #ffffff;
+				background: $base !important;
+				/* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
+			}
+
+			&:checked+.checkbox-custom+.checkbox-close {
+				color: #ffffff;
+				background: #d82300;
+				/* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
+			}
+
 			/* Если реальный чекбокс у нас отмечен, то тогда добавляем данный признак и к нашему кастомному чекбоксу  */
 			&:hover+.checkbox-custom {
 				color: #ffffff;
@@ -407,7 +432,7 @@
 		// overflow: hidden;
 		height: unset;
 		border-bottom: 1px solid #eeeeee;
-		padding: 6px 0 20px;
+		padding: 13px 0 20px;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -488,8 +513,8 @@
 		flex-grow: 1;
 		border-bottom: 1px solid transparent;
 		width: 100%;
-		padding: 6px 0 13px;
-		height: 45px;
+		padding: 13px 0 13px;
+		height: 55px;
 
 
 		* {
@@ -640,7 +665,7 @@
 			}
 
 			&.filter__close {
-				height: 45px;
+				height: 55px;
 
 				.filter__checkbox {
 					display: none;
@@ -824,7 +849,7 @@
 
 	// .p5 {}
 	// .bx-ui-slider-range {}
-	// 
+	//
 
 	// .fa-angle-down {}
 

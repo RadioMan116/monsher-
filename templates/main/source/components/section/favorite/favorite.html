@@ -18,36 +18,41 @@
 						<label>
 							<input class="checkbox filter_checkbox pers_data_check js-art_type-change" type="checkbox"
 								name="F_SECTIONS[]" value="19">
-							<span class="checkbox-custom">Холодильники Side-by-Side</span>
-							<span class="checkbox-number">3</span>
+							<span class="checkbox-custom">Холодильники</span>
+							<!-- <span class="checkbox-number">3</span> -->
+							<div class="checkbox-close">x</div>
+						</label>
+
+						<label>
+							<input class="checkbox filter_checkbox pers_data_check js-art_type-change" type="checkbox"
+								name="F_SECTIONS[]" value="19">
+							<span class="checkbox-custom">Души</span>
+							<!-- <span class="checkbox-number">3</span> -->
+							<div class="checkbox-close">x</div>
+						</label>
+
+						<label>
+							<input class="checkbox filter_checkbox pers_data_check js-art_type-change" type="checkbox"
+								name="F_SECTIONS[]" value="19">
+							<span class="checkbox-custom">Мойки</span>
+							<!-- <span class="checkbox-number">3</span> -->
+							<div class="checkbox-close">x</div>
+						</label>
+
+						<label>
+							<input class="checkbox filter_checkbox pers_data_check js-art_type-change" type="checkbox"
+								name="F_SECTIONS[]" value="19">
+							<span class="checkbox-custom">Аксессуары</span>
+							<!-- <span class="checkbox-number">3</span> -->
+							<div class="checkbox-close">x</div>
 						</label>
 
 						<label>
 							<input class="checkbox filter_checkbox pers_data_check js-art_type-change" type="checkbox"
 								name="F_SECTIONS[]" value="19">
 							<span class="checkbox-custom">Холодильники Side-by-Side</span>
-							<span class="checkbox-number">3</span>
-						</label>
-
-						<label>
-							<input class="checkbox filter_checkbox pers_data_check js-art_type-change" type="checkbox"
-								name="F_SECTIONS[]" value="19">
-							<span class="checkbox-custom">Холодильники Side-by-Side</span>
-							<span class="checkbox-number">3</span>
-						</label>
-
-						<label>
-							<input class="checkbox filter_checkbox pers_data_check js-art_type-change" type="checkbox"
-								name="F_SECTIONS[]" value="19">
-							<span class="checkbox-custom">Холодильники Side-by-Side</span>
-							<span class="checkbox-number">3</span>
-						</label>
-
-						<label>
-							<input class="checkbox filter_checkbox pers_data_check js-art_type-change" type="checkbox"
-								name="F_SECTIONS[]" value="19">
-							<span class="checkbox-custom">Холодильники Side-by-Side</span>
-							<span class="checkbox-number">3</span>
+							<!-- <span class="checkbox-number">3</span> -->
+							<div class="checkbox-close">x</div>
 						</label>
 					</div>
 				</div>
@@ -126,6 +131,8 @@
 	</div>
 	<div class="col-md-9">
 		<a href="#" class="favorite__reset">Сбросить избранное</a>
+		<div class="js-favorite_list js-ecom_product-list favorite__items" data-list="Избранное">
+
 			<div class="favorite__items catalog__items">
 				<div class="catalog__item">
 					<a class="catalog__pic" href="#">
@@ -811,7 +818,8 @@
 				<a class="load-more" href="#">Загрузить еще</a>
 				{% include 'pagination/pagination.html' %}
 			</div>
-			
+		</div>
+
 	</div>
 	<div class="favorite__footer">
 		<div class="recently-watched js-recently-watched">

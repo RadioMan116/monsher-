@@ -89,6 +89,13 @@
 	&.main-tags {
 		margin-bottom: 48px;
 		position: relative;
+
+		@media screen and (max-width: 1200px) and (min-width: 768px) {
+			margin: 0 16px 48px;
+			max-width: 100%;
+			width: -webkit-fill-available;
+			flex: 1 1 100%
+		}
 	}
 
 	.text-default & {
