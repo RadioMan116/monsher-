@@ -231,7 +231,8 @@
 			// 	}
 			// }
 
-			a[data-fancybox="iframe"],a.iframe {
+			a[data-fancybox="iframe"],
+			a.iframe {
 				display: flex;
 				flex-direction: column;
 				position: relative;
@@ -1824,6 +1825,7 @@
 				width: 100%;
 			}
 		}
+
 		.gallery {
 			&__el {
 				width: 100%;
@@ -2686,121 +2688,7 @@
 		justify-content: center;
 	}
 
-	.labels {
-		margin-left: 14px;
-		position: relative;
-		display: flex;
-		z-index: 3;
-		align-items: center;
-		flex-grow: 1;
-		top: 0;
-		left: 0;
-		right: 110px;
 
-		img {
-			margin-left: 14px;
-			max-height: 42px;
-		}
-
-
-	}
-
-	.catalog__prop {
-		margin-top: 0;
-		width: 48.9%;
-		margin-left: auto;
-		flex-wrap: wrap;
-		padding: 0;
-		position: relative;
-		flex-grow: unset;
-
-		h6 {
-			color: #333333;
-			font-family: Arial, sans-serif;
-			font-size: 14px;
-			font-weight: 700;
-			width: 100%;
-			line-height: 1;
-			margin-bottom: 16px;
-		}
-
-		.link-pop-glossary {
-			margin-right: 16px;
-			position: relative;
-			cursor: pointer;
-
-			&:last-child {
-				margin-right: 0;
-			}
-
-			&:nth-child(n + 7) {
-
-				.popup-prop {
-					right: 0;
-				}
-			}
-		}
-
-		.icons-prop-item {
-			width: 48px;
-			height: 48px;
-			border-radius: 3px;
-			padding: 0;
-		}
-
-		.popup-prop {
-			display: none;
-			width: 274px;
-			box-shadow: 0 2px 12px rgba(82, 64, 64, 0.17);
-			border-radius: 3px;
-			background-color: #ffffff;
-			padding: 22px 24px 26px;
-			z-index: 100;
-			bottom: 100%;
-			height: auto;
-			opacity: 1;
-			max-height: unset;
-			max-width: unset;
-			position: absolute;
-		}
-
-		.popup-prop__img {
-			width: 100%;
-			height: auto;
-			margin-bottom: 10px;
-		}
-
-		.popup-prop__title {
-			color: #333333;
-			font-family: Arial, sans-serif;
-			font-size: 14px;
-			font-weight: 700;
-			margin-bottom: 4px;
-		}
-
-		.popup-prop__text {
-			color: #333333;
-			font-family: Arial, sans-serif;
-			font-size: 12px;
-			line-height: 18px;
-			margin-bottom: 5px;
-
-			&.active {
-				height: 180px;
-				overflow: hidden;
-			}
-		}
-
-		.popup-prop__link {
-			color: #394791;
-			font-family: "Roboto Condensed";
-			font-size: 14px;
-			font-weight: 400;
-			line-height: 20px;
-
-
-		}
-	}
 
 
 	&.new-product-card {
@@ -4402,7 +4290,121 @@
 	}
 
 
+	.middle__header .labels {
+		margin-left: 14px;
+		position: relative;
+		display: flex;
+		z-index: 3;
+		align-items: center;
+		flex-grow: 1;
+		top: 0;
+		left: 0;
+		right: 110px;
 
+		img {
+			margin-left: 14px;
+			max-height: 42px;
+		}
+
+
+	}
+
+	.middle__header .catalog__prop {
+		margin-top: 0;
+		width: 48.9%;
+		margin-left: auto;
+		flex-wrap: wrap;
+		padding: 0;
+		position: relative;
+		flex-grow: unset;
+
+		h6 {
+			color: #333333;
+			font-family: Arial, sans-serif;
+			font-size: 14px;
+			font-weight: 700;
+			width: 100%;
+			line-height: 1;
+			margin-bottom: 16px;
+		}
+
+		.link-pop-glossary {
+			margin-right: 16px;
+			position: relative;
+			cursor: pointer;
+
+			&:last-child {
+				margin-right: 0;
+			}
+
+			&:nth-child(n + 7) {
+
+				.popup-prop {
+					right: 0;
+				}
+			}
+		}
+
+		.icons-prop-item {
+			width: 48px;
+			height: 48px;
+			border-radius: 3px;
+			padding: 0;
+		}
+
+		.popup-prop {
+			display: none;
+			width: 274px;
+			box-shadow: 0 2px 12px rgba(82, 64, 64, 0.17);
+			border-radius: 3px;
+			background-color: #ffffff;
+			padding: 22px 24px 26px;
+			z-index: 100;
+			bottom: 100%;
+			height: auto;
+			opacity: 1;
+			max-height: unset;
+			max-width: unset;
+			position: absolute;
+		}
+
+		.popup-prop__img {
+			width: 100%;
+			height: auto;
+			margin-bottom: 10px;
+		}
+
+		.popup-prop__title {
+			color: #333333;
+			font-family: Arial, sans-serif;
+			font-size: 14px;
+			font-weight: 700;
+			margin-bottom: 4px;
+		}
+
+		.popup-prop__text {
+			color: #333333;
+			font-family: Arial, sans-serif;
+			font-size: 12px;
+			line-height: 18px;
+			margin-bottom: 5px;
+
+			&.active {
+				height: 180px;
+				overflow: hidden;
+			}
+		}
+
+		.popup-prop__link {
+			color: #394791;
+			font-family: "Roboto Condensed";
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 20px;
+
+
+		}
+	}
 
 	@media screen and (max-width: 767px) {
 		.breadcrumbs {
@@ -5544,6 +5546,7 @@
 				order: 11;
 				margin-bottom: 36px !important;
 			}
+
 			.gallery {
 				&__el {
 					width: 100%;
