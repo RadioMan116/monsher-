@@ -1093,13 +1093,13 @@
 		.advantages__slide {
 			position: relative;
 
-			&:hover {
-				.advantages__item {
-					max-height: unset;
-					max-width: unset;
-					opacity: 1;
-				}
-			}
+			// &:hover {
+			// 	.advantages__item {
+			// 		max-height: unset;
+			// 		max-width: unset;
+			// 		opacity: 1;
+			// 	}
+			// }
 
 		}
 
@@ -1112,9 +1112,29 @@
 			width: 100%;
 			bottom: 0;
 			padding: 18px;
-			max-height: 0;
-			max-width: 0;
-			opacity: 0;
+			max-height: unset;
+			max-width: unset;
+			opacity: unset;
+			text-align: center;
+			transition: 0.3s;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			background: #212c89e0;
+
+
+			.advantages__link {
+				max-height: 0;
+				overflow: hidden;
+				transition: 0.3s;
+			}
+
+			&:hover {
+				.advantages__link {
+					max-height: unset;
+					overflow: visible;
+				}
+			}
 		}
 
 		&__subtitle,
