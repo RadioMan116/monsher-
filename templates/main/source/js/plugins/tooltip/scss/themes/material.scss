@@ -1,0 +1,33 @@
+@import '../_mixins.scss';
+@import '../_vars.scss';
+
+$color: #505355;
+
+.tippy-box[data-theme~='material'] {
+  background-color: $color;
+  font-weight: 600;
+
+  &[data-placement^='top'] > .tippy-arrow::before {
+    border-top-color: $color;
+  }
+
+  &[data-placement^='bottom'] > .tippy-arrow::before {
+    border-bottom-color: $color;
+  }
+
+  &[data-placement^='left'] > .tippy-arrow::before {
+    border-left-color: $color;
+  }
+
+  &[data-placement^='right'] > .tippy-arrow::before {
+    border-right-color: $color;
+  }
+
+  > .tippy-backdrop {
+    background-color: $color;
+  }
+
+  > .tippy-svg-arrow {
+    fill: $color;
+  }
+}
