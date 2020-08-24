@@ -705,49 +705,38 @@ $(document).ready(function() {
 			});
 		}
 	});
-	$(".js-characteristic-glossary").click(function() {
-		var text = $(this).find('.characteristic-glossary__text').text()
-		var $this = $(this);
-		if ($(this).hasClass('active')) {
-			$(this).removeClass('active');
+	$(document).on("click", ".js-filter-glossary", function(e) {
+		// e.stopPropagation();
+		// e.preventDefault();
+		var $this = $(this)
+		if ($(this).attr('data-glossary') == "show") {
+			$(this).attr('data-glossary', 'hide');
 		} else {
-			$('.characteristic-glossary ').removeClass('active');
-			$(this).addClass('active');
-			$(this).find('.characteristic-glossary__link').attr('target', 'blank');
+			$('.js-filter-glossary').attr('data-glossary', 'hide');
+			$(this).attr('data-glossary', 'show');
+			$(document).mouseup(function(e) { // событие клика по веб-документу
+				if (!$this.is(e.target) // если клик был не по нашему блоку
+					&& $this.has(e.target).length === 0) { // и не по его дочерним элементам
+					$this.attr('data-glossary', 'hide'); // скрываем его
+				}
+			});
+			var target = $this;
+			var targetPos = target.offset().top;
+			var windowHeight = $(window).height();
+			var elHeight = target.height();
+			var scrollToElem = targetPos + elHeight;
 			if ($(this).find(".button-close").length < 1) {
 				var buttonClose = document.createElement("div");
 				buttonClose.className = ('button-close');
 				$(this).find('.popup-gloss').append(buttonClose);
 			}
-			if (text.length > 300) {
-				text = text.substring(0, 300);
-				var lastIndex = text.lastIndexOf(" "); // позиция последнего пробела
-				text = text.substring(0, lastIndex) + '...';
-				$(this).find('.characteristic-glossary__text').text(text);
-			}
-			// $('body').on("click", function (event) {
-			// 	// $('body').css('overflow','hidden');
-			// 	$this.removeClass('active');
-			// });
-			$(document).mouseup(function(e) { // событие клика по веб-документу
-				var div = $("#popup"); // тут указываем ID элемента
-				if (!$this.is(e.target) // если клик был не по нашему блоку
-					&& $this.has(e.target).length === 0) { // и не по его дочерним элементам
-					$this.removeClass('active'); // скрываем его
-				}
-			});
-			var target = $this.children('.popup-gloss');
-			var targetPos = target.offset().top;
-			var windowHeight = $(window).height();
-			var elHeight = target.height();
-			var scrollToElem = targetPos + elHeight;
 			$(window).scroll(function() {
 				var winScrollTop = $(this).scrollTop();
 				if (winScrollTop > scrollToElem) {
-					$(target).parent().removeClass("active");
+					$(target).attr('data-glossary', 'hide');
 				}
 				if (scrollToElem - windowHeight - elHeight > winScrollTop) {
-					$(target).parent().removeClass("active");
+					$(target).attr('data-glossary', 'hide');
 				}
 			});
 		}
