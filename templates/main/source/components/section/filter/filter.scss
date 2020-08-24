@@ -1287,6 +1287,7 @@
 		background: url("../images/close-filter.svg")no-repeat calc(100% - 15px) 50% $base;
 		// margin-left: -8px;
 		justify-content: center;
+		text-decoration: none !important;
 	}
 
 	@media screen and (max-width: 767px) {
@@ -1378,13 +1379,13 @@
 			align-items: baseline;
 
 			.checkbox {
-				position: unset;
+				position: relative;
 			}
 		}
 
 		.bx-filter-parameters-box-container.more {
-			height: 60px;
-			overflow: hidden;
+			// height: 60px;
+			// overflow: hidden;
 			position: relative;
 			padding-bottom: 25px;
 		}
