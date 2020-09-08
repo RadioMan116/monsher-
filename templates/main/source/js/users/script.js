@@ -1899,7 +1899,19 @@ $(document).ready(function() {
 				});
 			}
 		});
-	})
+	});
+
+	function loadingAjax() {
+		$.ajax({
+			beforeSend: function() {
+				$("body").addClass('loading-ajax');
+			},
+			success: function(msg) {
+				$("body").removeClass('loading-ajax')
+			}
+		});
+	};
+	$('#load-items').click(loadingAjax);
 	// $('.docs-frame iframe').contents().find('html').html("<h1 style='text-align: center;'>This IS an iframe</h1>");
 });
 $(window).on('load', function() {
