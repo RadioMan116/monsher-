@@ -6508,3 +6508,57 @@
 		}
 	}
 }
+
+.tippy-content {
+	.popup-prop {
+		display: block !important;
+		width: 274px;
+		background-color: #ffffff;
+		padding: 4px;
+		z-index: 100;
+		bottom: 100%;
+		height: auto;
+		opacity: 1;
+		max-height: unset;
+		max-width: unset;
+	}
+
+	.popup-prop__img {
+		width: 100%;
+		height: auto;
+		margin-bottom: 10px;
+	}
+
+	.popup-prop__title {
+		color: #333333;
+		font-family: Arial, sans-serif;
+		font-size: 14px;
+		font-weight: 700;
+		margin-bottom: 4px;
+	}
+
+	.popup-prop__text {
+		color: #333333;
+		font-family: Arial, sans-serif;
+		font-size: 12px;
+		line-height: 18px;
+		margin-bottom: 5px;
+
+		&.active {
+			height: 180px;
+			overflow: hidden;
+		}
+	}
+
+	.popup-prop__link {
+		color: $base;
+		font-family: "Roboto Condensed";
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 20px;
+	}
+
+	.button-close {
+		display: none;
+	}
+}
