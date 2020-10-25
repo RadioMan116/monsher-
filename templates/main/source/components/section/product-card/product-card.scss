@@ -4195,6 +4195,26 @@
 			line-height: 20px;
 		}
 	}
+	&__tomorrow {
+		color: #60be34;
+		font-family: Arial;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 16px;
+		margin-right: 16px;
+		display: flex;
+
+		align-items: center;
+		&:before {
+			content: "";
+			width: 18px;
+			height: 18px;
+			background-image: url(../images/delivery-truck.svg);
+			background-size: contain;
+			margin-right: 5px;
+			background-repeat: no-repeat;
+		}
+	}
 
 	@media screen and (max-width: 767px) {
 		.breadcrumbs {
@@ -4493,7 +4513,7 @@
 		&__presence {
 			order: unset;
 			text-align: center;
-			margin: 9px 0 3px;
+			margin: 9px 24px 3px 0;
 			order: 3;
 			justify-content: center;
 		}
@@ -4540,7 +4560,9 @@
 			}
 
 			&_middle {
-				flex-direction: column;
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: center;
 			}
 
 			&_bottom {
@@ -5698,7 +5720,7 @@
 				// justify-content: center;
 				// margin-right: 0;
 				// margin-bottom: 14px;
-				margin: 0 18px 14px 0;
+				margin: 0 auto 14px;
 				display: flex;
 
 				.price__absolute {
@@ -6260,6 +6282,10 @@
 					margin: 0;
 				}
 			}
+		}
+		&__tomorrow {
+			order: 4;
+			margin: 9px 0 3px;
 		}
 	}
 }
