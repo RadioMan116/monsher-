@@ -21,7 +21,7 @@ html {
 	-ms-overflow-style: scrollbar;
 	-webkit-tap-highlight-color: transparent;
 	height: auto;
-	min-height: -webkit-fill-available;
+	min-height: fill-available;
 	width: calc(100vw - 21px);
 	display: flex;
 
@@ -54,7 +54,7 @@ body {
 	background-color: #fff;
 	// height: 100%;
 	width: inherit;
-	min-height: -webkit-fill-available;
+	min-height: fill-available;
 }
 
 [tabindex="-1"]:focus {

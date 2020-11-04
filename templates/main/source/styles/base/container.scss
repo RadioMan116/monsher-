@@ -1,6 +1,6 @@
 .container {
 	width: 100%;
-	width: -webkit-fill-available;
+	width: fill-available;
 	margin-right: auto;
 	margin-left: auto;
 	max-width: 1176px;
@@ -9,7 +9,7 @@
 	@media screen and (max-width: 1200px) {
 		margin: 0 16px;
 		max-width: 100%;
-		width: -webkit-fill-available;
+		width: fill-available;
 		flex: 1 1 100%
 	}
 
@@ -21,7 +21,7 @@
 		margin: 0;
 		padding: 0 16px 0 !important;
 		max-width: 100%;
-		width: -webkit-fill-available;
+		width: fill-available;
 	}
 }
 
