@@ -212,13 +212,17 @@
 		}
 
 		&__item {
-			width: 40%;
+			width: calc(50%  - 6px);
 			margin-top: 17px;
 			cursor: pointer;
 			margin-left: 0 !important;
+			margin-right: 0;
+			&:nth-of-type(odd){
+				margin-right: 12px;
+			}
 
 			a {
-				white-space: nowrap;
+				// white-space: nowrap;
 			}
 		}
 
